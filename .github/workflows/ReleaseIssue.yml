@@ -4,6 +4,7 @@ on: [push, pull_request]
 
 jobs:
   monthly_release:
+    permissions: write-all
     runs-on: ubuntu-latest
     steps:
       # Get current month for issue title
@@ -16,7 +17,6 @@ jobs:
         id: issue
         uses: imjohnbo/issue-bot@v3
         with:
-          permissions: write-all
           pinned: true
           close-previous: true
           labels: 'Type: Release Thread'
