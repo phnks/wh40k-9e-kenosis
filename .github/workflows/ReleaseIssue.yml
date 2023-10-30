@@ -1,9 +1,6 @@
-# Workflow to create a github issue every month to facilitate comment based releases
-name: Monthly Release Thread
+name: Release
 
-on:
-  schedule:
-    - cron: 0 0 1 * * # Every 1st day of the month at 0000 – https://crontab.guru
+on: [push, pull_request]
 
 jobs:
   monthly_release:
@@ -21,8 +18,8 @@ jobs:
         with:
           pinned: true
           close-previous: true
-          labels: "Type: Release Thread"
-          title: "RELEASE THREAD: ${{ steps.date.outputs.date }}"
+          labels: 'Type: Release Thread'
+          title: 'RELEASE THREAD: ${{ steps.date.outputs.date }}'
           body: |
             Data Developers - Please use this issue to push new releases if doing so via comment.
 
