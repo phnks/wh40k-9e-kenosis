@@ -16,6 +16,7 @@ jobs:
         id: issue
         uses: imjohnbo/issue-bot@v3
         with:
+          permissions: write-all
           pinned: true
           close-previous: true
           labels: 'Type: Release Thread'
