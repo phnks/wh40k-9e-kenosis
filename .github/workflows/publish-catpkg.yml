@@ -3,9 +3,10 @@
 name: publish catpkg
 on:
   release:
-    types: [created, published, edited]
+    types: [published, edited]
 jobs:
   publish:
+    permissions: write-all
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
