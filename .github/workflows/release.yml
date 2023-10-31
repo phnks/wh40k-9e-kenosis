@@ -9,10 +9,10 @@ jobs:
         id: create_release
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          script:
+          script: |
             const { data: release } = await github.rest.repos.createRelease({
-              'owner',
-              'repo',
+              owner: 'owner',
+              repo: 'repo',
               target_commitish: undefined,
               name: 'test release',
               body: 'test body'
