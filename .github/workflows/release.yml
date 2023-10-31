@@ -2,6 +2,7 @@ name: release
 on: [push]
 jobs:
   publish:
+    permissions: write-all
     runs-on: ubuntu-latest
     steps:
       - name: Create a release
