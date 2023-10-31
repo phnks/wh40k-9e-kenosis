@@ -8,7 +8,7 @@ jobs:
         uses: actions/github-script@v6
         id: create_release
         with:
-          github-token: ${{ secrets.BSDATA_BOT_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
             const targetCommitish = context.payload.client_payload.slash_command.args.named.target
             const [owner, repo] = context.payload.client_payload.github.payload.repository.full_name.split('/')
