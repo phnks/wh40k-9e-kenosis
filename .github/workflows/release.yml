@@ -1,4 +1,4 @@
-name: Release command
+name: release
 on: [push]
 jobs:
   publish:
@@ -10,10 +10,9 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            const [owner, repo] = github.event.client_payload.github.payload.repository.full_name.split('/')
             const { data: release } = await github.rest.repos.createRelease({
-              owner,
-              repo,
+              'owner',
+              'repo',
               target_commitish: undefined,
               name: 'test release',
               body: 'test body'
