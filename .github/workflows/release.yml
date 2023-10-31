@@ -14,10 +14,9 @@ jobs:
             const { data: release } = await github.rest.repos.createRelease({
               owner: 'phnks',
               repo: 'wh40k-kenosis',
-              tag_name: 'v1.0.0',
-              target_commitish: undefined,
-              name: 'test release',
-              body: 'test body'
+              tag_name: 'v1.0.1',
+              name: 'Latest Release',
+              body: ''
             })
             core.setOutput('tag_name', release.tag_name)
             core.setOutput('name', release.name)
