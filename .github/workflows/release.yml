@@ -1,5 +1,8 @@
 name: release
-on: [push]
+on:
+  push:
+    branches:
+      - master
 jobs:
   publish:
     permissions: write-all
@@ -14,7 +17,7 @@ jobs:
             const { data: release } = await github.rest.repos.createRelease({
               owner: 'phnks',
               repo: 'wh40k-kenosis',
-              tag_name: 'v1.0.7',
+              tag_name: 'v1.0.8',
               name: 'Latest Release',
               body: ''
             })
