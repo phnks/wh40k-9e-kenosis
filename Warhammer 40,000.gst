@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <gameSystem id="13379e3b-c71e-440b-b268-15de0fc413b6"
-name="Warhammer 40,000 Kenosis Edition" revision="250"
+name="Warhammer 40,000 Kenosis Edition" revision="1"
 battleScribeVersion="2.03" authorName="BSData Developers"
 authorContact="@WH40k Data Dev"
 authorUrl="https://www.bsdata.net/contact"
