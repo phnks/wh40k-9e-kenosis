@@ -10,12 +10,11 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            const targetCommitish = context.payload.client_payload.slash_command.args.named.target
             const [owner, repo] = context.payload.client_payload.github.payload.repository.full_name.split('/')
             const { data: release } = await github.rest.repos.createRelease({
               owner,
               repo,
-              target_commitish: targetCommitish ? targetCommitish : undefined,
+              target_commitish: undefined,
               name: 'test release',
               body: 'test body'
             })
