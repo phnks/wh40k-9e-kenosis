@@ -1,0 +1,24 @@
+name: Release command
+on: [push]
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create a release
+        uses: actions/github-script@v6
+        id: create_release
+        with:
+          github-token: ${{ secrets.BSDATA_BOT_TOKEN }}
+          script: |
+            const targetCommitish = context.payload.client_payload.slash_command.args.named.target
+            const [owner, repo] = context.payload.client_payload.github.payload.repository.full_name.split('/')
+            const { data: release } = await github.rest.repos.createRelease({
+              owner,
+              repo,
+              target_commitish: targetCommitish ? targetCommitish : undefined,
+              name: 'test release',
+              body: 'test body'
+            })
+            core.setOutput('tag_name', release.tag_name)
+            core.setOutput('name', release.name)
+            core.setOutput('html_url', release.html_url)
