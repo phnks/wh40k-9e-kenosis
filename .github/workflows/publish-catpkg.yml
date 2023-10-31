@@ -3,7 +3,7 @@
 name: publish catpkg
 on:
   release:
-    types: [published, edited]
+    types: [created, published, edited]
 jobs:
   publish:
     runs-on: ubuntu-latest
