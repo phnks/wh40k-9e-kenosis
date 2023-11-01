@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9362420b-a19e-4d08-8072-ce116be0371c" name="Aeldari - Harlequins" revision="74" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@FarseerV" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="246" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="7d24-b92f-c5d5-3bf0" name="Aeldari - Harlequins" revision="74" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@FarseerV" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="246" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
-    <entryLink id="55e430c0-c962-4e1e-9470-f630b94af417" name="Death Jester" hidden="false" collective="false" import="true" targetId="7c62-2472-fac5-49a1" type="selectionEntry"/>
-    <entryLink id="6b45ca00-74c7-40b4-9d34-dc44abf4923e" name="Troupe Master" hidden="false" collective="false" import="true" targetId="5f24-c0be-025f-16aa" type="selectionEntry"/>
-    <entryLink id="052b58cd-1b65-45fc-af79-96b390c03ca8" name="Solitaire" hidden="false" collective="false" import="true" targetId="57e1-479c-6d5c-00b3" type="selectionEntry">
+    <entryLink id="e191-6929-15c5-befa" name="Death Jester" hidden="false" collective="false" import="true" targetId="7c62-2472-fac5-49a1" type="selectionEntry"/>
+    <entryLink id="827c-4b39-1a4f-b1ff" name="Troupe Master" hidden="false" collective="false" import="true" targetId="5f24-c0be-025f-16aa" type="selectionEntry"/>
+    <entryLink id="b496-aea6-8dcf-9783" name="Solitaire" hidden="false" collective="false" import="true" targetId="57e1-479c-6d5c-00b3" type="selectionEntry">
       <modifiers>
         <modifier type="add" field="category" value="7cda-87a1-fd4a-0fb4">
           <conditions>
@@ -12,7 +12,7 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink id="fb47551e-b6cd-4511-a077-8a61880d3ad6" name="Voidweavers" hidden="false" collective="false" import="true" targetId="2dce-9ce2-cb1f-7f8a" type="selectionEntry">
+    <entryLink id="5c10-d92f-91fa-240d" name="Voidweavers" hidden="false" collective="false" import="true" targetId="2dce-9ce2-cb1f-7f8a" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -21,8 +21,8 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink id="4297937f-30b5-492a-9e70-a8df9c83c7a0" name="Starweaver" hidden="false" collective="false" import="true" targetId="d96e-e7b4-6204-0b07" type="selectionEntry"/>
-    <entryLink id="3c9074fc-c6c2-4ada-8e46-fdbe11d0f070" name="Skyweavers" hidden="false" collective="false" import="true" targetId="50b6-34fa-10fe-d5be" type="selectionEntry">
+    <entryLink id="4ded-02c0-8de8-5cdc" name="Starweaver" hidden="false" collective="false" import="true" targetId="d96e-e7b4-6204-0b07" type="selectionEntry"/>
+    <entryLink id="c5fa-7ee0-7df3-98b1" name="Skyweavers" hidden="false" collective="false" import="true" targetId="50b6-34fa-10fe-d5be" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -31,11 +31,11 @@
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink id="b74b111f-44c7-4967-b2fc-7f411ba28322" name="Shadowseer" hidden="false" collective="false" import="true" targetId="2cb2-ebf2-3523-ad48" type="selectionEntry"/>
-    <entryLink id="be714cae-ef5f-4a15-abfc-a1b644fea001" name="Saedath Characterisation" hidden="false" collective="false" import="true" targetId="fec3-0250-3ccb-615e" type="selectionEntry"/>
-    <entryLink id="12526ba5-0571-4293-b80c-44c97ca63efe" name="Troupe V2" hidden="false" collective="false" import="true" targetId="57e7-3971-03d4-b37a" type="selectionEntry"/>
+    <entryLink id="44bb-c75c-bad9-1ae8" name="Shadowseer" hidden="false" collective="false" import="true" targetId="2cb2-ebf2-3523-ad48" type="selectionEntry"/>
+    <entryLink id="653e-7f59-8de3-c090" name="Saedath Characterisation" hidden="false" collective="false" import="true" targetId="fec3-0250-3ccb-615e" type="selectionEntry"/>
+    <entryLink id="9e1b-b90f-521a-eaf7" name="Troupe V2" hidden="false" collective="false" import="true" targetId="57e7-3971-03d4-b37a" type="selectionEntry"/>
   </entryLinks>
   <catalogueLinks>
-    <catalogueLink id="228d08f5-9dac-4ca8-beee-e4da6e07b12c" name="Aeldari - Aeldari Library" targetId="2f0e-dd91-7676-722d" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="7244-1479-7e92-bb77" name="Aeldari - Aeldari Library" targetId="2f0e-dd91-7676-722d" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>
