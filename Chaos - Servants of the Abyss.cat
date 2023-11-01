@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9837-3435-7452-d14b" name="Chaos - Servants of the Abyss" revision="18" battleScribeVersion="2.03" authorName="BSData Developers" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="220" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="fb286050-9d6d-43d4-9592-e7fb6501389e" name="Chaos - Servants of the Abyss" revision="18" battleScribeVersion="2.03" authorName="BSData Developers" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="220" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
-    <categoryEntry id="3644-2f4f-07ce-6116" name="Faction: Heretic Astartes" hidden="false"/>
-    <categoryEntry id="2e99-986a-4809-d0b5" name="Faction: Black Legion" hidden="false"/>
-    <categoryEntry id="b0c7-cff4-f82b-2007" name="Faction: Servants of the Abyss" hidden="false"/>
-    <categoryEntry id="6140-918a-372e-e4c8" name="Chaos Lord" hidden="false"/>
-    <categoryEntry id="2cd3-3a95-3ba5-f6a8" name="Obsidius Mallex" hidden="false"/>
-    <categoryEntry id="2c15-9ceb-667c-b09a" name="Rogue Psyker" hidden="false"/>
-    <categoryEntry id="3b97-0693-7ef2-a209" name="Negavolt Cultists" hidden="false"/>
-    <categoryEntry id="4fe7-7414-b7a9-6632" name="Chaos Space Marines" hidden="false"/>
-    <categoryEntry id="f435-306a-dc02-a1ff" name="Black Legionnaires" hidden="false"/>
-    <categoryEntry id="d539-90e0-e5da-87fe" name="Traitor Guardsmen" hidden="false"/>
-    <categoryEntry id="21f6-175a-bf57-2d1d" name="Faction: Blackstone Construct" hidden="false"/>
-    <categoryEntry id="0864-e459-e7a9-74dd" name="Spindle Drones" hidden="false"/>
-    <categoryEntry id="fae9-a44d-32c3-21c6" name="Chaos Beastmen" hidden="false"/>
-    <categoryEntry id="c1b2-f117-cdcc-9145" name="Traitor Commissar" hidden="false"/>
-    <categoryEntry id="1f31-34ea-bcdb-de6e" name="Chaos Ogryn" hidden="false"/>
-    <categoryEntry id="1aad-1bc4-6055-639e" name="Cultists of the Abyss" hidden="false"/>
-    <categoryEntry id="229e-a9ea-94e2-b13e" name="Cultist Firebrand" hidden="false"/>
+    <categoryEntry id="c468f049-9f44-4659-b877-54a02d868008" name="Faction: Heretic Astartes" hidden="false"/>
+    <categoryEntry id="c3046ca4-0fe3-4100-8cf8-40cbc988a530" name="Faction: Black Legion" hidden="false"/>
+    <categoryEntry id="488a3c99-be4f-45ff-b115-947fdacff853" name="Faction: Servants of the Abyss" hidden="false"/>
+    <categoryEntry id="4de1e387-da53-4241-a838-fd6d64aa5784" name="Chaos Lord" hidden="false"/>
+    <categoryEntry id="c44947d1-5425-4afb-99d3-01b8bad07055" name="Obsidius Mallex" hidden="false"/>
+    <categoryEntry id="7c83bce7-d0e8-4aca-bfbf-e6127e5074f6" name="Rogue Psyker" hidden="false"/>
+    <categoryEntry id="1029cc73-7327-45da-8a20-f1bbc8263d86" name="Negavolt Cultists" hidden="false"/>
+    <categoryEntry id="6066c2ff-c36e-4443-9ea6-11f77c137662" name="Chaos Space Marines" hidden="false"/>
+    <categoryEntry id="f782693c-f881-4b2c-86cb-0e8d5bc4c5c8" name="Black Legionnaires" hidden="false"/>
+    <categoryEntry id="1662b5a9-2ec3-46fb-adff-68cd0aea418d" name="Traitor Guardsmen" hidden="false"/>
+    <categoryEntry id="94663115-fc5c-4b6b-9ebe-46b238672fe0" name="Faction: Blackstone Construct" hidden="false"/>
+    <categoryEntry id="f6aea3a4-80c0-4011-aace-c712420cad7f" name="Spindle Drones" hidden="false"/>
+    <categoryEntry id="44437582-b3e7-4312-bd31-512611149dce" name="Chaos Beastmen" hidden="false"/>
+    <categoryEntry id="36bc4b43-5b4d-4788-8d68-dd1e55daccc5" name="Traitor Commissar" hidden="false"/>
+    <categoryEntry id="82f1c5f1-9504-4969-a8a3-43a078c686d3" name="Chaos Ogryn" hidden="false"/>
+    <categoryEntry id="d7e0f0aa-fbc0-4020-9b60-0974f5d47833" name="Cultists of the Abyss" hidden="false"/>
+    <categoryEntry id="ba41c8df-430b-498c-acf6-965d8afc7188" name="Cultist Firebrand" hidden="false"/>
   </categoryEntries>
   <selectionEntries>
-    <selectionEntry id="15c2-7ea7-860e-ede6" name="Cultist Firebrand" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="15b11db1-e4d0-4056-a53d-0d09d46189a0" name="Cultist Firebrand" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="02d2-4824-d932-9800" name="Cultist Firebrand" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="2c5755e7-9ff1-4f4a-9ee0-d79472c72860" name="Cultist Firebrand" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -35,31 +35,31 @@
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
           </characteristics>
         </profile>
-        <profile id="0d6c-aea8-b49a-fea1" name="Explosive Demise" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="c3c6690a-70bd-4dd1-b5b0-1a5371fad009" name="Explosive Demise" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model is reduced to 0 wounds, roll a dice before removing it from the battlefield; on a 5+ the warp energies contained within it burst out, and each unit within 3” suffers 1 mortal wound.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="5bc6-cf09-1553-ca2b" name="Servants of the Abyss" hidden="false" targetId="50ce-cc4f-7ac1-6a22" type="rule"/>
+        <infoLink id="d5dc8427-454d-4da2-a43c-cf735f2765ba" name="Servants of the Abyss" hidden="false" targetId="50ce-cc4f-7ac1-6a22" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="d620-e7ac-72ee-41b5" name="New CategoryLink" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
-        <categoryLink id="0446-3a16-de42-e4e4" name="Faction: Chaos" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
-        <categoryLink id="b06c-c54e-df90-facd" name="Faction: Servants of the Abyss" hidden="false" targetId="b0c7-cff4-f82b-2007" primary="false"/>
-        <categoryLink id="ec11-86d2-d3b4-fc4b" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
-        <categoryLink id="c4aa-5441-98c6-5679" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
-        <categoryLink id="e956-46f4-f34a-b85d" name="Cultist Firebrand" hidden="false" targetId="229e-a9ea-94e2-b13e" primary="false"/>
+        <categoryLink id="31668655-fa5b-41df-bc7f-e93e6849385b" name="New CategoryLink" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
+        <categoryLink id="63c25ee0-9537-458e-bfa9-b0211e16032c" name="Faction: Chaos" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
+        <categoryLink id="569129b6-05ea-4afc-ad86-0893ab1843db" name="Faction: Servants of the Abyss" hidden="false" targetId="b0c7-cff4-f82b-2007" primary="false"/>
+        <categoryLink id="43c8c73a-5f26-46cd-9700-19da89d1df84" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
+        <categoryLink id="43e11041-ca2b-43b0-b941-3633e8a77c58" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
+        <categoryLink id="449e8f38-3007-4882-821a-698308869b35" name="Cultist Firebrand" hidden="false" targetId="229e-a9ea-94e2-b13e" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="d1de-ed03-a861-ae56" name="Hellfire torch" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="d11ee85e-5270-4df7-b1b4-c5a2867ad88d" name="Hellfire torch" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5af6-1b5f-8247-dd71" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c175-d134-7603-cab2" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b375bd3-1e17-4824-97d6-a5088b5da4a6" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c79ec1f-4de4-4893-a8df-0950836e4b1e" type="max"/>
           </constraints>
           <profiles>
-            <profile id="4807-fbd2-cbb2-56fb" name="Hellfire torch" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="32068748-8d11-4824-8d8d-363cdf60ce37" name="Hellfire torch" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">8&quot;</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault D6</characteristic>
@@ -78,16 +78,16 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="c13c-4793-6fd4-3969" name="Laspistol" hidden="false" collective="false" import="true" targetId="c10b-e1a4-c913-ae15" type="selectionEntry">
+        <entryLink id="33715697-6cf2-4a93-bfa6-5bd7a1ff4c98" name="Laspistol" hidden="false" collective="false" import="true" targetId="c10b-e1a4-c913-ae15" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="173d-fbe6-8409-bda0" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d50-7699-0548-4eb4" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="433b49e0-d2c2-4f30-a550-2c93328b3070" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b914891f-bccc-4456-ae14-735e5bdc54ea" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="2d64-a89d-3d1a-66ad" name="Frag &amp; Krak grenades" hidden="false" collective="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
+        <entryLink id="0e98e017-4009-401e-8992-cf331d7f2bb4" name="Frag &amp; Krak grenades" hidden="false" collective="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb88-9a8c-3dc9-c465" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="628b-7c2f-6d1c-8849" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9caab19e-8d6a-408e-96a9-5398acd46be2" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22678599-15c1-43f5-aaaa-94026806d766" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -99,8 +99,8 @@
     </selectionEntry>
   </selectionEntries>
   <entryLinks>
-    <entryLink id="254c-526d-2d8b-1a4b" name="Obsidius Mallex" hidden="false" collective="false" import="true" targetId="25bc-f094-37a2-21fe" type="selectionEntry"/>
-    <entryLink id="2cad-26fa-a45d-3995" name="Rogue Psyker" hidden="false" collective="false" import="true" targetId="ff93-aa12-825c-1a53" type="selectionEntry">
+    <entryLink id="1ada9c56-b012-4365-8cb7-62d8081792ca" name="Obsidius Mallex" hidden="false" collective="false" import="true" targetId="25bc-f094-37a2-21fe" type="selectionEntry"/>
+    <entryLink id="13e40c25-6f52-4f22-9404-d73f9526d95d" name="Rogue Psyker" hidden="false" collective="false" import="true" targetId="ff93-aa12-825c-1a53" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -109,10 +109,10 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="571f-505f-27f6-3ff7" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
+        <categoryLink id="534d2c68-833a-4e6a-bf4e-1cfde973d059" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="5f1a-c55d-2661-8c57" name="Rogue Psyker" hidden="false" collective="false" import="true" targetId="ff93-aa12-825c-1a53" type="selectionEntry">
+    <entryLink id="e2da0db8-4c14-46bd-b50d-2f611ff404f7" name="Rogue Psyker" hidden="false" collective="false" import="true" targetId="ff93-aa12-825c-1a53" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -121,11 +121,11 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="83a3-59ad-81f3-31ce" name="New CategoryLink" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
+        <categoryLink id="a762fc55-ab87-4fb1-9ba1-8f6d71cab10b" name="New CategoryLink" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="fe26-ce8a-7b7b-caa1" name="Negavolt Cultists" hidden="false" collective="false" import="true" targetId="d48f-abbc-679e-c852" type="selectionEntry"/>
-    <entryLink id="2fc3-1746-72c4-159c" name="Black Legionnaires" hidden="false" collective="false" import="true" targetId="d10c-3d02-68de-b3dc" type="selectionEntry">
+    <entryLink id="5a1063de-04be-44bf-8aba-52677e8e3368" name="Negavolt Cultists" hidden="false" collective="false" import="true" targetId="d48f-abbc-679e-c852" type="selectionEntry"/>
+    <entryLink id="dbd53fb4-7021-46a1-b40e-cf937b9f6800" name="Black Legionnaires" hidden="false" collective="false" import="true" targetId="d10c-3d02-68de-b3dc" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -134,10 +134,10 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="551b-c8e8-4a7a-87f3" name="New CategoryLink" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
+        <categoryLink id="8806c792-fa90-4b85-8554-2125f93e91ec" name="New CategoryLink" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="e97f-6e62-0121-af6c" name="Black Legionnaires" hidden="false" collective="false" import="true" targetId="d10c-3d02-68de-b3dc" type="selectionEntry">
+    <entryLink id="526fec4a-802d-4953-b3e8-7e1a364678a4" name="Black Legionnaires" hidden="false" collective="false" import="true" targetId="d10c-3d02-68de-b3dc" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -146,11 +146,11 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="77c6-41f5-6960-1076" name="New CategoryLink" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
+        <categoryLink id="91b35866-f0f8-42ee-a209-48e1e850155b" name="New CategoryLink" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="9fd0-6ee0-d6d4-81d1" name="Traitor Guardsmen" hidden="false" collective="false" import="true" targetId="90b2-1601-f35a-bde4" type="selectionEntry"/>
-    <entryLink id="2743-b89d-421f-05e9" name="Chaos Beastmen" hidden="false" collective="false" import="true" targetId="18f8-b2c3-add2-3457" type="selectionEntry">
+    <entryLink id="4c4100c9-0ef0-40be-9910-b1ea1257f7a1" name="Traitor Guardsmen" hidden="false" collective="false" import="true" targetId="90b2-1601-f35a-bde4" type="selectionEntry"/>
+    <entryLink id="9a86995f-61b1-4e1c-838a-c97713c0953d" name="Chaos Beastmen" hidden="false" collective="false" import="true" targetId="18f8-b2c3-add2-3457" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -159,10 +159,10 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="c542-7d4a-85e6-52fe" name="New CategoryLink" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
+        <categoryLink id="3234460e-e880-4baf-ba69-81ca8abcd504" name="New CategoryLink" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="569f-1ed2-f9f0-2bb7" name="Chaos Beastmen" hidden="false" collective="false" import="true" targetId="18f8-b2c3-add2-3457" type="selectionEntry">
+    <entryLink id="e66a4934-53d8-4412-a449-7b38b684bbbc" name="Chaos Beastmen" hidden="false" collective="false" import="true" targetId="18f8-b2c3-add2-3457" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -171,24 +171,24 @@
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="dc09-14bd-7803-22aa" name="New CategoryLink" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
+        <categoryLink id="2d5531a6-21f0-4b17-9515-2efce0a57294" name="New CategoryLink" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="a233-6294-11f8-ec93" name="Chaos Ogryn" hidden="false" collective="false" import="true" targetId="2484-a240-4b43-4bbd" type="selectionEntry"/>
-    <entryLink id="1468-f116-994c-52a2" name="Traitor Commissar" hidden="false" collective="false" import="true" targetId="2b45-2846-0bd4-2201" type="selectionEntry"/>
-    <entryLink id="8b16-3101-dd68-f578" name="Cultists of the Abyss" hidden="false" collective="false" import="true" targetId="69b4-3c70-f40b-f1b9" type="selectionEntry">
+    <entryLink id="f529a09b-8230-46c2-b816-2c5b82ded3d5" name="Chaos Ogryn" hidden="false" collective="false" import="true" targetId="2484-a240-4b43-4bbd" type="selectionEntry"/>
+    <entryLink id="30d1e89f-c725-4da2-a073-a0e158e151e2" name="Traitor Commissar" hidden="false" collective="false" import="true" targetId="2b45-2846-0bd4-2201" type="selectionEntry"/>
+    <entryLink id="b6a1eab6-134c-4359-8b72-7dbb31aac75f" name="Cultists of the Abyss" hidden="false" collective="false" import="true" targetId="69b4-3c70-f40b-f1b9" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="be9c-6068-b54a-1529" name="New CategoryLink" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
+        <categoryLink id="7f4d45db-66d2-444f-a762-18c8d2fed5ba" name="New CategoryLink" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="25bc-f094-37a2-21fe" name="Obsidius Mallex" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="a3d1277d-af83-455f-91bf-5fdfd93813a5" name="Obsidius Mallex" hidden="false" collective="false" import="true" type="model">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2532-b175-e823-305f" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="69e5d1a3-93de-4103-b97e-6c2efecd5b72" type="max"/>
       </constraints>
       <profiles>
-        <profile id="fda5-4f2c-f28c-c0a8" name="Obsidius Mallex" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="a590acee-8ce7-4349-a32f-11493ead558b" name="Obsidius Mallex" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">2+</characteristic>
@@ -201,39 +201,39 @@
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="64e3-3b53-f27b-89e3" name="Lord of Chaos" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="dea2bcfa-ce45-4d67-a4b1-c953a00c4f0b" name="Lord of Chaos" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Re-roll hit rolls of 1 for friendly BLACK LEGION and friendly SERVANTS OF THE ABYSS units within 6&quot; of Obsidius Mallex.</characteristic>
           </characteristics>
         </profile>
-        <profile id="1b5c-0cf3-1d35-41e8" name="Sigil of Corruption" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="648199b9-d0f0-49ce-ac5b-636aaad3b022" name="Sigil of Corruption" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Obsidius Mallex has a 4+ invulnerable save.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="a83f-9c5c-ed44-2320" name="Death to the False Emperor" hidden="false" targetId="9e53-53f4-6b54-0e52" type="profile"/>
+        <infoLink id="06a57224-23c2-42d3-9083-81e679b65ed4" name="Death to the False Emperor" hidden="false" targetId="9e53-53f4-6b54-0e52" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="0a5b-5a0c-b379-9a3e" name="Chaos" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
-        <categoryLink id="d454-56ef-937d-831d" name="Faction: Heretic Astartes" hidden="false" targetId="3644-2f4f-07ce-6116" primary="false"/>
-        <categoryLink id="db51-ed2a-7eb6-1c4f" name="Faction: Black Legion" hidden="false" targetId="2e99-986a-4809-d0b5" primary="false"/>
-        <categoryLink id="aa92-cf9c-af63-07c4" name="Faction: Servants of the Abyss" hidden="false" targetId="b0c7-cff4-f82b-2007" primary="false"/>
-        <categoryLink id="3031-5d0c-6b88-49da" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
-        <categoryLink id="0f9f-e705-37c3-d588" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
-        <categoryLink id="9e04-a9fd-d01f-caf7" name="Chaos Lord" hidden="false" targetId="6140-918a-372e-e4c8" primary="false"/>
-        <categoryLink id="6975-3da6-c793-e70a" name="Obsidius Mallex" hidden="false" targetId="2cd3-3a95-3ba5-f6a8" primary="false"/>
-        <categoryLink id="7b05-9de3-3555-34fc" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
+        <categoryLink id="57212927-f07f-4763-97d2-b168e19dc9d9" name="Chaos" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
+        <categoryLink id="653dfc0c-0728-46dc-b5a4-a8caae5770c8" name="Faction: Heretic Astartes" hidden="false" targetId="3644-2f4f-07ce-6116" primary="false"/>
+        <categoryLink id="877fdbff-c3f8-4c89-ae8c-37254558a228" name="Faction: Black Legion" hidden="false" targetId="2e99-986a-4809-d0b5" primary="false"/>
+        <categoryLink id="7048d6ca-3c55-436b-94c1-6bd3c92e26b2" name="Faction: Servants of the Abyss" hidden="false" targetId="b0c7-cff4-f82b-2007" primary="false"/>
+        <categoryLink id="f220aef1-ac35-4dba-bdae-9b0ec7eef5a7" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
+        <categoryLink id="522a607b-90e8-4f08-b12b-7b153ce21a73" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
+        <categoryLink id="b83aac45-b58a-4d71-be57-3abe3fa27c68" name="Chaos Lord" hidden="false" targetId="6140-918a-372e-e4c8" primary="false"/>
+        <categoryLink id="44a78d00-af88-4c9b-bd97-5ca8d10bc927" name="Obsidius Mallex" hidden="false" targetId="2cd3-3a95-3ba5-f6a8" primary="false"/>
+        <categoryLink id="e2f3cdc1-1058-4176-b91e-62935442950e" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="d2e2-164a-e7e7-ced6" name="Thunder hammer" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="ea6db149-393a-40d9-9e5b-6e715a83b9b3" name="Thunder hammer" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e84-4d49-a398-1c03" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48cf-aaa9-040a-831d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="56d2bf50-34ef-44fa-89e3-3d21224f1d1d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="53f4282b-6deb-4896-8c2a-4958e026d677" type="max"/>
           </constraints>
           <profiles>
-            <profile id="3efe-e0e0-3c16-2092" name="Thunder hammer" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="00860ff0-d002-4a5c-85f4-4c6614e8da0f" name="Thunder hammer" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
@@ -252,17 +252,17 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="58d5-94fb-8a13-f443" name="Plasma pistol" hidden="false" collective="false" import="true" targetId="83be-1ba9-c326-4760" type="selectionEntry">
+        <entryLink id="01d3c7b1-5021-4886-9c1c-85ce6396839a" name="Plasma pistol" hidden="false" collective="false" import="true" targetId="83be-1ba9-c326-4760" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="points" value="0.0"/>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b247-02a0-20a4-7461" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8997-a992-88ff-b246" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3cd396f3-b5fd-4062-ae74-1fdf5490e5aa" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0895c31c-23ae-4541-86f1-17ceb987e202" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="8964-fc41-4ca3-5f26" name="Warlord" hidden="false" collective="false" import="true" targetId="59af-707f-d03b-8ea2" type="selectionEntry"/>
-        <entryLink id="06d4-d29f-145b-d239" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="e308-7d16-1cd6-f8a5" type="selectionEntryGroup"/>
+        <entryLink id="313b33d3-f0f4-4e27-8ce6-bb2b3dabf871" name="Warlord" hidden="false" collective="false" import="true" targetId="59af-707f-d03b-8ea2" type="selectionEntry"/>
+        <entryLink id="d4101a03-2850-4908-be2b-947e52981a9e" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="e308-7d16-1cd6-f8a5" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="7.0"/>
@@ -270,12 +270,12 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ff93-aa12-825c-1a53" name="Rogue Psyker" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="1e3e02ad-56ec-4760-9f3f-80a6bd8e3942" name="Rogue Psyker" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6373-4635-23e3-b08c" type="max"/>
+        <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99db237f-72e4-4d74-bce0-0d87958e75de" type="max"/>
       </constraints>
       <profiles>
-        <profile id="d6d5-b7fe-dc1a-b07f" name="Rogue Psyker" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="b62cefe0-61c2-4d85-8528-366ecc5f6687" name="Rogue Psyker" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
@@ -288,12 +288,12 @@
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
           </characteristics>
         </profile>
-        <profile id="a2ae-2c72-73ae-7a22" name="Unrestrained Power" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="0c9326ba-4b60-4522-9f9c-e4cca9cbad83" name="Unrestrained Power" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll any dice rolls of 1 when taking a psychic test for this model. However, this model suffers Perils of the Warp on any psychic test that is a double, not just a double 1 or double 6.</characteristic>
           </characteristics>
         </profile>
-        <profile id="59e4-9f21-7e7e-2079" name="Rogue Psyker" hidden="false" typeId="bc97-dea9-9e88-bb7d" typeName="Psyker">
+        <profile id="7aa21642-68c9-4f59-9d75-3f8bc8b8b4d8" name="Rogue Psyker" hidden="false" typeId="bc97-dea9-9e88-bb7d" typeName="Psyker">
           <characteristics>
             <characteristic name="Cast" typeId="5afb-9914-904b-d3b3">1</characteristic>
             <characteristic name="Deny" typeId="b5ac-9c20-5d5a-6f9b">1</characteristic>
@@ -303,25 +303,25 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="dbd5-da56-202a-d7a3" name="Servants of the Abyss" hidden="false" targetId="50ce-cc4f-7ac1-6a22" type="rule"/>
-        <infoLink id="bd48-0a9a-5d42-fd0f" name="Slaves to Mallex" hidden="false" targetId="8a91-062d-c0dd-59dc" type="profile"/>
+        <infoLink id="e18ae0e7-75b1-4cec-af2f-3fa5bbf80ab8" name="Servants of the Abyss" hidden="false" targetId="50ce-cc4f-7ac1-6a22" type="rule"/>
+        <infoLink id="fe55e707-fba9-436b-9730-c99fff301aa9" name="Slaves to Mallex" hidden="false" targetId="8a91-062d-c0dd-59dc" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="bb89-1fa3-44e2-5fbf" name="Chaos" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
-        <categoryLink id="25df-62d3-0bef-53c2" name="Faction: Servants of the Abyss" hidden="false" targetId="b0c7-cff4-f82b-2007" primary="false"/>
-        <categoryLink id="7471-c052-1e47-8aa7" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
-        <categoryLink id="87f2-5f18-16b5-c229" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
-        <categoryLink id="b239-55eb-60ae-724f" name="Psyker" hidden="false" targetId="e691-aad7-d21c-1023" primary="false"/>
-        <categoryLink id="73b0-b485-9ea0-0065" name="Rogue Psyker" hidden="false" targetId="2c15-9ceb-667c-b09a" primary="false"/>
+        <categoryLink id="b53f82b9-a2ef-41e1-9cea-94e05a80f05a" name="Chaos" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
+        <categoryLink id="927eff7a-0f24-4ff9-9aaf-fefc73e1955e" name="Faction: Servants of the Abyss" hidden="false" targetId="b0c7-cff4-f82b-2007" primary="false"/>
+        <categoryLink id="45aaf9b9-4369-44ab-882e-e540408ecc9d" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
+        <categoryLink id="f902000a-e033-4494-9fe6-e15d338b6a2d" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
+        <categoryLink id="84c1ace0-54e7-4298-b3ef-51dbd2044a74" name="Psyker" hidden="false" targetId="e691-aad7-d21c-1023" primary="false"/>
+        <categoryLink id="8b1bf6d6-3325-4482-9095-4dcb449482ab" name="Rogue Psyker" hidden="false" targetId="2c15-9ceb-667c-b09a" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="145b-6acf-d82b-232d" name="Chaos stave" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="7d8a34ad-ebad-4cf3-89d0-c59cf315b176" name="Chaos stave" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b1a6-55d5-005d-1625" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f76e-4dcd-0c32-0733" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecaf9ad0-40d9-467f-b9e9-67195abb2bd2" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b8b2a273-0893-407c-b4d3-eb9fdf55676f" type="max"/>
           </constraints>
           <profiles>
-            <profile id="12ed-95c3-a3a6-aed1" name="Chaos stave" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="60fb285f-641f-49a8-be68-97265d231167" name="Chaos stave" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
@@ -340,16 +340,16 @@
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="de83-ca3b-6f6e-bf9c" name="Smite" hidden="false" collective="false" import="true" targetId="03fd-db47-5333-1e1f" type="selectionEntry">
+        <entryLink id="92fca3a7-c59a-49ca-b3c8-7256252f0803" name="Smite" hidden="false" collective="false" import="true" targetId="03fd-db47-5333-1e1f" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0b0-4b18-5398-8602" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7724-1a6e-b76d-e93e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="30d8009b-ad8f-417b-adbf-9efd8477f759" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d14a7482-65de-4f5d-a410-9f1e36c40006" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="e65e-def8-5c79-66f4" name="Laspistol" hidden="false" collective="false" import="true" targetId="c10b-e1a4-c913-ae15" type="selectionEntry">
+        <entryLink id="9faa2765-0726-4543-87fb-e5401d08c986" name="Laspistol" hidden="false" collective="false" import="true" targetId="c10b-e1a4-c913-ae15" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24a1-d494-adb7-2d9b" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eeec-f627-0d12-f830" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2861c2f4-402c-4501-a599-e451bde1f829" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="029727e1-ac87-4724-ae34-4209161d994c" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
@@ -359,25 +359,25 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d48f-abbc-679e-c852" name="Negavolt Cultists" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="92780066-1e57-4dc8-8305-473817fc43c9" name="Negavolt Cultists" hidden="false" collective="false" import="true" type="unit">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="5ac2-072d-ef39-1e67" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f0df44fd-87ec-4a04-857f-302e85278cfb" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="c54a-58de-e13b-7ea1" name="Chaos" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
-        <categoryLink id="9556-e9b2-c02e-ed74" name="Faction: Servants of the Abyss" hidden="false" targetId="b0c7-cff4-f82b-2007" primary="false"/>
-        <categoryLink id="e852-ba25-3b88-08a0" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
-        <categoryLink id="3aec-e973-2dd5-1bb4" name="Negavolt Cultists" hidden="false" targetId="3b97-0693-7ef2-a209" primary="false"/>
-        <categoryLink id="9ad0-2d5a-13b3-3f16" name="New CategoryLink" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
+        <categoryLink id="dff3d360-8bb0-4a50-8d3a-46008cb944f1" name="Chaos" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
+        <categoryLink id="2886bfec-b284-421e-8741-f0ac14d49fe7" name="Faction: Servants of the Abyss" hidden="false" targetId="b0c7-cff4-f82b-2007" primary="false"/>
+        <categoryLink id="e357816d-506f-4bdd-9f48-ad6254aff663" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
+        <categoryLink id="ba7db5b8-d210-4784-b99b-9dfbf9f5afb9" name="Negavolt Cultists" hidden="false" targetId="3b97-0693-7ef2-a209" primary="false"/>
+        <categoryLink id="03c45fbb-78e3-4e08-8aa3-46ce8356ff6f" name="New CategoryLink" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="7eec-e640-47e4-1170" name="Negavolt Cultist" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="3bf59c02-2028-4305-a855-4d0455e31d2b" name="Negavolt Cultist" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45d1-c1bf-1c64-cfa8" type="max"/>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c4a-808b-683f-40db" type="min"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1a9b9ae-df42-4f2b-9e32-207227a5ddef" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4fb45bef-6c07-422f-9845-61d7fe4bdd5c" type="min"/>
           </constraints>
           <profiles>
-            <profile id="3e14-aefe-9d01-d3a7" name="Negavolt Cultists" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+            <profile id="e19a07e4-ad79-42e5-baf9-b04c27307cb6" name="Negavolt Cultists" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
               <characteristics>
                 <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -390,28 +390,28 @@
                 <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">6+</characteristic>
               </characteristics>
             </profile>
-            <profile id="d8fe-e161-db1f-10a9" name="Voltagheist Field" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+            <profile id="dd3ed1d5-61d2-484d-a299-f6387f788083" name="Voltagheist Field" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
                 <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models in this unit have a 5+ invulnerable save. When this unit completes a charge move, choose one of the targets you charged and roll a D6 for each model in the charging unit. Each roll of 6 inflicts a mortal wound on the unit you chose.</characteristic>
               </characteristics>
             </profile>
-            <profile id="b371-913f-0ea4-fcf9" name="Fanatical Devotion" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+            <profile id="2d4fe466-8802-42c2-b7e2-b565c740a8ce" name="Fanatical Devotion" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
                 <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time a model in this unit loses a wound, roll a D6; on a 5+ the model does not lose that wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="8f3e-aff4-b99c-5336" name="Servants of the Abyss" hidden="false" targetId="50ce-cc4f-7ac1-6a22" type="rule"/>
+            <infoLink id="a4d9b201-5196-44b9-9016-0eb8082e64e7" name="Servants of the Abyss" hidden="false" targetId="50ce-cc4f-7ac1-6a22" type="rule"/>
           </infoLinks>
           <selectionEntries>
-            <selectionEntry id="1e23-b28c-f3b9-862a" name="Electro-goads" hidden="false" collective="true" import="true" type="upgrade">
+            <selectionEntry id="98184ed6-8fff-4e1c-8113-c8b82a05e22c" name="Electro-goads" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6217-2031-9a49-b99f" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e245-1e87-321b-eb10" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8df78c26-0a4f-4bff-8caf-62345891d33b" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a3142d24-cabe-4f3e-a928-b018244d7de9" type="max"/>
               </constraints>
               <profiles>
-                <profile id="88d8-2452-555e-ded3" name="Electro-goads" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="3bfc57fe-3cfa-4f9b-90b3-8eb2d70c3be4" name="Electro-goads" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
@@ -442,7 +442,7 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="d10c-3d02-68de-b3dc" name="Black Legionnaires" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="11421da9-8e38-4bfd-b138-458af6c633c7" name="Black Legionnaires" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="0bd7-ddc5-ef4b-971e" value="0.0">
           <conditions>
@@ -451,30 +451,30 @@
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0bd7-ddc5-ef4b-971e" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f1ca30ed-351b-4432-bece-37f2bcc7dfb1" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="3fb9-7452-687a-ed4e" name="Chaos" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
-        <categoryLink id="b56b-273f-c2cd-7a4b" name="Faction: Heretic Astartes" hidden="false" targetId="3644-2f4f-07ce-6116" primary="false"/>
-        <categoryLink id="5061-3af0-dfac-6cfe" name="Faction: Black Legion" hidden="false" targetId="2e99-986a-4809-d0b5" primary="false"/>
-        <categoryLink id="55b5-b003-4c9b-3e26" name="Faction: Servants of the Abyss" hidden="false" targetId="b0c7-cff4-f82b-2007" primary="false"/>
-        <categoryLink id="5d66-c739-2cb2-742f" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
-        <categoryLink id="9c05-932e-8ed6-f77f" name="Chaos Space Marines" hidden="false" targetId="4fe7-7414-b7a9-6632" primary="false"/>
-        <categoryLink id="20d0-1105-0402-6c00" name="Black Legionnaires" hidden="false" targetId="f435-306a-dc02-a1ff" primary="false"/>
+        <categoryLink id="c76ff798-a4b2-4c8e-b6e4-e4e08d5ed309" name="Chaos" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
+        <categoryLink id="59cae34c-8d31-4305-ae8e-553356bfd282" name="Faction: Heretic Astartes" hidden="false" targetId="3644-2f4f-07ce-6116" primary="false"/>
+        <categoryLink id="31756b2b-291f-48d1-8a9a-7c39d92c6947" name="Faction: Black Legion" hidden="false" targetId="2e99-986a-4809-d0b5" primary="false"/>
+        <categoryLink id="4842368a-5970-43e3-92ee-a6f78d06a0fa" name="Faction: Servants of the Abyss" hidden="false" targetId="b0c7-cff4-f82b-2007" primary="false"/>
+        <categoryLink id="1a40381b-870d-471e-83ff-4a4d201c7738" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
+        <categoryLink id="f9501302-6757-4469-863f-d98a0e155130" name="Chaos Space Marines" hidden="false" targetId="4fe7-7414-b7a9-6632" primary="false"/>
+        <categoryLink id="6a71d911-1d09-4f21-a5cd-c502f5c822e4" name="Black Legionnaires" hidden="false" targetId="f435-306a-dc02-a1ff" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="323d-7468-b5e6-1193" name="Black Legionnaire" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="02ccc202-4d56-40ef-a749-ded3f8ab8704" name="Black Legionnaire" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c7c-1ae3-5120-fe3a" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e324-1904-de61-8096" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3bb53de8-6fee-4ec6-85ac-fba9c54fd6ea" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89bd96e0-26ac-4b15-810f-3dd7fccd67d7" type="max"/>
           </constraints>
           <profiles>
-            <profile id="ff23-366e-15ae-fa2f" name="Mallex&apos;s Followers" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+            <profile id="90163e39-a9e6-4d5c-966b-832f9c14a3c3" name="Mallex&apos;s Followers" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
                 <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, you can only include this unit in a Detachment which also includes OBSIDIUS MALLEX. Furthermore, this unit does not take up slots in a Detachment that includes OBSIDIUS MALLEX.</characteristic>
               </characteristics>
             </profile>
-            <profile id="c364-99e6-3f8d-b9ed" name="Black Legionnaire" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+            <profile id="3b10c4e2-98a7-4294-96e6-01ae299143a1" name="Black Legionnaire" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
               <characteristics>
                 <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -489,26 +489,26 @@
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="e8d3-6804-9e91-537c" name="Servants of the Abyss" hidden="false" targetId="50ce-cc4f-7ac1-6a22" type="rule"/>
-            <infoLink id="375f-62a1-0242-b96c" name="Death to the False Emperor" hidden="false" targetId="9e53-53f4-6b54-0e52" type="profile"/>
+            <infoLink id="c5a4271b-fb27-454e-b5f2-4b6b33a22cbe" name="Servants of the Abyss" hidden="false" targetId="50ce-cc4f-7ac1-6a22" type="rule"/>
+            <infoLink id="016035dc-23e7-4483-865b-75e3139b65e6" name="Death to the False Emperor" hidden="false" targetId="9e53-53f4-6b54-0e52" type="profile"/>
           </infoLinks>
           <entryLinks>
-            <entryLink id="f30c-bb60-e3a3-d8cf" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="37d3-7098-d596-9948" type="selectionEntry">
+            <entryLink id="9b86f314-b217-4f11-bb7a-79f99ffa2337" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="37d3-7098-d596-9948" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b58-489a-dd2f-8f8c" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="698b-c064-8fbd-990d" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10361401-6d21-4f41-8719-5e7a19ecd2ef" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b005b788-7b34-4ffc-a78d-1a93083100cb" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="f12c-f6d6-b8c7-3add" name="Boltgun" hidden="false" collective="false" import="true" targetId="ca06-ac13-d02f-6f9a" type="selectionEntry">
+            <entryLink id="72bdffe4-ca04-44bb-91c4-58ab55717d2e" name="Boltgun" hidden="false" collective="false" import="true" targetId="ca06-ac13-d02f-6f9a" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6aae-2783-393d-e7bc" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d118-f203-25ba-c111" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="90e10609-d2fb-45d3-ae35-7a544dab0fdb" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d58acd1-a911-42a9-b747-d5f7ca4f479a" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="6e65-cd9d-eb77-a22e" name="Frag &amp; Krak grenades" hidden="false" collective="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
+            <entryLink id="009e7318-764e-4a9c-aa19-66a24f86fd57" name="Frag &amp; Krak grenades" hidden="false" collective="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9605-e83d-5a19-b57e" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ddc-89c9-881b-25c5" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd04fd94-1cc8-429b-88f2-a65e9bb688ab" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a6c4816-3c16-4bfa-8b79-1995c9a66f52" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -525,12 +525,12 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="90b2-1601-f35a-bde4" name="Traitor Guardsmen" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="ce34f654-afb1-4e53-9a71-d89e3715fa70" name="Traitor Guardsmen" hidden="false" collective="false" import="true" type="unit">
       <constraints>
-        <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c170-698c-489e-17e7" type="max"/>
+        <constraint field="selections" scope="roster" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="336fcd24-7a6e-46be-a4e0-e9644a374a53" type="max"/>
       </constraints>
       <profiles>
-        <profile id="368e-e622-1b1e-4ddf" name="Traitor Guardsman" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="7ce4beb4-ecf9-499d-bc00-52dd4487dc0d" name="Traitor Guardsman" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
@@ -545,23 +545,23 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="d038-6256-2e42-c4c8" name="Servants of the Abyss" hidden="false" targetId="50ce-cc4f-7ac1-6a22" type="rule"/>
+        <infoLink id="cdb8f1cc-f90b-4ae2-b8c1-09471d0a25a3" name="Servants of the Abyss" hidden="false" targetId="50ce-cc4f-7ac1-6a22" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="af9b-fee5-5f66-ea90" name="Chaos" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
-        <categoryLink id="ad4c-f59a-12ae-88a4" name="Faction: Servants of the Abyss" hidden="false" targetId="b0c7-cff4-f82b-2007" primary="false"/>
-        <categoryLink id="2e38-6f8f-6456-2d5b" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
-        <categoryLink id="12bb-27ac-b809-3d58" name="Traitor Guardsmen" hidden="false" targetId="d539-90e0-e5da-87fe" primary="false"/>
-        <categoryLink id="9373-78b6-ba8e-417c" name="New CategoryLink" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
+        <categoryLink id="77fe045d-9843-415a-946d-cf5946b5901d" name="Chaos" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
+        <categoryLink id="a2130dc3-ef22-4af0-a44b-7d873af6457a" name="Faction: Servants of the Abyss" hidden="false" targetId="b0c7-cff4-f82b-2007" primary="false"/>
+        <categoryLink id="477d1987-9250-4905-9a8a-8fb8be920aa3" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
+        <categoryLink id="73c0fe32-ae29-4359-bf71-7c9f20cd1901" name="Traitor Guardsmen" hidden="false" targetId="d539-90e0-e5da-87fe" primary="false"/>
+        <categoryLink id="f8836382-9f56-47e7-902f-5b07f9d75d3e" name="New CategoryLink" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="48c3-e6a4-2e76-fe65" name="Traitor Sergeant" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="bd1a7f2b-36ae-40ff-a091-5464a619c5c9" name="Traitor Sergeant" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d44-66ee-e2d2-f026" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee9b-a2c2-fbf9-614d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="250e2a3f-9ccf-4073-8056-6d3c043979f7" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ede6ea8-254e-40d8-83d6-3caa06dcf3c0" type="max"/>
           </constraints>
           <profiles>
-            <profile id="b9d6-a329-7023-d079" name="Traitor Sergeant" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+            <profile id="c5223bf4-8b0f-4571-b83c-9199e6ac0a82" name="Traitor Sergeant" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
               <characteristics>
                 <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
@@ -576,22 +576,22 @@
             </profile>
           </profiles>
           <entryLinks>
-            <entryLink id="eddd-f51c-2e60-353c" name="Laspistol" hidden="false" collective="false" import="true" targetId="c10b-e1a4-c913-ae15" type="selectionEntry">
+            <entryLink id="2ea21037-6078-48f0-8166-a4644cfc6c91" name="Laspistol" hidden="false" collective="false" import="true" targetId="c10b-e1a4-c913-ae15" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9240-58d6-6210-189d" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a44-f096-d00c-45ed" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64f4fb52-b837-46d6-9b57-ff810e83000b" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="241de1fc-ce37-4915-bd1a-7181d0c06ece" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="fe26-084a-5d6d-79fe" name="Chainsword" hidden="false" collective="false" import="true" targetId="0dd1-2e2b-7dd1-5495" type="selectionEntry">
+            <entryLink id="8c1d8b7e-952c-4a39-98d1-26da348b34b2" name="Chainsword" hidden="false" collective="false" import="true" targetId="0dd1-2e2b-7dd1-5495" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0e0c-5ccc-1e9d-5a69" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12e6-a853-23bb-c9dc" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="012e1cc8-ed8f-407a-86d3-80c4204002de" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a5a6b79-80b0-4eaa-9217-39b27136bd10" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="0597-1821-6409-5f56" name="Frag grenade" hidden="false" collective="false" import="true" targetId="f68e-9984-71fe-6bca" type="selectionEntry">
+            <entryLink id="6d2db81b-f41e-407a-a926-b716f7114568" name="Frag grenade" hidden="false" collective="false" import="true" targetId="f68e-9984-71fe-6bca" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0254-afe8-65bd-8b4e" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b6e-d139-788c-0113" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecb392ed-7d1e-4cf0-a1c5-c29e285a502c" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f90907d4-52a4-4d5b-a504-da97ca276bf3" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -601,25 +601,25 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="f218-a234-0898-1aef" name="Traitor Guardsman" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="ca0a381a-b4e0-48e3-99f9-fffb7bb23342" name="Traitor Guardsman" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e09-20c0-cc1f-3896" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2769-c0fa-1642-1950" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="438f46b9-d32d-43ca-a054-fb32d5b19dee" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8deb210a-bd88-436b-9fa5-99e86b696992" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="068c-4f01-102b-a1d5" name="Flamer" hidden="false" collective="false" import="true" targetId="fd22-6743-2d4c-dd62" type="selectionEntry">
+            <entryLink id="e32e0787-4aac-4015-b315-0c93655ae837" name="Flamer" hidden="false" collective="false" import="true" targetId="fd22-6743-2d4c-dd62" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="points" value="0.0"/>
               </modifiers>
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00dc-ee64-0847-e485" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8034-cd8e-80ec-7ec9" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94354346-f285-46b2-b20b-f0c2e60156f2" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d09637f8-a0d5-4e74-8722-2b4f7c2f940f" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="bdd5-2ff4-0fba-724c" name="Frag grenade" hidden="false" collective="false" import="true" targetId="f68e-9984-71fe-6bca" type="selectionEntry">
+            <entryLink id="adf472a0-1ba2-4c32-bfee-378394fa215a" name="Frag grenade" hidden="false" collective="false" import="true" targetId="f68e-9984-71fe-6bca" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c48f-68b1-8af4-7a86" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af21-dfc7-b1c5-dd8e" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0b4fd94-e99b-4c94-8ef7-e13a12115748" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d86ac1fc-fad7-43fe-8322-2f39b86bf2d7" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -629,19 +629,19 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="78bd-2b47-2760-30d8" name="Traitor Guardsman" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="f38f852a-2fd4-4000-a0e9-5a67b2b2d11a" name="Traitor Guardsman" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29c2-5b5d-0d83-7514" type="max"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a30c-ab84-af83-2809" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42b2a5dc-cb58-4ba1-adb7-557ab0144f48" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3688ffba-9b74-4390-8370-593de81d3210" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="4341-083b-f970-f377" name="Lasgun" hidden="false" collective="true" import="true" type="upgrade">
+            <selectionEntry id="95f9d446-c438-4ae6-a6c8-5cdd2e633ad5" name="Lasgun" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94f1-9d13-9c79-120d" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="29b0-1fb9-f43b-a6ee" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a2b25f3-5e64-49f7-8203-71d78d250f4e" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="11eb3b3b-0777-4700-a114-424dea071994" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="9b06-b21d-3a36-894c" name="Lasgun" hidden="false" targetId="d174-eb55-aaa6-d032" type="profile"/>
+                <infoLink id="8a8d175c-45ed-4933-927a-b1e4b71221c8" name="Lasgun" hidden="false" targetId="d174-eb55-aaa6-d032" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -649,13 +649,13 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="6581-b9cd-e98a-afad" name="Frag grenades" hidden="false" collective="true" import="true" type="upgrade">
+            <selectionEntry id="ab53e630-d3b2-405f-af11-2ea1d57c0bb2" name="Frag grenades" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5925-2448-7851-59b9" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="89d0-fc5d-f6f8-ba7f" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f130b2e2-8457-4eba-99ad-68ecbe75d357" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3775ce69-ee29-4ee6-b947-6a56b5f31df4" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="cbcd-8694-c2b0-20a0" name="Frag grenade" hidden="false" targetId="fdd8-1a5f-5722-d6ee" type="profile"/>
+                <infoLink id="923aabfb-81e1-405a-8154-e6fa21a1bcf1" name="Frag grenade" hidden="false" targetId="fdd8-1a5f-5722-d6ee" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -670,19 +670,19 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="5f7a-5879-e9ed-befb" name="Traitor Guardsman" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="c1715767-ec86-4b04-9e2c-01c42c247a0d" name="Traitor Guardsman" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2c6-84d3-0c5d-fa0b" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf87-a122-24c0-f498" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b29e845-17ea-498f-8db0-c11861edd641" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9eec5dea-dab3-4e68-982a-815272170acf" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="6d14-8a79-b05d-b435" name="Lasgun" hidden="false" collective="true" import="true" type="upgrade">
+            <selectionEntry id="7a7518b2-f3fe-4e75-a85e-9b3ee1935e95" name="Lasgun" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="db50-4cd7-08cf-4cf3" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfc3-e7bf-c062-0aa6" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b17b7d2-fd4e-4a51-9237-96064c42fb19" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c060f555-f877-456c-9202-58491ddde3c1" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="117c-7edd-dbe6-0b4a" name="Lasgun" hidden="false" targetId="d174-eb55-aaa6-d032" type="profile"/>
+                <infoLink id="8a7d81f2-24e6-48bd-b8bd-e863e41732d0" name="Lasgun" hidden="false" targetId="d174-eb55-aaa6-d032" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -690,13 +690,13 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="649d-9213-ef40-d2cd" name="Frag grenades" hidden="false" collective="true" import="true" type="upgrade">
+            <selectionEntry id="3dea4fc1-ef10-488b-a9b6-65dc5ab8acc2" name="Frag grenades" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4a3d-5a94-3501-df98" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e0b-db70-b3e7-45b1" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4e746be-5bc9-4ec5-9adc-675b11ca51b1" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7ac5cd4b-a7af-4978-8706-c6b561eec6d8" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="d7d0-1102-7d17-6645" name="Frag grenade" hidden="false" targetId="fdd8-1a5f-5722-d6ee" type="profile"/>
+                <infoLink id="5ce86417-f894-4f8f-8096-6fae57f9423d" name="Frag grenade" hidden="false" targetId="fdd8-1a5f-5722-d6ee" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -706,10 +706,10 @@
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="7dbb-900d-2f28-636a" name="Krak grenade" hidden="false" collective="false" import="true" targetId="0f23-cd69-d106-371e" type="selectionEntry">
+            <entryLink id="15687bbd-7640-4474-a108-c026601020ee" name="Krak grenade" hidden="false" collective="false" import="true" targetId="0f23-cd69-d106-371e" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9596-978e-5f7a-1944" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="07bc-caaf-763a-c5f8" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70fa146c-8b47-4a0a-8c8a-673896e3e3b8" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7ddacf0-75c0-4751-a295-d6ca7300b906" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -719,19 +719,19 @@
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="da31-ffa1-86b4-98aa" name="Traitor Guardsman" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="4606fb9d-4a1c-4176-882f-7eac71f862f2" name="Traitor Guardsman" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2bcc-e90a-d1fd-226e" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="056c-61a3-5085-9c9d" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dc9adbf7-4b28-4bd2-970f-f3adcfba0d0f" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70721efb-e754-4e73-894e-6a80459e8fc2" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="7af7-5085-158b-844b" name="Brutal assault weapon" hidden="false" collective="true" import="true" type="upgrade">
+            <selectionEntry id="f8971bcc-8439-41e7-ace7-3cc651ca9755" name="Brutal assault weapon" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="666d-34ad-36a1-6ba7" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c9e-8761-8733-a34c" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac4bb66e-7982-4461-9fd4-0f836ecc925f" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="031bb783-4429-4c8e-a1af-f1da5a18a1ff" type="max"/>
               </constraints>
               <profiles>
-                <profile id="ad0b-cf30-152c-878e" name="Brutal assault weapon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="ae49efb9-a684-4504-aeb6-9177b0a27167" name="Brutal assault weapon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
@@ -748,13 +748,13 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="1dd6-90c4-e646-7d5e" name="Frag grenades" hidden="false" collective="true" import="true" type="upgrade">
+            <selectionEntry id="5da74a57-2b61-4c40-aed9-9b3956e62430" name="Frag grenades" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c0f-6d29-495c-05c9" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8261-f4d5-d738-b1ee" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b86095e-8718-4896-91b3-c0d58ed70b67" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b6cdfac-d45c-4ef7-9cc9-68d97715bbd1" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="6b96-b693-4edd-058e" name="Frag grenade" hidden="false" targetId="fdd8-1a5f-5722-d6ee" type="profile"/>
+                <infoLink id="c2acad74-7b5f-4a6b-af8c-88e62f8e8b4b" name="Frag grenade" hidden="false" targetId="fdd8-1a5f-5722-d6ee" type="profile"/>
               </infoLinks>
               <costs>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -762,13 +762,13 @@
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="ff10-22c7-81a0-7b6c" name="Autopistol/Laspistol" hidden="false" collective="true" import="true" type="upgrade">
+            <selectionEntry id="985d0454-2f30-4a21-a811-58f4da0ddbbc" name="Autopistol/Laspistol" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="05a7-0980-5b18-2160" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="66f6-adf1-f5db-aeb3" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="86c8a7fc-916b-4054-8959-a82cd004f6b5" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="37c8ff59-aa0a-4a6a-8e40-96e72cbf6fdf" type="min"/>
               </constraints>
               <profiles>
-                <profile id="34d0-1b15-128c-b0c9" name="Autopistol/Laspistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="141e6cc2-479a-4937-8fd3-11603cdcd77f" name="Autopistol/Laspistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
@@ -799,35 +799,35 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="18f8-b2c3-add2-3457" name="Chaos Beastmen" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="a92325cd-7d5f-4cce-b1ad-5aae96402864" name="Chaos Beastmen" hidden="false" collective="false" import="true" type="unit">
       <constraints>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="df16-d190-edcf-0089" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ae1b1c73-cea1-41a7-ab32-d8bb1894545d" type="max"/>
       </constraints>
       <profiles>
-        <profile id="3bfe-8b4a-c794-c851" name="Savage Charge" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="8f7bfcfc-febb-4362-97a7-4659b92aacc4" name="Savage Charge" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the Strength and Attacks characteristics of models in this unit if it made a charge move in the same turn.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="0807-77d8-4ad1-b003" name="Servants of the Abyss" hidden="false" targetId="50ce-cc4f-7ac1-6a22" type="rule"/>
-        <infoLink id="a5ae-4b95-58e8-3837" name="Slaves to Mallex" hidden="false" targetId="8a91-062d-c0dd-59dc" type="profile"/>
+        <infoLink id="e1d28db4-3b95-4b5b-9fc7-1c73b9bfc742" name="Servants of the Abyss" hidden="false" targetId="50ce-cc4f-7ac1-6a22" type="rule"/>
+        <infoLink id="4e762799-91d9-4d50-9ed8-2d918228f0d5" name="Slaves to Mallex" hidden="false" targetId="8a91-062d-c0dd-59dc" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="8cd8-7372-3f08-7bef" name="Chaos" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
-        <categoryLink id="7de8-d8a7-4797-0415" name="Faction: Servants of the Abyss" hidden="false" targetId="b0c7-cff4-f82b-2007" primary="false"/>
-        <categoryLink id="faed-ead7-2b96-22de" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
-        <categoryLink id="c419-da28-d8c6-a35e" name="Chaos Beastmen" hidden="false" targetId="fae9-a44d-32c3-21c6" primary="false"/>
+        <categoryLink id="5dffa077-c73d-4493-ba81-f2335cd7dfe9" name="Chaos" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
+        <categoryLink id="5670a8e3-ae93-4cda-a498-70dea8e410d5" name="Faction: Servants of the Abyss" hidden="false" targetId="b0c7-cff4-f82b-2007" primary="false"/>
+        <categoryLink id="e7fadcfc-2a84-487e-bc4b-916449a92c09" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
+        <categoryLink id="0cf10e7b-e283-4ffb-9a0c-967c697ddf00" name="Chaos Beastmen" hidden="false" targetId="fae9-a44d-32c3-21c6" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="bcfe-0f0c-3c2a-1467" name="Chaos Beastman" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="fd416e4f-8392-4660-8f92-5d804061aa85" name="Chaos Beastman" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e533-1000-5f9e-d40a" type="min"/>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96d4-19f8-1459-5fbe" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68016e4f-36ff-4b1d-bb7d-98a647002c43" type="min"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aaa27e4d-57e8-4f60-9577-58e96df37113" type="max"/>
           </constraints>
           <profiles>
-            <profile id="cc26-ba82-0a40-e02d" name="Chaos Beastman" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+            <profile id="90f79404-08b4-4c41-985d-5d7ee6c22c4d" name="Chaos Beastman" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
               <characteristics>
                 <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -842,13 +842,13 @@
             </profile>
           </profiles>
           <selectionEntries>
-            <selectionEntry id="2b3d-34c8-9ab7-f271" name="Chainsword/Brutal assault weapon" hidden="false" collective="true" import="true" type="upgrade">
+            <selectionEntry id="8cc5cc3a-9f16-4533-8d94-a5b84ca30803" name="Chainsword/Brutal assault weapon" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="19cb-6b43-09b8-afc8" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a6f-b104-cd8c-a509" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1880e4a2-a887-43dc-9c0b-bfb01d15df96" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="177090f4-e821-4ac2-86e2-37c232d07fa3" type="max"/>
               </constraints>
               <profiles>
-                <profile id="8fa3-9f81-9f55-27da" name="Chainsword/Brutal assault weapon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="8dc3ef07-9bb9-45c0-8ce7-3ffecde50139" name="Chainsword/Brutal assault weapon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
@@ -865,13 +865,13 @@
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="0307-3fd9-6506-dc5a" name="Autopistol/Laspistol" hidden="false" collective="true" import="true" type="upgrade">
+            <selectionEntry id="6379a541-1eb1-4502-bcb2-a06ee3d00ca6" name="Autopistol/Laspistol" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1cd4-fec2-2c74-0778" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40f9-c713-7c6c-5abc" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3154d85e-1fbd-4519-8752-cc25ca721c6d" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac3d2527-b309-4b9a-af02-9a041b42ce68" type="min"/>
               </constraints>
               <profiles>
-                <profile id="31cf-af89-18f4-e553" name="Autopistol/Laspistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="f4d331b8-34b1-464b-b0cf-77a4f386d520" name="Autopistol/Laspistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
@@ -890,10 +890,10 @@
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="31eb-b918-678c-cc13" name="Frag &amp; Krak grenades" hidden="false" collective="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
+            <entryLink id="732f260f-0695-4d1d-aa84-348a68fa5c60" name="Frag &amp; Krak grenades" hidden="false" collective="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dcc6-6cc1-060d-1463" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce96-cc8b-7146-b854" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f29ba5b-2e9b-43b3-a105-a3660e61694d" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0990bfc-bf3d-47a5-80fc-0ab6d149a453" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -910,9 +910,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2b45-2846-0bd4-2201" name="Traitor Commissar" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="ae4da180-2ef2-43cb-a1d1-3eb9fce47340" name="Traitor Commissar" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="8c53-5b93-676e-e41a" name="Traitor Commissar" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="07f89c5c-f905-4b73-a9fe-43e55230d72f" name="Traitor Commissar" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">2+</characteristic>
@@ -925,49 +925,49 @@
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
           </characteristics>
         </profile>
-        <profile id="ed02-a088-e913-f7c2" name="Refractor Field" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="c066579c-ca38-4a68-88bb-e6c1ffb6fc36" name="Refractor Field" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model has a 5+ invulnerable save.</characteristic>
           </characteristics>
         </profile>
-        <profile id="0799-b4df-81a6-3e48" name="Enforcer" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="bd5a6004-df73-45cf-ab07-9a7653eaadea" name="Enforcer" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Friendly TRAITOR GUARDSMEN units within 6&quot; of this model can use this model&apos;s Leadership instead of their own.</characteristic>
           </characteristics>
         </profile>
-        <profile id="5531-8d67-fde1-683c" name="Forwards! For the Dark Gods!" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="425cd532-1596-4d0b-b6f4-3ed199426913" name="Forwards! For the Dark Gods!" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of your Movement phase, you can pick one friendly TRAITOR GUARDSMEN unit within 6&quot; of this model. That unit suffers 1 mortal wound, and until the end of the turn, add 3 to Advance and Charge rolls made for that unit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="7a31-2590-7a28-8b9d" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
-        <categoryLink id="b59d-1de0-b7f6-3c41" name="Faction: Chaos" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
-        <categoryLink id="ed00-3207-71b9-9dcf" name="Faction: Servants of the Abyss" hidden="false" targetId="b0c7-cff4-f82b-2007" primary="false"/>
-        <categoryLink id="a6b9-59db-661a-46ee" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
-        <categoryLink id="0f25-dac8-0bed-4023" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
-        <categoryLink id="80b6-764c-88fe-a6b7" name="Traitor Commissar" hidden="false" targetId="c1b2-f117-cdcc-9145" primary="false"/>
+        <categoryLink id="e0d11837-46f2-46b0-892c-978e381ed4d4" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
+        <categoryLink id="f6212f88-c3e6-469b-bb98-81875bc91daa" name="Faction: Chaos" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
+        <categoryLink id="f80b4434-2a4b-4ea3-93b9-f454e9044774" name="Faction: Servants of the Abyss" hidden="false" targetId="b0c7-cff4-f82b-2007" primary="false"/>
+        <categoryLink id="6328c0f0-6288-474c-9d52-1cc995e903a1" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
+        <categoryLink id="5dc5907f-2863-41e9-914d-3e5eeaa7975a" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
+        <categoryLink id="352898bb-1ed6-460e-8c8d-61f1e4ef7c4a" name="Traitor Commissar" hidden="false" targetId="c1b2-f117-cdcc-9145" primary="false"/>
       </categoryLinks>
       <entryLinks>
-        <entryLink id="bf09-1226-6e15-fff3" name="Power fist" hidden="false" collective="false" import="true" targetId="f122-3720-fa32-4215" type="selectionEntry">
+        <entryLink id="c8ed53ae-58fb-4192-9a67-6024bfe7ac84" name="Power fist" hidden="false" collective="false" import="true" targetId="f122-3720-fa32-4215" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="points" value="0.0"/>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4afb-f163-5510-1b27" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7eb1-564c-67e3-93f2" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c372590-2794-4015-9f4c-faeaba5f73da" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="425946a3-5a51-44f9-be3d-2d7f1086cbdd" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="89cd-9a4b-e274-1f68" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="0334-f487-8229-0c1a" type="selectionEntry">
+        <entryLink id="3897fff3-f836-4e70-b470-e61176e00cae" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="0334-f487-8229-0c1a" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c60-18f2-60e7-7a4f" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f76-a2ab-830b-9970" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0bf3e8ff-0ae4-4328-a0eb-3531ddded267" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="789f6b86-2063-48e3-949f-4294bc092f1e" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="06ab-2771-c2d6-317a" name="Warlord" hidden="false" collective="false" import="true" targetId="59af-707f-d03b-8ea2" type="selectionEntry"/>
-        <entryLink id="90af-1111-23b6-8549" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="e308-7d16-1cd6-f8a5" type="selectionEntryGroup"/>
-        <entryLink id="e930-7d18-99e6-6e28" name="Character Stratagems" hidden="false" collective="false" import="true" targetId="6a47-c2f9-675c-fced" type="selectionEntryGroup"/>
+        <entryLink id="b16b1776-de90-4858-9268-0346b60a28e9" name="Warlord" hidden="false" collective="false" import="true" targetId="59af-707f-d03b-8ea2" type="selectionEntry"/>
+        <entryLink id="7ea8ba4a-7f1d-4e51-9df7-d789a17aa1e4" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="e308-7d16-1cd6-f8a5" type="selectionEntryGroup"/>
+        <entryLink id="f581703c-65fc-46cf-9af8-be58908f0a30" name="Character Stratagems" hidden="false" collective="false" import="true" targetId="6a47-c2f9-675c-fced" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="55.0"/>
@@ -975,9 +975,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2484-a240-4b43-4bbd" name="Chaos Ogryn" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="43199670-94ba-4b70-b643-4223b36e4e7c" name="Chaos Ogryn" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="b454-f3c3-14a8-d11a" name="Chaos Ogryn" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="650210bc-39af-4a3e-9d8b-0cbf44f5ef0b" name="Chaos Ogryn" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -990,38 +990,38 @@
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
           </characteristics>
         </profile>
-        <profile id="95f5-5566-1a02-9f68" name="Avalanche of Muscle" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="d48bf28c-7d1a-4d72-ba02-5dad61455de2" name="Avalanche of Muscle" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to the Attacks characteristic of this model during any turn in which it made a successful charge.</characteristic>
           </characteristics>
         </profile>
-        <profile id="db76-1b3f-f8e4-769e" name="Bodyguard" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="dcf7b316-d80f-4eba-9aa2-e4b070d4f59d" name="Bodyguard" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a D6 each time a TRAITOR COMMISSAR loses a wound whilst it is within 3&quot; of any friendly models with this ability; on a 3+ the TRAITOR COMMISSAR does not lose a wound but one of those friendly models suffers a mortal wound.</characteristic>
           </characteristics>
         </profile>
-        <profile id="6c82-8fb9-d2b4-c1ce" name="Blasphemous Icon" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="4027ed57-ff9f-480c-9530-4c5b9ebbcee0" name="Blasphemous Icon" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Before moving this model in the Movement phase, roll a D6. On a 6, this model regains 1 lost wound and you can add 2&quot; to this model&apos;s Move characteristic until the end of the phase.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="c58d-bbaf-c3a2-1ea7" name="New CategoryLink" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
-        <categoryLink id="f511-f5fa-4a96-0a7a" name="Faction: Chaos" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
-        <categoryLink id="be4f-fa2a-3c07-3009" name="Faction: Servants of the Abyss" hidden="false" targetId="b0c7-cff4-f82b-2007" primary="false"/>
-        <categoryLink id="090e-f380-8ac9-4e28" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
-        <categoryLink id="8c54-39d9-7126-a072" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
-        <categoryLink id="0348-93bc-c4d1-704a" name="Chaos Ogryn" hidden="false" targetId="1f31-34ea-bcdb-de6e" primary="false"/>
+        <categoryLink id="0fb42167-8ec3-4943-9f6d-df124d7389ae" name="New CategoryLink" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
+        <categoryLink id="af6fd1aa-917b-4a3c-96cc-0ebf736572ea" name="Faction: Chaos" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
+        <categoryLink id="e0996e94-9268-4938-905a-842ace850759" name="Faction: Servants of the Abyss" hidden="false" targetId="b0c7-cff4-f82b-2007" primary="false"/>
+        <categoryLink id="ed0a136b-e87c-4a61-93e9-281caa3e503a" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
+        <categoryLink id="c52bcde2-3c60-47e2-99ae-6774d3b1adf8" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
+        <categoryLink id="f1416052-82b7-480c-9b94-ebbcdd63464a" name="Chaos Ogryn" hidden="false" targetId="1f31-34ea-bcdb-de6e" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="a659-1173-15ce-ad9c" name="Scavenged Maul" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="841c26b7-12b7-4a91-a8e5-2da0e9325da8" name="Scavenged Maul" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5902-c6fb-a459-9c3b" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a2d1-610d-4015-04bb" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b2b18a02-f09d-43b4-899a-9376448609eb" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8e73845d-9ade-4c3f-87b0-8242648affe5" type="max"/>
           </constraints>
           <profiles>
-            <profile id="8884-1f6f-e558-bea5" name="Scavenged Maul" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="bba0a26d-0c57-4f7e-bcb2-470e0006d4f1" name="Scavenged Maul" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
@@ -1038,13 +1038,13 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="64d4-a087-409e-bdde" name="Mutant claw" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="000cedfb-27f5-4c0b-8259-38fa88403f29" name="Mutant claw" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cbb7-4b0f-17fb-7b1d" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8697-a68a-ffce-d6f8" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa509146-6673-4680-bb60-910b0253642a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4d7e7b8-cc93-432d-9549-77f6115b8d2c" type="max"/>
           </constraints>
           <profiles>
-            <profile id="137c-62ae-1578-a17f" name="Mutant claw" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="5d8bbeaf-15cd-451f-8036-1c0cce68630e" name="Mutant claw" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
@@ -1068,9 +1068,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="69b4-3c70-f40b-f1b9" name="Cultists of the Abyss" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="c61bee80-11f3-4c66-ace7-30034198b08e" name="Cultists of the Abyss" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="341a-f59b-94f9-261e" name="Cultist" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+        <profile id="a165a3ec-3242-4482-a569-e1cc7d3ac2a6" name="Cultist" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
@@ -1085,23 +1085,23 @@
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="2a0c-97ea-5fec-4fd6" name="Servants of the Abyss" hidden="false" targetId="50ce-cc4f-7ac1-6a22" type="rule"/>
+        <infoLink id="36350ede-d52e-4661-9d61-d2343b1d9ee0" name="Servants of the Abyss" hidden="false" targetId="50ce-cc4f-7ac1-6a22" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="61df-3575-6092-7ac1" name="New CategoryLink" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
-        <categoryLink id="68b6-4714-f81f-23e8" name="Faction: Chaos" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
-        <categoryLink id="da2d-a016-5b30-43ce" name="Faction: Servants of the Abyss" hidden="false" targetId="b0c7-cff4-f82b-2007" primary="false"/>
-        <categoryLink id="b09d-9db0-7f44-b448" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
-        <categoryLink id="ae75-4bf6-642e-60f2" name="Cultists of the Abyss" hidden="false" targetId="1aad-1bc4-6055-639e" primary="false"/>
+        <categoryLink id="56137429-79d7-48de-bd14-6c94476c945e" name="New CategoryLink" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
+        <categoryLink id="221d0bee-4f94-4887-b6fb-583e76f669b1" name="Faction: Chaos" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
+        <categoryLink id="b98ab12f-6364-4691-bad6-0446ddaac638" name="Faction: Servants of the Abyss" hidden="false" targetId="b0c7-cff4-f82b-2007" primary="false"/>
+        <categoryLink id="6c3526a7-71c0-4e23-8b25-05455993e0d8" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
+        <categoryLink id="f2ba8c60-9ba5-4e63-a68f-4ab0530e3069" name="Cultists of the Abyss" hidden="false" targetId="1aad-1bc4-6055-639e" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="59ee-8eeb-482e-59e2" name="Cultist Champion" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="c82fe7ea-dfa5-4e59-9875-149e3c00857d" name="Cultist Champion" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="484f-109f-af63-54f5" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c6c-210a-e1f4-8ec2" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3685d0ec-b608-4238-ab36-eed61b963f06" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c36fcc65-aca0-4513-b94d-a186ded9ce52" type="max"/>
           </constraints>
           <profiles>
-            <profile id="fa88-dc9b-b51a-ee2f" name="Cultist Champion" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+            <profile id="b7d4dde4-dfaa-4004-82de-af76dd96e74e" name="Cultist Champion" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
               <characteristics>
                 <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
                 <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
@@ -1116,13 +1116,13 @@
             </profile>
           </profiles>
           <selectionEntries>
-            <selectionEntry id="0a79-630c-4385-da4f" name="Stubcarbine" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="db568019-69bf-4230-bc5e-c2047026f05e" name="Stubcarbine" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a9c-59e0-622b-af91" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c13e-f728-3356-19f8" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6ec539fe-16bb-4bdb-8054-eb995a3dc874" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e2119876-553d-4cb3-8fd9-bc83ad930530" type="max"/>
               </constraints>
               <profiles>
-                <profile id="2728-4cf7-ceca-49ee" name="Stubcarbine" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="6e72e88c-1a9c-467d-906f-bf25e894729e" name="Stubcarbine" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 3</characteristic>
@@ -1141,41 +1141,16 @@
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="8f34-a9f6-3ce3-0758" name="Chainsword" hidden="false" collective="false" import="true" targetId="0dd1-2e2b-7dd1-5495" type="selectionEntry">
+            <entryLink id="8b367016-f005-4965-bf97-c53519d796ec" name="Chainsword" hidden="false" collective="false" import="true" targetId="0dd1-2e2b-7dd1-5495" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d95-4bf4-fa6e-cbc8" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="630f-2890-cc59-b4dc" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d072444f-da36-41c7-8c6b-26635b6f8a42" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c98e4a87-3d95-49d6-8dcd-599bb41c34a2" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="1fcb-f0a4-58de-e840" name="Frag &amp; Krak grenades" hidden="false" collective="false" import="true" targetId="bb78-534a-7b77-edbc" type="selectionEntry">
+            <entryLink id="9a4ede99-16ec-48a4-903a-0979a14b300e" name="Frag &amp; Krak grenades" hidden="false" collective="false" import="true" targetId="bb78-534a-7b77-edbc" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b5a4-cd3c-fa38-a349" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7efe-d12d-2b1f-47de" type="min"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
-          <costs>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-            <cost name="pts" typeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="0f63-3ac7-de6c-9f05" name="Cultists" hidden="false" collective="false" import="true" type="model">
-          <constraints>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3c4-c9f4-2441-3e8a" type="min"/>
-            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da2d-55c7-5ccd-6cf0" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="dcf2-316b-b43a-9193" name="Autogun" hidden="false" collective="false" import="true" targetId="85e4-602d-e3a1-92b0" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73d7-9542-f16c-102b" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7dc1-2b56-a947-ff25" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="6781-5d18-08fe-b3bd" name="Frag &amp; Krak grenades" hidden="false" collective="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f137-0012-30a3-629e" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="760f-35d3-b3f9-80e6" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f84f4d6-7eec-4bf8-9f42-8de49bb680a1" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70763f2b-6a8e-416a-bf0b-8255bcac4194" type="min"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -1185,25 +1160,50 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="08bb-dfd1-3363-aaef" name="Cultist w/ Heavy Stubber" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="8e3972ab-e3d0-4a07-bbe8-d365c48a4cb3" name="Cultists" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d4cf-ddb7-0200-3a9d" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4d3-c276-33ea-e50a" type="max"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27968a53-320b-498b-a58d-cb2558b53ef7" type="min"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abec2390-9b77-4a95-b8f6-ffab3b5378b0" type="max"/>
           </constraints>
           <entryLinks>
-            <entryLink id="ce0d-f2c7-685b-6283" name="Frag &amp; Krak grenades" hidden="false" collective="false" import="true" targetId="bb78-534a-7b77-edbc" type="selectionEntry">
+            <entryLink id="ed0037f3-844a-4fd4-acf6-66db680a455e" name="Autogun" hidden="false" collective="false" import="true" targetId="85e4-602d-e3a1-92b0" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9d16-1d5c-49c4-ba63" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eaba-2328-7f3a-a0f2" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c08d8b4-6bba-49e9-a092-72494b8933bf" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="278255cc-1469-46d4-96ca-42ca7a9ae34b" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="564f-cde1-36e2-17f2" name="Heavy stubber" hidden="false" collective="false" import="true" targetId="cfa3-5fcd-af10-5520" type="selectionEntry">
+            <entryLink id="3a8a3e2c-9b9b-445d-bfb5-8480629a9580" name="Frag &amp; Krak grenades" hidden="false" collective="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="91fd516b-8121-46b8-b12d-72daffacaefe" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f7a2cc5-b336-497e-ad43-23d348fb31e8" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="200d4b1f-bb96-4abd-9a1e-10b79eeda7a4" name="Cultist w/ Heavy Stubber" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4634cbcc-9ec9-4c18-bc9d-123a8ff748ec" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0f3d68e-8e5d-462d-9151-474d0af24bf9" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="e51d7b95-e924-4aec-8af4-c393238506d5" name="Frag &amp; Krak grenades" hidden="false" collective="false" import="true" targetId="bb78-534a-7b77-edbc" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2755be96-2c82-4700-b659-21e22593ea7f" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d80460e-22b4-46d4-a476-cfc7bbc71ed1" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="a2573283-daf8-488c-969d-4464c0314749" name="Heavy stubber" hidden="false" collective="false" import="true" targetId="cfa3-5fcd-af10-5520" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="points" value="0.0"/>
               </modifiers>
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9403-9a8c-b6a7-263e" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="735f-f8be-26bb-7067" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="872d1c9d-026e-4e76-aa96-8952bbe83fe8" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="84fced48-9e00-41f8-93c9-31f2530c31d5" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
@@ -1213,19 +1213,19 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="731e-d276-2d6b-e67b" name="Cultist w/ Grenade Launcher" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="9df70d3a-9a19-4d2d-867f-45292761b871" name="Cultist w/ Grenade Launcher" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f043-cb11-68be-22dc" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b958-fe53-eadf-b773" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3dd56bb9-903b-4614-9b85-7701a5f09967" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d662e95-1054-4149-aff5-2d9b4a39daf6" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="d609-505f-3010-3132" name="Grenade launcher" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="d54c0083-f9b6-41ef-b790-5ba75076e185" name="Grenade launcher" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2314-66a2-3545-115c" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bc1-3290-c563-4572" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34a19c41-46f6-4b35-9335-1c72f4e26af6" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a27f5d4-f0c6-40ca-9afb-242d6c982f2a" type="max"/>
               </constraints>
               <profiles>
-                <profile id="c108-fb7f-d4ec-493e" name="Grenade launcher - Frag" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="84c0beba-7de5-4910-a6d8-0b1ed81eb346" name="Grenade launcher - Frag" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault D6</characteristic>
@@ -1235,7 +1235,7 @@
                     <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="1c14-ebbe-883b-9563" name="Grenade launcher - Krak" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="a22f68ff-1112-45ce-8bd0-f445b61325b6" name="Grenade launcher - Krak" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1</characteristic>
@@ -1245,7 +1245,7 @@
                     <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="735a-55fa-f2a6-d4dd" name="Grenade launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                <profile id="fe8a8152-b022-4cf9-881f-a163d4b5ee93" name="Grenade launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464"/>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2"/>
@@ -1276,9 +1276,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="85e4-602d-e3a1-92b0" name="Autogun" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="00ffeb17-36a3-4474-9299-14b647fc22e3" name="Autogun" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
-        <infoLink id="e54e-5606-d70b-1bca" name="Autogun" hidden="false" targetId="fcde-3e6a-e240-1157" type="profile"/>
+        <infoLink id="3a082d33-cade-4944-9974-7b5ca57d0093" name="Autogun" hidden="false" targetId="fcde-3e6a-e240-1157" type="profile"/>
       </infoLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -1286,12 +1286,12 @@
         <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="59af-707f-d03b-8ea2" name="Warlord" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="49608f2d-18f6-4c99-ba98-b63bf51a5408" name="Warlord" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21e4-4b3f-f8cf-4d2e" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3877784e-e8b9-4fe9-af09-6e3d0e81640f" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="8a04-46b0-bd08-1d7a" name="Warlord" hidden="false" targetId="ae09-117e-a6fa-316b" primary="false"/>
+        <categoryLink id="1e8b789b-8478-4f28-818d-a20c9acf4c52" name="Warlord" hidden="false" targetId="ae09-117e-a6fa-316b" primary="false"/>
       </categoryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -1301,7 +1301,7 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="e308-7d16-1cd6-f8a5" name="Warlord Traits" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="e089cd09-9b3e-4436-b7b5-5150685d7b5a" name="Warlord Traits" hidden="false" collective="false" import="true">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -1329,13 +1329,13 @@
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1e4-5f74-1d4f-f18e" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9339c4be-fec6-43a9-9912-95d0b5eb6412" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="7408-0804-7833-e4e7" name="Warlord Traits (BRB)" hidden="false" collective="false" import="true" targetId="d442-1f03-d9da-e77f" type="selectionEntryGroup"/>
+        <entryLink id="cf705439-16db-4d0e-8e22-db72e63a35e8" name="Warlord Traits (BRB)" hidden="false" collective="false" import="true" targetId="d442-1f03-d9da-e77f" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntryGroup>
-    <selectionEntryGroup id="6a47-c2f9-675c-fced" name="Character Stratagems" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="80a77b4b-1198-42dd-afae-2c5d0339235b" name="Character Stratagems" hidden="false" collective="false" import="true">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditionGroups>
@@ -1356,22 +1356,22 @@
         </modifier>
       </modifiers>
       <entryLinks>
-        <entryLink id="c5cf-2e25-e17f-44d5" name="Stratagem: Warlord Trait" hidden="false" collective="false" import="true" targetId="6771-6ab3-1672-6a39" type="selectionEntry"/>
+        <entryLink id="fa3c134f-e967-483a-9785-2c2d61cc2343" name="Stratagem: Warlord Trait" hidden="false" collective="false" import="true" targetId="6771-6ab3-1672-6a39" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="50ce-cc4f-7ac1-6a22" name="Servants of the Abyss" hidden="false">
+    <rule id="7f6b2763-3745-4895-92bb-8d870ae2d3a3" name="Servants of the Abyss" hidden="false">
       <description>This ability has no effect unless your army includes OBSIDIUS MALLEX. If it does, you cannot set up any units with this ability before you have set up OBSIDIUS MALLEX. When you set up OBSIDIUS MALLEX during deployment, all units with this ability are immediately set up at the same time. When you set up OBSIDIUS MALLEX on the battlefield for the first time, all units with this ability must be set up within 6&quot; of him (or they must be in the same TRANSPORT as him). If they cannot be set up, they count as destroyed.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="9e53-53f4-6b54-0e52" name="Death to the False Emperor" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="8969e1a6-c512-445e-b176-a466b53e490c" name="Death to the False Emperor" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time you roll a hit roll of 6+ for a model in this unit in the Fight phase, it can, if it was targeting an IMPERIUM unit, immediately make an extra attack against the same unit using the same weapon. These extra attacks cannot themselves generate further attacks.</characteristic>
       </characteristics>
     </profile>
-    <profile id="8a91-062d-c0dd-59dc" name="Slaves to Mallex" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+    <profile id="0ca6c110-896f-4c32-bf95-bce16381e76d" name="Slaves to Mallex" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your army is Battle-forged, this unit does not take up slots in a Detachment that includes OBSIDIUS MALLEX.</characteristic>
       </characteristics>
