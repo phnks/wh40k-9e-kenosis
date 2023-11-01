@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <gameSystem id="3475cedc-6eef-4cf4-b5f4-ad6dfa031c77"
-name="Warhammer 40,000 Kenosis Edition" revision="1"
+name="Warhammer 40,000 Kenosis Edition" revision="2"
 battleScribeVersion="2.03" authorName="BSData Developers"
 authorContact="@WH40k Data Dev"
 authorUrl="https://www.bsdata.net/contact"
@@ -113,12 +113,12 @@ xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
                 name="War Zone Nephilim: Grand Tournament" />
         </publications>
         <costTypes>
-                <costType id="5d60a93f-764a-4916-bfba-da0fb8b95d3d" name="pts"
-                defaultCostLimit="0.0" hidden="false" />
-                <costType id="e837509d-9cb4-4262-90a1-39e86869f8c8" name="PL"
-                defaultCostLimit="-1.0" hidden="false" />
-                <costType id="88340c3c-d26e-47b8-a133-4455d7c7fc12" name="CP"
-                defaultCostLimit="-1.0" hidden="false" />
+                <costType id="5d60a93f-764a-4916-bfba-da0fb8b95d3d"
+                name="pts" defaultCostLimit="0.0" hidden="false" />
+                <costType id="e837509d-9cb4-4262-90a1-39e86869f8c8"
+                name="PL" defaultCostLimit="-1.0" hidden="false" />
+                <costType id="88340c3c-d26e-47b8-a133-4455d7c7fc12"
+                name="CP" defaultCostLimit="-1.0" hidden="false" />
         </costTypes>
         <profileTypes>
                 <profileType id="3a6eeb9b-c812-4ba8-988b-7e729192086d"
@@ -189,7 +189,8 @@ xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
                                 name="Characteristic 3" />
                         </characteristicTypes>
                 </profileType>
-                <profileType id="5ce37731-a97f-44e7-aa18-76147c3b72af" name="Unit">
+                <profileType id="5ce37731-a97f-44e7-aa18-76147c3b72af"
+                name="Unit">
                         <characteristicTypes>
                                 <characteristicType id="ede5d176-565b-4578-ba3e-4119f02bd3c7"
                                 name="M" />
@@ -325,8 +326,8 @@ xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
                                 type="max" />
                         </constraints>
                 </categoryEntry>
-                <categoryEntry id="03d2b9a5-c2ab-4a81-a466-8f16d43ad03c" name="Fly"
-                hidden="false" />
+                <categoryEntry id="03d2b9a5-c2ab-4a81-a466-8f16d43ad03c"
+                name="Fly" hidden="false" />
                 <categoryEntry id="f1b463a7-7d21-461f-a163-321e93749f74"
                 name="Monster" hidden="false">
                         <modifiers>
@@ -796,8 +797,8 @@ xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
                 <categoryEntry id="9c3460dd-6306-469e-a47e-de44217da673"
                 name="Primarch | Daemon Primarch | Supreme Commander"
                 hidden="false" />
-                <categoryEntry id="df63c86b-dad1-40d0-b134-20adc6ddf354" name="Core"
-                hidden="false" />
+                <categoryEntry id="df63c86b-dad1-40d0-b134-20adc6ddf354"
+                name="Core" hidden="false" />
                 <categoryEntry id="43cf716a-d94f-4173-bcd0-98a8eb740738"
                 name="Obstacles" page="Terrain" hidden="false" />
                 <categoryEntry id="832cde2a-88d5-40fe-a524-5247de162dad"
@@ -6649,9 +6650,9 @@ xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
                                 primary="true" />
                         </categoryLinks>
                 </entryLink>
-                <entryLink id="4ba82dde-9664-408f-b930-cd51ff8f33e0" name="Bastion"
-                hidden="false" collective="false" import="true"
-                targetId="55c6-268b-357f-d070"
+                <entryLink id="4ba82dde-9664-408f-b930-cd51ff8f33e0"
+                name="Bastion" hidden="false" collective="false"
+                import="true" targetId="55c6-268b-357f-d070"
                 type="selectionEntry">
                         <modifiers>
                                 <modifier type="set" field="hidden"
@@ -29544,44 +29545,44 @@ xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
                 </selectionEntryGroup>
         </sharedSelectionEntryGroups>
         <sharedRules>
-                <rule id="e33b1ddb-49fd-4bce-ab22-5c314d0b3981" name="Deathblow"
-                hidden="false">
+                <rule id="e33b1ddb-49fd-4bce-ab22-5c314d0b3981"
+                name="Deathblow" hidden="false">
                         <description>If a target suffers an unsaved
                         Wound from a close combat attack made by
                         this model, the target is reduced to 0
                         Wounds and is removed as a
                         casualty.</description>
                 </rule>
-                <rule id="ada6ca22-68e6-488b-965c-e33f8d3500c4" name="Executioner"
-                hidden="false">
+                <rule id="ada6ca22-68e6-488b-965c-e33f8d3500c4"
+                name="Executioner" hidden="false">
                         <description>This model re-rolls all failed
                         To Wound rolls against targets with a
                         Wounds characteristic of 2 or
                         more.</description>
                 </rule>
-                <rule id="2c6ff158-2d3b-4a23-acb7-f190c445b3c5" name="Infiltrator"
-                hidden="false">
+                <rule id="2c6ff158-2d3b-4a23-acb7-f190c445b3c5"
+                name="Infiltrator" hidden="false">
                         <description>During deployment, this unit
                         can be set up anywhere on the battlefield
                         that is not within your opponent's
                         deployment zone and is more than 12" from
                         any enemy unit.</description>
                 </rule>
-                <rule id="18d8b9ca-5ef5-4de5-943d-562b90e3633c" name="Airborne"
-                hidden="false">
+                <rule id="18d8b9ca-5ef5-4de5-943d-562b90e3633c"
+                name="Airborne" hidden="false">
                         <description>This model cannot charge, can
                         only be charged by units that can FLY, and
                         can only attack or be attacked in the Fight
                         phase by units that can FLY.</description>
                 </rule>
-                <rule id="dedfbf6e-1fe8-413d-9ee6-6880c0933225" name="Hard to Hit"
-                hidden="false">
+                <rule id="dedfbf6e-1fe8-413d-9ee6-6880c0933225"
+                name="Hard to Hit" hidden="false">
                         <description>Your opponent must subtract 1
                         from hit rolls for attacks that target this
                         model in the Shooting phase.</description>
                 </rule>
-                <rule id="6f6653e2-d620-4f6e-8b5d-cb06af5aa495" name="Explodes"
-                hidden="false">
+                <rule id="6f6653e2-d620-4f6e-8b5d-cb06af5aa495"
+                name="Explodes" hidden="false">
                         <description>If this model is reduced to 0
                         wounds, roll a D6 before removing it from
                         the battlefield and before any embarked
@@ -29589,8 +29590,8 @@ xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
                         each unit within 6" suffers D3 mortal
                         wounds.</description>
                 </rule>
-                <rule id="a4f7f709-7676-45c8-8e24-74e4dae578a8" name="Open-topped"
-                page="" hidden="false">
+                <rule id="a4f7f709-7676-45c8-8e24-74e4dae578a8"
+                name="Open-topped" page="" hidden="false">
                         <description>Models embarked on this model
                         can attack in their Shooting phase. Measure
                         the range and draw line of sight from any
@@ -29639,8 +29640,8 @@ xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
                         shrugs off the damage and does not lose the
                         wound.</description>
                 </rule>
-                <rule id="e0292b42-d9b7-4eeb-9cde-19548203a501" name="Combi Weapon"
-                hidden="false">
+                <rule id="e0292b42-d9b7-4eeb-9cde-19548203a501"
+                name="Combi Weapon" hidden="false">
                         <description>When attacking with this
                         weapon, choose one or both of the profiles.
                         If you choose both, subtract 1 from all hit
@@ -29686,8 +29687,8 @@ xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
                         Bolter Discipline, Shock Assault and Combat
                         Doctrines.</description>
                 </rule>
-                <rule id="abd50878-f543-4459-aa78-356d4b245b6a" name="Shock Assault"
-                hidden="false">
+                <rule id="abd50878-f543-4459-aa78-356d4b245b6a"
+                name="Shock Assault" hidden="false">
                         <description>Each time this unit fights if
                         it made a charge move, was charged or
                         performed a Heroic Intervention this turn,
@@ -29721,8 +29722,8 @@ xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
                 </rule>
         </sharedRules>
         <sharedProfiles>
-                <profile id="631d8b9e-a9b6-4b9b-a0bf-75363a2f641c" name="Autogun"
-                hidden="false"
+                <profile id="631d8b9e-a9b6-4b9b-a0bf-75363a2f641c"
+                name="Autogun" hidden="false"
                 typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48"
                 typeName="Weapon">
                         <characteristics>
@@ -29746,8 +29747,8 @@ xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
                                 -</characteristic>
                         </characteristics>
                 </profile>
-                <profile id="e08b666b-d6f4-4946-b1c6-7af842889eaf" name="Autopistol"
-                hidden="false"
+                <profile id="e08b666b-d6f4-4946-b1c6-7af842889eaf"
+                name="Autopistol" hidden="false"
                 typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48"
                 typeName="Weapon">
                         <characteristics>
@@ -29771,8 +29772,8 @@ xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
                                 -</characteristic>
                         </characteristics>
                 </profile>
-                <profile id="1b9776d7-7bb2-4c52-88f3-93f3b7e95c77" name="Autocannon"
-                hidden="false"
+                <profile id="1b9776d7-7bb2-4c52-88f3-93f3b7e95c77"
+                name="Autocannon" hidden="false"
                 typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48"
                 typeName="Weapon">
                         <characteristics>
@@ -29919,8 +29920,9 @@ xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
                                 typeId="837d-5e63-aeb7-1410" />
                         </characteristics>
                 </profile>
-                <profile id="9ec95e85-69fc-42e6-afea-28c61345ded2" name="Flamer"
-                publicationId="28ec-711c-pubN72690" hidden="false"
+                <profile id="9ec95e85-69fc-42e6-afea-28c61345ded2"
+                name="Flamer" publicationId="28ec-711c-pubN72690"
+                hidden="false"
                 typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48"
                 typeName="Weapon">
                         <characteristics>
@@ -29946,8 +29948,8 @@ xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
                                 hits the target.</characteristic>
                         </characteristics>
                 </profile>
-                <profile id="c36f7b42-c7b9-4e7b-8da4-c7ba05a340c6" name="Meltagun"
-                hidden="false"
+                <profile id="c36f7b42-c7b9-4e7b-8da4-c7ba05a340c6"
+                name="Meltagun" hidden="false"
                 typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48"
                 typeName="Weapon">
                         <characteristics>
@@ -30114,8 +30116,8 @@ xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
                                 -</characteristic>
                         </characteristics>
                 </profile>
-                <profile id="3f35c9f4-112f-4fc8-9cce-9b1cc9c84bf1" name="Laspistol"
-                page="" hidden="false"
+                <profile id="3f35c9f4-112f-4fc8-9cce-9b1cc9c84bf1"
+                name="Laspistol" page="" hidden="false"
                 typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48"
                 typeName="Weapon">
                         <characteristics>
@@ -30139,8 +30141,8 @@ xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
                                 -</characteristic>
                         </characteristics>
                 </profile>
-                <profile id="af5863fd-75ff-46b9-b150-4791c41dfb2b" name="Lasgun"
-                page="" hidden="false"
+                <profile id="af5863fd-75ff-46b9-b150-4791c41dfb2b"
+                name="Lasgun" page="" hidden="false"
                 typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48"
                 typeName="Weapon">
                         <characteristics>
@@ -30395,8 +30397,8 @@ xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
                                 typeId="837d-5e63-aeb7-1410" />
                         </characteristics>
                 </profile>
-                <profile id="6e498dd3-2bea-4fb5-b131-7f774c4bc14a" name="Chainfist"
-                hidden="false"
+                <profile id="6e498dd3-2bea-4fb5-b131-7f774c4bc14a"
+                name="Chainfist" hidden="false"
                 typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48"
                 typeName="Weapon">
                         <characteristics>
@@ -30426,8 +30428,8 @@ xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
                                 3.</characteristic>
                         </characteristics>
                 </profile>
-                <profile id="8a0cacc3-c43b-4dce-ba64-eadfae103e00" name="Shotgun"
-                hidden="false"
+                <profile id="8a0cacc3-c43b-4dce-ba64-eadfae103e00"
+                name="Shotgun" hidden="false"
                 typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48"
                 typeName="Weapon">
                         <characteristics>
@@ -30532,8 +30534,8 @@ xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
                                 wound roll.</characteristic>
                         </characteristics>
                 </profile>
-                <profile id="ecbdb2b2-5b23-4664-8880-c4eca75f19bb" name="Power fist"
-                hidden="false"
+                <profile id="ecbdb2b2-5b23-4664-8880-c4eca75f19bb"
+                name="Power fist" hidden="false"
                 typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48"
                 typeName="Weapon">
                         <characteristics>
@@ -30559,8 +30561,8 @@ xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
                                 attack’s hit roll.</characteristic>
                         </characteristics>
                 </profile>
-                <profile id="880000d5-b895-4564-94ac-2272369aaf94" name="Power axe"
-                hidden="false"
+                <profile id="880000d5-b895-4564-94ac-2272369aaf94"
+                name="Power axe" hidden="false"
                 typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48"
                 typeName="Weapon">
                         <characteristics>
@@ -30584,8 +30586,8 @@ xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
                                 -</characteristic>
                         </characteristics>
                 </profile>
-                <profile id="86e3f72b-30f2-48d1-b660-24a81746268b" name="Power maul"
-                hidden="false"
+                <profile id="86e3f72b-30f2-48d1-b660-24a81746268b"
+                name="Power maul" hidden="false"
                 typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48"
                 typeName="Weapon">
                         <characteristics>
@@ -30711,8 +30713,8 @@ xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
                                 -</characteristic>
                         </characteristics>
                 </profile>
-                <profile id="7bfd5d44-78ed-4f43-ab61-6cad99f2d341" name="Melta bomb"
-                hidden="false"
+                <profile id="7bfd5d44-78ed-4f43-ab61-6cad99f2d341"
+                name="Melta bomb" hidden="false"
                 typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48"
                 typeName="Weapon">
                         <characteristics>
@@ -30788,8 +30790,8 @@ xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
                                 Blast.</characteristic>
                         </characteristics>
                 </profile>
-                <profile id="c207144d-fcc4-45f9-8358-7113e796c43c" name="Lascannon"
-                hidden="false"
+                <profile id="c207144d-fcc4-45f9-8358-7113e796c43c"
+                name="Lascannon" hidden="false"
                 typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48"
                 typeName="Weapon">
                         <characteristics>
@@ -30899,9 +30901,9 @@ xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
                                 -</characteristic>
                         </characteristics>
                 </profile>
-                <profile id="9ae0aac3-4ce2-434d-9c01-0ca558384313" name="Quad-gun"
-                publicationId="28ec-711c-pubN72690" page=""
-                hidden="false"
+                <profile id="9ae0aac3-4ce2-434d-9c01-0ca558384313"
+                name="Quad-gun" publicationId="28ec-711c-pubN72690"
+                page="" hidden="false"
                 typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48"
                 typeName="Weapon">
                         <characteristics>
@@ -30928,8 +30930,8 @@ xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
                                 roll.</characteristic>
                         </characteristics>
                 </profile>
-                <profile id="e0f15fd2-66c5-44f4-8f63-33759253d095" name="Boltgun"
-                page="" hidden="false"
+                <profile id="e0f15fd2-66c5-44f4-8f63-33759253d095"
+                name="Boltgun" page="" hidden="false"
                 typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48"
                 typeName="Weapon">
                         <characteristics>
@@ -30953,8 +30955,8 @@ xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
                                 -</characteristic>
                         </characteristics>
                 </profile>
-                <profile id="d2dcf88f-e9c7-4c94-a3e4-ec2fc0b7d094" name="Grav-gun"
-                page="" hidden="false"
+                <profile id="d2dcf88f-e9c7-4c94-a3e4-ec2fc0b7d094"
+                name="Grav-gun" page="" hidden="false"
                 typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48"
                 typeName="Weapon">
                         <characteristics>
@@ -31236,8 +31238,8 @@ xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
                                 typeId="837d-5e63-aeb7-1410" />
                         </characteristics>
                 </profile>
-                <profile id="f44b382e-1b16-48c0-b197-a6988f9c581b" name="Force axe"
-                page="" hidden="false"
+                <profile id="f44b382e-1b16-48c0-b197-a6988f9c581b"
+                name="Force axe" page="" hidden="false"
                 typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48"
                 typeName="Weapon">
                         <characteristics>
@@ -31311,7 +31313,8 @@ xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
                                 -</characteristic>
                         </characteristics>
                 </profile>
-                <profile id="bb04310b-92d3-41e4-85ca-a25ecdb884f9" name="Witchblade"
+                <profile id="bb04310b-92d3-41e4-85ca-a25ecdb884f9"
+                name="Witchblade"
                 publicationId="28ec-711c-pubN72690" page=""
                 hidden="false"
                 typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48"
@@ -31379,7 +31382,8 @@ xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
                                 typeId="837d-5e63-aeb7-1410" />
                         </characteristics>
                 </profile>
-                <profile id="3c274ed7-06e3-46d7-8a41-f253c9ef163d" name="Ammo Store"
+                <profile id="3c274ed7-06e3-46d7-8a41-f253c9ef163d"
+                name="Ammo Store"
                 publicationId="28ec-711c-pubN77581" page="110"
                 hidden="false"
                 typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82"
@@ -31496,8 +31500,8 @@ xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
                                 rule.</characteristic>
                         </characteristics>
                 </profile>
-                <profile id="fb00e08b-6260-4eec-bf4a-e886f5f704c7" name="Barricades"
-                page="" hidden="false"
+                <profile id="fb00e08b-6260-4eec-bf4a-e886f5f704c7"
+                name="Barricades" page="" hidden="false"
                 typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82"
                 typeName="Abilities">
                         <characteristics>
@@ -31517,8 +31521,8 @@ xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
                                 difficult terrain.</characteristic>
                         </characteristics>
                 </profile>
-                <profile id="7305079f-e851-47ce-9c83-d9ce47abb211" name="Tanglewire"
-                page="" hidden="false"
+                <profile id="7305079f-e851-47ce-9c83-d9ce47abb211"
+                name="Tanglewire" page="" hidden="false"
                 typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82"
                 typeName="Abilities">
                         <characteristics>
@@ -31529,8 +31533,8 @@ xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
                                 save.</characteristic>
                         </characteristics>
                 </profile>
-                <profile id="c833bcb2-6a3c-4032-a3cd-e1925b5b77c5" name="Tank Traps"
-                page="" hidden="false"
+                <profile id="c833bcb2-6a3c-4032-a3cd-e1925b5b77c5"
+                name="Tank Traps" page="" hidden="false"
                 typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82"
                 typeName="Abilities">
                         <characteristics>
@@ -31933,8 +31937,8 @@ xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
                                 weapon.</characteristic>
                         </characteristics>
                 </profile>
-                <profile id="f0e75683-7328-41ec-aa14-a869b6b80800" name="Chainsword"
-                hidden="false"
+                <profile id="f0e75683-7328-41ec-aa14-a869b6b80800"
+                name="Chainsword" hidden="false"
                 typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48"
                 typeName="Weapon">
                         <characteristics>
@@ -32062,8 +32066,8 @@ xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
                                 -</characteristic>
                         </characteristics>
                 </profile>
-                <profile id="9ac8177f-a820-4b82-9d4f-604aa1cbebd1" name="Bolt rifle"
-                hidden="false"
+                <profile id="9ac8177f-a820-4b82-9d4f-604aa1cbebd1"
+                name="Bolt rifle" hidden="false"
                 typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48"
                 typeName="Weapon">
                         <characteristics>
@@ -32502,8 +32506,8 @@ xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
                                 -</characteristic>
                         </characteristics>
                 </profile>
-                <profile id="2079f6ff-9e14-4e33-a1fd-11b32eb11b9a" name="Las-talon"
-                hidden="false"
+                <profile id="2079f6ff-9e14-4e33-a1fd-11b32eb11b9a"
+                name="Las-talon" hidden="false"
                 typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48"
                 typeName="Weapon">
                         <characteristics>
@@ -33593,8 +33597,8 @@ xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
                                 attack's hit roll.</characteristic>
                         </characteristics>
                 </profile>
-                <profile id="bf0c6da3-5c99-44a5-ad79-7ce5b8a38fe4" name="Servo-arm"
-                hidden="false"
+                <profile id="bf0c6da3-5c99-44a5-ad79-7ce5b8a38fe4"
+                name="Servo-arm" hidden="false"
                 typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48"
                 typeName="Weapon">
                         <characteristics>
@@ -33740,8 +33744,9 @@ xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
                                 roll.</characteristic>
                         </characteristics>
                 </profile>
-                <profile id="2a4f236b-fc3a-45c0-9846-2cb00a4a02f5" name="Smite"
-                hidden="false" typeId="ae70-4738-0161-bec0"
+                <profile id="2a4f236b-fc3a-45c0-9846-2cb00a4a02f5"
+                name="Smite" hidden="false"
+                typeId="ae70-4738-0161-bec0"
                 typeName="Psychic Power">
                         <characteristics>
                                 <characteristic name="Warp Charge"
@@ -33930,8 +33935,8 @@ xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
                                 damage. Blast.</characteristic>
                         </characteristics>
                 </profile>
-                <profile id="70c44900-bfd8-4235-a616-e0ae6a70a258" name="Psycannon"
-                hidden="false"
+                <profile id="70c44900-bfd8-4235-a616-e0ae6a70a258"
+                name="Psycannon" hidden="false"
                 typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48"
                 typeName="Weapon">
                         <characteristics>
@@ -33954,8 +33959,8 @@ xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
                                 typeId="837d-5e63-aeb7-1410" />
                         </characteristics>
                 </profile>
-                <profile id="378426de-c0ef-41f7-b1e7-46c3fb6f509d" name="Immobile"
-                page="" hidden="false"
+                <profile id="378426de-c0ef-41f7-b1e7-46c3fb6f509d"
+                name="Immobile" page="" hidden="false"
                 typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82"
                 typeName="Abilities">
                         <characteristics>
