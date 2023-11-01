@@ -2,8 +2,8 @@ xml_directory=".."
 
 declare -A id_map
 
-for file in "$xml_directory"/Warhammer\ 40\,000.gst; do
-#for file in "$xml_directory"/*.{gst,cat}; do
+#for file in "$xml_directory"/Warhammer\ 40\,000.gst; do
+for file in "$xml_directory"/*.{gst,cat}; do
 	echo $file
 	if [ -f "$file" ]; then
 		ids=($(grep -oiE "id=\"[^\"]*\"|Id=\"[^\"]*\"" "$file"))
