@@ -1,458 +1,458 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="80ce7bcd-ef0f-49e8-9c4c-9a559071f24b" name="Aeldari - Craftworlds" revision="158" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@FarseerV @WindstormSCR" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="b72a4f18-7689-4e64-9636-83f97b1da1a4" gameSystemRevision="221" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="89318cf8-2777-41fc-8f90-8147c16df593" name="Aeldari - Craftworlds" revision="158" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@FarseerV @WindstormSCR" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="0014adc9-4e71-4486-bb6c-5acfbfeb88b6" gameSystemRevision="221" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <entryLinks>
-    <entryLink id="1b5563f4-6025-4b69-aa99-1d4d925b858b" name="Eldrad Ulthran" hidden="false" collective="false" import="true" targetId="5c552446-a855-4bc7-8f6d-3660779b65d4" type="selectionEntry">
+    <entryLink id="d860b518-83cb-40ba-a5df-41aeea3d380e" name="Eldrad Ulthran" hidden="false" collective="false" import="true" targetId="89cc60a7-702d-4cc2-9603-423f345565ca" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="3ddcb91d-0427-4f70-b179-98a51e652b78" name="New CategoryLink" hidden="false" targetId="9fe27d36-7eee-46d7-8880-d2d209c6311f" primary="true"/>
-        <categoryLink id="4a945e6d-44af-47a7-9990-466d5dcb24c4" name="New CategoryLink" hidden="false" targetId="17422f2d-ad66-4af1-8f5c-2916bcf35fcc" primary="false"/>
-        <categoryLink id="755b6cf4-18f8-4e42-9261-b7a1f395e188" name="New CategoryLink" hidden="false" targetId="c023f293-608a-4aa1-8ceb-7062bdd29f78" primary="false"/>
-        <categoryLink id="8e25da5d-bd1b-4a26-8d82-e79d39ff7cf5" name="New CategoryLink" hidden="false" targetId="3c6c9857-5356-447e-8660-b572e99bb521" primary="false"/>
-        <categoryLink id="f5094039-68e7-47a5-a5d2-7ff3bd39e2e3" name="New CategoryLink" hidden="false" targetId="a18e40db-d8ff-4287-b5e2-283e7509454e" primary="false"/>
-        <categoryLink id="2c77ac3d-8dd5-4f54-b35b-37a7d85273c5" name="New CategoryLink" hidden="false" targetId="f90de2b7-ef03-4664-90ca-55799d5a52fc" primary="false"/>
-        <categoryLink id="47500991-7c7d-4e11-87ab-e01721d7fa69" name="New CategoryLink" hidden="false" targetId="00858e3a-690e-491a-bb14-58cb97e0fe01" primary="false"/>
+        <categoryLink id="0489dd88-7f5a-498d-9e3c-49e3cebfd6ff" name="New CategoryLink" hidden="false" targetId="947930e5-abb9-4c1a-9eef-928a93eb59e7" primary="true"/>
+        <categoryLink id="68647ba9-cfff-49d8-9276-f206100166e1" name="New CategoryLink" hidden="false" targetId="877d9152-8591-4640-b574-766b0dfadac6" primary="false"/>
+        <categoryLink id="b547a54b-076c-4f3c-908b-22b8c2bbf0ae" name="New CategoryLink" hidden="false" targetId="64e2283c-7732-4a45-ac40-96c0c9e670db" primary="false"/>
+        <categoryLink id="e0bb92dd-f7f0-416c-a381-d4bfa6b91fb1" name="New CategoryLink" hidden="false" targetId="15f7b170-9616-4cda-8b85-df658071fe07" primary="false"/>
+        <categoryLink id="b33e2b6a-6f29-42ed-87f0-be8edd18ff4e" name="New CategoryLink" hidden="false" targetId="aa1d7f38-212a-4df4-8a8c-1fa5840f6e3c" primary="false"/>
+        <categoryLink id="11a0685b-b776-4649-957d-9e44aa6d50ce" name="New CategoryLink" hidden="false" targetId="144a04ea-41c6-4877-ad55-aa098ff3ae7b" primary="false"/>
+        <categoryLink id="37585008-e19b-4ee1-af76-c115ee82d4bb" name="New CategoryLink" hidden="false" targetId="2c432103-3c8f-4d58-a8f7-f839e574fd6f" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="062f9933-ab37-4046-b640-a4af44f780e9" name="Prince Yriel" hidden="false" collective="false" import="true" targetId="6e20515d-57d5-44d7-90b3-9ba72ac0d749" type="selectionEntry">
+    <entryLink id="c17ffee3-9e28-48be-8948-858ae79f3735" name="Prince Yriel" hidden="false" collective="false" import="true" targetId="04e3ea85-cf6f-4b67-ad06-a456675bdb07" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="8b2c6807-587e-46a6-8df4-89b5d5b39a4c" name="New CategoryLink" hidden="false" targetId="17422f2d-ad66-4af1-8f5c-2916bcf35fcc" primary="false"/>
-        <categoryLink id="059ab742-54a7-41aa-85b4-262821026b36" name="New CategoryLink" hidden="false" targetId="c023f293-608a-4aa1-8ceb-7062bdd29f78" primary="false"/>
-        <categoryLink id="e19f1f6e-7e37-464f-bfa3-d54f7abf533b" name="New CategoryLink" hidden="false" targetId="9fe27d36-7eee-46d7-8880-d2d209c6311f" primary="true"/>
-        <categoryLink id="2386877b-9c46-44dc-9d87-038621a753f7" name="New CategoryLink" hidden="false" targetId="da605524-c15a-40ff-ab07-8364d7abda5b" primary="false"/>
-        <categoryLink id="1ae324ae-9aa4-4cd9-a381-a59853d645cf" name="New CategoryLink" hidden="false" targetId="e46eb9f5-11b2-44d5-a474-e75a891b92b7" primary="false"/>
+        <categoryLink id="2298a54e-d2ab-4771-8af9-3192529b164f" name="New CategoryLink" hidden="false" targetId="877d9152-8591-4640-b574-766b0dfadac6" primary="false"/>
+        <categoryLink id="1fd580c7-4323-49c4-b7fc-011b5d7d4a4b" name="New CategoryLink" hidden="false" targetId="64e2283c-7732-4a45-ac40-96c0c9e670db" primary="false"/>
+        <categoryLink id="6f532e37-77c7-4e28-ba68-ad3318e846da" name="New CategoryLink" hidden="false" targetId="947930e5-abb9-4c1a-9eef-928a93eb59e7" primary="true"/>
+        <categoryLink id="8a7c4291-dd69-4878-bfbe-e41d8dec0277" name="New CategoryLink" hidden="false" targetId="d01758e3-9461-4a52-8424-4d4f88d50975" primary="false"/>
+        <categoryLink id="f880f36c-0ffa-4ab1-a351-0a32cfa92e5d" name="New CategoryLink" hidden="false" targetId="85f67f87-dad8-44f9-9bcf-a56a685b2219" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="9fc82014-4a6d-40b4-8ba9-838baba20ee1" name="Illic Nightspear" hidden="false" collective="false" import="true" targetId="2e6abb8d-9505-4435-b66e-e2c831c225c1" type="selectionEntry">
+    <entryLink id="ac22d5af-df2e-4f34-8fbe-c57d11974ca0" name="Illic Nightspear" hidden="false" collective="false" import="true" targetId="4abec3de-dded-4379-b281-de8eeedf953e" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="e45f5363-d129-4bf3-ad28-d380e57e8a96" name="New CategoryLink" hidden="false" targetId="17422f2d-ad66-4af1-8f5c-2916bcf35fcc" primary="false"/>
-        <categoryLink id="5f7e328c-c050-4846-a8b0-a96086d452a9" name="New CategoryLink" hidden="false" targetId="376e3588-bc18-46f2-ba36-2d9cff8b2af3" primary="false"/>
-        <categoryLink id="0d852542-24da-4439-bb6c-914e79659ba2" name="New CategoryLink" hidden="false" targetId="c023f293-608a-4aa1-8ceb-7062bdd29f78" primary="false"/>
-        <categoryLink id="be988f75-8a35-492d-9742-52d945930da7" name="New CategoryLink" hidden="false" targetId="9fe27d36-7eee-46d7-8880-d2d209c6311f" primary="true"/>
-        <categoryLink id="63bdf81d-8496-4496-90ea-4141d236ff7e" name="New CategoryLink" hidden="false" targetId="8145545d-30a6-4e68-ade2-d7cf48320d77" primary="false"/>
-        <categoryLink id="41c0b224-1265-4bc3-83a8-abd947f50e5e" name="New CategoryLink" hidden="false" targetId="a18e40db-d8ff-4287-b5e2-283e7509454e" primary="false"/>
+        <categoryLink id="5fada434-fbce-4d03-9afc-cb1ded05e915" name="New CategoryLink" hidden="false" targetId="877d9152-8591-4640-b574-766b0dfadac6" primary="false"/>
+        <categoryLink id="f07f1063-2724-45fd-8a9c-39bbd032d361" name="New CategoryLink" hidden="false" targetId="2bbdd100-5915-4f35-8885-8db18212baac" primary="false"/>
+        <categoryLink id="a93515c2-e717-4c63-847b-21d99f513db9" name="New CategoryLink" hidden="false" targetId="64e2283c-7732-4a45-ac40-96c0c9e670db" primary="false"/>
+        <categoryLink id="6e29ea30-0a25-40d2-88cf-e4b9d59e3df0" name="New CategoryLink" hidden="false" targetId="947930e5-abb9-4c1a-9eef-928a93eb59e7" primary="true"/>
+        <categoryLink id="70947b90-4bad-4dca-9de3-ba2e48bf8b4a" name="New CategoryLink" hidden="false" targetId="1f26872f-0f24-46dd-8ae3-c92f8e132d62" primary="false"/>
+        <categoryLink id="2a325330-2b04-4c2b-90ce-ed18b4ebbb9a" name="New CategoryLink" hidden="false" targetId="aa1d7f38-212a-4df4-8a8c-1fa5840f6e3c" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="ba348f1a-05da-4e4d-ba05-98f9d5df60d2" name="Asurmen" hidden="false" collective="false" import="true" targetId="f4ad9074-7a16-4cf6-a6b0-b86db00778e9" type="selectionEntry"/>
-    <entryLink id="9e3f4446-6bb0-4a42-9ab3-f8f9c2fdfcd9" name="Jain Zar" hidden="false" collective="false" import="true" targetId="421a4600-6bcc-4dc7-99a3-1fe0da70e4d1" type="selectionEntry"/>
-    <entryLink id="459b3667-ac59-4d27-b265-a167dcdc8353" name="Karandras" hidden="false" collective="false" import="true" targetId="c192070c-7928-4e94-9603-cf15fbe0c7e7" type="selectionEntry"/>
-    <entryLink id="cc4f9ab5-c3e5-486a-9aa9-fdb9563908ff" name="Fuegan" hidden="false" collective="false" import="true" targetId="95adfcb4-a6d0-46e3-819b-25d7fc33248e" type="selectionEntry"/>
-    <entryLink id="385d4e92-007c-4a36-9b7a-0d9516404a95" name="Baharroth" hidden="false" collective="false" import="true" targetId="4474f3bf-ae00-4b8f-9e17-13f181656bf7" type="selectionEntry"/>
-    <entryLink id="0c5ac6f6-258d-4368-ab88-c243f2835e9c" name="Maugan Ra" hidden="false" collective="false" import="true" targetId="cba6ed5f-01cf-4c94-ae68-b2db367d5cc7" type="selectionEntry"/>
-    <entryLink id="f78de64b-503d-44ec-9b10-b42937c06716" name="Avatar of Khaine" hidden="false" collective="false" import="true" targetId="ba0c40b2-e8c8-4b24-bac2-484575c6c42f" type="selectionEntry"/>
-    <entryLink id="23d1400a-ffe8-48a7-bae9-69d11f136b33" name="Farseer" hidden="false" collective="false" import="true" targetId="bd102549-ed43-4ead-87a1-ebc01b5e511f" type="selectionEntry"/>
-    <entryLink id="82a71a6c-016f-4975-9cac-255a58797c14" name="Farseer Skyrunner" hidden="false" collective="false" import="true" targetId="5866f40a-5f85-4225-9a2d-32a8332597e0" type="selectionEntry"/>
-    <entryLink id="d9640e12-7b4f-4ff7-84e5-57ffd98e80e1" name="Warlocks" hidden="false" collective="false" import="true" targetId="cccf930e-59ea-4fdd-a367-b87b6514a1f2" type="selectionEntry">
+    <entryLink id="12a3c328-8585-4c46-b13d-be23175e921e" name="Asurmen" hidden="false" collective="false" import="true" targetId="33b6fe05-f5e2-4592-a649-c25e3c3a8a0d" type="selectionEntry"/>
+    <entryLink id="74345026-5d6c-47b1-9b9a-44d5ea8aad4c" name="Jain Zar" hidden="false" collective="false" import="true" targetId="4d17cf71-b45c-495f-b076-5246076951bb" type="selectionEntry"/>
+    <entryLink id="bab6192b-d260-4471-8007-c2f0998f297d" name="Karandras" hidden="false" collective="false" import="true" targetId="6085e098-9355-448b-bb3b-e27eed7eb7ba" type="selectionEntry"/>
+    <entryLink id="4e68473d-e265-4660-b260-f809d63e1fb9" name="Fuegan" hidden="false" collective="false" import="true" targetId="228ccbf4-ab42-4945-b4e7-313266e81aa2" type="selectionEntry"/>
+    <entryLink id="2c5cbe35-c726-4765-927f-c9ae15bf4bb4" name="Baharroth" hidden="false" collective="false" import="true" targetId="58282a07-0acd-483e-9705-63c76828f0eb" type="selectionEntry"/>
+    <entryLink id="c8bb25dc-fe31-49a0-a1f3-b209e2ffa83a" name="Maugan Ra" hidden="false" collective="false" import="true" targetId="e5fb574c-440e-4fcf-bae7-d446123357e4" type="selectionEntry"/>
+    <entryLink id="ebb6879a-23da-48ab-bfc5-944d90d74940" name="Avatar of Khaine" hidden="false" collective="false" import="true" targetId="1ac96995-7fc3-49c7-bf2c-e2673166016c" type="selectionEntry"/>
+    <entryLink id="887e9468-723e-41d8-ac26-6cb3958062fe" name="Farseer" hidden="false" collective="false" import="true" targetId="09580af5-63ba-4cde-b274-8d5263f6da11" type="selectionEntry"/>
+    <entryLink id="c3d38fd9-33e6-44d9-847e-244f82b71aa5" name="Farseer Skyrunner" hidden="false" collective="false" import="true" targetId="84d657d3-2d02-41d2-a8a1-43cce611f63c" type="selectionEntry"/>
+    <entryLink id="f79ad0f7-9eb3-4bb2-95f7-e26185b3a891" name="Warlocks" hidden="false" collective="false" import="true" targetId="aea147df-faa0-4b8d-a4df-a251804a920f" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="705e22aa-e043-4a25-a087-ae0c66f9fb04" name="Elites" hidden="false" targetId="69f0dd84-e2c2-4bf2-ab83-34067f285048" primary="true"/>
+        <categoryLink id="a9dccba6-1a49-4e7d-8c8a-6a69a42c36fe" name="Elites" hidden="false" targetId="6647b917-6f0f-447b-a15a-b9eb22857a8c" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="5411623c-93ff-43b2-848f-22cdf8999eb3" name="Warlock Skyrunners" hidden="false" collective="false" import="true" targetId="ef048562-501c-44bd-b365-269cd2186e07" type="selectionEntry">
+    <entryLink id="f69f7df2-505f-40f5-a700-a551411039ce" name="Warlock Skyrunners" hidden="false" collective="false" import="true" targetId="c77d6286-2515-41fc-b0b4-aa6f35c9fb69" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="035dbbb0-10ac-40ab-acac-f0ebc18a79e2" name="New CategoryLink" hidden="false" targetId="69f0dd84-e2c2-4bf2-ab83-34067f285048" primary="true"/>
+        <categoryLink id="af828f28-11ca-41d3-a6a6-cd5d5f62123c" name="New CategoryLink" hidden="false" targetId="6647b917-6f0f-447b-a15a-b9eb22857a8c" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="50f12741-205b-426b-84ae-12c83d2ac632" name="Spiritseer" hidden="false" collective="false" import="true" targetId="2c04ae95-4372-46b9-b371-4ef8fdcda1ad" type="selectionEntry"/>
-    <entryLink id="d077a987-83e8-4020-b81a-b92819927b5f" name="Guardian Defenders" hidden="false" collective="false" import="true" targetId="9cc8fde7-f7a3-44cf-948e-299554463e10" type="selectionEntry"/>
-    <entryLink id="e38c04c4-0219-43de-b4e7-1604954b2ae8" name="Storm Guardians" hidden="false" collective="false" import="true" targetId="d47c45bc-7384-4484-9982-18ebcb83af1c" type="selectionEntry"/>
-    <entryLink id="b48cf8bb-9f13-4637-b741-74216820f59b" name="Windriders" hidden="false" collective="false" import="true" targetId="ccdb8b2d-b889-4e73-8c22-1e23a09eae19" type="selectionEntry"/>
-    <entryLink id="0b31e0d3-91fa-4285-95bd-ee0f14e5db76" name="Rangers" hidden="false" collective="false" import="true" targetId="aa186052-7e10-4644-a38a-946f706fbfd2" type="selectionEntry"/>
-    <entryLink id="e198696b-22e0-45cf-8a4d-9e32f2542488" name="Dire Avengers" hidden="false" collective="false" import="true" targetId="4b757653-e5c8-4dbd-bf8d-5b1a5dc947c8" type="selectionEntry"/>
-    <entryLink id="351ddbce-4926-4d69-9efc-33f3f01cf026" name="Howling Banshees" hidden="false" collective="false" import="true" targetId="e837635a-5a97-4e0b-823c-d541e7f266e5" type="selectionEntry"/>
-    <entryLink id="be145b25-8179-497a-8306-885204ba6f27" name="Striking Scorpions" hidden="false" collective="false" import="true" targetId="5b588d6b-0b07-43c4-b3a7-6f259763b7cf" type="selectionEntry"/>
-    <entryLink id="4ade296e-c93d-449f-b59d-bfbac2bf313a" name="Fire Dragons" hidden="false" collective="false" import="true" targetId="359624c2-6aa0-413b-8848-cdbbb30a70f2" type="selectionEntry"/>
-    <entryLink id="a654a0af-02c6-471f-9d85-65fe8a5d67d9" name="Wraithguard" hidden="false" collective="false" import="true" targetId="dc32fcef-0e08-4988-9a7b-bb87d46a164a" type="selectionEntry"/>
-    <entryLink id="e563ac4b-5e92-4bbb-a9d4-57be0ca9c25f" name="Wraithblades" hidden="false" collective="false" import="true" targetId="3c7b0e29-00e6-4745-85c8-2666c021a978" type="selectionEntry"/>
-    <entryLink id="8a236b72-3be7-49e1-ab9c-3c343cf7cfb3" name="Wave Serpent" hidden="false" collective="false" import="true" targetId="e88acdd6-fdde-410d-b664-1cb9491ddc27" type="selectionEntry"/>
-    <entryLink id="9db14cfe-7d81-4a2d-8051-f077d5ff3b9e" name="Swooping Hawks" hidden="false" collective="false" import="true" targetId="27f434c1-5674-4ffe-b5f6-78418339c91f" type="selectionEntry"/>
-    <entryLink id="23b564cd-9fb2-4314-8d32-fdde4836d4df" name="Shining Spears" hidden="false" collective="false" import="true" targetId="25ef200f-b65d-4d4d-b642-a8aac6a0a5ce" type="selectionEntry"/>
-    <entryLink id="eec11a7a-0a6f-46a4-9098-6b15a6c1cf7e" name="Crimson Hunter" hidden="false" collective="false" import="true" targetId="a0eee9cc-ca64-4628-af1c-20fae2eedcce" type="selectionEntry"/>
-    <entryLink id="1be86133-4bca-49ad-a1e3-362351ae73c9" name="Crimson Hunter Exarch" hidden="false" collective="false" import="true" targetId="cc50b310-3a61-4cf9-92df-c0f4b977d195" type="selectionEntry"/>
-    <entryLink id="140e8dcd-53b9-4784-b6d6-bf5ad71cf986" name="Vypers" hidden="false" collective="false" import="true" targetId="1c452d61-1c8a-4dd1-bf1e-62e417de158d" type="selectionEntry"/>
-    <entryLink id="68fbc44e-6024-455e-9200-dac4f0a20332" name="Hemlock Wraithfighter" hidden="false" collective="false" import="true" targetId="8f4741ec-4d10-40a1-a776-6defa495329d" type="selectionEntry"/>
-    <entryLink id="dfe15496-b040-4749-a5d1-0040f4527197" name="Dark Reapers" hidden="false" collective="false" import="true" targetId="65b830b0-b451-4f12-a193-356fda6be41b" type="selectionEntry"/>
-    <entryLink id="5bd9b039-2348-40c3-9d1d-42ebbfed6997" name="Support Weapons" hidden="false" collective="false" import="true" targetId="b3766d82-8711-4e30-a72b-894130c2d155" type="selectionEntry"/>
-    <entryLink id="8852c7f8-1240-41d7-9e86-eeb37917f840" name="Falcon" hidden="false" collective="false" import="true" targetId="5e1d28b3-b639-44a1-9d6f-93a1a7683016" type="selectionEntry"/>
-    <entryLink id="8594bccb-21e7-46ff-b1a1-f61d61e1a0c0" name="Fire Prism" hidden="false" collective="false" import="true" targetId="e44d63c6-37d9-4fc4-9887-b76d6a644f82" type="selectionEntry"/>
-    <entryLink id="bcf18752-7663-464b-a58f-98cedef20229" name="Night Spinner" hidden="false" collective="false" import="true" targetId="4ea6dee5-1724-43ce-aa3f-a91a38ee8f84" type="selectionEntry"/>
-    <entryLink id="449e1eb6-f6bc-4d78-b18d-d88785496a25" name="War Walkers" hidden="false" collective="false" import="true" targetId="32bb9945-e31e-4ede-9ded-f002a8226fa3" type="selectionEntry"/>
-    <entryLink id="da0b8529-ccf6-40cf-b599-2e219a3e5853" name="Wraithlord" hidden="false" collective="false" import="true" targetId="885e9934-89b3-426a-a302-7b04df74cacc" type="selectionEntry"/>
-    <entryLink id="0586b8fc-c773-4090-a4a0-e61945e926f8" name="Wraithknight" hidden="false" collective="false" import="true" targetId="300a1379-73c1-4bcb-8909-1d382a440934" type="selectionEntry"/>
-    <entryLink id="bc7f7e99-1401-4534-a3e7-d8dc5872f7ae" name="Phantom Titan" hidden="false" collective="false" import="true" targetId="44912b57-3ea4-46d7-9348-9202c0aaf4ea" type="selectionEntry"/>
-    <entryLink id="ce8e91c1-61b5-4e79-bb29-e0d5dbd7c118" name="Irillyth" hidden="false" collective="false" import="true" targetId="7763c19c-ea43-40f5-a201-01f89a869f0f" type="selectionEntry"/>
-    <entryLink id="98bb4458-a289-4e0e-8981-19fb23d1c4b1" name="Revenant Titan" hidden="false" collective="false" import="true" targetId="4dda52d7-b5a7-48fb-a7ee-5dc8bd2c7436" type="selectionEntry"/>
-    <entryLink id="e22b6c3b-69a5-4fcd-82a3-38e08818a0bc" name="Skathach Wraithknight" hidden="false" collective="false" import="true" targetId="32d684ba-cf18-4baf-af6c-6ae44da09179" type="selectionEntry"/>
-    <entryLink id="5dbbb37d-e162-46e0-ba0d-59245b75405b" name="Nightwing" hidden="false" collective="false" import="true" targetId="88e5592a-3de8-4f6c-8dc6-3b212a7a048d" type="selectionEntry"/>
-    <entryLink id="dac19f54-053b-49e5-81eb-f38d1a396857" name="Cobra" hidden="false" collective="false" import="true" targetId="e78bda45-08d3-4059-b44a-7e704b27d9e8" type="selectionEntry"/>
-    <entryLink id="4cc2c921-9acf-4f76-9e6b-baa8c69e2159" name="Scorpion" hidden="false" collective="false" import="true" targetId="abf31bfd-2def-47af-a83c-1a0363637310" type="selectionEntry"/>
-    <entryLink id="86091211-bf00-493b-b838-de2b4da3eeb5" name="Lynx" hidden="false" collective="false" import="true" targetId="d92d2f75-f3d4-4e2d-bced-0823791041dc" type="selectionEntry"/>
-    <entryLink id="a307ceeb-06b6-49ed-adae-199853e053b6" name="Warp Hunter" hidden="false" collective="false" import="true" targetId="431674ca-c089-4d44-be22-6897a13646e2" type="selectionEntry"/>
-    <entryLink id="b8618ab2-4cd1-48db-9577-49e59af1ff50" name="Hornets" hidden="false" collective="false" import="true" targetId="275f2981-1b17-4488-96c6-5fcdd4548ab8" type="selectionEntry"/>
-    <entryLink id="f4aabb1e-3549-4b35-a540-1b4048ff4491" name="Wraithseer" hidden="false" collective="false" import="true" targetId="9d740b70-efd0-4ffd-9545-7df3bec4af06" type="selectionEntry"/>
-    <entryLink id="2671450d-3954-424c-8f3d-0706d455c070" name="Shadow Spectres" hidden="false" collective="false" import="true" targetId="64dc4e70-6276-46fe-8345-2f9651266607" type="selectionEntry"/>
-    <entryLink id="e8d032f9-ef5c-4ed6-908e-3eebf7eac8d1" name="Specialist Detachment" hidden="false" collective="false" import="true" targetId="fefa7a5e-073d-49db-95c1-d23ff5e76a8b" type="selectionEntry"/>
-    <entryLink id="c22e231d-967f-4d74-9783-6bbd6e392a77" name="Autarch" hidden="false" collective="false" import="true" targetId="584910ee-3505-4b3c-830a-8a2e83cb20a2" type="selectionEntry"/>
-    <entryLink id="142c1f3f-0a09-42e1-a64c-3c10048bb590" name="Autarch Skyrunner" hidden="false" collective="false" import="true" targetId="c8fe116f-fd55-4938-b9a6-7211a1c95169" type="selectionEntry"/>
-    <entryLink id="f91a765b-a90a-4ae9-9748-0f8c989717fd" name="Unit Filter" hidden="false" collective="false" import="true" targetId="0ef3d2f7-05a2-45fe-a3df-46bf490307f6" type="selectionEntry">
+    <entryLink id="1bf8f65c-c4af-417a-9949-1bef63d93166" name="Spiritseer" hidden="false" collective="false" import="true" targetId="85d7d621-4351-407c-a7a6-7a31d42dfb88" type="selectionEntry"/>
+    <entryLink id="ceb27f88-994f-4b7d-b2bc-c15cbc7546f8" name="Guardian Defenders" hidden="false" collective="false" import="true" targetId="e10ead2e-6299-4866-9e2c-f62464e8e90b" type="selectionEntry"/>
+    <entryLink id="80b7af79-76f1-4756-867e-9ffef5a64b84" name="Storm Guardians" hidden="false" collective="false" import="true" targetId="44e0ac7f-ecd1-4d28-b022-f5d0b55b3cf5" type="selectionEntry"/>
+    <entryLink id="2ff5dc88-1644-4bcd-9632-cdab8205d122" name="Windriders" hidden="false" collective="false" import="true" targetId="17f4b6fc-e9ce-4fea-b95c-82ee4bc5194a" type="selectionEntry"/>
+    <entryLink id="5d47a679-b889-48b8-90ef-ad17487048ec" name="Rangers" hidden="false" collective="false" import="true" targetId="6e8859f6-4022-44f4-92bc-61c3f9a73891" type="selectionEntry"/>
+    <entryLink id="53dd8508-52ca-42d2-b6cc-8bc01cc49d7c" name="Dire Avengers" hidden="false" collective="false" import="true" targetId="6a45a878-cc34-4a0f-82f4-54bf213c07a5" type="selectionEntry"/>
+    <entryLink id="eea481b1-4f43-45b7-94f8-23f5c91794cf" name="Howling Banshees" hidden="false" collective="false" import="true" targetId="2da35417-4145-4990-a384-1eab7006c528" type="selectionEntry"/>
+    <entryLink id="75410f58-4448-4eb8-a5d2-d241a16304ae" name="Striking Scorpions" hidden="false" collective="false" import="true" targetId="9600510c-ed0d-458d-9808-6ebb2e80215a" type="selectionEntry"/>
+    <entryLink id="9749fba1-99da-445a-9850-1c003ca9d4d4" name="Fire Dragons" hidden="false" collective="false" import="true" targetId="4497036b-5441-46a2-a9ac-e8d221af4c09" type="selectionEntry"/>
+    <entryLink id="4cff52ea-3bc6-4086-916b-b96c55aae11f" name="Wraithguard" hidden="false" collective="false" import="true" targetId="8e3af451-4fb7-46df-90c7-a3cd59169c7c" type="selectionEntry"/>
+    <entryLink id="491d4963-45e9-4b28-9007-2c7a4934c1d8" name="Wraithblades" hidden="false" collective="false" import="true" targetId="38e31332-1e1c-4c40-8745-31e0c959e8ca" type="selectionEntry"/>
+    <entryLink id="15d39758-9342-4430-aea2-935db91d9e3f" name="Wave Serpent" hidden="false" collective="false" import="true" targetId="594de4b5-adfa-470f-a305-aa80ac588adf" type="selectionEntry"/>
+    <entryLink id="3d02b10a-2fa1-4ff2-8920-0566dfd4cb74" name="Swooping Hawks" hidden="false" collective="false" import="true" targetId="08df27b3-2c6a-4abc-a771-7c2deed1f7a0" type="selectionEntry"/>
+    <entryLink id="e9db00fe-fdd5-4d79-b06e-300015d9e78b" name="Shining Spears" hidden="false" collective="false" import="true" targetId="7fd8a2aa-2e07-4506-b557-b5325a50bed4" type="selectionEntry"/>
+    <entryLink id="704b6d1a-b1e7-4304-8410-697f445fc3bf" name="Crimson Hunter" hidden="false" collective="false" import="true" targetId="070d25c4-21bb-44a9-9c96-cd9ff4cedb76" type="selectionEntry"/>
+    <entryLink id="45e59530-6ddd-40d9-836a-84c05cd20bc4" name="Crimson Hunter Exarch" hidden="false" collective="false" import="true" targetId="5d4e3ae5-cfb8-4e42-8fbb-a23b2376d932" type="selectionEntry"/>
+    <entryLink id="61b017c1-e8f7-4d3a-80d7-ffa6ad75284a" name="Vypers" hidden="false" collective="false" import="true" targetId="d3020129-4e98-426a-8d58-0aa25ab69024" type="selectionEntry"/>
+    <entryLink id="d78b2401-edc7-4824-aba2-d2f2d1eef626" name="Hemlock Wraithfighter" hidden="false" collective="false" import="true" targetId="1b39d50d-4c71-4fa8-8c72-676d29d427cf" type="selectionEntry"/>
+    <entryLink id="1b2a62d5-d390-473b-bd41-fec97725fdd1" name="Dark Reapers" hidden="false" collective="false" import="true" targetId="9aaf60cc-23c3-4d29-9137-00ac48669ba3" type="selectionEntry"/>
+    <entryLink id="cf590ea6-3fa1-4b04-b6f8-1a7f2eca7c93" name="Support Weapons" hidden="false" collective="false" import="true" targetId="a8ae608a-c634-4300-945f-511265db0b4e" type="selectionEntry"/>
+    <entryLink id="5fa5c6b9-9735-4c55-a874-ea964edb790f" name="Falcon" hidden="false" collective="false" import="true" targetId="1c92518c-289c-4302-b544-ebd3a5b96d01" type="selectionEntry"/>
+    <entryLink id="f0ef821e-c7af-4f1b-b412-dc56806c6d33" name="Fire Prism" hidden="false" collective="false" import="true" targetId="e5db759b-83c6-4203-a99c-128e4f572390" type="selectionEntry"/>
+    <entryLink id="49f8e503-25e3-4502-a4b0-f078b522d5f0" name="Night Spinner" hidden="false" collective="false" import="true" targetId="49830a58-15b0-49b5-8c92-8b23f5fffcf6" type="selectionEntry"/>
+    <entryLink id="dbb49fa1-65ce-41df-90b8-9209281b06c7" name="War Walkers" hidden="false" collective="false" import="true" targetId="d0703531-08d5-46ac-879f-92bb81a58a79" type="selectionEntry"/>
+    <entryLink id="43008b55-6b18-4dd0-aa27-1e9bff54ddd7" name="Wraithlord" hidden="false" collective="false" import="true" targetId="3ed4b749-8134-4738-9951-12103a663360" type="selectionEntry"/>
+    <entryLink id="fa56e658-77a3-4825-ad8b-118c4fa9b6c0" name="Wraithknight" hidden="false" collective="false" import="true" targetId="ed65f618-69da-4a4d-bae0-8ab9327ab6cb" type="selectionEntry"/>
+    <entryLink id="9647e6dd-2f20-4965-9b44-905faceed32f" name="Phantom Titan" hidden="false" collective="false" import="true" targetId="688b144e-610a-4447-b3e4-302838b4374b" type="selectionEntry"/>
+    <entryLink id="149820b9-dbac-4699-a881-5eaa2537159b" name="Irillyth" hidden="false" collective="false" import="true" targetId="6212a4cd-ee6b-4d28-a4a0-0325e37f49ff" type="selectionEntry"/>
+    <entryLink id="75ff40f6-a717-41c5-8d09-906c9cb9a6ff" name="Revenant Titan" hidden="false" collective="false" import="true" targetId="5ab3d4ca-c04d-453a-bbc8-522745131618" type="selectionEntry"/>
+    <entryLink id="ce8c9261-5ce8-4f9e-bc50-862db0f70f47" name="Skathach Wraithknight" hidden="false" collective="false" import="true" targetId="d3037c3c-ba18-4aae-a39a-9a187e8b3635" type="selectionEntry"/>
+    <entryLink id="27688dc5-5544-4098-8dac-200e1d9c6c91" name="Nightwing" hidden="false" collective="false" import="true" targetId="85d5aa64-c621-4f66-9d9c-fdc9d8c97a64" type="selectionEntry"/>
+    <entryLink id="ee7ff41c-cfc1-46e5-8d8a-2735a16b1cad" name="Cobra" hidden="false" collective="false" import="true" targetId="7a74e366-c723-401a-9f2f-81377eac9cce" type="selectionEntry"/>
+    <entryLink id="0c9750c0-840c-4a52-9778-c2c6a37a07a3" name="Scorpion" hidden="false" collective="false" import="true" targetId="104eece8-1119-4018-a74c-5aae6c6d22e8" type="selectionEntry"/>
+    <entryLink id="23297c90-901a-4fb2-bf9e-d40fb2d2d48b" name="Lynx" hidden="false" collective="false" import="true" targetId="56eefe4e-2c6f-4651-9f4b-b2b060455cb5" type="selectionEntry"/>
+    <entryLink id="5335538d-a9e8-41d9-a80e-b2c6752e7160" name="Warp Hunter" hidden="false" collective="false" import="true" targetId="b25fed11-c938-4063-9508-6ac9308d1c69" type="selectionEntry"/>
+    <entryLink id="812d24c6-714d-44b8-bfce-4917182a1ae3" name="Hornets" hidden="false" collective="false" import="true" targetId="c9f9805b-df65-4ade-b83e-b7b6ea8976ef" type="selectionEntry"/>
+    <entryLink id="66215378-05ad-431f-b25d-eff4f9c0b459" name="Wraithseer" hidden="false" collective="false" import="true" targetId="90a0d320-5781-4fd5-98eb-75a786962488" type="selectionEntry"/>
+    <entryLink id="65ee68e0-1b2e-4d84-8c35-b82341ae52fa" name="Shadow Spectres" hidden="false" collective="false" import="true" targetId="caead0d3-a929-4619-bd56-4c522697a854" type="selectionEntry"/>
+    <entryLink id="ae6b5a34-1b24-489d-a2b8-6b4efecb80e9" name="Specialist Detachment" hidden="false" collective="false" import="true" targetId="36aa0e53-c021-4bab-b23a-b85a5da54ae3" type="selectionEntry"/>
+    <entryLink id="6172ec10-1750-4470-89a7-8893b8825735" name="Autarch" hidden="false" collective="false" import="true" targetId="4af7ab83-3280-4e45-84a4-1013973309a4" type="selectionEntry"/>
+    <entryLink id="d1adfb5a-5d9c-4237-a61f-34384899ef28" name="Autarch Skyrunner" hidden="false" collective="false" import="true" targetId="58d38b1d-3821-4351-917b-2de3ac042660" type="selectionEntry"/>
+    <entryLink id="0e2c10b8-e590-4515-90b8-226541b94096" name="Unit Filter" hidden="false" collective="false" import="true" targetId="29f2a5f7-6f2d-4bd8-878c-092a6b9ee161" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="4d2f111a-12be-4af5-94f7-31278f2dc879" name="Configuration" hidden="false" targetId="1f3dd05f-267a-4c4a-b517-30513fbad897" primary="true"/>
+        <categoryLink id="ed508548-a39b-405f-a75b-2c051aa8e885" name="Configuration" hidden="false" targetId="47fd5f87-fcfb-4cf6-8472-90264f2bf63d" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="51552a9e-5710-4001-ac6f-7aadf1255fff" name="Shroud Runners" hidden="false" collective="false" import="true" targetId="74b031e0-1833-45d8-b88b-d6d87cee3fc8" type="selectionEntry"/>
-    <entryLink id="e21fc56c-9780-4d47-8391-854032149bff" name="Corsair Voidreavers" hidden="false" collective="false" import="true" targetId="4d0a00e9-cc2b-4086-aa14-4065a164eb80" type="selectionEntry"/>
-    <entryLink id="a8d5e977-6cc8-46b1-bb8d-23f91b8a23d7" name="Corsair Voidscarred" hidden="false" collective="false" import="true" targetId="1589e8d4-cab5-4ceb-bc2d-7bbe4744c343" type="selectionEntry"/>
-    <entryLink id="ea45c8e9-7088-4278-897c-837b3c79e4f5" name="Warp Spiders" hidden="false" collective="false" import="true" targetId="5530a1ba-987e-4681-a85a-e10cf4c80a53" type="selectionEntry"/>
-    <entryLink id="300cb06b-3f30-4afc-9cb1-a5ee4dfdea3d" name="Seer Council (Unit)" hidden="false" collective="false" import="true" targetId="e36c31f3-6440-4756-b183-f6e66200a8d3" type="selectionEntry"/>
-    <entryLink id="e08b7f1f-612e-4d93-b668-0aac5897737c" name="Stratagem: Relics of the Shrines" hidden="false" collective="false" import="true" targetId="f444f3c5-c4fb-4275-a649-135f35959575" type="selectionEntry">
+    <entryLink id="14217fb1-afe0-4778-a72e-8ed97fef0bff" name="Shroud Runners" hidden="false" collective="false" import="true" targetId="f4392bc9-d072-4f40-850a-1c4dc01aff9f" type="selectionEntry"/>
+    <entryLink id="834e1e17-cde2-42fa-9ccd-f451f9fa7823" name="Corsair Voidreavers" hidden="false" collective="false" import="true" targetId="ad31fd10-6588-4a23-b116-c6ae068a2c87" type="selectionEntry"/>
+    <entryLink id="0255e580-cbe3-4659-9b7c-0c4f751cbb51" name="Corsair Voidscarred" hidden="false" collective="false" import="true" targetId="a2c484b9-9e23-4612-823b-134dc2912207" type="selectionEntry"/>
+    <entryLink id="39508641-f66a-47e8-a635-3a0dd4b206f4" name="Warp Spiders" hidden="false" collective="false" import="true" targetId="472b5465-6871-4435-8432-50c1007a36ea" type="selectionEntry"/>
+    <entryLink id="e9e4ced5-e481-4ce7-9d2a-50851700e50b" name="Seer Council (Unit)" hidden="false" collective="false" import="true" targetId="ee132fb3-2091-4b8d-ae8a-551f34106ace" type="selectionEntry"/>
+    <entryLink id="8a3ed292-b01f-485d-8e24-b191f0aed2b3" name="Stratagem: Relics of the Shrines" hidden="false" collective="false" import="true" targetId="58454085-835e-4897-b28b-24f4792886d1" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="09e4e56a-b5da-40e8-934c-e65ea9a4d4a1" name="New CategoryLink" hidden="false" targetId="d2f32b07-d0e4-45f0-ae62-9e9ebf99a8a2" primary="true"/>
+        <categoryLink id="4a00b2b9-3da0-47c1-99ce-1f9f22398257" name="New CategoryLink" hidden="false" targetId="6e47d62b-12ed-4633-b8f3-23eddb9e0896" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="75dcac41-89de-4c9e-9b2c-3efa6fa66861" name="Stratagem: Seer Council" hidden="false" collective="false" import="true" targetId="af2784ca-a048-4399-848d-bb9f9136ea03" type="selectionEntry">
+    <entryLink id="3d36b9b3-ff7b-4660-98fa-c43b6873507d" name="Stratagem: Seer Council" hidden="false" collective="false" import="true" targetId="abcd67df-7f51-44aa-a75b-b4891b5146af" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="9ec73c84-eb3c-4683-8fbf-2c8c7c9ed789" name="New CategoryLink" hidden="false" targetId="d2f32b07-d0e4-45f0-ae62-9e9ebf99a8a2" primary="true"/>
+        <categoryLink id="0bc5df54-94cc-46da-ace9-fbf55e0032fb" name="New CategoryLink" hidden="false" targetId="6e47d62b-12ed-4633-b8f3-23eddb9e0896" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="309a5667-5ba3-4de4-9ffa-949705872c42" name="Craftworld Selection" hidden="false" collective="false" import="true" targetId="79dedbc5-2bc6-49fb-b6c9-2b2bfef8b4d8" type="selectionEntry"/>
-    <entryLink id="f72497e6-df49-4a94-afea-9ec0d58ae2ac" name="Yvraine" hidden="false" collective="false" import="true" targetId="27299de6-2a14-46fd-99c3-e2bd5f39c62b" type="selectionEntry">
+    <entryLink id="6859cffc-b1a4-42fd-abcc-19230dd98d4e" name="Craftworld Selection" hidden="false" collective="false" import="true" targetId="f9eff2e9-697f-47ac-8058-fac37e9eba2d" type="selectionEntry"/>
+    <entryLink id="efd70430-a83a-41de-aa56-0ac250fb83c7" name="Yvraine" hidden="false" collective="false" import="true" targetId="a8223ce5-e539-4a57-b48c-bcca464db30c" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b35308d5-ed1b-4016-84c2-119baf48c0ca" type="lessThan"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e2ce47d5-7f56-4534-a03c-7428ebd8bd07" type="lessThan"/>
           </conditions>
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink id="ae4d9d58-7802-4722-9b3a-ec85b1938b70" name="The Visarch" hidden="false" collective="false" import="true" targetId="3af6f8bc-eb08-44a0-858f-706b8abc501b" type="selectionEntry">
+    <entryLink id="253df834-67fd-4769-a71f-1e516f657116" name="The Visarch" hidden="false" collective="false" import="true" targetId="0a4d6f48-10fa-401d-8e0e-de8e55ba21e7" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b35308d5-ed1b-4016-84c2-119baf48c0ca" type="lessThan"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e2ce47d5-7f56-4534-a03c-7428ebd8bd07" type="lessThan"/>
           </conditions>
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="17e6b5c7-d101-4c4c-afa9-3815eae8c15f" name="New CategoryLink" hidden="false" targetId="9fe27d36-7eee-46d7-8880-d2d209c6311f" primary="true"/>
+        <categoryLink id="986c8f2b-7f1a-4902-9f89-d5dd7117cf04" name="New CategoryLink" hidden="false" targetId="947930e5-abb9-4c1a-9eef-928a93eb59e7" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="aadfc340-a648-4296-8442-35e34903ca15" name="The Yncarne" hidden="false" collective="false" import="true" targetId="0589805b-3ed3-4347-957f-d504d9f7c803" type="selectionEntry">
+    <entryLink id="6c1253ee-a5a9-4d98-b33a-193ceb45223c" name="The Yncarne" hidden="false" collective="false" import="true" targetId="ec47fdcd-a1ab-49d4-94db-f243c8aa100a" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="b35308d5-ed1b-4016-84c2-119baf48c0ca" type="lessThan"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="e2ce47d5-7f56-4534-a03c-7428ebd8bd07" type="lessThan"/>
           </conditions>
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink id="033eacc4-7a84-4c15-b87a-716bbc7098d9" name="The Visarch" hidden="true" collective="false" import="true" targetId="3af6f8bc-eb08-44a0-858f-706b8abc501b" type="selectionEntry">
+    <entryLink id="8ad6db32-e321-4a62-bd5a-e6fb2d212f86" name="The Visarch" hidden="true" collective="false" import="true" targetId="0a4d6f48-10fa-401d-8e0e-de8e55ba21e7" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="27299de6-2a14-46fd-99c3-e2bd5f39c62b" type="greaterThan"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="a8223ce5-e539-4a57-b48c-bcca464db30c" type="greaterThan"/>
           </conditions>
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="08590d16-e077-4f3f-b645-ff9691f1b4f6" name="New CategoryLink" hidden="false" targetId="a5e0bf78-3b4d-4a46-abd1-104f3066fe98" primary="true"/>
+        <categoryLink id="0215d7f5-2347-4b02-95a4-2ed5d10a1bc2" name="New CategoryLink" hidden="false" targetId="c5c0a224-9c93-49b7-b95e-99be534d5847" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="dc61aa14-7471-4325-946b-701c201c0a94" name="Archon" hidden="true" collective="false" import="true" targetId="20d77ab9-d93a-452d-99c2-eea635e54bea" type="selectionEntry">
+    <entryLink id="7a6941db-6682-4c90-9dd7-e8bc20df7615" name="Archon" hidden="true" collective="false" import="true" targetId="362e1a24-2b59-4c0f-b031-00df0e76f5d8" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b35308d5-ed1b-4016-84c2-119baf48c0ca" type="equalTo"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e2ce47d5-7f56-4534-a03c-7428ebd8bd07" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink id="7e7091bf-1ab2-4196-b68a-a158c040b466" name="Voidweavers" hidden="true" collective="false" import="true" targetId="2d87c95f-4be4-437f-be69-e40c3ed57990" type="selectionEntry">
+    <entryLink id="ce694948-cd3d-4d07-a5d9-e98cc8b69f2f" name="Voidweavers" hidden="true" collective="false" import="true" targetId="0db6e7bf-5ae3-4e1c-bcd2-d61eaec34e2f" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b35308d5-ed1b-4016-84c2-119baf48c0ca" type="equalTo"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e2ce47d5-7f56-4534-a03c-7428ebd8bd07" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink id="84c430b8-91b8-47e0-b06c-3573b33acc35" name="Shadowseer" hidden="true" collective="false" import="true" targetId="c21b7428-8e09-4bc4-a4da-5580057f09c8" type="selectionEntry">
+    <entryLink id="ede4ecf2-a83f-44a0-8f15-bd1054207960" name="Shadowseer" hidden="true" collective="false" import="true" targetId="100955c6-1c4f-4684-bf7c-53d5311a9f1a" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b35308d5-ed1b-4016-84c2-119baf48c0ca" type="equalTo"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e2ce47d5-7f56-4534-a03c-7428ebd8bd07" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink id="949a4fd8-13f2-4311-b45a-f2635b52fb05" name="Troupe Master" hidden="true" collective="false" import="true" targetId="49fce00a-bb7c-4b1d-87dc-6913a7793a14" type="selectionEntry">
+    <entryLink id="d086aaee-082e-44e8-b2e3-62f126d15a5c" name="Troupe Master" hidden="true" collective="false" import="true" targetId="9ee0c980-9061-4f48-8f3e-e041e5b2ccec" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b35308d5-ed1b-4016-84c2-119baf48c0ca" type="equalTo"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e2ce47d5-7f56-4534-a03c-7428ebd8bd07" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink id="7f0c19fb-3c11-46cc-94a9-417c9d268849" name="Troupe" hidden="true" collective="false" import="true" targetId="15f974b5-1917-4828-af72-a3b318111e5b" type="selectionEntry">
+    <entryLink id="2a71b953-3208-4dcf-965d-e6bfd235bf78" name="Troupe" hidden="true" collective="false" import="true" targetId="d1f0930e-075c-4e5f-a5a8-f0056fe761fe" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b35308d5-ed1b-4016-84c2-119baf48c0ca" type="equalTo"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e2ce47d5-7f56-4534-a03c-7428ebd8bd07" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink id="1a0ed05f-d0bd-46b8-8dae-02139b6e34f7" name="Death Jester" hidden="true" collective="false" import="true" targetId="db6703f6-aca2-455f-a2f7-3b18a0a9c325" type="selectionEntry">
+    <entryLink id="cee2826e-c54e-4b26-a637-f76e3e4667e1" name="Death Jester" hidden="true" collective="false" import="true" targetId="7230634a-af10-4445-98b1-7a9fc031e320" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b35308d5-ed1b-4016-84c2-119baf48c0ca" type="equalTo"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e2ce47d5-7f56-4534-a03c-7428ebd8bd07" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink id="101f41ff-032d-4e2c-b435-abd335499ded" name="Starweaver" hidden="true" collective="false" import="true" targetId="83743e6a-d3cb-4606-815b-e131e5c68816" type="selectionEntry">
+    <entryLink id="89a49da4-37e9-46fa-b826-41013b2bf610" name="Starweaver" hidden="true" collective="false" import="true" targetId="2cd92cd9-dc41-41a6-82b0-8f84aa195f23" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b35308d5-ed1b-4016-84c2-119baf48c0ca" type="equalTo"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e2ce47d5-7f56-4534-a03c-7428ebd8bd07" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink id="b0f2e1a1-0e61-4faf-8702-6accb740a206" name="Skyweavers" hidden="true" collective="false" import="true" targetId="c1c6db0b-4e90-441b-b41a-36090ed67b6d" type="selectionEntry">
+    <entryLink id="89842756-e55a-47d1-aceb-708ed4ea5b69" name="Skyweavers" hidden="true" collective="false" import="true" targetId="432986c7-a9b7-456f-8481-3c4a40b7c250" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b35308d5-ed1b-4016-84c2-119baf48c0ca" type="equalTo"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e2ce47d5-7f56-4534-a03c-7428ebd8bd07" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink id="e2d50665-3608-4162-84a5-f0f1200da87a" name="Beastmaster" hidden="false" collective="false" import="true" targetId="c4920435-4235-4075-be9d-697462b64bbb" type="selectionEntry">
+    <entryLink id="e91ffaa6-944e-45f8-b14b-b271fe29dc14" name="Beastmaster" hidden="false" collective="false" import="true" targetId="ef69c8c6-e0d6-4a54-9b2c-d6643cc4fa47" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="bf884cf6-bdf5-49be-9a7c-de15af203f88" type="equalTo"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="eb948ad1-6230-4e7e-a42b-4cbdc8d03edf" type="equalTo"/>
           </conditions>
         </modifier>
         <modifier type="set" field="fbb8-4325-72e7-7aaa" value="1.0">
           <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7aca0275-eecc-4417-a693-3d7e14a4ebba" type="greaterThan"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bb9c21f8-a88d-4253-8088-6f480cac0318" type="greaterThan"/>
           </conditions>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="06830d40-52a7-4fdd-8cec-16213bbb7585" type="max"/>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="false" includeChildSelections="true" includeChildForces="false" id="f2416511-39a5-488e-9244-2a84a07c821d" type="max"/>
       </constraints>
       <categoryLinks>
-        <categoryLink id="eb71774c-12fe-4093-83b0-4cc8c0addaa3" name="New CategoryLink" hidden="false" targetId="a5e0bf78-3b4d-4a46-abd1-104f3066fe98" primary="true"/>
+        <categoryLink id="809b81ba-d86e-47c3-b34b-aa7d799e2d52" name="New CategoryLink" hidden="false" targetId="c5c0a224-9c93-49b7-b95e-99be534d5847" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="066bca38-ada9-4247-b2e6-eb491db6db43" name="Beastmaster" hidden="true" collective="false" import="true" targetId="c4920435-4235-4075-be9d-697462b64bbb" type="selectionEntry">
+    <entryLink id="b1ea6678-fe50-4de1-9abd-64b3e9f31aa7" name="Beastmaster" hidden="true" collective="false" import="true" targetId="ef69c8c6-e0d6-4a54-9b2c-d6643cc4fa47" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b35308d5-ed1b-4016-84c2-119baf48c0ca" type="equalTo"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e2ce47d5-7f56-4534-a03c-7428ebd8bd07" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="e8202865-9c98-42aa-9142-6066c2f8a762" name="New CategoryLink" hidden="false" targetId="69f0dd84-e2c2-4bf2-ab83-34067f285048" primary="true"/>
+        <categoryLink id="626319ed-ec35-46bb-8030-e2decd093bee" name="New CategoryLink" hidden="false" targetId="6647b917-6f0f-447b-a15a-b9eb22857a8c" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="dda8d725-0aab-4cf3-8486-9c278b7e4afe" name="Clawed Fiends" hidden="true" collective="false" import="true" targetId="3398195a-813b-4264-9e37-37c2e332391f" type="selectionEntry">
+    <entryLink id="98053582-684a-4881-a98c-bdd04cd105ae" name="Clawed Fiends" hidden="true" collective="false" import="true" targetId="134ed36e-7474-4227-b6dd-69fd81cf4505" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b35308d5-ed1b-4016-84c2-119baf48c0ca" type="equalTo"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e2ce47d5-7f56-4534-a03c-7428ebd8bd07" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink id="05349df7-e8ef-40dc-b056-6fcb9dee549b" name="Wyches" hidden="true" collective="false" import="true" targetId="7428ceef-4ee7-4424-b1f4-c5bb35244edb" type="selectionEntry">
+    <entryLink id="92821ba3-994f-4690-a64d-0f89ed1b15c7" name="Wyches" hidden="true" collective="false" import="true" targetId="3d63aea4-b666-44d5-91ce-5b7dfb59387f" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b35308d5-ed1b-4016-84c2-119baf48c0ca" type="equalTo"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e2ce47d5-7f56-4534-a03c-7428ebd8bd07" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink id="10f2a094-a015-4ffa-bcf8-b0bc58579955" name="Voidraven Bomber" hidden="true" collective="false" import="true" targetId="ff5162b8-bfcc-4017-b2ba-50d400b70649" type="selectionEntry">
+    <entryLink id="464092a6-7492-4f11-af69-3bdaa3b0a30a" name="Voidraven Bomber" hidden="true" collective="false" import="true" targetId="3507f4da-e7ad-45d7-8480-bb0c036ed3be" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b35308d5-ed1b-4016-84c2-119baf48c0ca" type="equalTo"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e2ce47d5-7f56-4534-a03c-7428ebd8bd07" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink id="27ae7ea1-cad5-4b64-b4d1-44b3e0d7e2f3" name="Venom" hidden="true" collective="false" import="true" targetId="70f2a980-4340-4996-92e7-8a9f88e5a495" type="selectionEntry">
+    <entryLink id="2f009f79-ce12-4610-a4d4-44461f6ffa37" name="Venom" hidden="true" collective="false" import="true" targetId="95627cc2-8eab-4c33-93fb-b573808a60e9" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b35308d5-ed1b-4016-84c2-119baf48c0ca" type="equalTo"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e2ce47d5-7f56-4534-a03c-7428ebd8bd07" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink id="5057b638-6a0d-453d-ace2-3305eb55c53c" name="Tantalus" hidden="true" collective="false" import="true" targetId="15443c7a-c8f5-43f9-a406-bb2e85884a43" type="selectionEntry">
+    <entryLink id="a9fce840-e865-4821-9e4c-e6fdcdc60cd0" name="Tantalus" hidden="true" collective="false" import="true" targetId="8304ab46-d78f-4600-ba5e-d63095098649" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b35308d5-ed1b-4016-84c2-119baf48c0ca" type="equalTo"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e2ce47d5-7f56-4534-a03c-7428ebd8bd07" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="1b7ae93a-cd84-4e2d-a770-85f08a506552" name="New CategoryLink" hidden="false" targetId="0196f755-6e94-48f4-9e6b-fa07ce297e61" primary="false"/>
-        <categoryLink id="d5ee5d08-635c-4ba7-ab97-5f95420f1820" name="New CategoryLink" hidden="false" targetId="12c4984f-7367-4b6f-b6f5-8e4a4d46d0ec" primary="false"/>
-        <categoryLink id="c93c72ba-e0b9-43d2-8179-8fbf360a0c92" name="New CategoryLink" hidden="false" targetId="cafa47ff-68a8-412c-b598-05bcf5b2cfaa" primary="false"/>
-        <categoryLink id="62076590-1f0a-49a4-bd76-362261b5a50f" name="New CategoryLink" hidden="false" targetId="1883950b-5ca1-47fe-92bd-d21639d4a944" primary="false"/>
-        <categoryLink id="abede226-e652-4622-8644-c3a997193350" name="New CategoryLink" hidden="false" targetId="3f0c3b94-9ce7-4d1f-84f5-7b5946716217" primary="true"/>
+        <categoryLink id="1dc0496b-cc27-4648-acda-894ce5a226f6" name="New CategoryLink" hidden="false" targetId="7cba49a8-ecfb-408f-bc70-a90e9c6399ca" primary="false"/>
+        <categoryLink id="b5c46652-e968-494f-a07a-ddc22e333ae0" name="New CategoryLink" hidden="false" targetId="6671a3d6-ff8b-49e6-9f5c-163eacead4f3" primary="false"/>
+        <categoryLink id="603afcd3-4089-42f4-8b56-2249b501b609" name="New CategoryLink" hidden="false" targetId="29293cd8-0ee6-40d6-92fd-73cc2727b2a7" primary="false"/>
+        <categoryLink id="06c829ea-33bd-4180-b03f-bd2be3e3833e" name="New CategoryLink" hidden="false" targetId="e603c272-40b4-4294-a12d-d02170faf248" primary="false"/>
+        <categoryLink id="96774a6d-3c82-4923-a293-7fd6e93b5565" name="New CategoryLink" hidden="false" targetId="1c956415-14ed-46ea-811f-8c35e41a18c4" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="dd434f96-3904-42c8-8b62-92dd64ee4b50" name="Succubus" hidden="true" collective="false" import="true" targetId="d0ed9fc6-54de-4fee-a351-d3db3e6e46fe" type="selectionEntry">
+    <entryLink id="0b52c544-141d-448b-b15e-9c21a72d718b" name="Succubus" hidden="true" collective="false" import="true" targetId="dd0c8ee1-22be-4d8a-94ec-a61cf2c1b7e1" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b35308d5-ed1b-4016-84c2-119baf48c0ca" type="equalTo"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e2ce47d5-7f56-4534-a03c-7428ebd8bd07" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink id="612a5089-43b3-4ecd-8c45-a532a56645f2" name="Scourges" hidden="true" collective="false" import="true" targetId="bc131799-1712-4558-bafc-1ab57067d3d0" type="selectionEntry">
+    <entryLink id="77c918a4-028e-408b-9b8c-6245cf2ba966" name="Scourges" hidden="true" collective="false" import="true" targetId="62086f5f-09a6-42e6-9880-bc650d39a16f" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b35308d5-ed1b-4016-84c2-119baf48c0ca" type="equalTo"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e2ce47d5-7f56-4534-a03c-7428ebd8bd07" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink id="50635e24-2ea5-454a-9c3f-43b8d9f75ce1" name="Reavers" hidden="true" collective="false" import="true" targetId="63c78591-5b21-4bb5-8db8-108658d28ae5" type="selectionEntry">
+    <entryLink id="51b00d91-3bdd-479b-a115-fdfff9ac6e08" name="Reavers" hidden="true" collective="false" import="true" targetId="282b2209-edac-41c3-86b7-79f2b705fe76" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b35308d5-ed1b-4016-84c2-119baf48c0ca" type="equalTo"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e2ce47d5-7f56-4534-a03c-7428ebd8bd07" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink id="93157ed8-7913-4c11-8052-070fc06d1f2e" name="Reaper" hidden="true" collective="false" import="true" targetId="cde7456f-57a3-473d-bc7f-8f29f0a5a7bc" type="selectionEntry">
+    <entryLink id="23ac2af5-7065-4087-9c71-752322708a20" name="Reaper" hidden="true" collective="false" import="true" targetId="3643b46a-499f-4d6c-abb8-8acf59bfba6d" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b35308d5-ed1b-4016-84c2-119baf48c0ca" type="equalTo"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e2ce47d5-7f56-4534-a03c-7428ebd8bd07" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink id="2a755e30-3654-4aa7-b26c-89f493f94120" name="Razorwing Jetfighter" hidden="true" collective="false" import="true" targetId="80bac8d2-2f6d-42af-931e-c48fb735b740" type="selectionEntry">
+    <entryLink id="75b66cae-845e-40cf-8332-31293c0a738b" name="Razorwing Jetfighter" hidden="true" collective="false" import="true" targetId="6eafa679-2132-460c-9112-02656b4f8dca" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b35308d5-ed1b-4016-84c2-119baf48c0ca" type="equalTo"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e2ce47d5-7f56-4534-a03c-7428ebd8bd07" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink id="b707e160-ee12-428e-a871-b436ae19c8b6" name="Razorwing Flocks" hidden="true" collective="false" import="true" targetId="fb173d90-da20-49fc-9ab5-515748c9156c" type="selectionEntry">
+    <entryLink id="70ed4204-180d-44df-b954-056b72143283" name="Razorwing Flocks" hidden="true" collective="false" import="true" targetId="081ac373-2c41-4973-b0a5-99ea36aea7fd" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b35308d5-ed1b-4016-84c2-119baf48c0ca" type="equalTo"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e2ce47d5-7f56-4534-a03c-7428ebd8bd07" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink id="52636982-f7b3-4562-921f-c8421d74a72c" name="Raven Strike Fighter [Legends]" hidden="true" collective="false" import="true" targetId="66f9925b-63f1-490e-9a81-5486b912c9f2" type="selectionEntry">
+    <entryLink id="91d87e3d-7c10-4575-8ab2-1a131fb7d222" name="Raven Strike Fighter [Legends]" hidden="true" collective="false" import="true" targetId="b1733154-cf23-4c97-864d-b5437426af52" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b35308d5-ed1b-4016-84c2-119baf48c0ca" type="equalTo"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e2ce47d5-7f56-4534-a03c-7428ebd8bd07" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink id="5e5e492b-600d-4102-99ad-cf7ca78aeeb7" name="Ravager" hidden="true" collective="false" import="true" targetId="33365f69-9b02-46ef-a8d8-166253773624" type="selectionEntry">
+    <entryLink id="31aec4fc-41bc-4660-9949-d9d3cbb45397" name="Ravager" hidden="true" collective="false" import="true" targetId="06e928c9-5ea6-458a-a086-b858e9251ae2" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b35308d5-ed1b-4016-84c2-119baf48c0ca" type="equalTo"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e2ce47d5-7f56-4534-a03c-7428ebd8bd07" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink id="03291197-a1bf-4e11-b0b2-eeeacc09fe8f" name="Raider" hidden="true" collective="false" import="true" targetId="938593df-79c1-4a17-baa4-47825cfb9e9d" type="selectionEntry">
+    <entryLink id="0bcb1d79-5f13-49f7-8554-3501338c3b04" name="Raider" hidden="true" collective="false" import="true" targetId="067b041c-d8e0-48a8-85e5-e7bd491441f6" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b35308d5-ed1b-4016-84c2-119baf48c0ca" type="equalTo"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e2ce47d5-7f56-4534-a03c-7428ebd8bd07" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink id="96a8ca90-f301-4898-bc6d-c095249d7a5c" name="Khymerae" hidden="true" collective="false" import="true" targetId="e75c4a45-230e-465d-9b91-f2cc7a146797" type="selectionEntry">
+    <entryLink id="0c91b9d9-e035-4833-aba0-6820e6f64311" name="Khymerae" hidden="true" collective="false" import="true" targetId="ecf21019-4482-40ef-8d7e-544a61f4e6de" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b35308d5-ed1b-4016-84c2-119baf48c0ca" type="equalTo"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e2ce47d5-7f56-4534-a03c-7428ebd8bd07" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink id="243b7bbd-bde0-4187-83a7-61fcaf0fc10b" name="Kabalite Warriors" hidden="true" collective="false" import="true" targetId="3fde2ef4-abac-4012-b644-4309191a1c04" type="selectionEntry">
+    <entryLink id="d988cbf7-5952-49bb-960e-7d5b5dd19a67" name="Kabalite Warriors" hidden="true" collective="false" import="true" targetId="7aaa0000-998e-491b-adcc-2001ae73551b" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b35308d5-ed1b-4016-84c2-119baf48c0ca" type="equalTo"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e2ce47d5-7f56-4534-a03c-7428ebd8bd07" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink id="418679c2-1032-42d6-bc90-251f0728120d" name="Incubi" hidden="true" collective="false" import="true" targetId="6d7fabf3-ba9c-4fe8-8d71-61363a1ce458" type="selectionEntry">
+    <entryLink id="1ce58f6f-e043-400d-8f3b-90de565d4e91" name="Incubi" hidden="true" collective="false" import="true" targetId="42289825-a679-436a-a961-85f6f6bc8bd5" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b35308d5-ed1b-4016-84c2-119baf48c0ca" type="equalTo"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e2ce47d5-7f56-4534-a03c-7428ebd8bd07" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink id="52be8591-61ef-47ba-830e-808eccd42e10" name="Hellions" hidden="true" collective="false" import="true" targetId="1ecd0761-cc0a-469e-a458-d7b8d3b4a08a" type="selectionEntry">
+    <entryLink id="ca63979a-bc58-4b7a-bf0b-aa116de26787" name="Hellions" hidden="true" collective="false" import="true" targetId="b3b4b0c0-2ffe-44e6-981f-a3073b7a0b4d" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
-            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b35308d5-ed1b-4016-84c2-119baf48c0ca" type="equalTo"/>
+            <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e2ce47d5-7f56-4534-a03c-7428ebd8bd07" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink id="52233f81-ee69-4574-86c7-cc55405712c4" name="Court of the Archon" hidden="true" collective="false" import="true" targetId="25dfe960-ecd6-48af-adef-879a679fab26" type="selectionEntry">
+    <entryLink id="e90654d3-b78b-406b-a113-e33ff5d05666" name="Court of the Archon" hidden="true" collective="false" import="true" targetId="25d9a9a6-54ec-4a5e-9661-60ca20b7e3e5" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditionGroups>
             <conditionGroup type="and">
               <conditions>
-                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="20d77ab9-d93a-452d-99c2-eea635e54bea" type="greaterThan"/>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b35308d5-ed1b-4016-84c2-119baf48c0ca" type="equalTo"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="362e1a24-2b59-4c0f-b031-00df0e76f5d8" type="greaterThan"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e2ce47d5-7f56-4534-a03c-7428ebd8bd07" type="equalTo"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
       </modifiers>
     </entryLink>
-    <entryLink id="e451aea5-f243-4099-81e9-fde52fdf4940" name="Bonesinger [Legends]" hidden="false" collective="false" import="true" targetId="792fda21-db19-4aa6-b012-548128b9c047" type="selectionEntry"/>
-    <entryLink id="b6036678-441b-4b7d-b5f3-31ccb2b4d717" name="Corsair Cloud Dancer Band [Legends]" hidden="false" collective="false" import="true" targetId="32754421-5cd1-434d-a974-25ee508be342" type="selectionEntry"/>
-    <entryLink id="f820041a-b1cc-44ee-8281-ca3c809efc65" name="Corsair Reaver Band [Legends]" hidden="false" collective="false" import="true" targetId="c0a9807a-5a3b-4891-bd23-3e64a0f04268" type="selectionEntry"/>
-    <entryLink id="78dd8719-0355-43d8-a12d-08ddef729eee" name="Corsair Skyreaver Band [Legends]" hidden="false" collective="false" import="true" targetId="bcb8f326-954e-443b-81df-5042589d19fa" type="selectionEntry"/>
-    <entryLink id="f57f2a0a-f892-43b7-94a6-cc40df92cefc" name="Firestorm [Legends]" hidden="false" collective="false" import="true" targetId="6782899b-3c1a-4e8f-a11b-f8818ca597b3" type="selectionEntry"/>
-    <entryLink id="d4072d1e-b31a-41d2-901a-c7d611247a64" name="Phoenix [Legends]" hidden="false" collective="false" import="true" targetId="29fc93e9-b083-4d20-8a86-23d5ada86cff" type="selectionEntry"/>
-    <entryLink id="2182d047-b538-46a6-9030-0b4f4e46358b" name="Vampire Hunter [Legends]" hidden="false" collective="false" import="true" targetId="4d5f6b31-1ba5-40ea-9d6e-e2dc4419195f" type="selectionEntry"/>
-    <entryLink id="adfc985c-1c0f-4345-9135-1fcccea7b1b8" name="Vampire Raider [Legends]" hidden="false" collective="false" import="true" targetId="1ea07e07-f4b0-44fc-9698-9ff4b43c49d5" type="selectionEntry"/>
-    <entryLink id="7bcf3f7a-81c2-495a-bb09-bbc8450e7150" name="Wasp Assault Walkers [Legends]" hidden="false" collective="false" import="true" targetId="571c31a7-4ab3-42b6-81bb-2bd7ccd75b86" type="selectionEntry"/>
-    <entryLink id="d9d01d0f-bc62-4be5-89d5-ab227a9518d5" name="Amallyn Shadowguide" hidden="false" collective="false" import="true" targetId="4d0afa45-6d64-4ee5-bb6f-7cceb761072d" type="selectionEntry"/>
+    <entryLink id="71ca136a-2ded-41df-8b2c-46db8e6486f9" name="Bonesinger [Legends]" hidden="false" collective="false" import="true" targetId="645071fb-6c3d-48a4-bef2-2df7bbbb74ea" type="selectionEntry"/>
+    <entryLink id="2d22f303-5827-489e-ac60-75cfb0e627c4" name="Corsair Cloud Dancer Band [Legends]" hidden="false" collective="false" import="true" targetId="d22a142a-5a52-49cc-903a-dd2a4e1cfbca" type="selectionEntry"/>
+    <entryLink id="517ab68c-2541-4375-8c21-e7045771f81a" name="Corsair Reaver Band [Legends]" hidden="false" collective="false" import="true" targetId="7925c066-cd36-4f1c-aeab-752ace53b513" type="selectionEntry"/>
+    <entryLink id="8317e7ec-71bd-47e5-b042-ea75d766bf9b" name="Corsair Skyreaver Band [Legends]" hidden="false" collective="false" import="true" targetId="d57fcd20-951e-4b80-9dc4-6a56ced3522c" type="selectionEntry"/>
+    <entryLink id="37e57454-4809-46f1-a9ed-1a52fb50ec90" name="Firestorm [Legends]" hidden="false" collective="false" import="true" targetId="12b33eb4-7cbb-43b2-828b-0e78e52774c3" type="selectionEntry"/>
+    <entryLink id="df3ffeb4-a9a6-4ff0-8305-a396de898a94" name="Phoenix [Legends]" hidden="false" collective="false" import="true" targetId="3959ef9d-9d04-4ce8-a5ec-1e71b494ec1a" type="selectionEntry"/>
+    <entryLink id="ef37a1c4-859a-4cb6-874a-e70852ecec4a" name="Vampire Hunter [Legends]" hidden="false" collective="false" import="true" targetId="0ba4aefd-3870-4ffc-a583-1548c082e9bf" type="selectionEntry"/>
+    <entryLink id="6d8e9584-6bfb-431a-91e5-f2aa5fb36b03" name="Vampire Raider [Legends]" hidden="false" collective="false" import="true" targetId="f9a7f47d-8c7f-48e2-b848-1e66ee80a7ce" type="selectionEntry"/>
+    <entryLink id="6cb61d53-eb5f-4f7e-8f33-88acf059f9ca" name="Wasp Assault Walkers [Legends]" hidden="false" collective="false" import="true" targetId="3508356a-ce52-41d7-a888-f02f7b243612" type="selectionEntry"/>
+    <entryLink id="dcac4efe-69e8-467a-8bb3-56d5b709c87f" name="Amallyn Shadowguide" hidden="false" collective="false" import="true" targetId="d382a2e5-2591-48b6-9688-0959f228ec64" type="selectionEntry"/>
   </entryLinks>
   <catalogueLinks>
-    <catalogueLink id="e67f3e07-ae8c-49d8-8982-53c1c5868d07" name="Aeldari - Aeldari Library" targetId="5644abd8-5aa0-4f04-a568-0f71c3885b92" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="4265a99c-3a90-4d9a-94f1-64ebca4c2842" name="Aeldari - Aeldari Library" targetId="5b8d4e64-5077-4d11-851e-b6d6ff50be05" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

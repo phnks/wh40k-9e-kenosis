@@ -1,300 +1,300 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="a6bc118b-d675-420b-aa2e-df10a8624d28" name="Chaos - Gellerpox Infected" revision="12" battleScribeVersion="2.03" authorName="BSData Developers" authorUrl="https://www.bsdata.net/contact" library="true" gameSystemId="b72a4f18-7689-4e64-9636-83f97b1da1a4" gameSystemRevision="224" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="4fc2266e-9068-4def-8002-18495b598f5a" name="Chaos - Gellerpox Infected" revision="12" battleScribeVersion="2.03" authorName="BSData Developers" authorUrl="https://www.bsdata.net/contact" library="true" gameSystemId="0014adc9-4e71-4486-bb6c-5acfbfeb88b6" gameSystemRevision="224" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="feec954f-1d99-4727-887d-ad9b033779eb" name="Codex: Gellerpox Infected"/>
+    <publication id="a9bb81b5-c21c-4181-aa97-3347d2c80555" name="Codex: Gellerpox Infected"/>
   </publications>
   <categoryEntries>
-    <categoryEntry id="de15652d-2b8a-4bb1-aede-fa580a9b8545" name="Gellerpox Infected" hidden="false"/>
-    <categoryEntry id="fef8bd0c-a970-41f2-8a46-11198a37278f" name="Faction: Nurgle" hidden="false"/>
-    <categoryEntry id="22ebeee5-ef11-4fef-895a-eb7c029d6aa1" name="Mutoid Vermin" hidden="false"/>
+    <categoryEntry id="149640d4-6129-44d5-ace7-6ae6f82a36be" name="Gellerpox Infected" hidden="false"/>
+    <categoryEntry id="b9a577f1-c229-4e99-a25a-f239e6b0097f" name="Faction: Nurgle" hidden="false"/>
+    <categoryEntry id="25113643-d9d9-4082-8333-90042c368d29" name="Mutoid Vermin" hidden="false"/>
   </categoryEntries>
   <sharedSelectionEntries>
-    <selectionEntry id="595844ab-f0e1-4268-938f-d337ca1dbea9" name="Hideous Mutations" hidden="false" collective="true" import="true" type="upgrade">
+    <selectionEntry id="ed200018-10c0-4d8d-8dee-52a59443fe5b" name="Hideous Mutations" hidden="false" collective="true" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8765d18f-c6a2-4073-bddd-b10c7279d6d5" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac2dc40f-dd23-407b-8a3e-56e4095001b9" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d3a981b-4cdd-4af9-be0a-7752435f5192" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d38ab039-5cb2-44f5-aeaf-550e6795e402" type="min"/>
       </constraints>
       <profiles>
-        <profile id="736b5879-66b5-42ce-91af-912d442663c0" name="Hideous Mutations" hidden="false" typeId="798d1891-fc3e-440e-a9d7-1e41effd376a" typeName="Weapon">
+        <profile id="56c3cd57-ddb4-4742-91bf-2b1d3d420ae1" name="Hideous Mutations" hidden="false" typeId="a5aa8d41-4d63-42c8-b55d-6e48ed06c22e" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="5a654151-3bcc-415a-8bcc-4f936dc64110">Melee</characteristic>
-            <characteristic name="Type" typeId="583221e0-05de-486d-9d5f-29f29f57673e">Melee</characteristic>
-            <characteristic name="S" typeId="f51d2bf0-73c7-4814-8513-01226fa4503b">+1</characteristic>
-            <characteristic name="AP" typeId="052e9451-7080-48cc-901d-98cfb1b5b8a7">-2</characteristic>
-            <characteristic name="D" typeId="878493bc-53f8-4b51-9251-978997303982">2</characteristic>
-            <characteristic name="Abilities" typeId="203551a5-9b86-4992-a96f-1b369cf73d2b">-</characteristic>
+            <characteristic name="Range" typeId="886781d4-1445-43b0-b232-996f586f7971">Melee</characteristic>
+            <characteristic name="Type" typeId="4a47918e-af32-4c79-9b7a-d8271d4a89b1">Melee</characteristic>
+            <characteristic name="S" typeId="02a071af-2ef1-40f4-b2c5-5fa32d09059d">+1</characteristic>
+            <characteristic name="AP" typeId="9a4e9541-9439-4469-a5a5-757f1d74e69f">-2</characteristic>
+            <characteristic name="D" typeId="b2033c54-3869-43b8-9be4-13f4742341c2">2</characteristic>
+            <characteristic name="Abilities" typeId="d0040129-019c-45c0-876e-2fbb809feb92">-</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <costs>
-        <cost name=" PL" typeId="c68f8e57-9276-4a3a-9e86-d6adf1065f76" value="0.0"/>
-        <cost name="pts" typeId="c53f0665-1284-48d1-80a2-4f4752c7390a" value="0.0"/>
-        <cost name="CP" typeId="6525e428-b609-455b-8ff7-dc3656708a9e" value="0.0"/>
+        <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="0.0"/>
+        <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="0.0"/>
+        <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ad55b7a6-e454-4a4f-9009-d732805eb282" name="Gellerpox Infected" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="a3db5ec7-da59-416d-b381-e8caf466e20f" name="Gellerpox Infected" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="18b2-5c95-9ecb-b046" value="1.0">
           <conditions>
-            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a5e0bf78-3b4d-4a46-abd1-104f3066fe98" type="instanceOf"/>
+            <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="c5c0a224-9c93-49b7-b95e-99be534d5847" type="instanceOf"/>
           </conditions>
         </modifier>
       </modifiers>
       <constraints>
-        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ffac80e4-5b9b-41f0-992c-9cf41491293a" type="max"/>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3e3725c1-f386-4890-8448-d3b11e31963c" type="max"/>
       </constraints>
       <profiles>
-        <profile id="b5f758e4-0676-46e0-a511-cc718c0aee49" name="Sickly Resilience" hidden="false" typeId="2162327a-7e1a-4909-bb9b-d50e46e36560" typeName="Abilities">
+        <profile id="1997feea-83d3-45b2-8d28-12c59efeedf6" name="Sickly Resilience" hidden="false" typeId="6a77fd08-33e0-4a84-a26a-9c819f5ffbb5" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="2af4d187-b9e6-46e3-8cef-419269a844da">Each time a model in this unit would lose a wound, roll one D6: on a 5+, that wound is not lost.</characteristic>
+            <characteristic name="Description" typeId="00250bb0-92ce-4d01-a8c7-8706e5a818c2">Each time a model in this unit would lose a wound, roll one D6: on a 5+, that wound is not lost.</characteristic>
           </characteristics>
         </profile>
-        <profile id="9938a061-e3ee-46dc-9311-f0f6210c3514" name="Horrific Visage (Aura)" hidden="false" typeId="2162327a-7e1a-4909-bb9b-d50e46e36560" typeName="Abilities">
+        <profile id="19e08ae0-3c24-49cf-8819-94f37eb95d3e" name="Horrific Visage (Aura)" hidden="false" typeId="6a77fd08-33e0-4a84-a26a-9c819f5ffbb5" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="2af4d187-b9e6-46e3-8cef-419269a844da">While an enemy unit is within 6&quot; of this unit, subtract 1 from the Leadership characteristic of models in that unit.</characteristic>
+            <characteristic name="Description" typeId="00250bb0-92ce-4d01-a8c7-8706e5a818c2">While an enemy unit is within 6&quot; of this unit, subtract 1 from the Leadership characteristic of models in that unit.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="b08a382d-6754-4bd5-b609-1963877e0c28" name="Nightmare Hulk" hidden="false" targetId="a5a2ed39-12c5-4e57-89c9-97cea8e64624" type="profile"/>
-        <infoLink id="40298bd3-7483-42d4-aaa5-5c10133e76d3" name="Disease Vectors" hidden="false" targetId="ac5e9084-9edd-46d4-b3dc-9da5d38e26ab" type="rule"/>
+        <infoLink id="31e25494-5f59-4f68-bedd-4575b7fc7320" name="Nightmare Hulk" hidden="false" targetId="5446d59a-cd3c-4cdd-a5ae-def779954893" type="profile"/>
+        <infoLink id="656bd785-2ac0-43f8-a311-f142411d854d" name="Disease Vectors" hidden="false" targetId="7bc75533-b2bd-4494-959e-6f51e9545675" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="2da64aa0-c9df-421a-9951-95d0ca7b34c9" name="Faction: Chaos" hidden="false" targetId="84cb6100-a746-4dd2-9486-a4c19df98676" primary="false"/>
-        <categoryLink id="25933c98-7542-468c-a169-61b61212dc19" name="Nurgle" hidden="false" targetId="fef8bd0c-a970-41f2-8a46-11198a37278f" primary="false"/>
-        <categoryLink id="51ff6f32-a1d1-4c88-8455-48ac45783ac6" name="Infantry" hidden="false" targetId="a18e40db-d8ff-4287-b5e2-283e7509454e" primary="false"/>
-        <categoryLink id="fc3b1a91-f055-4d6a-b7bb-e041ffdf78dc" name="Faction: Gellerpox Infected" hidden="false" targetId="de15652d-2b8a-4bb1-aede-fa580a9b8545" primary="false"/>
+        <categoryLink id="be932cc2-466a-45f5-874d-d61702956fe3" name="Faction: Chaos" hidden="false" targetId="b87ce8b0-c5d7-438e-9bae-719ad1a6444c" primary="false"/>
+        <categoryLink id="6b62da2c-b82f-4971-8daf-8db6d0e55225" name="Nurgle" hidden="false" targetId="b9a577f1-c229-4e99-a25a-f239e6b0097f" primary="false"/>
+        <categoryLink id="b66b2f4f-9e8b-49e3-a5a1-79a38d025e87" name="Infantry" hidden="false" targetId="aa1d7f38-212a-4df4-8a8c-1fa5840f6e3c" primary="false"/>
+        <categoryLink id="ffa812ef-2be6-4bf4-aacf-5eea93d3a987" name="Faction: Gellerpox Infected" hidden="false" targetId="149640d4-6129-44d5-ace7-6ae6f82a36be" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="505aa929-79f7-43b6-a4b5-bab14db2fb4b" name="Gellerpox Mutant" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="7d6ce021-140d-4ea8-a62e-3e934d6e6177" name="Gellerpox Mutant" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="17ac9a3e-7d02-42b5-b3b5-ecf3db57dee6" type="max"/>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="afd278c1-49f7-4faa-bb18-487cc22f8a5b" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2826f6fb-19bc-4b18-9477-67e95a4b23f9" type="max"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c0e332d3-2e46-4093-ab7b-b1b88926299a" type="min"/>
           </constraints>
           <profiles>
-            <profile id="25fe9db7-ce5a-4644-80da-0e47c412574f" name="Gellerpox Mutant" hidden="false" typeId="e7887ddd-b8a9-4d53-8706-e0854481f0fc" typeName="Unit">
+            <profile id="60e12192-5bb5-4f4d-8481-874da201035d" name="Gellerpox Mutant" hidden="false" typeId="2389a9c7-564a-45bc-bafa-44a5457c00e4" typeName="Unit">
               <characteristics>
-                <characteristic name="M" typeId="96661213-8312-459b-9b96-1355ec4a67b4">5&quot;</characteristic>
-                <characteristic name="WS" typeId="9d7576c3-ccf2-4f09-8044-57fcb2345b0a">4+</characteristic>
-                <characteristic name="BS" typeId="33305227-578c-4cf0-a2aa-49445a556d6d">4+</characteristic>
-                <characteristic name="S" typeId="a9f642e9-5a17-4319-8cca-6686f23c1309">4</characteristic>
-                <characteristic name="T" typeId="e621bc60-7d62-4d1e-87f9-37d99e50114c">4</characteristic>
-                <characteristic name="W" typeId="0f59d4db-1023-4662-bb7e-925b80fb0c9e">1</characteristic>
-                <characteristic name="A" typeId="3c1aa456-7080-4fba-b6ec-bcedf1b5f3ee">2</characteristic>
-                <characteristic name="Ld" typeId="b60e9b00-0e5e-4349-8e98-562929d2cf35">6</characteristic>
-                <characteristic name="Save" typeId="1d7e52b7-0f6a-4809-9fdb-01e98d742cfb">6+</characteristic>
+                <characteristic name="M" typeId="dfaf03e2-db64-4777-8c6e-35874a70ac6d">5&quot;</characteristic>
+                <characteristic name="WS" typeId="752c83e3-cd1b-4290-89a8-7dd17f6f0771">4+</characteristic>
+                <characteristic name="BS" typeId="e743642d-b603-4dc4-84c1-1356c804e280">4+</characteristic>
+                <characteristic name="S" typeId="4b473f0c-e75b-4457-b69d-b822efa75d18">4</characteristic>
+                <characteristic name="T" typeId="68a4b50d-30fd-47b4-a0b9-b4150497ed5d">4</characteristic>
+                <characteristic name="W" typeId="e6272de1-50f4-4d6b-9449-e0892f0b5b07">1</characteristic>
+                <characteristic name="A" typeId="bcf73df5-3507-4e6f-951a-334d957e95f2">2</characteristic>
+                <characteristic name="Ld" typeId="71504bf9-7075-47fe-a797-f8ddc54346fd">6</characteristic>
+                <characteristic name="Save" typeId="de720430-a706-464b-9969-4e45fe254916">6+</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <selectionEntries>
-            <selectionEntry id="5d338407-ebf3-4d65-a3c7-a6671aa36240" name="Brutal weapons" hidden="false" collective="true" import="true" type="upgrade">
+            <selectionEntry id="4824b8e7-10cc-4890-b413-b5cad173f654" name="Brutal weapons" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6d7aa45-f436-4d56-acec-530739f0dfb3" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f472c55a-aaa3-4869-8b85-829673e72114" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="127e57dc-40af-4fc5-a82d-ae07002bdf8d" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b6d396f2-d8d4-47ca-acb0-fdf83eaf3c3f" type="min"/>
               </constraints>
               <profiles>
-                <profile id="3842bab1-d357-4ac3-a2e3-af372d13010d" name="Brutal weapons" hidden="false" typeId="798d1891-fc3e-440e-a9d7-1e41effd376a" typeName="Weapon">
+                <profile id="a918b62d-c9d1-4542-9e24-e712bfaaee6c" name="Brutal weapons" hidden="false" typeId="a5aa8d41-4d63-42c8-b55d-6e48ed06c22e" typeName="Weapon">
                   <characteristics>
-                    <characteristic name="Range" typeId="5a654151-3bcc-415a-8bcc-4f936dc64110">Melee</characteristic>
-                    <characteristic name="Type" typeId="583221e0-05de-486d-9d5f-29f29f57673e">Melee</characteristic>
-                    <characteristic name="S" typeId="f51d2bf0-73c7-4814-8513-01226fa4503b">User</characteristic>
-                    <characteristic name="AP" typeId="052e9451-7080-48cc-901d-98cfb1b5b8a7">-1</characteristic>
-                    <characteristic name="D" typeId="878493bc-53f8-4b51-9251-978997303982">1</characteristic>
-                    <characteristic name="Abilities" typeId="203551a5-9b86-4992-a96f-1b369cf73d2b">-</characteristic>
+                    <characteristic name="Range" typeId="886781d4-1445-43b0-b232-996f586f7971">Melee</characteristic>
+                    <characteristic name="Type" typeId="4a47918e-af32-4c79-9b7a-d8271d4a89b1">Melee</characteristic>
+                    <characteristic name="S" typeId="02a071af-2ef1-40f4-b2c5-5fa32d09059d">User</characteristic>
+                    <characteristic name="AP" typeId="9a4e9541-9439-4469-a5a5-757f1d74e69f">-1</characteristic>
+                    <characteristic name="D" typeId="b2033c54-3869-43b8-9be4-13f4742341c2">1</characteristic>
+                    <characteristic name="Abilities" typeId="d0040129-019c-45c0-876e-2fbb809feb92">-</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="c68f8e57-9276-4a3a-9e86-d6adf1065f76" value="0.0"/>
-                <cost name="pts" typeId="c53f0665-1284-48d1-80a2-4f4752c7390a" value="0.0"/>
-                <cost name="CP" typeId="6525e428-b609-455b-8ff7-dc3656708a9e" value="0.0"/>
+                <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="0.0"/>
+                <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="0.0"/>
+                <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="f56046ef-ad34-4ccb-bf17-e6340c273498" name="Frag grenades" hidden="false" collective="true" import="true" type="upgrade">
+            <selectionEntry id="fdf7ca87-8156-4730-b667-7921d1932316" name="Frag grenades" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6411aca9-fac5-4ec8-b942-676071918124" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="086960dd-a85a-4a79-8d8e-dfc22f795d48" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cad26629-774c-459b-8700-5a6b8e18a94e" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c66eb81b-8a9c-4cd2-a6b1-e271556acee4" type="min"/>
               </constraints>
               <infoLinks>
-                <infoLink id="b2ce27a9-45d1-45b2-97eb-43e0ae31875e" name="Frag grenades" hidden="false" targetId="d414c113-6589-4e95-962d-44ca0685cedd" type="profile"/>
+                <infoLink id="76328ce4-f9d4-4b30-a5f2-313680f3925b" name="Frag grenades" hidden="false" targetId="e15169e6-7d51-4d84-9be0-06d52346a0a3" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name=" PL" typeId="c68f8e57-9276-4a3a-9e86-d6adf1065f76" value="0.0"/>
-                <cost name="pts" typeId="c53f0665-1284-48d1-80a2-4f4752c7390a" value="0.0"/>
-                <cost name="CP" typeId="6525e428-b609-455b-8ff7-dc3656708a9e" value="0.0"/>
+                <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="0.0"/>
+                <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="0.0"/>
+                <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
-            <cost name=" PL" typeId="c68f8e57-9276-4a3a-9e86-d6adf1065f76" value="0.0"/>
-            <cost name="CP" typeId="6525e428-b609-455b-8ff7-dc3656708a9e" value="0.0"/>
-            <cost name="pts" typeId="c53f0665-1284-48d1-80a2-4f4752c7390a" value="0.0"/>
+            <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="0.0"/>
+            <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
+            <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="3fd53094-cc0a-4f0f-86ac-adde2fa2ceff" name="Nightmare Hulk" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="3b424bf8-b6dd-439e-8349-d293c7bf57ea" name="Nightmare Hulk" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="20539ec4-94b8-4ec6-ac40-5413fba22544" type="max"/>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06d71aa0-0665-48a9-9afd-212cbae323bd" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a699bf3a-955c-455e-917a-772eae0dcf20" type="max"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="68fcb069-0813-45dc-b576-65211887487d" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="786dda21-9f64-42c5-b39b-02e69ea5508b" name="Hideous Mutations" hidden="false" collective="false" import="true" targetId="595844ab-f0e1-4268-938f-d337ca1dbea9" type="selectionEntry"/>
+            <entryLink id="85f2db06-73ae-4123-87c3-a90fa51722b8" name="Hideous Mutations" hidden="false" collective="false" import="true" targetId="ed200018-10c0-4d8d-8dee-52a59443fe5b" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name=" PL" typeId="c68f8e57-9276-4a3a-9e86-d6adf1065f76" value="0.0"/>
-            <cost name="CP" typeId="6525e428-b609-455b-8ff7-dc3656708a9e" value="0.0"/>
-            <cost name="pts" typeId="c53f0665-1284-48d1-80a2-4f4752c7390a" value="0.0"/>
+            <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="0.0"/>
+            <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
+            <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="16ae7d71-1409-4744-9e08-73c913add89c" name="Nightmare Hulk w/ belly flamer" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="eb89152e-da3c-40c3-8c67-c42c5832bcb5" name="Nightmare Hulk w/ belly flamer" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7387748a-98bd-43e1-b110-b91dccaae092" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7232463-e904-4cb9-95a1-b97cf689f292" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7cf06ec6-4021-465d-93f4-0575d0c6fe06" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd284e19-eb15-4dba-96a5-2af1e5c72c3b" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="eb63cab6-b4c5-496e-a01b-c04d777a7f13" name="Belly-flamer" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="83b46408-1f21-4672-bc15-9c11126e4825" name="Belly-flamer" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="473327c6-403c-4b83-b806-e669a9d35790" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="afa2148d-a6cc-4e43-978a-575b57e84752" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1cdd4861-cf33-440d-8f4b-deca873a1502" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="36443fe0-e8b9-47aa-9da4-ea803d62a299" type="min"/>
               </constraints>
               <profiles>
-                <profile id="1ea6f703-5a96-4fdd-b4d3-cd95ebe0922c" name="Belly-flamer" hidden="false" typeId="798d1891-fc3e-440e-a9d7-1e41effd376a" typeName="Weapon">
+                <profile id="889f4357-1384-495d-86c0-e5d47395b65e" name="Belly-flamer" hidden="false" typeId="a5aa8d41-4d63-42c8-b55d-6e48ed06c22e" typeName="Weapon">
                   <characteristics>
-                    <characteristic name="Range" typeId="5a654151-3bcc-415a-8bcc-4f936dc64110">12&quot;</characteristic>
-                    <characteristic name="Type" typeId="583221e0-05de-486d-9d5f-29f29f57673e">Assault D6</characteristic>
-                    <characteristic name="S" typeId="f51d2bf0-73c7-4814-8513-01226fa4503b">4</characteristic>
-                    <characteristic name="AP" typeId="052e9451-7080-48cc-901d-98cfb1b5b8a7">-1</characteristic>
-                    <characteristic name="D" typeId="878493bc-53f8-4b51-9251-978997303982">1</characteristic>
-                    <characteristic name="Abilities" typeId="203551a5-9b86-4992-a96f-1b369cf73d2b">Each time an attack is made with this weapon, that attack automatically hits the target.</characteristic>
+                    <characteristic name="Range" typeId="886781d4-1445-43b0-b232-996f586f7971">12&quot;</characteristic>
+                    <characteristic name="Type" typeId="4a47918e-af32-4c79-9b7a-d8271d4a89b1">Assault D6</characteristic>
+                    <characteristic name="S" typeId="02a071af-2ef1-40f4-b2c5-5fa32d09059d">4</characteristic>
+                    <characteristic name="AP" typeId="9a4e9541-9439-4469-a5a5-757f1d74e69f">-1</characteristic>
+                    <characteristic name="D" typeId="b2033c54-3869-43b8-9be4-13f4742341c2">1</characteristic>
+                    <characteristic name="Abilities" typeId="d0040129-019c-45c0-876e-2fbb809feb92">Each time an attack is made with this weapon, that attack automatically hits the target.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="c68f8e57-9276-4a3a-9e86-d6adf1065f76" value="0.0"/>
-                <cost name="pts" typeId="c53f0665-1284-48d1-80a2-4f4752c7390a" value="0.0"/>
-                <cost name="CP" typeId="6525e428-b609-455b-8ff7-dc3656708a9e" value="0.0"/>
+                <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="0.0"/>
+                <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="0.0"/>
+                <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
-            <entryLink id="9629106e-3825-439e-9722-804b0ba08be8" name="Hideous Mutations" hidden="false" collective="false" import="true" targetId="595844ab-f0e1-4268-938f-d337ca1dbea9" type="selectionEntry"/>
+            <entryLink id="ebd1af73-a15d-4c85-a9bc-727b6358b4b1" name="Hideous Mutations" hidden="false" collective="false" import="true" targetId="ed200018-10c0-4d8d-8dee-52a59443fe5b" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name=" PL" typeId="c68f8e57-9276-4a3a-9e86-d6adf1065f76" value="0.0"/>
-            <cost name="CP" typeId="6525e428-b609-455b-8ff7-dc3656708a9e" value="0.0"/>
-            <cost name="pts" typeId="c53f0665-1284-48d1-80a2-4f4752c7390a" value="0.0"/>
+            <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="0.0"/>
+            <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
+            <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name=" PL" typeId="c68f8e57-9276-4a3a-9e86-d6adf1065f76" value="5.0"/>
-        <cost name="pts" typeId="c53f0665-1284-48d1-80a2-4f4752c7390a" value="150.0"/>
-        <cost name="CP" typeId="6525e428-b609-455b-8ff7-dc3656708a9e" value="0.0"/>
+        <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="5.0"/>
+        <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="150.0"/>
+        <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2cc923ff-6a34-4bbd-8653-81a3f35446ab" name="Mutoid Vermin" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="6ae4619b-30a2-43d4-bb53-069e3837ba72" name="Mutoid Vermin" hidden="false" collective="false" import="true" type="unit">
       <profiles>
-        <profile id="d675cdff-2a2d-48f9-83d9-8d8b2eb79b55" name="Spreading Vermin" hidden="false" typeId="2162327a-7e1a-4909-bb9b-d50e46e36560" typeName="Abilities">
+        <profile id="bb1d1121-12c0-42a1-8343-6c05f8d109ee" name="Spreading Vermin" hidden="false" typeId="6a77fd08-33e0-4a84-a26a-9c819f5ffbb5" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="2af4d187-b9e6-46e3-8cef-419269a844da">If your army is Battle-forged, then for each GELLERPOX INFECTED unit included in a Detachment, one MUTOID VERMIN unit can be included in that Detachment without taking up a Battlefield Role slot. You cannot include more MUTOID VERMIN units in your army than there are GELLERPOX INFECTED units in it.</characteristic>
+            <characteristic name="Description" typeId="00250bb0-92ce-4d01-a8c7-8706e5a818c2">If your army is Battle-forged, then for each GELLERPOX INFECTED unit included in a Detachment, one MUTOID VERMIN unit can be included in that Detachment without taking up a Battlefield Role slot. You cannot include more MUTOID VERMIN units in your army than there are GELLERPOX INFECTED units in it.</characteristic>
           </characteristics>
         </profile>
-        <profile id="0daa9e74-8580-4553-b905-8c8cfc6d922a" name="Mindless Fodder" hidden="false" typeId="2162327a-7e1a-4909-bb9b-d50e46e36560" typeName="Abilities">
+        <profile id="60f21dd5-1836-4602-ae3a-c80a8f9d4939" name="Mindless Fodder" hidden="false" typeId="6a77fd08-33e0-4a84-a26a-9c819f5ffbb5" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="2af4d187-b9e6-46e3-8cef-419269a844da">Each time a Morale test is taken for this unit, it is automatically passed.</characteristic>
+            <characteristic name="Description" typeId="00250bb0-92ce-4d01-a8c7-8706e5a818c2">Each time a Morale test is taken for this unit, it is automatically passed.</characteristic>
           </characteristics>
         </profile>
-        <profile id="d79f5c5c-4d66-4688-8a52-7c738855eeef" name="Unending Horde" hidden="false" typeId="2162327a-7e1a-4909-bb9b-d50e46e36560" typeName="Abilities">
+        <profile id="f13c4c59-9f69-4399-998d-79c24b511e76" name="Unending Horde" hidden="false" typeId="6a77fd08-33e0-4a84-a26a-9c819f5ffbb5" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="2af4d187-b9e6-46e3-8cef-419269a844da">Each time a model in this unit would lose a wound, roll one D6: on a 6, that wound is not lost. In addition, in your Command phase, you can return up to D3 destroyed models to this unit. Models returned to this unit can only be set up within Engagement Range of an enemy unit if this unit is already within Engagement Range of it.</characteristic>
+            <characteristic name="Description" typeId="00250bb0-92ce-4d01-a8c7-8706e5a818c2">Each time a model in this unit would lose a wound, roll one D6: on a 6, that wound is not lost. In addition, in your Command phase, you can return up to D3 destroyed models to this unit. Models returned to this unit can only be set up within Engagement Range of an enemy unit if this unit is already within Engagement Range of it.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="4ee9bb34-1286-4455-aff6-f6c56bc04ae5" name="Disease Vectors" hidden="false" targetId="ac5e9084-9edd-46d4-b3dc-9da5d38e26ab" type="rule"/>
+        <infoLink id="7dafeb98-42a0-41a1-a3c2-50b3299020ec" name="Disease Vectors" hidden="false" targetId="7bc75533-b2bd-4494-959e-6f51e9545675" type="rule"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="e6411b34-df1a-454e-bd41-e90672a2f669" name="Faction: Chaos" hidden="false" targetId="84cb6100-a746-4dd2-9486-a4c19df98676" primary="false"/>
-        <categoryLink id="1a473693-e49a-42f0-a4e7-7b5fa0837caf" name="Faction: Nurgle" hidden="false" targetId="fef8bd0c-a970-41f2-8a46-11198a37278f" primary="false"/>
-        <categoryLink id="9ba249f5-8f45-4251-9d25-2bee00b88ce6" name="Beast" hidden="false" targetId="58ae21e0-e9af-4bee-b35a-991ee2fc08fb" primary="false"/>
-        <categoryLink id="5332b144-9161-42f5-b04f-f760b701d034" name="Mutoid Vermin" hidden="false" targetId="22ebeee5-ef11-4fef-895a-eb7c029d6aa1" primary="false"/>
+        <categoryLink id="dd8c93a0-928d-47d0-8a90-c091cfd1688a" name="Faction: Chaos" hidden="false" targetId="b87ce8b0-c5d7-438e-9bae-719ad1a6444c" primary="false"/>
+        <categoryLink id="a0713b46-977d-4506-9e72-1d90dcdf492b" name="Faction: Nurgle" hidden="false" targetId="b9a577f1-c229-4e99-a25a-f239e6b0097f" primary="false"/>
+        <categoryLink id="a773aa9e-24cd-4047-a242-e8357c8a3285" name="Beast" hidden="false" targetId="4f2c1a31-4348-4009-957b-83afd0d4f92f" primary="false"/>
+        <categoryLink id="e3899feb-5317-4de6-966d-cc54e8e613ef" name="Mutoid Vermin" hidden="false" targetId="25113643-d9d9-4082-8333-90042c368d29" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="673213aa-e6da-4ed3-860e-8ca7a51c1c6a" name="Mutoid Vermin" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="84322c3f-c603-4196-b261-d27e315070b1" name="Mutoid Vermin" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5997d90-230a-4be2-977d-0ab14bd29f11" type="min"/>
-            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="baf05917-8ca7-41ab-90b5-e6abbb216b36" type="max"/>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c53a6cde-5369-4a4e-9424-912bea727591" type="min"/>
+            <constraint field="selections" scope="parent" value="16.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10e3bbb4-f11e-41e9-8832-26d69398fee3" type="max"/>
           </constraints>
           <profiles>
-            <profile id="77ae2076-cdb3-4111-904e-8a017246d766" name="Mutoid Vermin" hidden="false" typeId="e7887ddd-b8a9-4d53-8706-e0854481f0fc" typeName="Unit">
+            <profile id="fdd20ec3-6a4e-4588-96b8-dc928b3a8dcb" name="Mutoid Vermin" hidden="false" typeId="2389a9c7-564a-45bc-bafa-44a5457c00e4" typeName="Unit">
               <characteristics>
-                <characteristic name="M" typeId="96661213-8312-459b-9b96-1355ec4a67b4">8&quot;</characteristic>
-                <characteristic name="WS" typeId="9d7576c3-ccf2-4f09-8044-57fcb2345b0a">4+</characteristic>
-                <characteristic name="BS" typeId="33305227-578c-4cf0-a2aa-49445a556d6d">-</characteristic>
-                <characteristic name="S" typeId="a9f642e9-5a17-4319-8cca-6686f23c1309">2</characteristic>
-                <characteristic name="T" typeId="e621bc60-7d62-4d1e-87f9-37d99e50114c">2</characteristic>
-                <characteristic name="W" typeId="0f59d4db-1023-4662-bb7e-925b80fb0c9e">1</characteristic>
-                <characteristic name="A" typeId="3c1aa456-7080-4fba-b6ec-bcedf1b5f3ee">2</characteristic>
-                <characteristic name="Ld" typeId="b60e9b00-0e5e-4349-8e98-562929d2cf35">4</characteristic>
-                <characteristic name="Save" typeId="1d7e52b7-0f6a-4809-9fdb-01e98d742cfb">7+</characteristic>
+                <characteristic name="M" typeId="dfaf03e2-db64-4777-8c6e-35874a70ac6d">8&quot;</characteristic>
+                <characteristic name="WS" typeId="752c83e3-cd1b-4290-89a8-7dd17f6f0771">4+</characteristic>
+                <characteristic name="BS" typeId="e743642d-b603-4dc4-84c1-1356c804e280">-</characteristic>
+                <characteristic name="S" typeId="4b473f0c-e75b-4457-b69d-b822efa75d18">2</characteristic>
+                <characteristic name="T" typeId="68a4b50d-30fd-47b4-a0b9-b4150497ed5d">2</characteristic>
+                <characteristic name="W" typeId="e6272de1-50f4-4d6b-9449-e0892f0b5b07">1</characteristic>
+                <characteristic name="A" typeId="bcf73df5-3507-4e6f-951a-334d957e95f2">2</characteristic>
+                <characteristic name="Ld" typeId="71504bf9-7075-47fe-a797-f8ddc54346fd">4</characteristic>
+                <characteristic name="Save" typeId="de720430-a706-464b-9969-4e45fe254916">7+</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <selectionEntries>
-            <selectionEntry id="ba3ba560-18af-426c-b951-7d5db1276c7c" name="Diseased claws and fangs" hidden="false" collective="true" import="true" type="upgrade">
+            <selectionEntry id="40547b26-6344-4862-ab01-3aca417387bf" name="Diseased claws and fangs" hidden="false" collective="true" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ab809f4-be10-4d4e-b863-b3a42cd52f70" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed08c5de-41f1-4fe0-8cc8-e2bc52c06b38" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="34aa4651-70b4-4fd3-87d4-ffb61f0560eb" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7f1afa8a-0265-48dd-b83e-16c81441089c" type="max"/>
               </constraints>
               <profiles>
-                <profile id="1ae16f85-4833-4524-a717-3568396938fa" name="Diseased claws and fangs" hidden="false" typeId="798d1891-fc3e-440e-a9d7-1e41effd376a" typeName="Weapon">
+                <profile id="dc6df70f-e2a3-40da-9404-be9744867675" name="Diseased claws and fangs" hidden="false" typeId="a5aa8d41-4d63-42c8-b55d-6e48ed06c22e" typeName="Weapon">
                   <characteristics>
-                    <characteristic name="Range" typeId="5a654151-3bcc-415a-8bcc-4f936dc64110">Melee</characteristic>
-                    <characteristic name="Type" typeId="583221e0-05de-486d-9d5f-29f29f57673e">Melee</characteristic>
-                    <characteristic name="S" typeId="f51d2bf0-73c7-4814-8513-01226fa4503b">User</characteristic>
-                    <characteristic name="AP" typeId="052e9451-7080-48cc-901d-98cfb1b5b8a7">0</characteristic>
-                    <characteristic name="D" typeId="878493bc-53f8-4b51-9251-978997303982">1</characteristic>
-                    <characteristic name="Abilities" typeId="203551a5-9b86-4992-a96f-1b369cf73d2b">Each time an attack is made with this weapon, re-roll a wound roll of 1.</characteristic>
+                    <characteristic name="Range" typeId="886781d4-1445-43b0-b232-996f586f7971">Melee</characteristic>
+                    <characteristic name="Type" typeId="4a47918e-af32-4c79-9b7a-d8271d4a89b1">Melee</characteristic>
+                    <characteristic name="S" typeId="02a071af-2ef1-40f4-b2c5-5fa32d09059d">User</characteristic>
+                    <characteristic name="AP" typeId="9a4e9541-9439-4469-a5a5-757f1d74e69f">0</characteristic>
+                    <characteristic name="D" typeId="b2033c54-3869-43b8-9be4-13f4742341c2">1</characteristic>
+                    <characteristic name="Abilities" typeId="d0040129-019c-45c0-876e-2fbb809feb92">Each time an attack is made with this weapon, re-roll a wound roll of 1.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="c68f8e57-9276-4a3a-9e86-d6adf1065f76" value="0.0"/>
-                <cost name="CP" typeId="6525e428-b609-455b-8ff7-dc3656708a9e" value="0.0"/>
-                <cost name="pts" typeId="c53f0665-1284-48d1-80a2-4f4752c7390a" value="0.0"/>
+                <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="0.0"/>
+                <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
+                <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
           <costs>
-            <cost name=" PL" typeId="c68f8e57-9276-4a3a-9e86-d6adf1065f76" value="0.0"/>
-            <cost name="CP" typeId="6525e428-b609-455b-8ff7-dc3656708a9e" value="0.0"/>
-            <cost name="pts" typeId="c53f0665-1284-48d1-80a2-4f4752c7390a" value="0.0"/>
+            <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="0.0"/>
+            <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
+            <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name=" PL" typeId="c68f8e57-9276-4a3a-9e86-d6adf1065f76" value="1.0"/>
-        <cost name="pts" typeId="c53f0665-1284-48d1-80a2-4f4752c7390a" value="80.0"/>
-        <cost name="CP" typeId="6525e428-b609-455b-8ff7-dc3656708a9e" value="0.0"/>
+        <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="1.0"/>
+        <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="80.0"/>
+        <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedRules>
-    <rule id="ac5e9084-9edd-46d4-b3dc-9da5d38e26ab" name="Disease Vectors" hidden="false">
+    <rule id="7bc75533-b2bd-4494-959e-6f51e9545675" name="Disease Vectors" hidden="false">
       <description>If your army is Battle-forged, you can include one GELLERPOX INFECTED unit and one MUTOID VERMIN unit in each DEATH GUARD or NURGLE TRAITORIS ASTARTES Patrol, Battalion and Brigade Detachment in your army without those units taking up Battlefield Role slots in those Detachments. The inclusion of these units does not prevent other units from their Detachment benefiting from Detachment abilities (e.g. Let the Galaxy Burn), and it does not prevent other units from your army benefiting from abilities that require every model in your army to have that ability. Units included in a Patrol, Battalion or Brigade Detachment in this manner are ignored for any rules that state all units from that Detachment must have at least one Faction keyword in common (e.g. in a matched play game), and when determining your Army Faction.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="a5a2ed39-12c5-4e57-89c9-97cea8e64624" name="Nightmare Hulk" hidden="false" typeId="e7887ddd-b8a9-4d53-8706-e0854481f0fc" typeName="Unit">
+    <profile id="5446d59a-cd3c-4cdd-a5ae-def779954893" name="Nightmare Hulk" hidden="false" typeId="2389a9c7-564a-45bc-bafa-44a5457c00e4" typeName="Unit">
       <characteristics>
-        <characteristic name="M" typeId="96661213-8312-459b-9b96-1355ec4a67b4">5&quot;</characteristic>
-        <characteristic name="WS" typeId="9d7576c3-ccf2-4f09-8044-57fcb2345b0a">4+</characteristic>
-        <characteristic name="BS" typeId="33305227-578c-4cf0-a2aa-49445a556d6d">6+</characteristic>
-        <characteristic name="S" typeId="a9f642e9-5a17-4319-8cca-6686f23c1309">5</characteristic>
-        <characteristic name="T" typeId="e621bc60-7d62-4d1e-87f9-37d99e50114c">4</characteristic>
-        <characteristic name="W" typeId="0f59d4db-1023-4662-bb7e-925b80fb0c9e">5</characteristic>
-        <characteristic name="A" typeId="3c1aa456-7080-4fba-b6ec-bcedf1b5f3ee">4</characteristic>
-        <characteristic name="Ld" typeId="b60e9b00-0e5e-4349-8e98-562929d2cf35">8</characteristic>
-        <characteristic name="Save" typeId="1d7e52b7-0f6a-4809-9fdb-01e98d742cfb">5+</characteristic>
+        <characteristic name="M" typeId="dfaf03e2-db64-4777-8c6e-35874a70ac6d">5&quot;</characteristic>
+        <characteristic name="WS" typeId="752c83e3-cd1b-4290-89a8-7dd17f6f0771">4+</characteristic>
+        <characteristic name="BS" typeId="e743642d-b603-4dc4-84c1-1356c804e280">6+</characteristic>
+        <characteristic name="S" typeId="4b473f0c-e75b-4457-b69d-b822efa75d18">5</characteristic>
+        <characteristic name="T" typeId="68a4b50d-30fd-47b4-a0b9-b4150497ed5d">4</characteristic>
+        <characteristic name="W" typeId="e6272de1-50f4-4d6b-9449-e0892f0b5b07">5</characteristic>
+        <characteristic name="A" typeId="bcf73df5-3507-4e6f-951a-334d957e95f2">4</characteristic>
+        <characteristic name="Ld" typeId="71504bf9-7075-47fe-a797-f8ddc54346fd">8</characteristic>
+        <characteristic name="Save" typeId="de720430-a706-464b-9969-4e45fe254916">5+</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

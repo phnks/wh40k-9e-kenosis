@@ -1,85 +1,85 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1428d864-b866-475e-b357-8b09aeb54afa" name="Chaos - Chaos Titan Legions" revision="15" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="b72a4f18-7689-4e64-9636-83f97b1da1a4" gameSystemRevision="248" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="212f4e5a-2387-41ce-acf8-0359a0e0ff9a" name="Chaos - Chaos Titan Legions" revision="15" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="0014adc9-4e71-4486-bb6c-5acfbfeb88b6" gameSystemRevision="248" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
-    <profileType id="0dfedaad-65d1-4a7d-9630-2e55a8499d6b" name="Wound Track, Titan">
+    <profileType id="eb1584ac-31c7-4ea7-914b-8c81d6286182" name="Wound Track, Titan">
       <characteristicTypes>
-        <characteristicType id="6bfc6f80-a520-482f-b263-d96b1d91f547" name="Remaining W"/>
-        <characteristicType id="21c7fbfe-0501-4962-8a90-8d67d750cc08" name="M"/>
-        <characteristicType id="28775b2d-111c-4638-a1a6-d427444f0d96" name="WS"/>
-        <characteristicType id="a7d8464a-e012-48f0-9dfc-13dc669f5c21" name="BS"/>
-        <characteristicType id="9712ab64-b35b-417e-9099-3d1b1c0e510a" name="Void Shield"/>
+        <characteristicType id="1811ccc9-2e62-4c82-a507-ad3c0154d94e" name="Remaining W"/>
+        <characteristicType id="38d5e906-9917-417f-ab3e-2b567612d936" name="M"/>
+        <characteristicType id="088efb80-1489-4b6a-bb39-3f0b8f4ba2c5" name="WS"/>
+        <characteristicType id="fa1c3fc8-e5a0-439f-8fd6-5c5e30a12c20" name="BS"/>
+        <characteristicType id="e249ef04-83f7-4d89-8e56-25c60ca853e5" name="Void Shield"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
   <categoryEntries>
-    <categoryEntry id="63db45f3-e31d-48ff-abb6-1b8f46fad5a4" name="God-Engine" hidden="false"/>
-    <categoryEntry id="cb0f7683-c067-4fca-86dd-e32ade4ae5b4" name="Faction: Titanicus Traitoris" hidden="false"/>
-    <categoryEntry id="133657b6-5709-4570-af0c-b588e527e5de" name="Faction: &lt;Heretic Titan Legion&gt;" hidden="false"/>
+    <categoryEntry id="6a06d536-0f42-4717-be8b-a9637a1ad550" name="God-Engine" hidden="false"/>
+    <categoryEntry id="c06d83aa-7ca5-430c-a63e-6215abe12c54" name="Faction: Titanicus Traitoris" hidden="false"/>
+    <categoryEntry id="002cf771-ee70-4cdc-90ae-29d0802743dd" name="Faction: &lt;Heretic Titan Legion&gt;" hidden="false"/>
   </categoryEntries>
   <entryLinks>
-    <entryLink id="f6e39b64-dce7-4951-b38f-d7e3e4aa417f" name="Chaos Reaver Titan" hidden="false" collective="false" import="true" targetId="ca3b76b0-9788-4f10-8ae1-100af13ddfff" type="selectionEntry"/>
-    <entryLink id="51a5f7a2-bdf5-4982-95d3-e23744fd3c34" name="Chaos Warhound Scout Titan" hidden="false" collective="false" import="true" targetId="0fb3eb3e-7f5e-42d6-acc3-8e216abe443c" type="selectionEntry"/>
-    <entryLink id="d279ab92-b45a-4c36-9626-33e8084d72da" name="Chaos Warlord Battle Titan" hidden="false" collective="false" import="true" targetId="ad66a92b-0040-4186-b76d-9d467c02813f" type="selectionEntry"/>
-    <entryLink id="1c784706-8f4d-4a31-bcf0-133404080cd6" name="Chaos Warbringer Nemesis Titan" hidden="false" collective="false" import="true" targetId="7bd25ece-f43a-4070-8e46-80331668c956" type="selectionEntry"/>
+    <entryLink id="48156a75-cc90-461a-8e88-4c634ed29cf3" name="Chaos Reaver Titan" hidden="false" collective="false" import="true" targetId="bbe02d4a-d0d2-43cc-89d2-28214f200dee" type="selectionEntry"/>
+    <entryLink id="8323468a-6910-483c-b974-20c18abc2d9e" name="Chaos Warhound Scout Titan" hidden="false" collective="false" import="true" targetId="06c74566-6a4e-4855-9d40-1a01a7089dd6" type="selectionEntry"/>
+    <entryLink id="73e49650-cc59-43f2-8ec1-be3ade6b0575" name="Chaos Warlord Battle Titan" hidden="false" collective="false" import="true" targetId="2e4a5726-cdf5-49bc-ada7-d335f11b494a" type="selectionEntry"/>
+    <entryLink id="2e9ca84f-81ed-4491-884b-45e5927cc1ff" name="Chaos Warbringer Nemesis Titan" hidden="false" collective="false" import="true" targetId="7da381e2-1c5d-4650-a80d-6a8152464969" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="ca3b76b0-9788-4f10-8ae1-100af13ddfff" name="Chaos Reaver Titan" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="bbe02d4a-d0d2-43cc-89d2-28214f200dee" name="Chaos Reaver Titan" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="d7955103-0d66-4f9c-b520-339e21c06453" name="Chaos Reaver Titan 1 (53+ wounds remaining)" hidden="false" typeId="e7887ddd-b8a9-4d53-8706-e0854481f0fc" typeName="Unit">
+        <profile id="4a96e024-da76-41a9-ae7f-7c279aa6a87a" name="Chaos Reaver Titan 1 (53+ wounds remaining)" hidden="false" typeId="2389a9c7-564a-45bc-bafa-44a5457c00e4" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="96661213-8312-459b-9b96-1355ec4a67b4">18&quot;</characteristic>
-            <characteristic name="WS" typeId="9d7576c3-ccf2-4f09-8044-57fcb2345b0a">4+</characteristic>
-            <characteristic name="BS" typeId="33305227-578c-4cf0-a2aa-49445a556d6d">3+</characteristic>
-            <characteristic name="S" typeId="a9f642e9-5a17-4319-8cca-6686f23c1309">8</characteristic>
-            <characteristic name="T" typeId="e621bc60-7d62-4d1e-87f9-37d99e50114c">8</characteristic>
-            <characteristic name="W" typeId="0f59d4db-1023-4662-bb7e-925b80fb0c9e">70</characteristic>
-            <characteristic name="A" typeId="3c1aa456-7080-4fba-b6ec-bcedf1b5f3ee">4</characteristic>
-            <characteristic name="Ld" typeId="b60e9b00-0e5e-4349-8e98-562929d2cf35">10</characteristic>
-            <characteristic name="Save" typeId="1d7e52b7-0f6a-4809-9fdb-01e98d742cfb">2+</characteristic>
+            <characteristic name="M" typeId="dfaf03e2-db64-4777-8c6e-35874a70ac6d">18&quot;</characteristic>
+            <characteristic name="WS" typeId="752c83e3-cd1b-4290-89a8-7dd17f6f0771">4+</characteristic>
+            <characteristic name="BS" typeId="e743642d-b603-4dc4-84c1-1356c804e280">3+</characteristic>
+            <characteristic name="S" typeId="4b473f0c-e75b-4457-b69d-b822efa75d18">8</characteristic>
+            <characteristic name="T" typeId="68a4b50d-30fd-47b4-a0b9-b4150497ed5d">8</characteristic>
+            <characteristic name="W" typeId="e6272de1-50f4-4d6b-9449-e0892f0b5b07">70</characteristic>
+            <characteristic name="A" typeId="bcf73df5-3507-4e6f-951a-334d957e95f2">4</characteristic>
+            <characteristic name="Ld" typeId="71504bf9-7075-47fe-a797-f8ddc54346fd">10</characteristic>
+            <characteristic name="Save" typeId="de720430-a706-464b-9969-4e45fe254916">2+</characteristic>
           </characteristics>
         </profile>
-        <profile id="347bf685-2a4e-4850-bad1-cfd7c9cec738" name="Chaos Reaver Titan 2 (36-52 wounds remaining)" hidden="false" typeId="e7887ddd-b8a9-4d53-8706-e0854481f0fc" typeName="Unit">
+        <profile id="db036d09-1655-4268-b974-f49236fe0c53" name="Chaos Reaver Titan 2 (36-52 wounds remaining)" hidden="false" typeId="2389a9c7-564a-45bc-bafa-44a5457c00e4" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="96661213-8312-459b-9b96-1355ec4a67b4">14&quot;</characteristic>
-            <characteristic name="WS" typeId="9d7576c3-ccf2-4f09-8044-57fcb2345b0a">4+</characteristic>
-            <characteristic name="BS" typeId="33305227-578c-4cf0-a2aa-49445a556d6d">4+</characteristic>
-            <characteristic name="S" typeId="a9f642e9-5a17-4319-8cca-6686f23c1309">8</characteristic>
-            <characteristic name="T" typeId="e621bc60-7d62-4d1e-87f9-37d99e50114c">8</characteristic>
-            <characteristic name="W" typeId="0f59d4db-1023-4662-bb7e-925b80fb0c9e">N/A</characteristic>
-            <characteristic name="A" typeId="3c1aa456-7080-4fba-b6ec-bcedf1b5f3ee">4</characteristic>
-            <characteristic name="Ld" typeId="b60e9b00-0e5e-4349-8e98-562929d2cf35">10</characteristic>
-            <characteristic name="Save" typeId="1d7e52b7-0f6a-4809-9fdb-01e98d742cfb">2+</characteristic>
+            <characteristic name="M" typeId="dfaf03e2-db64-4777-8c6e-35874a70ac6d">14&quot;</characteristic>
+            <characteristic name="WS" typeId="752c83e3-cd1b-4290-89a8-7dd17f6f0771">4+</characteristic>
+            <characteristic name="BS" typeId="e743642d-b603-4dc4-84c1-1356c804e280">4+</characteristic>
+            <characteristic name="S" typeId="4b473f0c-e75b-4457-b69d-b822efa75d18">8</characteristic>
+            <characteristic name="T" typeId="68a4b50d-30fd-47b4-a0b9-b4150497ed5d">8</characteristic>
+            <characteristic name="W" typeId="e6272de1-50f4-4d6b-9449-e0892f0b5b07">N/A</characteristic>
+            <characteristic name="A" typeId="bcf73df5-3507-4e6f-951a-334d957e95f2">4</characteristic>
+            <characteristic name="Ld" typeId="71504bf9-7075-47fe-a797-f8ddc54346fd">10</characteristic>
+            <characteristic name="Save" typeId="de720430-a706-464b-9969-4e45fe254916">2+</characteristic>
           </characteristics>
         </profile>
-        <profile id="5726bdc3-8c74-4362-8bca-a9fe7573f5cc" name="Chaos Reaver Titan 3 (18-35 wounds remaining)" hidden="false" typeId="e7887ddd-b8a9-4d53-8706-e0854481f0fc" typeName="Unit">
+        <profile id="a91e1ece-8560-4635-a4ff-fd0fad4130e7" name="Chaos Reaver Titan 3 (18-35 wounds remaining)" hidden="false" typeId="2389a9c7-564a-45bc-bafa-44a5457c00e4" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="96661213-8312-459b-9b96-1355ec4a67b4">10&quot;</characteristic>
-            <characteristic name="WS" typeId="9d7576c3-ccf2-4f09-8044-57fcb2345b0a">5+</characteristic>
-            <characteristic name="BS" typeId="33305227-578c-4cf0-a2aa-49445a556d6d">4+</characteristic>
-            <characteristic name="S" typeId="a9f642e9-5a17-4319-8cca-6686f23c1309">8</characteristic>
-            <characteristic name="T" typeId="e621bc60-7d62-4d1e-87f9-37d99e50114c">8</characteristic>
-            <characteristic name="W" typeId="0f59d4db-1023-4662-bb7e-925b80fb0c9e">N/A</characteristic>
-            <characteristic name="A" typeId="3c1aa456-7080-4fba-b6ec-bcedf1b5f3ee">4</characteristic>
-            <characteristic name="Ld" typeId="b60e9b00-0e5e-4349-8e98-562929d2cf35">10</characteristic>
-            <characteristic name="Save" typeId="1d7e52b7-0f6a-4809-9fdb-01e98d742cfb">2+</characteristic>
+            <characteristic name="M" typeId="dfaf03e2-db64-4777-8c6e-35874a70ac6d">10&quot;</characteristic>
+            <characteristic name="WS" typeId="752c83e3-cd1b-4290-89a8-7dd17f6f0771">5+</characteristic>
+            <characteristic name="BS" typeId="e743642d-b603-4dc4-84c1-1356c804e280">4+</characteristic>
+            <characteristic name="S" typeId="4b473f0c-e75b-4457-b69d-b822efa75d18">8</characteristic>
+            <characteristic name="T" typeId="68a4b50d-30fd-47b4-a0b9-b4150497ed5d">8</characteristic>
+            <characteristic name="W" typeId="e6272de1-50f4-4d6b-9449-e0892f0b5b07">N/A</characteristic>
+            <characteristic name="A" typeId="bcf73df5-3507-4e6f-951a-334d957e95f2">4</characteristic>
+            <characteristic name="Ld" typeId="71504bf9-7075-47fe-a797-f8ddc54346fd">10</characteristic>
+            <characteristic name="Save" typeId="de720430-a706-464b-9969-4e45fe254916">2+</characteristic>
           </characteristics>
         </profile>
-        <profile id="59909034-41df-4fcf-a470-1080280cbbad" name="Chaos Reaver Titan 4 (1-17 wounds remaining)" hidden="false" typeId="e7887ddd-b8a9-4d53-8706-e0854481f0fc" typeName="Unit">
+        <profile id="d9869b41-f388-4f81-8584-c3afbe550f88" name="Chaos Reaver Titan 4 (1-17 wounds remaining)" hidden="false" typeId="2389a9c7-564a-45bc-bafa-44a5457c00e4" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="96661213-8312-459b-9b96-1355ec4a67b4">6&quot;</characteristic>
-            <characteristic name="WS" typeId="9d7576c3-ccf2-4f09-8044-57fcb2345b0a">6+</characteristic>
-            <characteristic name="BS" typeId="33305227-578c-4cf0-a2aa-49445a556d6d">5+</characteristic>
-            <characteristic name="S" typeId="a9f642e9-5a17-4319-8cca-6686f23c1309">8</characteristic>
-            <characteristic name="T" typeId="e621bc60-7d62-4d1e-87f9-37d99e50114c">8</characteristic>
-            <characteristic name="W" typeId="0f59d4db-1023-4662-bb7e-925b80fb0c9e">N/A</characteristic>
-            <characteristic name="A" typeId="3c1aa456-7080-4fba-b6ec-bcedf1b5f3ee">4</characteristic>
-            <characteristic name="Ld" typeId="b60e9b00-0e5e-4349-8e98-562929d2cf35">10</characteristic>
-            <characteristic name="Save" typeId="1d7e52b7-0f6a-4809-9fdb-01e98d742cfb">2+</characteristic>
+            <characteristic name="M" typeId="dfaf03e2-db64-4777-8c6e-35874a70ac6d">6&quot;</characteristic>
+            <characteristic name="WS" typeId="752c83e3-cd1b-4290-89a8-7dd17f6f0771">6+</characteristic>
+            <characteristic name="BS" typeId="e743642d-b603-4dc4-84c1-1356c804e280">5+</characteristic>
+            <characteristic name="S" typeId="4b473f0c-e75b-4457-b69d-b822efa75d18">8</characteristic>
+            <characteristic name="T" typeId="68a4b50d-30fd-47b4-a0b9-b4150497ed5d">8</characteristic>
+            <characteristic name="W" typeId="e6272de1-50f4-4d6b-9449-e0892f0b5b07">N/A</characteristic>
+            <characteristic name="A" typeId="bcf73df5-3507-4e6f-951a-334d957e95f2">4</characteristic>
+            <characteristic name="Ld" typeId="71504bf9-7075-47fe-a797-f8ddc54346fd">10</characteristic>
+            <characteristic name="Save" typeId="de720430-a706-464b-9969-4e45fe254916">2+</characteristic>
           </characteristics>
         </profile>
-        <profile id="3f4e44c5-05ff-493e-a906-701fabca6119" name="Void Shields" hidden="false" typeId="2162327a-7e1a-4909-bb9b-d50e46e36560" typeName="Abilities">
+        <profile id="cf2740af-ccb8-43f5-bb3a-cfa37fec0280" name="Void Shields" hidden="false" typeId="6a77fd08-33e0-4a84-a26a-9c819f5ffbb5" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="2af4d187-b9e6-46e3-8cef-419269a844da">This model has 4 void shields. Each void shield has 3 shield points. While this model has any void shields, it has a 5+ invulnerable save against ranged attacks.
+            <characteristic name="Description" typeId="00250bb0-92ce-4d01-a8c7-8706e5a818c2">This model has 4 void shields. Each void shield has 3 shield points. While this model has any void shields, it has a 5+ invulnerable save against ranged attacks.
 
 Each time a saving throw is failed for this model against a ranged attack, if it has any void shields, it does not suffer any damage. Instead, for each point of damage inflicted, one of its void shields loses 1 shield point. Once a void shield has lost a shield point, it must continue to lose shield points due to any firther damage inflicted until it collapses. Each time an attack causes a void shield to be reducedc to 0 shield points, that void shield collapses: this model loses that void shield and any excess damage inflicted by that attack is lost. Void shields can never be used to prevent mortal wounds (each mortal wound inflicted on a model with void shields causes that model to lose one wound as normal).
 
@@ -88,172 +88,172 @@ At the start of your Command phase, if this model has a void shield that has few
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="c4dab043-ee1d-475a-94c6-be1c32227a12" name="Battle Titan" hidden="false" targetId="18077f32-9c74-44c0-9e4c-c6af223e2780" type="profile"/>
-        <infoLink id="36d91722-27b3-4169-bf2e-81b4b8d6f3a8" name="Reactor Meltdown" hidden="false" targetId="f19444e9-e797-459c-aecf-a32e27bbee21" type="profile"/>
+        <infoLink id="cc63f94e-86a0-4ac3-ba33-933c734d95c3" name="Battle Titan" hidden="false" targetId="c2ede792-2b78-455d-a00f-ad58e14ad97f" type="profile"/>
+        <infoLink id="5640c9d8-8039-4e08-a956-ccdc27f66fc9" name="Reactor Meltdown" hidden="false" targetId="232b4d13-f65d-4d7b-819d-833d29a99ed2" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="4fd2085a-a63d-456b-ae90-b3e3e57ef3b4" name="New CategoryLink" hidden="false" targetId="133657b6-5709-4570-af0c-b588e527e5de" primary="false"/>
-        <categoryLink id="813de9eb-46c2-4eae-8443-fdd53506cb0b" name="New CategoryLink" hidden="false" targetId="cb0f7683-c067-4fca-86dd-e32ade4ae5b4" primary="false"/>
-        <categoryLink id="0b662947-7c6e-4778-8c74-7ca83c559e1a" name="New CategoryLink" hidden="false" targetId="cafa47ff-68a8-412c-b598-05bcf5b2cfaa" primary="false"/>
-        <categoryLink id="536db9e3-03bd-4e0c-b237-a5db3d121ed0" name="New CategoryLink" hidden="false" targetId="a722973f-bb77-4c1c-8f43-8ae31ee7426e" primary="false"/>
-        <categoryLink id="4439d9f9-496f-456f-8031-cbd38e3b4d02" name="New CategoryLink" hidden="false" targetId="7d82f3fc-875b-4bbc-9747-4c1033017b40" primary="true"/>
-        <categoryLink id="12bf75cf-3003-41bb-99e0-79ae396ae123" name="New CategoryLink" hidden="false" targetId="63db45f3-e31d-48ff-abb6-1b8f46fad5a4" primary="false"/>
-        <categoryLink id="1b333b8b-9892-43f0-9f2e-5c157c592aaa" name="New CategoryLink" hidden="false" targetId="84cb6100-a746-4dd2-9486-a4c19df98676" primary="false"/>
+        <categoryLink id="ee476848-638a-436b-b230-0392f286eafe" name="New CategoryLink" hidden="false" targetId="002cf771-ee70-4cdc-90ae-29d0802743dd" primary="false"/>
+        <categoryLink id="c3097f3f-1a19-4ec3-9fcb-9d03c71ad2bf" name="New CategoryLink" hidden="false" targetId="c06d83aa-7ca5-430c-a63e-6215abe12c54" primary="false"/>
+        <categoryLink id="b7974cff-ecd4-43a0-9fb5-f0df8c021215" name="New CategoryLink" hidden="false" targetId="29293cd8-0ee6-40d6-92fd-73cc2727b2a7" primary="false"/>
+        <categoryLink id="63007279-50e7-44f3-83ae-c0f70c3b004b" name="New CategoryLink" hidden="false" targetId="5076ee16-6e8b-45bf-83ca-9bd67ada7ed7" primary="false"/>
+        <categoryLink id="c9fdf849-c122-4b41-b438-04c9f9131184" name="New CategoryLink" hidden="false" targetId="17bc7a5e-9115-4030-96ae-5f0299efb52a" primary="true"/>
+        <categoryLink id="a811afbd-e8ed-4439-bbe3-ed72558817ce" name="New CategoryLink" hidden="false" targetId="6a06d536-0f42-4717-be8b-a9637a1ad550" primary="false"/>
+        <categoryLink id="3a1a5293-de07-4fb2-aff3-4856cffe1bc7" name="New CategoryLink" hidden="false" targetId="b87ce8b0-c5d7-438e-9bae-719ad1a6444c" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="fd1ba6d1-58d1-421f-ac48-a365519b8915" name="Reaver apocalypse launcher" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="4473cedf-a64e-4373-a34d-9a3f14684fa1" name="Reaver apocalypse launcher" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4914d70d-3b17-4560-8be8-7c070d9f6f3a" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e5103ae6-2482-4153-acad-bcf03f84518c" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18ba52d2-129a-444c-b83c-ec11a5cf5fb0" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf2ee454-8fda-4e93-9c77-7e7b1afc9e44" type="max"/>
           </constraints>
           <profiles>
-            <profile id="10bf3113-5bd9-483d-818c-aaa1468f4b07" name="Reaver apocalypse launcher" hidden="false" typeId="798d1891-fc3e-440e-a9d7-1e41effd376a" typeName="Weapon">
+            <profile id="492c9eef-db04-404f-b300-3e326757b380" name="Reaver apocalypse launcher" hidden="false" typeId="a5aa8d41-4d63-42c8-b55d-6e48ed06c22e" typeName="Weapon">
               <characteristics>
-                <characteristic name="Range" typeId="5a654151-3bcc-415a-8bcc-4f936dc64110">24&quot;-200&quot;</characteristic>
-                <characteristic name="Type" typeId="583221e0-05de-486d-9d5f-29f29f57673e">Heavy 2D6</characteristic>
-                <characteristic name="S" typeId="f51d2bf0-73c7-4814-8513-01226fa4503b">7</characteristic>
-                <characteristic name="AP" typeId="052e9451-7080-48cc-901d-98cfb1b5b8a7">-2</characteristic>
-                <characteristic name="D" typeId="878493bc-53f8-4b51-9251-978997303982">2</characteristic>
-                <characteristic name="Abilities" typeId="203551a5-9b86-4992-a96f-1b369cf73d2b">Blast. This weapon can target units that are not visible to the bearer.</characteristic>
+                <characteristic name="Range" typeId="886781d4-1445-43b0-b232-996f586f7971">24&quot;-200&quot;</characteristic>
+                <characteristic name="Type" typeId="4a47918e-af32-4c79-9b7a-d8271d4a89b1">Heavy 2D6</characteristic>
+                <characteristic name="S" typeId="02a071af-2ef1-40f4-b2c5-5fa32d09059d">7</characteristic>
+                <characteristic name="AP" typeId="9a4e9541-9439-4469-a5a5-757f1d74e69f">-2</characteristic>
+                <characteristic name="D" typeId="b2033c54-3869-43b8-9be4-13f4742341c2">2</characteristic>
+                <characteristic name="Abilities" typeId="d0040129-019c-45c0-876e-2fbb809feb92">Blast. This weapon can target units that are not visible to the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="c68f8e57-9276-4a3a-9e86-d6adf1065f76" value="0.0"/>
-            <cost name="CP" typeId="6525e428-b609-455b-8ff7-dc3656708a9e" value="0.0"/>
-            <cost name="pts" typeId="c53f0665-1284-48d1-80a2-4f4752c7390a" value="0.0"/>
+            <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="0.0"/>
+            <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
+            <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="97c1ce57-de54-49a4-b942-994bcc5661fd" name="Reaver feet" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="e0fd1715-eb22-427f-a868-b56a2690b1a5" name="Reaver feet" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10d40d70-8b2e-4230-8dff-00ccc50ed1e7" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c2ff9b2-21a9-41b3-97e9-02ccaf080e90" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a279356c-c421-4486-8b0f-3a5127cb3941" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6393be34-0a75-4eed-b5b4-c4452c706658" type="max"/>
           </constraints>
           <profiles>
-            <profile id="012244c7-6f75-418c-b37a-58e638c5a1e7" name="Reaver feet" hidden="false" typeId="798d1891-fc3e-440e-a9d7-1e41effd376a" typeName="Weapon">
+            <profile id="5567a705-8cd9-458d-9115-ed7cdc471780" name="Reaver feet" hidden="false" typeId="a5aa8d41-4d63-42c8-b55d-6e48ed06c22e" typeName="Weapon">
               <characteristics>
-                <characteristic name="Range" typeId="5a654151-3bcc-415a-8bcc-4f936dc64110">Melee</characteristic>
-                <characteristic name="Type" typeId="583221e0-05de-486d-9d5f-29f29f57673e">Melee</characteristic>
-                <characteristic name="S" typeId="f51d2bf0-73c7-4814-8513-01226fa4503b">User</characteristic>
-                <characteristic name="AP" typeId="052e9451-7080-48cc-901d-98cfb1b5b8a7">-4</characteristic>
-                <characteristic name="D" typeId="878493bc-53f8-4b51-9251-978997303982">4</characteristic>
-                <characteristic name="Abilities" typeId="203551a5-9b86-4992-a96f-1b369cf73d2b">Each time an attack is made with this weapon, make 2 hits rolls instead of 1.</characteristic>
+                <characteristic name="Range" typeId="886781d4-1445-43b0-b232-996f586f7971">Melee</characteristic>
+                <characteristic name="Type" typeId="4a47918e-af32-4c79-9b7a-d8271d4a89b1">Melee</characteristic>
+                <characteristic name="S" typeId="02a071af-2ef1-40f4-b2c5-5fa32d09059d">User</characteristic>
+                <characteristic name="AP" typeId="9a4e9541-9439-4469-a5a5-757f1d74e69f">-4</characteristic>
+                <characteristic name="D" typeId="b2033c54-3869-43b8-9be4-13f4742341c2">4</characteristic>
+                <characteristic name="Abilities" typeId="d0040129-019c-45c0-876e-2fbb809feb92">Each time an attack is made with this weapon, make 2 hits rolls instead of 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="c68f8e57-9276-4a3a-9e86-d6adf1065f76" value="0.0"/>
-            <cost name="CP" typeId="6525e428-b609-455b-8ff7-dc3656708a9e" value="0.0"/>
-            <cost name="pts" typeId="c53f0665-1284-48d1-80a2-4f4752c7390a" value="0.0"/>
+            <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="0.0"/>
+            <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
+            <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="6a573fad-16ea-4106-8eb1-f41107789832" name="Arm mounted weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="9257451d-a4f4-472f-8a2b-087fdb599413">
+        <selectionEntryGroup id="4f6c39e6-910b-4752-8fd5-856c0f99991b" name="Arm mounted weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="688d7084-b3ba-4be6-b29b-2a2c6f21d5f7">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ef110d42-1bae-47d9-84c2-5b036bac208d" type="max"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="25b134fc-2a49-456c-8a8f-03dfd2654715" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2c5d972c-a176-4572-890a-c2aa38f3445e" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b3b841bb-c589-4eec-bc15-2b61ea1a3e14" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="551fe3a8-23b8-4a72-b615-6d282ded9902" name="Reaver power fist" hidden="false" collective="false" import="true" targetId="2b44c0fa-c947-4861-9ac1-9a79f77dd673" type="selectionEntry">
+            <entryLink id="cbd705e7-60e7-4a66-9fa9-fab9b086bfe9" name="Reaver power fist" hidden="false" collective="false" import="true" targetId="0881ed70-2c18-4538-8664-d0b3ce44f0b6" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cc98e8e5-2e30-427d-adb0-e09ace8eff4f" type="max"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c1f64ddf-5a3d-4afe-aade-4a9cd0a8e0c9" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="4482d8e6-975f-42e6-bda0-e972023522a7" name="Reaver melta cannon" hidden="false" collective="false" import="true" targetId="890c1224-dba8-4d82-9c3b-7adb9d559c4a" type="selectionEntry">
+            <entryLink id="49cb2ce7-caa3-4cef-8fd0-93a07c55a086" name="Reaver melta cannon" hidden="false" collective="false" import="true" targetId="0cd789b0-d721-4b6b-8e7d-a9f8aa5ff4cf" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4aea7d1b-6e29-4b41-b7fa-550140f3cc8e" type="max"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="13840fe5-1ab2-4b54-8da5-4fd8575623d4" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="7b067c08-20eb-4be5-b6a4-446b8a417f70" name="Reaver laser blaster" hidden="false" collective="false" import="true" targetId="6ca58bb7-2ded-4eac-b424-40996db69a7f" type="selectionEntry">
+            <entryLink id="dfa49c4e-66fa-4ac0-a5c2-2d2d7c1498a7" name="Reaver laser blaster" hidden="false" collective="false" import="true" targetId="bae92bad-0bd0-4034-be4f-140ccdb3258a" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bed44c5c-df18-432b-9a41-c46572bcde49" type="max"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="3b596c14-f5d7-48b9-98e8-6c5398f479cc" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="9257451d-a4f4-472f-8a2b-087fdb599413" name="Reaver gatling blaster" hidden="false" collective="false" import="true" targetId="2004c910-98f6-40c8-9b3c-af5b245a6836" type="selectionEntry">
+            <entryLink id="688d7084-b3ba-4be6-b29b-2a2c6f21d5f7" name="Reaver gatling blaster" hidden="false" collective="false" import="true" targetId="e94f43f9-0cca-419d-8462-816cb2cf4999" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ac01dded-7776-4a9c-a9dc-c1c1e1b23e23" type="max"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e13d66e5-7b5c-4444-bb6c-2766572c6371" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="d56143d0-50ec-4784-9761-902c6897f15a" name="Reaver volcano cannon" hidden="false" collective="false" import="true" targetId="f47e3b22-da0b-4265-9152-8a3c815a235f" type="selectionEntry">
+            <entryLink id="e1e5419f-0ac7-4647-acb8-6bcca68d9b55" name="Reaver volcano cannon" hidden="false" collective="false" import="true" targetId="24bde0a0-2dec-418a-9ed9-79dd8447e4c1" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="7e3b7658-5f13-4151-b06e-1d4322b6293d" type="max"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="11ca85e7-b4b2-45e2-b62f-f45e42c1d7f7" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="fba1a52f-6854-4b4b-86fb-f8978d913da5" name="Has Battle Honours (Chapter Approved 2018)" hidden="false" collective="false" import="true" targetId="cae1e10f-8743-482e-85e2-0858c089ef2b" type="selectionEntry"/>
+        <entryLink id="cfb017ec-887d-4275-9da5-a3239800eabc" name="Has Battle Honours (Chapter Approved 2018)" hidden="false" collective="false" import="true" targetId="7039e474-2ee6-4d14-a6fe-6a7b01946c2d" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="c68f8e57-9276-4a3a-9e86-d6adf1065f76" value="150.0"/>
-        <cost name="pts" typeId="c53f0665-1284-48d1-80a2-4f4752c7390a" value="3000.0"/>
-        <cost name="CP" typeId="6525e428-b609-455b-8ff7-dc3656708a9e" value="0.0"/>
+        <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="150.0"/>
+        <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="3000.0"/>
+        <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="0fb3eb3e-7f5e-42d6-acc3-8e216abe443c" name="Chaos Warhound Titan" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="06c74566-6a4e-4855-9d40-1a01a7089dd6" name="Chaos Warhound Titan" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="0623a0b7-fc90-464a-b88d-7af6d722a459" name="Flank Speed" hidden="false" typeId="2162327a-7e1a-4909-bb9b-d50e46e36560" typeName="Abilities">
+        <profile id="696d894e-e4d7-4c73-83f7-079bddc2cc4d" name="Flank Speed" hidden="false" typeId="6a77fd08-33e0-4a84-a26a-9c819f5ffbb5" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="2af4d187-b9e6-46e3-8cef-419269a844da">Each time this model Advances, do not make an Advance roll. Instead, until the end of the Movement phase, add 12&quot; to the Move characteristic of this model.</characteristic>
+            <characteristic name="Description" typeId="00250bb0-92ce-4d01-a8c7-8706e5a818c2">Each time this model Advances, do not make an Advance roll. Instead, until the end of the Movement phase, add 12&quot; to the Move characteristic of this model.</characteristic>
           </characteristics>
         </profile>
-        <profile id="749fa84b-d0b5-409c-a4d2-e0f9b17495cd" name="Chaos Warhound Titan 1 (38+ wounds remaining)" hidden="false" typeId="e7887ddd-b8a9-4d53-8706-e0854481f0fc" typeName="Unit">
+        <profile id="07a0ab3c-3b45-407a-a79e-b797b54ba132" name="Chaos Warhound Titan 1 (38+ wounds remaining)" hidden="false" typeId="2389a9c7-564a-45bc-bafa-44a5457c00e4" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="96661213-8312-459b-9b96-1355ec4a67b4">20&quot;</characteristic>
-            <characteristic name="WS" typeId="9d7576c3-ccf2-4f09-8044-57fcb2345b0a">4+</characteristic>
-            <characteristic name="BS" typeId="33305227-578c-4cf0-a2aa-49445a556d6d">3+</characteristic>
-            <characteristic name="S" typeId="a9f642e9-5a17-4319-8cca-6686f23c1309">8</characteristic>
-            <characteristic name="T" typeId="e621bc60-7d62-4d1e-87f9-37d99e50114c">8</characteristic>
-            <characteristic name="W" typeId="0f59d4db-1023-4662-bb7e-925b80fb0c9e">50</characteristic>
-            <characteristic name="A" typeId="3c1aa456-7080-4fba-b6ec-bcedf1b5f3ee">4</characteristic>
-            <characteristic name="Ld" typeId="b60e9b00-0e5e-4349-8e98-562929d2cf35">10</characteristic>
-            <characteristic name="Save" typeId="1d7e52b7-0f6a-4809-9fdb-01e98d742cfb">2+</characteristic>
+            <characteristic name="M" typeId="dfaf03e2-db64-4777-8c6e-35874a70ac6d">20&quot;</characteristic>
+            <characteristic name="WS" typeId="752c83e3-cd1b-4290-89a8-7dd17f6f0771">4+</characteristic>
+            <characteristic name="BS" typeId="e743642d-b603-4dc4-84c1-1356c804e280">3+</characteristic>
+            <characteristic name="S" typeId="4b473f0c-e75b-4457-b69d-b822efa75d18">8</characteristic>
+            <characteristic name="T" typeId="68a4b50d-30fd-47b4-a0b9-b4150497ed5d">8</characteristic>
+            <characteristic name="W" typeId="e6272de1-50f4-4d6b-9449-e0892f0b5b07">50</characteristic>
+            <characteristic name="A" typeId="bcf73df5-3507-4e6f-951a-334d957e95f2">4</characteristic>
+            <characteristic name="Ld" typeId="71504bf9-7075-47fe-a797-f8ddc54346fd">10</characteristic>
+            <characteristic name="Save" typeId="de720430-a706-464b-9969-4e45fe254916">2+</characteristic>
           </characteristics>
         </profile>
-        <profile id="b2cc896e-2982-48a6-933e-11143a8c5ba9" name="Chaos Warhound Titan 2 (26-37 wounds remaining)" hidden="false" typeId="e7887ddd-b8a9-4d53-8706-e0854481f0fc" typeName="Unit">
+        <profile id="1e190f43-c99c-4fa2-96c2-90102e067068" name="Chaos Warhound Titan 2 (26-37 wounds remaining)" hidden="false" typeId="2389a9c7-564a-45bc-bafa-44a5457c00e4" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="96661213-8312-459b-9b96-1355ec4a67b4">16&quot;</characteristic>
-            <characteristic name="WS" typeId="9d7576c3-ccf2-4f09-8044-57fcb2345b0a">5+</characteristic>
-            <characteristic name="BS" typeId="33305227-578c-4cf0-a2aa-49445a556d6d">4+</characteristic>
-            <characteristic name="S" typeId="a9f642e9-5a17-4319-8cca-6686f23c1309">8</characteristic>
-            <characteristic name="T" typeId="e621bc60-7d62-4d1e-87f9-37d99e50114c">8</characteristic>
-            <characteristic name="W" typeId="0f59d4db-1023-4662-bb7e-925b80fb0c9e">N/A</characteristic>
-            <characteristic name="A" typeId="3c1aa456-7080-4fba-b6ec-bcedf1b5f3ee">4</characteristic>
-            <characteristic name="Ld" typeId="b60e9b00-0e5e-4349-8e98-562929d2cf35">10</characteristic>
-            <characteristic name="Save" typeId="1d7e52b7-0f6a-4809-9fdb-01e98d742cfb">2+</characteristic>
+            <characteristic name="M" typeId="dfaf03e2-db64-4777-8c6e-35874a70ac6d">16&quot;</characteristic>
+            <characteristic name="WS" typeId="752c83e3-cd1b-4290-89a8-7dd17f6f0771">5+</characteristic>
+            <characteristic name="BS" typeId="e743642d-b603-4dc4-84c1-1356c804e280">4+</characteristic>
+            <characteristic name="S" typeId="4b473f0c-e75b-4457-b69d-b822efa75d18">8</characteristic>
+            <characteristic name="T" typeId="68a4b50d-30fd-47b4-a0b9-b4150497ed5d">8</characteristic>
+            <characteristic name="W" typeId="e6272de1-50f4-4d6b-9449-e0892f0b5b07">N/A</characteristic>
+            <characteristic name="A" typeId="bcf73df5-3507-4e6f-951a-334d957e95f2">4</characteristic>
+            <characteristic name="Ld" typeId="71504bf9-7075-47fe-a797-f8ddc54346fd">10</characteristic>
+            <characteristic name="Save" typeId="de720430-a706-464b-9969-4e45fe254916">2+</characteristic>
           </characteristics>
         </profile>
-        <profile id="780756a3-4cf8-4c1c-8339-3a0624e44500" name="Chaos Warhound Titan 3 (13-25 wounds remaining)" hidden="false" typeId="e7887ddd-b8a9-4d53-8706-e0854481f0fc" typeName="Unit">
+        <profile id="fe81535a-9e8b-4e06-af4d-1d01c00eea48" name="Chaos Warhound Titan 3 (13-25 wounds remaining)" hidden="false" typeId="2389a9c7-564a-45bc-bafa-44a5457c00e4" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="96661213-8312-459b-9b96-1355ec4a67b4">12&quot;</characteristic>
-            <characteristic name="WS" typeId="9d7576c3-ccf2-4f09-8044-57fcb2345b0a">5+</characteristic>
-            <characteristic name="BS" typeId="33305227-578c-4cf0-a2aa-49445a556d6d">4+</characteristic>
-            <characteristic name="S" typeId="a9f642e9-5a17-4319-8cca-6686f23c1309">8</characteristic>
-            <characteristic name="T" typeId="e621bc60-7d62-4d1e-87f9-37d99e50114c">8</characteristic>
-            <characteristic name="W" typeId="0f59d4db-1023-4662-bb7e-925b80fb0c9e">N/A</characteristic>
-            <characteristic name="A" typeId="3c1aa456-7080-4fba-b6ec-bcedf1b5f3ee">4</characteristic>
-            <characteristic name="Ld" typeId="b60e9b00-0e5e-4349-8e98-562929d2cf35">10</characteristic>
-            <characteristic name="Save" typeId="1d7e52b7-0f6a-4809-9fdb-01e98d742cfb">2+</characteristic>
+            <characteristic name="M" typeId="dfaf03e2-db64-4777-8c6e-35874a70ac6d">12&quot;</characteristic>
+            <characteristic name="WS" typeId="752c83e3-cd1b-4290-89a8-7dd17f6f0771">5+</characteristic>
+            <characteristic name="BS" typeId="e743642d-b603-4dc4-84c1-1356c804e280">4+</characteristic>
+            <characteristic name="S" typeId="4b473f0c-e75b-4457-b69d-b822efa75d18">8</characteristic>
+            <characteristic name="T" typeId="68a4b50d-30fd-47b4-a0b9-b4150497ed5d">8</characteristic>
+            <characteristic name="W" typeId="e6272de1-50f4-4d6b-9449-e0892f0b5b07">N/A</characteristic>
+            <characteristic name="A" typeId="bcf73df5-3507-4e6f-951a-334d957e95f2">4</characteristic>
+            <characteristic name="Ld" typeId="71504bf9-7075-47fe-a797-f8ddc54346fd">10</characteristic>
+            <characteristic name="Save" typeId="de720430-a706-464b-9969-4e45fe254916">2+</characteristic>
           </characteristics>
         </profile>
-        <profile id="613b78e9-bc74-4c36-8245-9bdc12e80692" name="Chaos Warhound Titan 4 (1-12 wounds remaining)" hidden="false" typeId="e7887ddd-b8a9-4d53-8706-e0854481f0fc" typeName="Unit">
+        <profile id="7ac52b43-5b46-4f5c-b9fe-758aa0a53dee" name="Chaos Warhound Titan 4 (1-12 wounds remaining)" hidden="false" typeId="2389a9c7-564a-45bc-bafa-44a5457c00e4" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="96661213-8312-459b-9b96-1355ec4a67b4">8&quot;</characteristic>
-            <characteristic name="WS" typeId="9d7576c3-ccf2-4f09-8044-57fcb2345b0a">6+</characteristic>
-            <characteristic name="BS" typeId="33305227-578c-4cf0-a2aa-49445a556d6d">5+</characteristic>
-            <characteristic name="S" typeId="a9f642e9-5a17-4319-8cca-6686f23c1309">8</characteristic>
-            <characteristic name="T" typeId="e621bc60-7d62-4d1e-87f9-37d99e50114c">8</characteristic>
-            <characteristic name="W" typeId="0f59d4db-1023-4662-bb7e-925b80fb0c9e">N/A</characteristic>
-            <characteristic name="A" typeId="3c1aa456-7080-4fba-b6ec-bcedf1b5f3ee">4</characteristic>
-            <characteristic name="Ld" typeId="b60e9b00-0e5e-4349-8e98-562929d2cf35">10</characteristic>
-            <characteristic name="Save" typeId="1d7e52b7-0f6a-4809-9fdb-01e98d742cfb">2+</characteristic>
+            <characteristic name="M" typeId="dfaf03e2-db64-4777-8c6e-35874a70ac6d">8&quot;</characteristic>
+            <characteristic name="WS" typeId="752c83e3-cd1b-4290-89a8-7dd17f6f0771">6+</characteristic>
+            <characteristic name="BS" typeId="e743642d-b603-4dc4-84c1-1356c804e280">5+</characteristic>
+            <characteristic name="S" typeId="4b473f0c-e75b-4457-b69d-b822efa75d18">8</characteristic>
+            <characteristic name="T" typeId="68a4b50d-30fd-47b4-a0b9-b4150497ed5d">8</characteristic>
+            <characteristic name="W" typeId="e6272de1-50f4-4d6b-9449-e0892f0b5b07">N/A</characteristic>
+            <characteristic name="A" typeId="bcf73df5-3507-4e6f-951a-334d957e95f2">4</characteristic>
+            <characteristic name="Ld" typeId="71504bf9-7075-47fe-a797-f8ddc54346fd">10</characteristic>
+            <characteristic name="Save" typeId="de720430-a706-464b-9969-4e45fe254916">2+</characteristic>
           </characteristics>
         </profile>
-        <profile id="885bb978-44c0-43a2-8755-ea9e735262be" name="Void Shields" hidden="false" typeId="2162327a-7e1a-4909-bb9b-d50e46e36560" typeName="Abilities">
+        <profile id="01096038-8f24-4061-8533-75b18dca26ad" name="Void Shields" hidden="false" typeId="6a77fd08-33e0-4a84-a26a-9c819f5ffbb5" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="2af4d187-b9e6-46e3-8cef-419269a844da">This model has 2 void shields. Each void shield has 3 shield points. While this model has any void shields, it has a 5+ invulnerable save against ranged attacks.
+            <characteristic name="Description" typeId="00250bb0-92ce-4d01-a8c7-8706e5a818c2">This model has 2 void shields. Each void shield has 3 shield points. While this model has any void shields, it has a 5+ invulnerable save against ranged attacks.
 
 Each time a saving throw is failed for this model against a ranged attack, if it has any void shields, it does not suffer any damage. Instead, for each point of damage inflicted, one of its void shields loses 1 shield point. Once a void shield has lost a shield point, it must continue to lose shield points due to any firther damage inflicted until it collapses. Each time an attack causes a void shield to be reducedc to 0 shield points, that void shield collapses: this model loses that void shield and any excess damage inflicted by that attack is lost. Void shields can never be used to prevent mortal wounds (each mortal wound inflicted on a model with void shields causes that model to lose one wound as normal).
 
@@ -262,237 +262,237 @@ At the start of your Command phase, if this model has a void shield that has few
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="899ec880-b882-4349-8d84-548606c9be7d" name="Battle Titan" hidden="false" targetId="18077f32-9c74-44c0-9e4c-c6af223e2780" type="profile"/>
-        <infoLink id="c2449ccc-5897-426a-90a4-a32fb98cd04d" name="Reactor Meltdown" hidden="false" targetId="f19444e9-e797-459c-aecf-a32e27bbee21" type="profile"/>
+        <infoLink id="9e996f77-d6e3-43c3-b210-cd1b5892cd97" name="Battle Titan" hidden="false" targetId="c2ede792-2b78-455d-a00f-ad58e14ad97f" type="profile"/>
+        <infoLink id="7204da53-2779-44dd-8268-6fdd93822ef8" name="Reactor Meltdown" hidden="false" targetId="232b4d13-f65d-4d7b-819d-833d29a99ed2" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="8cd5b91d-1560-4b1f-9c88-fc3d11117bd4" name="New CategoryLink" hidden="false" targetId="133657b6-5709-4570-af0c-b588e527e5de" primary="false"/>
-        <categoryLink id="d27882c3-8539-4826-b647-9f95c0bfd4ec" name="New CategoryLink" hidden="false" targetId="84cb6100-a746-4dd2-9486-a4c19df98676" primary="false"/>
-        <categoryLink id="ced82549-2b44-48fe-85ba-0d7bd97d5584" name="New CategoryLink" hidden="false" targetId="63db45f3-e31d-48ff-abb6-1b8f46fad5a4" primary="false"/>
-        <categoryLink id="c38611f8-b4d8-4e56-9acd-e78e33c70b00" name="New CategoryLink" hidden="false" targetId="7d82f3fc-875b-4bbc-9747-4c1033017b40" primary="true"/>
-        <categoryLink id="cfd35cdd-a295-406c-b823-b9befea18ad7" name="New CategoryLink" hidden="false" targetId="a722973f-bb77-4c1c-8f43-8ae31ee7426e" primary="false"/>
-        <categoryLink id="70aeb8f3-3215-461d-b9a1-85a120b4e43d" name="New CategoryLink" hidden="false" targetId="cb0f7683-c067-4fca-86dd-e32ade4ae5b4" primary="false"/>
-        <categoryLink id="e21ba434-1688-4c33-8531-37f4ac3d59ba" name="New CategoryLink" hidden="false" targetId="cafa47ff-68a8-412c-b598-05bcf5b2cfaa" primary="false"/>
+        <categoryLink id="39eab17f-2302-4196-96b6-bb55608935d2" name="New CategoryLink" hidden="false" targetId="002cf771-ee70-4cdc-90ae-29d0802743dd" primary="false"/>
+        <categoryLink id="bfd911ae-0e7f-498b-97fa-af72de9d5969" name="New CategoryLink" hidden="false" targetId="b87ce8b0-c5d7-438e-9bae-719ad1a6444c" primary="false"/>
+        <categoryLink id="20cbca2d-6ce0-47f3-9f3b-d5ce68e25531" name="New CategoryLink" hidden="false" targetId="6a06d536-0f42-4717-be8b-a9637a1ad550" primary="false"/>
+        <categoryLink id="798ec87d-cd74-4e2f-ac2b-74c3b45695c3" name="New CategoryLink" hidden="false" targetId="17bc7a5e-9115-4030-96ae-5f0299efb52a" primary="true"/>
+        <categoryLink id="10e534ee-cdc9-4a73-aa12-fb7c33c8d780" name="New CategoryLink" hidden="false" targetId="5076ee16-6e8b-45bf-83ca-9bd67ada7ed7" primary="false"/>
+        <categoryLink id="a4288742-abbe-4d18-9b2b-e0f2aa4fe942" name="New CategoryLink" hidden="false" targetId="c06d83aa-7ca5-430c-a63e-6215abe12c54" primary="false"/>
+        <categoryLink id="b9c22187-22a7-46ec-b3f1-a3b2702e6719" name="New CategoryLink" hidden="false" targetId="29293cd8-0ee6-40d6-92fd-73cc2727b2a7" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="9d03d3da-4cd9-42f7-b689-6db7d73ea4a0" name="Warhound feet" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="1bef06c1-699d-47c5-915e-db7eaf2c9ec1" name="Warhound feet" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="826e1f64-4abf-4773-a32c-eae90c2f03d3" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0d31767-6187-4063-b08b-5983a1e3f6ef" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a41ffd1-1c56-49ce-9f09-86269c6ecf81" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8283a08a-2a3d-4d32-9bdc-475b5a1f9456" type="max"/>
           </constraints>
           <profiles>
-            <profile id="3fc11826-71d9-4f34-bdba-3740e6622a6e" name="Warhound feet" hidden="false" typeId="798d1891-fc3e-440e-a9d7-1e41effd376a" typeName="Weapon">
+            <profile id="4ef383fc-3582-49bb-9189-b3eb076e033d" name="Warhound feet" hidden="false" typeId="a5aa8d41-4d63-42c8-b55d-6e48ed06c22e" typeName="Weapon">
               <characteristics>
-                <characteristic name="Range" typeId="5a654151-3bcc-415a-8bcc-4f936dc64110">Melee</characteristic>
-                <characteristic name="Type" typeId="583221e0-05de-486d-9d5f-29f29f57673e">Melee</characteristic>
-                <characteristic name="S" typeId="f51d2bf0-73c7-4814-8513-01226fa4503b">User</characteristic>
-                <characteristic name="AP" typeId="052e9451-7080-48cc-901d-98cfb1b5b8a7">-3</characteristic>
-                <characteristic name="D" typeId="878493bc-53f8-4b51-9251-978997303982">3</characteristic>
-                <characteristic name="Abilities" typeId="203551a5-9b86-4992-a96f-1b369cf73d2b">Each time an attack is made with this weapon, make 2 hits rolls instead of 1.</characteristic>
+                <characteristic name="Range" typeId="886781d4-1445-43b0-b232-996f586f7971">Melee</characteristic>
+                <characteristic name="Type" typeId="4a47918e-af32-4c79-9b7a-d8271d4a89b1">Melee</characteristic>
+                <characteristic name="S" typeId="02a071af-2ef1-40f4-b2c5-5fa32d09059d">User</characteristic>
+                <characteristic name="AP" typeId="9a4e9541-9439-4469-a5a5-757f1d74e69f">-3</characteristic>
+                <characteristic name="D" typeId="b2033c54-3869-43b8-9be4-13f4742341c2">3</characteristic>
+                <characteristic name="Abilities" typeId="d0040129-019c-45c0-876e-2fbb809feb92">Each time an attack is made with this weapon, make 2 hits rolls instead of 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="c68f8e57-9276-4a3a-9e86-d6adf1065f76" value="0.0"/>
-            <cost name="CP" typeId="6525e428-b609-455b-8ff7-dc3656708a9e" value="0.0"/>
-            <cost name="pts" typeId="c53f0665-1284-48d1-80a2-4f4752c7390a" value="0.0"/>
+            <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="0.0"/>
+            <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
+            <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="ed12623e-f828-49b6-b8fb-762b1b5c4d6b" name="Arm mounted weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="38a84511-0e2f-4bea-b88e-302e2c952c81">
+        <selectionEntryGroup id="3c822539-bd06-4411-b0b5-08f5a0757ac1" name="Arm mounted weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="fdb98f32-a333-4d06-bc8f-8a18a458e505">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="8e12cfa4-2e65-4fcb-b139-49c78489ef99" type="max"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6493092f-e67d-42ef-be16-d34dd8b3e6ae" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="74e00159-2c61-4d0f-9aef-a132b2ca30e7" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9483c54f-63cf-42cb-8ebb-17a647a73181" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="3ceeaef7-ba7c-4974-9cc7-93f7bc2138be" name="Warhound inferno gun" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="fd03c1ba-df5f-4b9b-916b-9c58bd537056" name="Warhound inferno gun" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="df8805ae-a697-4640-b94c-44bbcd89f9c7" type="max"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="97a72e68-5f39-48d6-b5d3-81c7d6cd6d70" type="max"/>
               </constraints>
               <profiles>
-                <profile id="192d36ad-35cd-4bbb-a6e8-6f79c25ce36b" name="Warhound inferno gun" hidden="false" typeId="798d1891-fc3e-440e-a9d7-1e41effd376a" typeName="Weapon">
+                <profile id="b8ea05c6-3b23-4e4e-9931-05e1d9aae4bd" name="Warhound inferno gun" hidden="false" typeId="a5aa8d41-4d63-42c8-b55d-6e48ed06c22e" typeName="Weapon">
                   <characteristics>
-                    <characteristic name="Range" typeId="5a654151-3bcc-415a-8bcc-4f936dc64110">24&quot;</characteristic>
-                    <characteristic name="Type" typeId="583221e0-05de-486d-9d5f-29f29f57673e">Heavy 4D6</characteristic>
-                    <characteristic name="S" typeId="f51d2bf0-73c7-4814-8513-01226fa4503b">7</characteristic>
-                    <characteristic name="AP" typeId="052e9451-7080-48cc-901d-98cfb1b5b8a7">-3</characteristic>
-                    <characteristic name="D" typeId="878493bc-53f8-4b51-9251-978997303982">3</characteristic>
-                    <characteristic name="Abilities" typeId="203551a5-9b86-4992-a96f-1b369cf73d2b">Each time an attack is made with this weapon, that attack automatically hits the target.</characteristic>
+                    <characteristic name="Range" typeId="886781d4-1445-43b0-b232-996f586f7971">24&quot;</characteristic>
+                    <characteristic name="Type" typeId="4a47918e-af32-4c79-9b7a-d8271d4a89b1">Heavy 4D6</characteristic>
+                    <characteristic name="S" typeId="02a071af-2ef1-40f4-b2c5-5fa32d09059d">7</characteristic>
+                    <characteristic name="AP" typeId="9a4e9541-9439-4469-a5a5-757f1d74e69f">-3</characteristic>
+                    <characteristic name="D" typeId="b2033c54-3869-43b8-9be4-13f4742341c2">3</characteristic>
+                    <characteristic name="Abilities" typeId="d0040129-019c-45c0-876e-2fbb809feb92">Each time an attack is made with this weapon, that attack automatically hits the target.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="c68f8e57-9276-4a3a-9e86-d6adf1065f76" value="0.0"/>
-                <cost name="CP" typeId="6525e428-b609-455b-8ff7-dc3656708a9e" value="0.0"/>
-                <cost name="pts" typeId="c53f0665-1284-48d1-80a2-4f4752c7390a" value="0.0"/>
+                <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="0.0"/>
+                <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
+                <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="eb7a7237-4fcd-44e9-a23a-a49023cc209a" name="Warhound plasma blastgun" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="6e5870a7-626c-4731-b255-ad2db0e34f96" name="Warhound plasma blastgun" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="ff3a888b-a976-4b8b-8a44-20bb0c54b364" type="max"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1a217c6f-5c17-422a-99d1-33ed5f5edee5" type="max"/>
               </constraints>
               <profiles>
-                <profile id="0872581f-df56-40ae-bd77-aa7d4c51a0f4" name="Warhound plasma blastgun" hidden="false" typeId="798d1891-fc3e-440e-a9d7-1e41effd376a" typeName="Weapon">
+                <profile id="85deefd3-72e2-4152-8c6c-ec5133abd27f" name="Warhound plasma blastgun" hidden="false" typeId="a5aa8d41-4d63-42c8-b55d-6e48ed06c22e" typeName="Weapon">
                   <characteristics>
-                    <characteristic name="Range" typeId="5a654151-3bcc-415a-8bcc-4f936dc64110">-</characteristic>
-                    <characteristic name="Type" typeId="583221e0-05de-486d-9d5f-29f29f57673e">-</characteristic>
-                    <characteristic name="S" typeId="f51d2bf0-73c7-4814-8513-01226fa4503b">-</characteristic>
-                    <characteristic name="AP" typeId="052e9451-7080-48cc-901d-98cfb1b5b8a7">-</characteristic>
-                    <characteristic name="D" typeId="878493bc-53f8-4b51-9251-978997303982">-</characteristic>
-                    <characteristic name="Abilities" typeId="203551a5-9b86-4992-a96f-1b369cf73d2b">Before selecting targets, select one of the profile below to make attacks with.</characteristic>
+                    <characteristic name="Range" typeId="886781d4-1445-43b0-b232-996f586f7971">-</characteristic>
+                    <characteristic name="Type" typeId="4a47918e-af32-4c79-9b7a-d8271d4a89b1">-</characteristic>
+                    <characteristic name="S" typeId="02a071af-2ef1-40f4-b2c5-5fa32d09059d">-</characteristic>
+                    <characteristic name="AP" typeId="9a4e9541-9439-4469-a5a5-757f1d74e69f">-</characteristic>
+                    <characteristic name="D" typeId="b2033c54-3869-43b8-9be4-13f4742341c2">-</characteristic>
+                    <characteristic name="Abilities" typeId="d0040129-019c-45c0-876e-2fbb809feb92">Before selecting targets, select one of the profile below to make attacks with.</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="38a08c0a-11cf-4d3b-ae81-6df6b6235d1e" name="Warhound plasma blastgun - Standard" hidden="false" typeId="798d1891-fc3e-440e-a9d7-1e41effd376a" typeName="Weapon">
+                <profile id="2a7c2f4c-8c1a-45b6-8fd1-b1ce279e2caf" name="Warhound plasma blastgun - Standard" hidden="false" typeId="a5aa8d41-4d63-42c8-b55d-6e48ed06c22e" typeName="Weapon">
                   <characteristics>
-                    <characteristic name="Range" typeId="5a654151-3bcc-415a-8bcc-4f936dc64110">72&quot;</characteristic>
-                    <characteristic name="Type" typeId="583221e0-05de-486d-9d5f-29f29f57673e">Heavy 2D6</characteristic>
-                    <characteristic name="S" typeId="f51d2bf0-73c7-4814-8513-01226fa4503b">9</characteristic>
-                    <characteristic name="AP" typeId="052e9451-7080-48cc-901d-98cfb1b5b8a7">-4</characteristic>
-                    <characteristic name="D" typeId="878493bc-53f8-4b51-9251-978997303982">4</characteristic>
-                    <characteristic name="Abilities" typeId="203551a5-9b86-4992-a96f-1b369cf73d2b">Blast</characteristic>
+                    <characteristic name="Range" typeId="886781d4-1445-43b0-b232-996f586f7971">72&quot;</characteristic>
+                    <characteristic name="Type" typeId="4a47918e-af32-4c79-9b7a-d8271d4a89b1">Heavy 2D6</characteristic>
+                    <characteristic name="S" typeId="02a071af-2ef1-40f4-b2c5-5fa32d09059d">9</characteristic>
+                    <characteristic name="AP" typeId="9a4e9541-9439-4469-a5a5-757f1d74e69f">-4</characteristic>
+                    <characteristic name="D" typeId="b2033c54-3869-43b8-9be4-13f4742341c2">4</characteristic>
+                    <characteristic name="Abilities" typeId="d0040129-019c-45c0-876e-2fbb809feb92">Blast</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="fa4b7b1f-8689-49d2-a3e7-d041443a5f03" name="Warhound plasma blastgun - Supercharge" hidden="false" typeId="798d1891-fc3e-440e-a9d7-1e41effd376a" typeName="Weapon">
+                <profile id="9655b2c8-06b9-483a-99d7-442e84c0b204" name="Warhound plasma blastgun - Supercharge" hidden="false" typeId="a5aa8d41-4d63-42c8-b55d-6e48ed06c22e" typeName="Weapon">
                   <characteristics>
-                    <characteristic name="Range" typeId="5a654151-3bcc-415a-8bcc-4f936dc64110">72&quot;</characteristic>
-                    <characteristic name="Type" typeId="583221e0-05de-486d-9d5f-29f29f57673e">Heavy 2D6</characteristic>
-                    <characteristic name="S" typeId="f51d2bf0-73c7-4814-8513-01226fa4503b">10</characteristic>
-                    <characteristic name="AP" typeId="052e9451-7080-48cc-901d-98cfb1b5b8a7">-4</characteristic>
-                    <characteristic name="D" typeId="878493bc-53f8-4b51-9251-978997303982">5</characteristic>
-                    <characteristic name="Abilities" typeId="203551a5-9b86-4992-a96f-1b369cf73d2b">Blast. Each time an unmodified hit roll of 1 is made for an attack with this weapon profile, the bearer suffers 2 mortal wounds after shooting with this weapon.</characteristic>
+                    <characteristic name="Range" typeId="886781d4-1445-43b0-b232-996f586f7971">72&quot;</characteristic>
+                    <characteristic name="Type" typeId="4a47918e-af32-4c79-9b7a-d8271d4a89b1">Heavy 2D6</characteristic>
+                    <characteristic name="S" typeId="02a071af-2ef1-40f4-b2c5-5fa32d09059d">10</characteristic>
+                    <characteristic name="AP" typeId="9a4e9541-9439-4469-a5a5-757f1d74e69f">-4</characteristic>
+                    <characteristic name="D" typeId="b2033c54-3869-43b8-9be4-13f4742341c2">5</characteristic>
+                    <characteristic name="Abilities" typeId="d0040129-019c-45c0-876e-2fbb809feb92">Blast. Each time an unmodified hit roll of 1 is made for an attack with this weapon profile, the bearer suffers 2 mortal wounds after shooting with this weapon.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="c68f8e57-9276-4a3a-9e86-d6adf1065f76" value="0.0"/>
-                <cost name="CP" typeId="6525e428-b609-455b-8ff7-dc3656708a9e" value="0.0"/>
-                <cost name="pts" typeId="c53f0665-1284-48d1-80a2-4f4752c7390a" value="0.0"/>
+                <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="0.0"/>
+                <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
+                <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="69f0886e-bf08-4ecc-ba2d-783e903e5233" name="Warhound turbo-laser destructor" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="a7988a2c-fa4a-48b3-b0ce-d4934dd0a8bd" name="Warhound turbo-laser destructor" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="42da8e60-ee3e-4eee-b871-d4c2a113eab5" type="max"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2db75ab6-7488-489a-99f9-644a47145ede" type="max"/>
               </constraints>
               <profiles>
-                <profile id="58914998-0f80-42c0-bfd6-8c2d26dbee4f" name="Warhound turbo-laser destructor" hidden="false" typeId="798d1891-fc3e-440e-a9d7-1e41effd376a" typeName="Weapon">
+                <profile id="86b34bec-9897-4476-94d2-53d47b2e07ff" name="Warhound turbo-laser destructor" hidden="false" typeId="a5aa8d41-4d63-42c8-b55d-6e48ed06c22e" typeName="Weapon">
                   <characteristics>
-                    <characteristic name="Range" typeId="5a654151-3bcc-415a-8bcc-4f936dc64110">72&quot;</characteristic>
-                    <characteristic name="Type" typeId="583221e0-05de-486d-9d5f-29f29f57673e">Heavy 2D3</characteristic>
-                    <characteristic name="S" typeId="f51d2bf0-73c7-4814-8513-01226fa4503b">16</characteristic>
-                    <characteristic name="AP" typeId="052e9451-7080-48cc-901d-98cfb1b5b8a7">-4</characteristic>
-                    <characteristic name="D" typeId="878493bc-53f8-4b51-9251-978997303982">D6+3</characteristic>
-                    <characteristic name="Abilities" typeId="203551a5-9b86-4992-a96f-1b369cf73d2b">Blast</characteristic>
+                    <characteristic name="Range" typeId="886781d4-1445-43b0-b232-996f586f7971">72&quot;</characteristic>
+                    <characteristic name="Type" typeId="4a47918e-af32-4c79-9b7a-d8271d4a89b1">Heavy 2D3</characteristic>
+                    <characteristic name="S" typeId="02a071af-2ef1-40f4-b2c5-5fa32d09059d">16</characteristic>
+                    <characteristic name="AP" typeId="9a4e9541-9439-4469-a5a5-757f1d74e69f">-4</characteristic>
+                    <characteristic name="D" typeId="b2033c54-3869-43b8-9be4-13f4742341c2">D6+3</characteristic>
+                    <characteristic name="Abilities" typeId="d0040129-019c-45c0-876e-2fbb809feb92">Blast</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="c68f8e57-9276-4a3a-9e86-d6adf1065f76" value="0.0"/>
-                <cost name="CP" typeId="6525e428-b609-455b-8ff7-dc3656708a9e" value="0.0"/>
-                <cost name="pts" typeId="c53f0665-1284-48d1-80a2-4f4752c7390a" value="0.0"/>
+                <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="0.0"/>
+                <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
+                <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="38a84511-0e2f-4bea-b88e-302e2c952c81" name="Warhound vulcan mega-bolter" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="fdb98f32-a333-4d06-bc8f-8a18a458e505" name="Warhound vulcan mega-bolter" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2dd1b32f-bbee-40a1-85d5-6f08e3df5b0b" type="max"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="cda2c175-eea2-4ec6-9cb5-382f16751b8d" type="max"/>
               </constraints>
               <profiles>
-                <profile id="b67dc98a-b774-4a96-acb6-09beb23fc523" name="Warhound vulcan mega-bolter" hidden="false" typeId="798d1891-fc3e-440e-a9d7-1e41effd376a" typeName="Weapon">
+                <profile id="1da3fd95-657a-4ac6-bce0-f3ce361f3989" name="Warhound vulcan mega-bolter" hidden="false" typeId="a5aa8d41-4d63-42c8-b55d-6e48ed06c22e" typeName="Weapon">
                   <characteristics>
-                    <characteristic name="Range" typeId="5a654151-3bcc-415a-8bcc-4f936dc64110">48&quot;</characteristic>
-                    <characteristic name="Type" typeId="583221e0-05de-486d-9d5f-29f29f57673e">Heavy 20</characteristic>
-                    <characteristic name="S" typeId="f51d2bf0-73c7-4814-8513-01226fa4503b">6</characteristic>
-                    <characteristic name="AP" typeId="052e9451-7080-48cc-901d-98cfb1b5b8a7">-2</characteristic>
-                    <characteristic name="D" typeId="878493bc-53f8-4b51-9251-978997303982">2</characteristic>
-                    <characteristic name="Abilities" typeId="203551a5-9b86-4992-a96f-1b369cf73d2b">-</characteristic>
+                    <characteristic name="Range" typeId="886781d4-1445-43b0-b232-996f586f7971">48&quot;</characteristic>
+                    <characteristic name="Type" typeId="4a47918e-af32-4c79-9b7a-d8271d4a89b1">Heavy 20</characteristic>
+                    <characteristic name="S" typeId="02a071af-2ef1-40f4-b2c5-5fa32d09059d">6</characteristic>
+                    <characteristic name="AP" typeId="9a4e9541-9439-4469-a5a5-757f1d74e69f">-2</characteristic>
+                    <characteristic name="D" typeId="b2033c54-3869-43b8-9be4-13f4742341c2">2</characteristic>
+                    <characteristic name="Abilities" typeId="d0040129-019c-45c0-876e-2fbb809feb92">-</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="c68f8e57-9276-4a3a-9e86-d6adf1065f76" value="0.0"/>
-                <cost name="CP" typeId="6525e428-b609-455b-8ff7-dc3656708a9e" value="0.0"/>
-                <cost name="pts" typeId="c53f0665-1284-48d1-80a2-4f4752c7390a" value="0.0"/>
+                <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="0.0"/>
+                <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
+                <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="b08e977a-98e5-47c6-bfc8-429ef55deb7a" name="Has Battle Honours (Chapter Approved 2018)" hidden="false" collective="false" import="true" targetId="cae1e10f-8743-482e-85e2-0858c089ef2b" type="selectionEntry"/>
+        <entryLink id="cb02297a-9d00-4f96-b668-ea2c674b5f03" name="Has Battle Honours (Chapter Approved 2018)" hidden="false" collective="false" import="true" targetId="7039e474-2ee6-4d14-a6fe-6a7b01946c2d" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="c68f8e57-9276-4a3a-9e86-d6adf1065f76" value="100.0"/>
-        <cost name="pts" typeId="c53f0665-1284-48d1-80a2-4f4752c7390a" value="2000.0"/>
-        <cost name="CP" typeId="6525e428-b609-455b-8ff7-dc3656708a9e" value="0.0"/>
+        <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="100.0"/>
+        <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="2000.0"/>
+        <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ad66a92b-0040-4186-b76d-9d467c02813f" name="Chaos Warlord Titan" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="2e4a5726-cdf5-49bc-ada7-d335f11b494a" name="Chaos Warlord Titan" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="7ca55943-8dc5-466a-aa89-0e1c29fd036d" name="Chaos Warlord Titan 1 (91+ wounds remaining)" hidden="false" typeId="e7887ddd-b8a9-4d53-8706-e0854481f0fc" typeName="Unit">
+        <profile id="eec73616-6706-4100-8642-cdbbb176ac2e" name="Chaos Warlord Titan 1 (91+ wounds remaining)" hidden="false" typeId="2389a9c7-564a-45bc-bafa-44a5457c00e4" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="96661213-8312-459b-9b96-1355ec4a67b4">12&quot;</characteristic>
-            <characteristic name="WS" typeId="9d7576c3-ccf2-4f09-8044-57fcb2345b0a">4+</characteristic>
-            <characteristic name="BS" typeId="33305227-578c-4cf0-a2aa-49445a556d6d">3+</characteristic>
-            <characteristic name="S" typeId="a9f642e9-5a17-4319-8cca-6686f23c1309">9</characteristic>
-            <characteristic name="T" typeId="e621bc60-7d62-4d1e-87f9-37d99e50114c">9</characteristic>
-            <characteristic name="W" typeId="0f59d4db-1023-4662-bb7e-925b80fb0c9e">120</characteristic>
-            <characteristic name="A" typeId="3c1aa456-7080-4fba-b6ec-bcedf1b5f3ee">4</characteristic>
-            <characteristic name="Ld" typeId="b60e9b00-0e5e-4349-8e98-562929d2cf35">10</characteristic>
-            <characteristic name="Save" typeId="1d7e52b7-0f6a-4809-9fdb-01e98d742cfb">2+</characteristic>
+            <characteristic name="M" typeId="dfaf03e2-db64-4777-8c6e-35874a70ac6d">12&quot;</characteristic>
+            <characteristic name="WS" typeId="752c83e3-cd1b-4290-89a8-7dd17f6f0771">4+</characteristic>
+            <characteristic name="BS" typeId="e743642d-b603-4dc4-84c1-1356c804e280">3+</characteristic>
+            <characteristic name="S" typeId="4b473f0c-e75b-4457-b69d-b822efa75d18">9</characteristic>
+            <characteristic name="T" typeId="68a4b50d-30fd-47b4-a0b9-b4150497ed5d">9</characteristic>
+            <characteristic name="W" typeId="e6272de1-50f4-4d6b-9449-e0892f0b5b07">120</characteristic>
+            <characteristic name="A" typeId="bcf73df5-3507-4e6f-951a-334d957e95f2">4</characteristic>
+            <characteristic name="Ld" typeId="71504bf9-7075-47fe-a797-f8ddc54346fd">10</characteristic>
+            <characteristic name="Save" typeId="de720430-a706-464b-9969-4e45fe254916">2+</characteristic>
           </characteristics>
         </profile>
-        <profile id="b9132b47-79db-4742-b93f-de4ace98ab8b" name="Chaos Warlord Titan 2 (61-90 wounds remaining)" hidden="false" typeId="e7887ddd-b8a9-4d53-8706-e0854481f0fc" typeName="Unit">
+        <profile id="6a6e102e-c72e-43cd-99a0-4239e9db98c4" name="Chaos Warlord Titan 2 (61-90 wounds remaining)" hidden="false" typeId="2389a9c7-564a-45bc-bafa-44a5457c00e4" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="96661213-8312-459b-9b96-1355ec4a67b4">10&quot;</characteristic>
-            <characteristic name="WS" typeId="9d7576c3-ccf2-4f09-8044-57fcb2345b0a">4+</characteristic>
-            <characteristic name="BS" typeId="33305227-578c-4cf0-a2aa-49445a556d6d">4+</characteristic>
-            <characteristic name="S" typeId="a9f642e9-5a17-4319-8cca-6686f23c1309">9</characteristic>
-            <characteristic name="T" typeId="e621bc60-7d62-4d1e-87f9-37d99e50114c">9</characteristic>
-            <characteristic name="W" typeId="0f59d4db-1023-4662-bb7e-925b80fb0c9e">N/A</characteristic>
-            <characteristic name="A" typeId="3c1aa456-7080-4fba-b6ec-bcedf1b5f3ee">4</characteristic>
-            <characteristic name="Ld" typeId="b60e9b00-0e5e-4349-8e98-562929d2cf35">10</characteristic>
-            <characteristic name="Save" typeId="1d7e52b7-0f6a-4809-9fdb-01e98d742cfb">2+</characteristic>
+            <characteristic name="M" typeId="dfaf03e2-db64-4777-8c6e-35874a70ac6d">10&quot;</characteristic>
+            <characteristic name="WS" typeId="752c83e3-cd1b-4290-89a8-7dd17f6f0771">4+</characteristic>
+            <characteristic name="BS" typeId="e743642d-b603-4dc4-84c1-1356c804e280">4+</characteristic>
+            <characteristic name="S" typeId="4b473f0c-e75b-4457-b69d-b822efa75d18">9</characteristic>
+            <characteristic name="T" typeId="68a4b50d-30fd-47b4-a0b9-b4150497ed5d">9</characteristic>
+            <characteristic name="W" typeId="e6272de1-50f4-4d6b-9449-e0892f0b5b07">N/A</characteristic>
+            <characteristic name="A" typeId="bcf73df5-3507-4e6f-951a-334d957e95f2">4</characteristic>
+            <characteristic name="Ld" typeId="71504bf9-7075-47fe-a797-f8ddc54346fd">10</characteristic>
+            <characteristic name="Save" typeId="de720430-a706-464b-9969-4e45fe254916">2+</characteristic>
           </characteristics>
         </profile>
-        <profile id="dc6fb992-c3a0-42d1-84fd-e7521a1a377f" name="Chaos Warlord Titan 3 (31-60 wounds remaining)" hidden="false" typeId="e7887ddd-b8a9-4d53-8706-e0854481f0fc" typeName="Unit">
+        <profile id="71464113-3f69-4c30-83c9-cf68a5c63b1b" name="Chaos Warlord Titan 3 (31-60 wounds remaining)" hidden="false" typeId="2389a9c7-564a-45bc-bafa-44a5457c00e4" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="96661213-8312-459b-9b96-1355ec4a67b4">8&quot;</characteristic>
-            <characteristic name="WS" typeId="9d7576c3-ccf2-4f09-8044-57fcb2345b0a">5+</characteristic>
-            <characteristic name="BS" typeId="33305227-578c-4cf0-a2aa-49445a556d6d">4+</characteristic>
-            <characteristic name="S" typeId="a9f642e9-5a17-4319-8cca-6686f23c1309">9</characteristic>
-            <characteristic name="T" typeId="e621bc60-7d62-4d1e-87f9-37d99e50114c">9</characteristic>
-            <characteristic name="W" typeId="0f59d4db-1023-4662-bb7e-925b80fb0c9e">N/A</characteristic>
-            <characteristic name="A" typeId="3c1aa456-7080-4fba-b6ec-bcedf1b5f3ee">4</characteristic>
-            <characteristic name="Ld" typeId="b60e9b00-0e5e-4349-8e98-562929d2cf35">10</characteristic>
-            <characteristic name="Save" typeId="1d7e52b7-0f6a-4809-9fdb-01e98d742cfb">2+</characteristic>
+            <characteristic name="M" typeId="dfaf03e2-db64-4777-8c6e-35874a70ac6d">8&quot;</characteristic>
+            <characteristic name="WS" typeId="752c83e3-cd1b-4290-89a8-7dd17f6f0771">5+</characteristic>
+            <characteristic name="BS" typeId="e743642d-b603-4dc4-84c1-1356c804e280">4+</characteristic>
+            <characteristic name="S" typeId="4b473f0c-e75b-4457-b69d-b822efa75d18">9</characteristic>
+            <characteristic name="T" typeId="68a4b50d-30fd-47b4-a0b9-b4150497ed5d">9</characteristic>
+            <characteristic name="W" typeId="e6272de1-50f4-4d6b-9449-e0892f0b5b07">N/A</characteristic>
+            <characteristic name="A" typeId="bcf73df5-3507-4e6f-951a-334d957e95f2">4</characteristic>
+            <characteristic name="Ld" typeId="71504bf9-7075-47fe-a797-f8ddc54346fd">10</characteristic>
+            <characteristic name="Save" typeId="de720430-a706-464b-9969-4e45fe254916">2+</characteristic>
           </characteristics>
         </profile>
-        <profile id="e463fe85-2990-40e9-ac58-ca84bb6dc945" name="Chaos Warlord Titan 4 (1-30 wounds remaining)" hidden="false" typeId="e7887ddd-b8a9-4d53-8706-e0854481f0fc" typeName="Unit">
+        <profile id="1272911d-6ca8-4e99-ac54-eaf7eeeba3b8" name="Chaos Warlord Titan 4 (1-30 wounds remaining)" hidden="false" typeId="2389a9c7-564a-45bc-bafa-44a5457c00e4" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="96661213-8312-459b-9b96-1355ec4a67b4">6&quot;</characteristic>
-            <characteristic name="WS" typeId="9d7576c3-ccf2-4f09-8044-57fcb2345b0a">6+</characteristic>
-            <characteristic name="BS" typeId="33305227-578c-4cf0-a2aa-49445a556d6d">5+</characteristic>
-            <characteristic name="S" typeId="a9f642e9-5a17-4319-8cca-6686f23c1309">9</characteristic>
-            <characteristic name="T" typeId="e621bc60-7d62-4d1e-87f9-37d99e50114c">9</characteristic>
-            <characteristic name="W" typeId="0f59d4db-1023-4662-bb7e-925b80fb0c9e">N/A</characteristic>
-            <characteristic name="A" typeId="3c1aa456-7080-4fba-b6ec-bcedf1b5f3ee">4</characteristic>
-            <characteristic name="Ld" typeId="b60e9b00-0e5e-4349-8e98-562929d2cf35">10</characteristic>
-            <characteristic name="Save" typeId="1d7e52b7-0f6a-4809-9fdb-01e98d742cfb">2+</characteristic>
+            <characteristic name="M" typeId="dfaf03e2-db64-4777-8c6e-35874a70ac6d">6&quot;</characteristic>
+            <characteristic name="WS" typeId="752c83e3-cd1b-4290-89a8-7dd17f6f0771">6+</characteristic>
+            <characteristic name="BS" typeId="e743642d-b603-4dc4-84c1-1356c804e280">5+</characteristic>
+            <characteristic name="S" typeId="4b473f0c-e75b-4457-b69d-b822efa75d18">9</characteristic>
+            <characteristic name="T" typeId="68a4b50d-30fd-47b4-a0b9-b4150497ed5d">9</characteristic>
+            <characteristic name="W" typeId="e6272de1-50f4-4d6b-9449-e0892f0b5b07">N/A</characteristic>
+            <characteristic name="A" typeId="bcf73df5-3507-4e6f-951a-334d957e95f2">4</characteristic>
+            <characteristic name="Ld" typeId="71504bf9-7075-47fe-a797-f8ddc54346fd">10</characteristic>
+            <characteristic name="Save" typeId="de720430-a706-464b-9969-4e45fe254916">2+</characteristic>
           </characteristics>
         </profile>
-        <profile id="35c59c9b-d164-41d5-b768-6fd556e7b626" name="War Engine" hidden="false" typeId="2162327a-7e1a-4909-bb9b-d50e46e36560" typeName="Abilities">
+        <profile id="6b08e789-b638-4fc2-bf2c-fcc7891986a9" name="War Engine" hidden="false" typeId="6a77fd08-33e0-4a84-a26a-9c819f5ffbb5" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="2af4d187-b9e6-46e3-8cef-419269a844da">This model is eligible to declare a charge in a turn in which it Fell Back. Each time this model makes a Normal Move, Advances or Falls Back, it can be moved across other models (excluding TITANIC models) as if they were not there, and when it does so it can be moved within Engagement Range of such models, but cannot finish its move within Engagement Range of any of them.</characteristic>
+            <characteristic name="Description" typeId="00250bb0-92ce-4d01-a8c7-8706e5a818c2">This model is eligible to declare a charge in a turn in which it Fell Back. Each time this model makes a Normal Move, Advances or Falls Back, it can be moved across other models (excluding TITANIC models) as if they were not there, and when it does so it can be moved within Engagement Range of such models, but cannot finish its move within Engagement Range of any of them.</characteristic>
           </characteristics>
         </profile>
-        <profile id="ce327439-f7ac-45d0-aaff-20a155471a5f" name="Reactor Meltdown" hidden="false" typeId="2162327a-7e1a-4909-bb9b-d50e46e36560" typeName="Abilities">
+        <profile id="678ee2a7-442a-4829-8879-438095c64cd5" name="Reactor Meltdown" hidden="false" typeId="6a77fd08-33e0-4a84-a26a-9c819f5ffbb5" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="2af4d187-b9e6-46e3-8cef-419269a844da">When this model is destroyed, roll one D6 before removing the model from the battlefield. On a 6+ it explodes, and each unit within 4D6&quot; suffers 3D6 mortal wounds.</characteristic>
+            <characteristic name="Description" typeId="00250bb0-92ce-4d01-a8c7-8706e5a818c2">When this model is destroyed, roll one D6 before removing the model from the battlefield. On a 6+ it explodes, and each unit within 4D6&quot; suffers 3D6 mortal wounds.</characteristic>
           </characteristics>
         </profile>
-        <profile id="22388abe-77ab-4841-893c-dac432b58852" name="Void Shields" hidden="false" typeId="2162327a-7e1a-4909-bb9b-d50e46e36560" typeName="Abilities">
+        <profile id="266d6ef5-6441-48ca-a5b9-5beb51b0bfcb" name="Void Shields" hidden="false" typeId="6a77fd08-33e0-4a84-a26a-9c819f5ffbb5" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="2af4d187-b9e6-46e3-8cef-419269a844da">This model has 8 void shields. Each void shield has 3 shield points. While this model has any void shields, it has a 5+ invulnerable save against ranged attacks.
+            <characteristic name="Description" typeId="00250bb0-92ce-4d01-a8c7-8706e5a818c2">This model has 8 void shields. Each void shield has 3 shield points. While this model has any void shields, it has a 5+ invulnerable save against ranged attacks.
 
 Each time a saving throw is failed for this model against a ranged attack, if it has any void shields, it does not suffer any damage. Instead, for each point of damage inflicted, one of its void shields loses 1 shield point. Once a void shield has lost a shield point, it must continue to lose shield points due to any firther damage inflicted until it collapses. Each time an attack causes a void shield to be reducedc to 0 shield points, that void shield collapses: this model loses that void shield and any excess damage inflicted by that attack is lost. Void shields can never be used to prevent mortal wounds (each mortal wound inflicted on a model with void shields causes that model to lose one wound as normal).
 
@@ -501,658 +501,658 @@ At the start of your Command phase, if this model has a void shield that has few
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="f4d07294-8f6a-4c6c-ac13-42e922c253b6" name="New CategoryLink" hidden="false" targetId="84cb6100-a746-4dd2-9486-a4c19df98676" primary="false"/>
-        <categoryLink id="cb6b1ae2-2e48-4f0f-9f43-e4233a27c67b" name="New CategoryLink" hidden="false" targetId="7d82f3fc-875b-4bbc-9747-4c1033017b40" primary="true"/>
-        <categoryLink id="9cdad840-b697-494c-a32d-0f3ea78cf78a" name="New CategoryLink" hidden="false" targetId="a722973f-bb77-4c1c-8f43-8ae31ee7426e" primary="false"/>
-        <categoryLink id="6404c834-f9ea-4ad5-9215-8cda62567de2" name="New CategoryLink" hidden="false" targetId="cafa47ff-68a8-412c-b598-05bcf5b2cfaa" primary="false"/>
-        <categoryLink id="049fb23d-ba71-41bb-b777-9945be1fed16" name="New CategoryLink" hidden="false" targetId="133657b6-5709-4570-af0c-b588e527e5de" primary="false"/>
-        <categoryLink id="e03ff21a-3793-4ddc-b02c-cf5864861438" name="New CategoryLink" hidden="false" targetId="63db45f3-e31d-48ff-abb6-1b8f46fad5a4" primary="false"/>
-        <categoryLink id="58656967-2dc4-4849-8a41-f26115e8a79b" name="New CategoryLink" hidden="false" targetId="cb0f7683-c067-4fca-86dd-e32ade4ae5b4" primary="false"/>
+        <categoryLink id="bcff7c06-660f-40fe-a3a9-5b6c058d06cc" name="New CategoryLink" hidden="false" targetId="b87ce8b0-c5d7-438e-9bae-719ad1a6444c" primary="false"/>
+        <categoryLink id="d7467e72-fb9d-404b-88bc-30ad6805926e" name="New CategoryLink" hidden="false" targetId="17bc7a5e-9115-4030-96ae-5f0299efb52a" primary="true"/>
+        <categoryLink id="44061183-7023-468c-bc66-f379b52b1d90" name="New CategoryLink" hidden="false" targetId="5076ee16-6e8b-45bf-83ca-9bd67ada7ed7" primary="false"/>
+        <categoryLink id="84a09d5b-d66f-4ad8-abb7-d6070977b996" name="New CategoryLink" hidden="false" targetId="29293cd8-0ee6-40d6-92fd-73cc2727b2a7" primary="false"/>
+        <categoryLink id="c1f350e6-a32a-4678-a630-bfc58d83f398" name="New CategoryLink" hidden="false" targetId="002cf771-ee70-4cdc-90ae-29d0802743dd" primary="false"/>
+        <categoryLink id="1ee02a1a-ccfb-4c5e-97c7-9820e9aee0e4" name="New CategoryLink" hidden="false" targetId="6a06d536-0f42-4717-be8b-a9637a1ad550" primary="false"/>
+        <categoryLink id="45a932f7-c1b7-4ec6-9a80-2bdb1ff12895" name="New CategoryLink" hidden="false" targetId="c06d83aa-7ca5-430c-a63e-6215abe12c54" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="71b0d346-6fd7-490a-ae86-d0064772a1ce" name="Warlord feet" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="10c14807-0958-4989-9eba-5b2bae43e218" name="Warlord feet" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a5e8a088-4b06-475f-984d-d6c51c246bb0" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4d7948e-e10b-42a2-9edd-3f3377ad9d9e" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9bc2186-48ea-4794-a72c-577ff82ecac8" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="623b28e4-dfa4-4bd0-b737-03b6746ee8ac" type="max"/>
           </constraints>
           <profiles>
-            <profile id="61caebb9-c357-4141-93f8-e7c87f4fece2" name="Warlord feet" hidden="false" typeId="798d1891-fc3e-440e-a9d7-1e41effd376a" typeName="Weapon">
+            <profile id="5b9f53c1-6ad1-43aa-91be-459368b77864" name="Warlord feet" hidden="false" typeId="a5aa8d41-4d63-42c8-b55d-6e48ed06c22e" typeName="Weapon">
               <characteristics>
-                <characteristic name="Range" typeId="5a654151-3bcc-415a-8bcc-4f936dc64110">Melee</characteristic>
-                <characteristic name="Type" typeId="583221e0-05de-486d-9d5f-29f29f57673e">Melee</characteristic>
-                <characteristic name="S" typeId="f51d2bf0-73c7-4814-8513-01226fa4503b">User</characteristic>
-                <characteristic name="AP" typeId="052e9451-7080-48cc-901d-98cfb1b5b8a7">-4</characteristic>
-                <characteristic name="D" typeId="878493bc-53f8-4b51-9251-978997303982">5</characteristic>
-                <characteristic name="Abilities" typeId="203551a5-9b86-4992-a96f-1b369cf73d2b">Each time an attack is made with this weapon profile, make 2 hit rolls instead of 1.</characteristic>
+                <characteristic name="Range" typeId="886781d4-1445-43b0-b232-996f586f7971">Melee</characteristic>
+                <characteristic name="Type" typeId="4a47918e-af32-4c79-9b7a-d8271d4a89b1">Melee</characteristic>
+                <characteristic name="S" typeId="02a071af-2ef1-40f4-b2c5-5fa32d09059d">User</characteristic>
+                <characteristic name="AP" typeId="9a4e9541-9439-4469-a5a5-757f1d74e69f">-4</characteristic>
+                <characteristic name="D" typeId="b2033c54-3869-43b8-9be4-13f4742341c2">5</characteristic>
+                <characteristic name="Abilities" typeId="d0040129-019c-45c0-876e-2fbb809feb92">Each time an attack is made with this weapon profile, make 2 hit rolls instead of 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="c68f8e57-9276-4a3a-9e86-d6adf1065f76" value="0.0"/>
-            <cost name="pts" typeId="c53f0665-1284-48d1-80a2-4f4752c7390a" value="0.0"/>
-            <cost name="CP" typeId="6525e428-b609-455b-8ff7-dc3656708a9e" value="0.0"/>
+            <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="0.0"/>
+            <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="0.0"/>
+            <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="eb4e4988-3e0d-4188-805a-dc46bca2772c" name="Ardex-defensor lascannon" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="5a331847-e465-4d1a-877e-521b6ad5822d" name="Ardex-defensor lascannon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9deb08fa-bc93-4e8d-9b48-4e4cde402901" type="max"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="288d3fc3-70e8-4156-8b5a-e03972510d56" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abb7fa1d-8462-4640-81fb-32327452726f" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdfe9f75-fec8-4655-b608-5135357bc705" type="min"/>
           </constraints>
           <profiles>
-            <profile id="e260e40c-378b-46e5-bd42-bc4685599e82" name="Ardex-defensor lascannon" hidden="false" typeId="798d1891-fc3e-440e-a9d7-1e41effd376a" typeName="Weapon">
+            <profile id="121a0103-6c67-4058-a7c5-086bb280b271" name="Ardex-defensor lascannon" hidden="false" typeId="a5aa8d41-4d63-42c8-b55d-6e48ed06c22e" typeName="Weapon">
               <characteristics>
-                <characteristic name="Range" typeId="5a654151-3bcc-415a-8bcc-4f936dc64110">48&quot;</characteristic>
-                <characteristic name="Type" typeId="583221e0-05de-486d-9d5f-29f29f57673e">Heavy 1</characteristic>
-                <characteristic name="S" typeId="f51d2bf0-73c7-4814-8513-01226fa4503b">9</characteristic>
-                <characteristic name="AP" typeId="052e9451-7080-48cc-901d-98cfb1b5b8a7">-3</characteristic>
-                <characteristic name="D" typeId="878493bc-53f8-4b51-9251-978997303982">D6</characteristic>
-                <characteristic name="Abilities" typeId="203551a5-9b86-4992-a96f-1b369cf73d2b">Each time an attack is made with this weapon profile when firing Overwatch, that attack hits on a roll of 5 or 6.</characteristic>
+                <characteristic name="Range" typeId="886781d4-1445-43b0-b232-996f586f7971">48&quot;</characteristic>
+                <characteristic name="Type" typeId="4a47918e-af32-4c79-9b7a-d8271d4a89b1">Heavy 1</characteristic>
+                <characteristic name="S" typeId="02a071af-2ef1-40f4-b2c5-5fa32d09059d">9</characteristic>
+                <characteristic name="AP" typeId="9a4e9541-9439-4469-a5a5-757f1d74e69f">-3</characteristic>
+                <characteristic name="D" typeId="b2033c54-3869-43b8-9be4-13f4742341c2">D6</characteristic>
+                <characteristic name="Abilities" typeId="d0040129-019c-45c0-876e-2fbb809feb92">Each time an attack is made with this weapon profile when firing Overwatch, that attack hits on a roll of 5 or 6.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="c68f8e57-9276-4a3a-9e86-d6adf1065f76" value="0.0"/>
-            <cost name="pts" typeId="c53f0665-1284-48d1-80a2-4f4752c7390a" value="0.0"/>
-            <cost name="CP" typeId="6525e428-b609-455b-8ff7-dc3656708a9e" value="0.0"/>
+            <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="0.0"/>
+            <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="0.0"/>
+            <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="74733be2-6d5c-4135-bab7-eeceee938b60" name="Arm mounted weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="79d678a7-a037-4263-803e-35502738cdcc">
+        <selectionEntryGroup id="3e37eb42-e8b6-4f7f-a16a-68291c60a9bc" name="Arm mounted weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="e1031ef1-a3d1-453b-8ed7-4218c8ef0e24">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="f9e35c20-1040-4013-a20b-d66b2d4bcb9b" type="max"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="c15dea73-dfef-4ee5-8ba4-6230586791bd" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="b451e53d-2dc4-4763-8d5d-5258c04b9cad" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="e2a9a9ae-8d79-488e-8372-5484884e223f" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="16bb001f-9597-4867-b5b3-6639e18d8c00" name="Belicosa volcano cannon" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="40d71467-6b16-4b96-a3d7-3b47cb29af54" name="Belicosa volcano cannon" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="85e376eb-094d-4f87-8f6a-78edb6e76a07" name="Belicosa volcano cannon" hidden="false" typeId="798d1891-fc3e-440e-a9d7-1e41effd376a" typeName="Weapon">
+                <profile id="4c49ad9f-5ee3-400e-b2c4-fa67b6a2ae60" name="Belicosa volcano cannon" hidden="false" typeId="a5aa8d41-4d63-42c8-b55d-6e48ed06c22e" typeName="Weapon">
                   <characteristics>
-                    <characteristic name="Range" typeId="5a654151-3bcc-415a-8bcc-4f936dc64110">120&quot;</characteristic>
-                    <characteristic name="Type" typeId="583221e0-05de-486d-9d5f-29f29f57673e">Heavy 3D3</characteristic>
-                    <characteristic name="S" typeId="f51d2bf0-73c7-4814-8513-01226fa4503b">20</characteristic>
-                    <characteristic name="AP" typeId="052e9451-7080-48cc-901d-98cfb1b5b8a7">-5</characteristic>
-                    <characteristic name="D" typeId="878493bc-53f8-4b51-9251-978997303982">12</characteristic>
-                    <characteristic name="Abilities" typeId="203551a5-9b86-4992-a96f-1b369cf73d2b">Blast</characteristic>
+                    <characteristic name="Range" typeId="886781d4-1445-43b0-b232-996f586f7971">120&quot;</characteristic>
+                    <characteristic name="Type" typeId="4a47918e-af32-4c79-9b7a-d8271d4a89b1">Heavy 3D3</characteristic>
+                    <characteristic name="S" typeId="02a071af-2ef1-40f4-b2c5-5fa32d09059d">20</characteristic>
+                    <characteristic name="AP" typeId="9a4e9541-9439-4469-a5a5-757f1d74e69f">-5</characteristic>
+                    <characteristic name="D" typeId="b2033c54-3869-43b8-9be4-13f4742341c2">12</characteristic>
+                    <characteristic name="Abilities" typeId="d0040129-019c-45c0-876e-2fbb809feb92">Blast</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="c68f8e57-9276-4a3a-9e86-d6adf1065f76" value="0.0"/>
-                <cost name="pts" typeId="c53f0665-1284-48d1-80a2-4f4752c7390a" value="0.0"/>
-                <cost name="CP" typeId="6525e428-b609-455b-8ff7-dc3656708a9e" value="0.0"/>
+                <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="0.0"/>
+                <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="0.0"/>
+                <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="79d678a7-a037-4263-803e-35502738cdcc" name="Arioch power claw" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="e1031ef1-a3d1-453b-8ed7-4218c8ef0e24" name="Arioch power claw" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="15c4afa4-1fd5-4e05-96ff-105a2051e7dc" name="Arioch power claw (melee)" hidden="false" typeId="798d1891-fc3e-440e-a9d7-1e41effd376a" typeName="Weapon">
+                <profile id="840da91e-6e82-4d21-90f7-ae31e8cd59cc" name="Arioch power claw (melee)" hidden="false" typeId="a5aa8d41-4d63-42c8-b55d-6e48ed06c22e" typeName="Weapon">
                   <characteristics>
-                    <characteristic name="Range" typeId="5a654151-3bcc-415a-8bcc-4f936dc64110">Melee</characteristic>
-                    <characteristic name="Type" typeId="583221e0-05de-486d-9d5f-29f29f57673e">Melee</characteristic>
-                    <characteristic name="S" typeId="f51d2bf0-73c7-4814-8513-01226fa4503b">x2</characteristic>
-                    <characteristic name="AP" typeId="052e9451-7080-48cc-901d-98cfb1b5b8a7">-5</characteristic>
-                    <characteristic name="D" typeId="878493bc-53f8-4b51-9251-978997303982">18</characteristic>
-                    <characteristic name="Abilities" typeId="203551a5-9b86-4992-a96f-1b369cf73d2b">Each time a VEHICLE or MONSTER model is destroyed as a result of an attack made with this weapon, you can select one enemy unit within 9&quot; and roll one D6; on a 4+, that unit suffers D6 mortal wounds.</characteristic>
+                    <characteristic name="Range" typeId="886781d4-1445-43b0-b232-996f586f7971">Melee</characteristic>
+                    <characteristic name="Type" typeId="4a47918e-af32-4c79-9b7a-d8271d4a89b1">Melee</characteristic>
+                    <characteristic name="S" typeId="02a071af-2ef1-40f4-b2c5-5fa32d09059d">x2</characteristic>
+                    <characteristic name="AP" typeId="9a4e9541-9439-4469-a5a5-757f1d74e69f">-5</characteristic>
+                    <characteristic name="D" typeId="b2033c54-3869-43b8-9be4-13f4742341c2">18</characteristic>
+                    <characteristic name="Abilities" typeId="d0040129-019c-45c0-876e-2fbb809feb92">Each time a VEHICLE or MONSTER model is destroyed as a result of an attack made with this weapon, you can select one enemy unit within 9&quot; and roll one D6; on a 4+, that unit suffers D6 mortal wounds.</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="bd049646-efa1-469a-88e4-4c4a0ef19fef" name="Arioch power claw (shooting)" hidden="false" typeId="798d1891-fc3e-440e-a9d7-1e41effd376a" typeName="Weapon">
+                <profile id="bbcd7854-374d-4e1e-a39c-07b68fc4b8bc" name="Arioch power claw (shooting)" hidden="false" typeId="a5aa8d41-4d63-42c8-b55d-6e48ed06c22e" typeName="Weapon">
                   <characteristics>
-                    <characteristic name="Range" typeId="5a654151-3bcc-415a-8bcc-4f936dc64110">48&quot;</characteristic>
-                    <characteristic name="Type" typeId="583221e0-05de-486d-9d5f-29f29f57673e">Heavy 20</characteristic>
-                    <characteristic name="S" typeId="f51d2bf0-73c7-4814-8513-01226fa4503b">6</characteristic>
-                    <characteristic name="AP" typeId="052e9451-7080-48cc-901d-98cfb1b5b8a7">-2</characteristic>
-                    <characteristic name="D" typeId="878493bc-53f8-4b51-9251-978997303982">2</characteristic>
-                    <characteristic name="Abilities" typeId="203551a5-9b86-4992-a96f-1b369cf73d2b">-</characteristic>
+                    <characteristic name="Range" typeId="886781d4-1445-43b0-b232-996f586f7971">48&quot;</characteristic>
+                    <characteristic name="Type" typeId="4a47918e-af32-4c79-9b7a-d8271d4a89b1">Heavy 20</characteristic>
+                    <characteristic name="S" typeId="02a071af-2ef1-40f4-b2c5-5fa32d09059d">6</characteristic>
+                    <characteristic name="AP" typeId="9a4e9541-9439-4469-a5a5-757f1d74e69f">-2</characteristic>
+                    <characteristic name="D" typeId="b2033c54-3869-43b8-9be4-13f4742341c2">2</characteristic>
+                    <characteristic name="Abilities" typeId="d0040129-019c-45c0-876e-2fbb809feb92">-</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="c68f8e57-9276-4a3a-9e86-d6adf1065f76" value="0.0"/>
-                <cost name="pts" typeId="c53f0665-1284-48d1-80a2-4f4752c7390a" value="0.0"/>
-                <cost name="CP" typeId="6525e428-b609-455b-8ff7-dc3656708a9e" value="0.0"/>
+                <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="0.0"/>
+                <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="0.0"/>
+                <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="fceaad0c-0a3a-4c5f-88ed-f577b0d991d0" name="Mori quake cannon" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="13bb7588-ac7a-4909-8393-522450ce290b" name="Mori quake cannon" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="1a40e711-c50f-4cf3-bde5-13f5b86c33f4" name="Mori quake cannon" hidden="false" typeId="798d1891-fc3e-440e-a9d7-1e41effd376a" typeName="Weapon">
+                <profile id="d29e13a1-9e75-4b51-aa7a-4a0beeb188d7" name="Mori quake cannon" hidden="false" typeId="a5aa8d41-4d63-42c8-b55d-6e48ed06c22e" typeName="Weapon">
                   <characteristics>
-                    <characteristic name="Range" typeId="5a654151-3bcc-415a-8bcc-4f936dc64110">280&quot;</characteristic>
-                    <characteristic name="Type" typeId="583221e0-05de-486d-9d5f-29f29f57673e">Heavy 3D6</characteristic>
-                    <characteristic name="S" typeId="f51d2bf0-73c7-4814-8513-01226fa4503b">14</characteristic>
-                    <characteristic name="AP" typeId="052e9451-7080-48cc-901d-98cfb1b5b8a7">-5</characteristic>
-                    <characteristic name="D" typeId="878493bc-53f8-4b51-9251-978997303982">6</characteristic>
-                    <characteristic name="Abilities" typeId="203551a5-9b86-4992-a96f-1b369cf73d2b">Blast. This weapon can target units that are not visible to the bearer.</characteristic>
+                    <characteristic name="Range" typeId="886781d4-1445-43b0-b232-996f586f7971">280&quot;</characteristic>
+                    <characteristic name="Type" typeId="4a47918e-af32-4c79-9b7a-d8271d4a89b1">Heavy 3D6</characteristic>
+                    <characteristic name="S" typeId="02a071af-2ef1-40f4-b2c5-5fa32d09059d">14</characteristic>
+                    <characteristic name="AP" typeId="9a4e9541-9439-4469-a5a5-757f1d74e69f">-5</characteristic>
+                    <characteristic name="D" typeId="b2033c54-3869-43b8-9be4-13f4742341c2">6</characteristic>
+                    <characteristic name="Abilities" typeId="d0040129-019c-45c0-876e-2fbb809feb92">Blast. This weapon can target units that are not visible to the bearer.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="c68f8e57-9276-4a3a-9e86-d6adf1065f76" value="0.0"/>
-                <cost name="pts" typeId="c53f0665-1284-48d1-80a2-4f4752c7390a" value="0.0"/>
-                <cost name="CP" typeId="6525e428-b609-455b-8ff7-dc3656708a9e" value="0.0"/>
+                <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="0.0"/>
+                <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="0.0"/>
+                <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="45e65583-8147-4d45-80ab-ef49a045008d" name="Sunfury plasma annihilator" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="9a764fcc-aae3-4781-a025-f01224cef2fc" name="Sunfury plasma annihilator" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="58203fef-6cb5-4f26-84c1-b124e03b09a9" name="Sunfury plasma annihilator - Standard" hidden="false" typeId="798d1891-fc3e-440e-a9d7-1e41effd376a" typeName="Weapon">
+                <profile id="465e1fa2-fad7-4750-9230-ecb5f6c4c99b" name="Sunfury plasma annihilator - Standard" hidden="false" typeId="a5aa8d41-4d63-42c8-b55d-6e48ed06c22e" typeName="Weapon">
                   <characteristics>
-                    <characteristic name="Range" typeId="5a654151-3bcc-415a-8bcc-4f936dc64110">72&quot;</characteristic>
-                    <characteristic name="Type" typeId="583221e0-05de-486d-9d5f-29f29f57673e">Heavy D6+6</characteristic>
-                    <characteristic name="S" typeId="f51d2bf0-73c7-4814-8513-01226fa4503b">12</characteristic>
-                    <characteristic name="AP" typeId="052e9451-7080-48cc-901d-98cfb1b5b8a7">-4</characteristic>
-                    <characteristic name="D" typeId="878493bc-53f8-4b51-9251-978997303982">5</characteristic>
-                    <characteristic name="Abilities" typeId="203551a5-9b86-4992-a96f-1b369cf73d2b">Blast</characteristic>
+                    <characteristic name="Range" typeId="886781d4-1445-43b0-b232-996f586f7971">72&quot;</characteristic>
+                    <characteristic name="Type" typeId="4a47918e-af32-4c79-9b7a-d8271d4a89b1">Heavy D6+6</characteristic>
+                    <characteristic name="S" typeId="02a071af-2ef1-40f4-b2c5-5fa32d09059d">12</characteristic>
+                    <characteristic name="AP" typeId="9a4e9541-9439-4469-a5a5-757f1d74e69f">-4</characteristic>
+                    <characteristic name="D" typeId="b2033c54-3869-43b8-9be4-13f4742341c2">5</characteristic>
+                    <characteristic name="Abilities" typeId="d0040129-019c-45c0-876e-2fbb809feb92">Blast</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="e1285dd7-8ffc-4720-976c-0352ff29db3f" name="Sunfury plasma annihilator - Supercharge" hidden="false" typeId="798d1891-fc3e-440e-a9d7-1e41effd376a" typeName="Weapon">
+                <profile id="e5f8ec92-4b03-4ff0-bce5-c27f0ecdd5ba" name="Sunfury plasma annihilator - Supercharge" hidden="false" typeId="a5aa8d41-4d63-42c8-b55d-6e48ed06c22e" typeName="Weapon">
                   <characteristics>
-                    <characteristic name="Range" typeId="5a654151-3bcc-415a-8bcc-4f936dc64110">72&quot;</characteristic>
-                    <characteristic name="Type" typeId="583221e0-05de-486d-9d5f-29f29f57673e">Heavy D6+6</characteristic>
-                    <characteristic name="S" typeId="f51d2bf0-73c7-4814-8513-01226fa4503b">14</characteristic>
-                    <characteristic name="AP" typeId="052e9451-7080-48cc-901d-98cfb1b5b8a7">-4</characteristic>
-                    <characteristic name="D" typeId="878493bc-53f8-4b51-9251-978997303982">8</characteristic>
-                    <characteristic name="Abilities" typeId="203551a5-9b86-4992-a96f-1b369cf73d2b">Blast. Each time an unmodified hit roll of 1 is made for an attack with this weapon profile, the bearer suffers 4 mortal wounds after shooting with this weapon.</characteristic>
+                    <characteristic name="Range" typeId="886781d4-1445-43b0-b232-996f586f7971">72&quot;</characteristic>
+                    <characteristic name="Type" typeId="4a47918e-af32-4c79-9b7a-d8271d4a89b1">Heavy D6+6</characteristic>
+                    <characteristic name="S" typeId="02a071af-2ef1-40f4-b2c5-5fa32d09059d">14</characteristic>
+                    <characteristic name="AP" typeId="9a4e9541-9439-4469-a5a5-757f1d74e69f">-4</characteristic>
+                    <characteristic name="D" typeId="b2033c54-3869-43b8-9be4-13f4742341c2">8</characteristic>
+                    <characteristic name="Abilities" typeId="d0040129-019c-45c0-876e-2fbb809feb92">Blast. Each time an unmodified hit roll of 1 is made for an attack with this weapon profile, the bearer suffers 4 mortal wounds after shooting with this weapon.</characteristic>
                   </characteristics>
                 </profile>
-                <profile id="49148797-2597-49d1-b926-6e913afe840d" name="Sunfury plasma annihilator" hidden="false" typeId="798d1891-fc3e-440e-a9d7-1e41effd376a" typeName="Weapon">
+                <profile id="7f15933f-2e58-4fae-ab58-77aafe2a8a3a" name="Sunfury plasma annihilator" hidden="false" typeId="a5aa8d41-4d63-42c8-b55d-6e48ed06c22e" typeName="Weapon">
                   <characteristics>
-                    <characteristic name="Range" typeId="5a654151-3bcc-415a-8bcc-4f936dc64110">-</characteristic>
-                    <characteristic name="Type" typeId="583221e0-05de-486d-9d5f-29f29f57673e">-</characteristic>
-                    <characteristic name="S" typeId="f51d2bf0-73c7-4814-8513-01226fa4503b">-</characteristic>
-                    <characteristic name="AP" typeId="052e9451-7080-48cc-901d-98cfb1b5b8a7">-</characteristic>
-                    <characteristic name="D" typeId="878493bc-53f8-4b51-9251-978997303982">-</characteristic>
-                    <characteristic name="Abilities" typeId="203551a5-9b86-4992-a96f-1b369cf73d2b">Before selecting targets, select one of the profiles below to make attacks with.</characteristic>
+                    <characteristic name="Range" typeId="886781d4-1445-43b0-b232-996f586f7971">-</characteristic>
+                    <characteristic name="Type" typeId="4a47918e-af32-4c79-9b7a-d8271d4a89b1">-</characteristic>
+                    <characteristic name="S" typeId="02a071af-2ef1-40f4-b2c5-5fa32d09059d">-</characteristic>
+                    <characteristic name="AP" typeId="9a4e9541-9439-4469-a5a5-757f1d74e69f">-</characteristic>
+                    <characteristic name="D" typeId="b2033c54-3869-43b8-9be4-13f4742341c2">-</characteristic>
+                    <characteristic name="Abilities" typeId="d0040129-019c-45c0-876e-2fbb809feb92">Before selecting targets, select one of the profiles below to make attacks with.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="c68f8e57-9276-4a3a-9e86-d6adf1065f76" value="0.0"/>
-                <cost name="pts" typeId="c53f0665-1284-48d1-80a2-4f4752c7390a" value="0.0"/>
-                <cost name="CP" typeId="6525e428-b609-455b-8ff7-dc3656708a9e" value="0.0"/>
+                <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="0.0"/>
+                <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="0.0"/>
+                <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="5b9f1bf3-744b-47d9-8593-72bf18590551" name="Macro gatling blaster" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="33c9057a-ca0d-4bd3-b8eb-57c17441cb9b" name="Macro gatling blaster" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="ae1e1c99-0a50-4650-97f1-84764c1c6782" name="Macro gatling blaster" hidden="false" typeId="798d1891-fc3e-440e-a9d7-1e41effd376a" typeName="Weapon">
+                <profile id="1b3d29d0-3246-42e2-a69d-e2a50bb9e6d1" name="Macro gatling blaster" hidden="false" typeId="a5aa8d41-4d63-42c8-b55d-6e48ed06c22e" typeName="Weapon">
                   <characteristics>
-                    <characteristic name="Range" typeId="5a654151-3bcc-415a-8bcc-4f936dc64110">100&quot;</characteristic>
-                    <characteristic name="Type" typeId="583221e0-05de-486d-9d5f-29f29f57673e">Heavy 12</characteristic>
-                    <characteristic name="S" typeId="f51d2bf0-73c7-4814-8513-01226fa4503b">9</characteristic>
-                    <characteristic name="AP" typeId="052e9451-7080-48cc-901d-98cfb1b5b8a7">-4</characteristic>
-                    <characteristic name="D" typeId="878493bc-53f8-4b51-9251-978997303982">4</characteristic>
-                    <characteristic name="Abilities" typeId="203551a5-9b86-4992-a96f-1b369cf73d2b">-</characteristic>
+                    <characteristic name="Range" typeId="886781d4-1445-43b0-b232-996f586f7971">100&quot;</characteristic>
+                    <characteristic name="Type" typeId="4a47918e-af32-4c79-9b7a-d8271d4a89b1">Heavy 12</characteristic>
+                    <characteristic name="S" typeId="02a071af-2ef1-40f4-b2c5-5fa32d09059d">9</characteristic>
+                    <characteristic name="AP" typeId="9a4e9541-9439-4469-a5a5-757f1d74e69f">-4</characteristic>
+                    <characteristic name="D" typeId="b2033c54-3869-43b8-9be4-13f4742341c2">4</characteristic>
+                    <characteristic name="Abilities" typeId="d0040129-019c-45c0-876e-2fbb809feb92">-</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="c68f8e57-9276-4a3a-9e86-d6adf1065f76" value="0.0"/>
-                <cost name="CP" typeId="6525e428-b609-455b-8ff7-dc3656708a9e" value="0.0"/>
-                <cost name="pts" typeId="c53f0665-1284-48d1-80a2-4f4752c7390a" value="0.0"/>
+                <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="0.0"/>
+                <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
+                <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
-        <selectionEntryGroup id="49b346b6-7010-4073-a96e-23b2d3036a75" name="Apocalypse launcher swap" hidden="false" collective="false" import="true" defaultSelectionEntryId="80db6962-3cc9-4372-bc47-56714ef8205b">
+        <selectionEntryGroup id="d8b828d1-ec33-41e5-aa64-ca80a10437b9" name="Apocalypse launcher swap" hidden="false" collective="false" import="true" defaultSelectionEntryId="8a346aee-3ae5-4a15-917a-c8207e37fad9">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1a290018-43b7-4d8d-9205-59b9f7eccd2a" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c87f906-a4bf-4703-ba49-99dda8865b90" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="805c9c5c-7b25-4449-83c5-ce4c9fab295b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e23f7d45-3628-4579-a5fe-645edb9630fa" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="80db6962-3cc9-4372-bc47-56714ef8205b" name="Two apocalypse launchers" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="8a346aee-3ae5-4a15-917a-c8207e37fad9" name="Two apocalypse launchers" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntries>
-                <selectionEntry id="b66b13cc-d6c6-4bf8-aae3-325b7a776624" name="Apocalypse launcher" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="2d7ee0b1-2bab-43b2-8c7a-78e62c8aae83" name="Apocalypse launcher" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8078fdc5-a409-4022-b08f-bb294f5a6b3f" type="min"/>
-                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b746cb7-f76c-424b-9051-d723bb65050b" type="max"/>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b4153311-59f9-4724-abde-c429b2f7c15a" type="min"/>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5168dfce-2f3b-448e-8beb-27d77c4952d7" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="60cf8175-73fd-4941-b02d-2311816000b9" name="Apocalypse launcher" hidden="false" typeId="798d1891-fc3e-440e-a9d7-1e41effd376a" typeName="Weapon">
+                    <profile id="109e9f67-151c-41ef-ab55-e2cf85a43b14" name="Apocalypse launcher" hidden="false" typeId="a5aa8d41-4d63-42c8-b55d-6e48ed06c22e" typeName="Weapon">
                       <characteristics>
-                        <characteristic name="Range" typeId="5a654151-3bcc-415a-8bcc-4f936dc64110">24&quot;-200&quot;</characteristic>
-                        <characteristic name="Type" typeId="583221e0-05de-486d-9d5f-29f29f57673e">Heavy 2D6</characteristic>
-                        <characteristic name="S" typeId="f51d2bf0-73c7-4814-8513-01226fa4503b">8</characteristic>
-                        <characteristic name="AP" typeId="052e9451-7080-48cc-901d-98cfb1b5b8a7">-2</characteristic>
-                        <characteristic name="D" typeId="878493bc-53f8-4b51-9251-978997303982">2</characteristic>
-                        <characteristic name="Abilities" typeId="203551a5-9b86-4992-a96f-1b369cf73d2b">Blast. This weapon can target units that are not visible to the bearer.</characteristic>
+                        <characteristic name="Range" typeId="886781d4-1445-43b0-b232-996f586f7971">24&quot;-200&quot;</characteristic>
+                        <characteristic name="Type" typeId="4a47918e-af32-4c79-9b7a-d8271d4a89b1">Heavy 2D6</characteristic>
+                        <characteristic name="S" typeId="02a071af-2ef1-40f4-b2c5-5fa32d09059d">8</characteristic>
+                        <characteristic name="AP" typeId="9a4e9541-9439-4469-a5a5-757f1d74e69f">-2</characteristic>
+                        <characteristic name="D" typeId="b2033c54-3869-43b8-9be4-13f4742341c2">2</characteristic>
+                        <characteristic name="Abilities" typeId="d0040129-019c-45c0-876e-2fbb809feb92">Blast. This weapon can target units that are not visible to the bearer.</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="c68f8e57-9276-4a3a-9e86-d6adf1065f76" value="0.0"/>
-                    <cost name="CP" typeId="6525e428-b609-455b-8ff7-dc3656708a9e" value="0.0"/>
-                    <cost name="pts" typeId="c53f0665-1284-48d1-80a2-4f4752c7390a" value="0.0"/>
+                    <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="0.0"/>
+                    <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
+                    <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name=" PL" typeId="c68f8e57-9276-4a3a-9e86-d6adf1065f76" value="0.0"/>
-                <cost name="CP" typeId="6525e428-b609-455b-8ff7-dc3656708a9e" value="0.0"/>
-                <cost name="pts" typeId="c53f0665-1284-48d1-80a2-4f4752c7390a" value="0.0"/>
+                <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="0.0"/>
+                <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
+                <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="e9f8c492-5fac-4987-b0b7-1a991b72c760" name="Two laser blasters" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="16d102ed-32dc-46ef-ae48-52798b3e32cd" name="Two laser blasters" hidden="false" collective="false" import="true" type="upgrade">
               <selectionEntries>
-                <selectionEntry id="2e8ee804-e18b-4074-92f2-83fcae91c067" name="Laser blaster" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="e7c492d7-aa7e-4add-9d51-3c101856fe65" name="Laser blaster" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d88fefb6-a29a-4691-b80f-bc37c3d67014" type="min"/>
-                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fda538b1-5f74-4193-af4e-7aaa3a243b09" type="max"/>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="232abb83-2ec7-466d-bd57-1b9aa5c562b1" type="min"/>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6cc2dbb6-45e2-4f8e-9124-d995482488e1" type="max"/>
                   </constraints>
                   <profiles>
-                    <profile id="a13fdec7-bb86-4157-8ccf-06b5077f4bad" name="Laser blaster" hidden="false" typeId="798d1891-fc3e-440e-a9d7-1e41effd376a" typeName="Weapon">
+                    <profile id="4fd65535-c912-49fd-89ac-393bc11dc38f" name="Laser blaster" hidden="false" typeId="a5aa8d41-4d63-42c8-b55d-6e48ed06c22e" typeName="Weapon">
                       <characteristics>
-                        <characteristic name="Range" typeId="5a654151-3bcc-415a-8bcc-4f936dc64110">72&quot;</characteristic>
-                        <characteristic name="Type" typeId="583221e0-05de-486d-9d5f-29f29f57673e">Heavy 3D3</characteristic>
-                        <characteristic name="S" typeId="f51d2bf0-73c7-4814-8513-01226fa4503b">16</characteristic>
-                        <characteristic name="AP" typeId="052e9451-7080-48cc-901d-98cfb1b5b8a7">-4</characteristic>
-                        <characteristic name="D" typeId="878493bc-53f8-4b51-9251-978997303982">D6+3</characteristic>
-                        <characteristic name="Abilities" typeId="203551a5-9b86-4992-a96f-1b369cf73d2b">Blast</characteristic>
+                        <characteristic name="Range" typeId="886781d4-1445-43b0-b232-996f586f7971">72&quot;</characteristic>
+                        <characteristic name="Type" typeId="4a47918e-af32-4c79-9b7a-d8271d4a89b1">Heavy 3D3</characteristic>
+                        <characteristic name="S" typeId="02a071af-2ef1-40f4-b2c5-5fa32d09059d">16</characteristic>
+                        <characteristic name="AP" typeId="9a4e9541-9439-4469-a5a5-757f1d74e69f">-4</characteristic>
+                        <characteristic name="D" typeId="b2033c54-3869-43b8-9be4-13f4742341c2">D6+3</characteristic>
+                        <characteristic name="Abilities" typeId="d0040129-019c-45c0-876e-2fbb809feb92">Blast</characteristic>
                       </characteristics>
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name=" PL" typeId="c68f8e57-9276-4a3a-9e86-d6adf1065f76" value="0.0"/>
-                    <cost name="CP" typeId="6525e428-b609-455b-8ff7-dc3656708a9e" value="0.0"/>
-                    <cost name="pts" typeId="c53f0665-1284-48d1-80a2-4f4752c7390a" value="0.0"/>
+                    <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="0.0"/>
+                    <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
+                    <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="0.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name=" PL" typeId="c68f8e57-9276-4a3a-9e86-d6adf1065f76" value="0.0"/>
-                <cost name="CP" typeId="6525e428-b609-455b-8ff7-dc3656708a9e" value="0.0"/>
-                <cost name="pts" typeId="c53f0665-1284-48d1-80a2-4f4752c7390a" value="0.0"/>
+                <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="0.0"/>
+                <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
+                <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="441d6315-6b29-46f1-afbe-1abf865d853d" name="Has Battle Honours (Chapter Approved 2018)" hidden="false" collective="false" import="true" targetId="cae1e10f-8743-482e-85e2-0858c089ef2b" type="selectionEntry"/>
-        <entryLink id="ec9bdad8-ccb3-4f4b-b26d-3e8fd20ed4c7" name="Ardex-defensor maulers" hidden="false" collective="false" import="true" targetId="765842a2-508f-4c92-a7ac-d9c97e1f8662" type="selectionEntry">
+        <entryLink id="ee991128-6fd5-4930-a359-084842e5c1ac" name="Has Battle Honours (Chapter Approved 2018)" hidden="false" collective="false" import="true" targetId="7039e474-2ee6-4d14-a6fe-6a7b01946c2d" type="selectionEntry"/>
+        <entryLink id="37f37cca-d068-4491-99b4-29e12590bff6" name="Ardex-defensor maulers" hidden="false" collective="false" import="true" targetId="839f07d1-3558-4fac-913a-176a0094d933" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6abe3688-0a4f-4c0b-a8ac-68915533ca17" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00bc4f2b-6e73-431d-ac0b-faa7ab448b87" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f4d097c1-beaa-44e5-81d4-feb597de6f65" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a0296a13-e952-4a0f-a40a-5205fe9cca8d" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="c68f8e57-9276-4a3a-9e86-d6adf1065f76" value="275.0"/>
-        <cost name="pts" typeId="c53f0665-1284-48d1-80a2-4f4752c7390a" value="5500.0"/>
-        <cost name="CP" typeId="6525e428-b609-455b-8ff7-dc3656708a9e" value="0.0"/>
+        <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="275.0"/>
+        <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="5500.0"/>
+        <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2b44c0fa-c947-4861-9ac1-9a79f77dd673" name="Reaver power fist" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="0881ed70-2c18-4538-8664-d0b3ce44f0b6" name="Reaver power fist" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="860f34b1-886b-44f2-90c6-c263e2e55e23" name="Reaver power fist" hidden="false" typeId="798d1891-fc3e-440e-a9d7-1e41effd376a" typeName="Weapon">
+        <profile id="2de17b2a-7961-4755-bd74-ce24aa81f6b7" name="Reaver power fist" hidden="false" typeId="a5aa8d41-4d63-42c8-b55d-6e48ed06c22e" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="5a654151-3bcc-415a-8bcc-4f936dc64110">Melee</characteristic>
-            <characteristic name="Type" typeId="583221e0-05de-486d-9d5f-29f29f57673e">Melee</characteristic>
-            <characteristic name="S" typeId="f51d2bf0-73c7-4814-8513-01226fa4503b">x2</characteristic>
-            <characteristic name="AP" typeId="052e9451-7080-48cc-901d-98cfb1b5b8a7">-5</characteristic>
-            <characteristic name="D" typeId="878493bc-53f8-4b51-9251-978997303982">12</characteristic>
-            <characteristic name="Abilities" typeId="203551a5-9b86-4992-a96f-1b369cf73d2b">Each time a VEHICLE or MONSTER model is destroyed as a result of an attack made with this weapon, you can select one enemy unit within 9&quot; and roll one D6; on a 4+, that unit suffers D6 mortal wounds.</characteristic>
+            <characteristic name="Range" typeId="886781d4-1445-43b0-b232-996f586f7971">Melee</characteristic>
+            <characteristic name="Type" typeId="4a47918e-af32-4c79-9b7a-d8271d4a89b1">Melee</characteristic>
+            <characteristic name="S" typeId="02a071af-2ef1-40f4-b2c5-5fa32d09059d">x2</characteristic>
+            <characteristic name="AP" typeId="9a4e9541-9439-4469-a5a5-757f1d74e69f">-5</characteristic>
+            <characteristic name="D" typeId="b2033c54-3869-43b8-9be4-13f4742341c2">12</characteristic>
+            <characteristic name="Abilities" typeId="d0040129-019c-45c0-876e-2fbb809feb92">Each time a VEHICLE or MONSTER model is destroyed as a result of an attack made with this weapon, you can select one enemy unit within 9&quot; and roll one D6; on a 4+, that unit suffers D6 mortal wounds.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <costs>
-        <cost name=" PL" typeId="c68f8e57-9276-4a3a-9e86-d6adf1065f76" value="0.0"/>
-        <cost name="pts" typeId="c53f0665-1284-48d1-80a2-4f4752c7390a" value="0.0"/>
-        <cost name="CP" typeId="6525e428-b609-455b-8ff7-dc3656708a9e" value="0.0"/>
+        <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="0.0"/>
+        <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="0.0"/>
+        <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2900fa2a-6657-430d-9267-07939d3bd906" name="Apocalypse missile launcher" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="4e083e2b-7005-40fa-8770-f4a2b3734e5f" name="Apocalypse missile launcher" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="5c1a480f-87af-4d8e-89d4-80d8c076e5b2" name="Apocalypse missile launcher" hidden="false" typeId="798d1891-fc3e-440e-a9d7-1e41effd376a" typeName="Weapon">
+        <profile id="a20d6015-1f70-4a8a-8557-c100d652d1c7" name="Apocalypse missile launcher" hidden="false" typeId="a5aa8d41-4d63-42c8-b55d-6e48ed06c22e" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="5a654151-3bcc-415a-8bcc-4f936dc64110">24&quot;-360&quot;</characteristic>
-            <characteristic name="Type" typeId="583221e0-05de-486d-9d5f-29f29f57673e">Heavy 12</characteristic>
-            <characteristic name="S" typeId="f51d2bf0-73c7-4814-8513-01226fa4503b">7</characteristic>
-            <characteristic name="AP" typeId="052e9451-7080-48cc-901d-98cfb1b5b8a7">-2</characteristic>
-            <characteristic name="D" typeId="878493bc-53f8-4b51-9251-978997303982">2</characteristic>
-            <characteristic name="Abilities" typeId="203551a5-9b86-4992-a96f-1b369cf73d2b">This weapon can target units which are not visible to the bearer.</characteristic>
+            <characteristic name="Range" typeId="886781d4-1445-43b0-b232-996f586f7971">24&quot;-360&quot;</characteristic>
+            <characteristic name="Type" typeId="4a47918e-af32-4c79-9b7a-d8271d4a89b1">Heavy 12</characteristic>
+            <characteristic name="S" typeId="02a071af-2ef1-40f4-b2c5-5fa32d09059d">7</characteristic>
+            <characteristic name="AP" typeId="9a4e9541-9439-4469-a5a5-757f1d74e69f">-2</characteristic>
+            <characteristic name="D" typeId="b2033c54-3869-43b8-9be4-13f4742341c2">2</characteristic>
+            <characteristic name="Abilities" typeId="d0040129-019c-45c0-876e-2fbb809feb92">This weapon can target units which are not visible to the bearer.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <costs>
-        <cost name=" PL" typeId="c68f8e57-9276-4a3a-9e86-d6adf1065f76" value="0.0"/>
-        <cost name="pts" typeId="c53f0665-1284-48d1-80a2-4f4752c7390a" value="0.0"/>
-        <cost name="CP" typeId="6525e428-b609-455b-8ff7-dc3656708a9e" value="0.0"/>
+        <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="0.0"/>
+        <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="0.0"/>
+        <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6ca58bb7-2ded-4eac-b424-40996db69a7f" name="Reaver laser blaster" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="bae92bad-0bd0-4034-be4f-140ccdb3258a" name="Reaver laser blaster" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="b7a1a4d6-a31f-424c-950c-03fa5b52e9fb" name="Reaver laser blaster" hidden="false" typeId="798d1891-fc3e-440e-a9d7-1e41effd376a" typeName="Weapon">
+        <profile id="dcc828a4-f6ce-455c-8129-33ef93b91d25" name="Reaver laser blaster" hidden="false" typeId="a5aa8d41-4d63-42c8-b55d-6e48ed06c22e" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="5a654151-3bcc-415a-8bcc-4f936dc64110">72&quot;</characteristic>
-            <characteristic name="Type" typeId="583221e0-05de-486d-9d5f-29f29f57673e">Heavy 3D3</characteristic>
-            <characteristic name="S" typeId="f51d2bf0-73c7-4814-8513-01226fa4503b">16</characteristic>
-            <characteristic name="AP" typeId="052e9451-7080-48cc-901d-98cfb1b5b8a7">-4</characteristic>
-            <characteristic name="D" typeId="878493bc-53f8-4b51-9251-978997303982">D6+3</characteristic>
-            <characteristic name="Abilities" typeId="203551a5-9b86-4992-a96f-1b369cf73d2b">Blast</characteristic>
+            <characteristic name="Range" typeId="886781d4-1445-43b0-b232-996f586f7971">72&quot;</characteristic>
+            <characteristic name="Type" typeId="4a47918e-af32-4c79-9b7a-d8271d4a89b1">Heavy 3D3</characteristic>
+            <characteristic name="S" typeId="02a071af-2ef1-40f4-b2c5-5fa32d09059d">16</characteristic>
+            <characteristic name="AP" typeId="9a4e9541-9439-4469-a5a5-757f1d74e69f">-4</characteristic>
+            <characteristic name="D" typeId="b2033c54-3869-43b8-9be4-13f4742341c2">D6+3</characteristic>
+            <characteristic name="Abilities" typeId="d0040129-019c-45c0-876e-2fbb809feb92">Blast</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <costs>
-        <cost name=" PL" typeId="c68f8e57-9276-4a3a-9e86-d6adf1065f76" value="0.0"/>
-        <cost name="pts" typeId="c53f0665-1284-48d1-80a2-4f4752c7390a" value="0.0"/>
-        <cost name="CP" typeId="6525e428-b609-455b-8ff7-dc3656708a9e" value="0.0"/>
+        <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="0.0"/>
+        <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="0.0"/>
+        <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="890c1224-dba8-4d82-9c3b-7adb9d559c4a" name="Reaver melta cannon" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="0cd789b0-d721-4b6b-8e7d-a9f8aa5ff4cf" name="Reaver melta cannon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="bbbbb299-d231-45d2-bc73-183da9635911" name="Reaver melta cannon" hidden="false" typeId="798d1891-fc3e-440e-a9d7-1e41effd376a" typeName="Weapon">
+        <profile id="b6de69ae-9cdf-4479-82e9-461a3a80b512" name="Reaver melta cannon" hidden="false" typeId="a5aa8d41-4d63-42c8-b55d-6e48ed06c22e" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="5a654151-3bcc-415a-8bcc-4f936dc64110">48&quot;</characteristic>
-            <characteristic name="Type" typeId="583221e0-05de-486d-9d5f-29f29f57673e">Heavy 2D6</characteristic>
-            <characteristic name="S" typeId="f51d2bf0-73c7-4814-8513-01226fa4503b">16</characteristic>
-            <characteristic name="AP" typeId="052e9451-7080-48cc-901d-98cfb1b5b8a7">-4</characteristic>
-            <characteristic name="D" typeId="878493bc-53f8-4b51-9251-978997303982">8</characteristic>
-            <characteristic name="Abilities" typeId="203551a5-9b86-4992-a96f-1b369cf73d2b">Blast. Each time an attack made with this weapon targets a unit within half range, that attack has a Damage characteristic of 12.</characteristic>
+            <characteristic name="Range" typeId="886781d4-1445-43b0-b232-996f586f7971">48&quot;</characteristic>
+            <characteristic name="Type" typeId="4a47918e-af32-4c79-9b7a-d8271d4a89b1">Heavy 2D6</characteristic>
+            <characteristic name="S" typeId="02a071af-2ef1-40f4-b2c5-5fa32d09059d">16</characteristic>
+            <characteristic name="AP" typeId="9a4e9541-9439-4469-a5a5-757f1d74e69f">-4</characteristic>
+            <characteristic name="D" typeId="b2033c54-3869-43b8-9be4-13f4742341c2">8</characteristic>
+            <characteristic name="Abilities" typeId="d0040129-019c-45c0-876e-2fbb809feb92">Blast. Each time an attack made with this weapon targets a unit within half range, that attack has a Damage characteristic of 12.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <costs>
-        <cost name=" PL" typeId="c68f8e57-9276-4a3a-9e86-d6adf1065f76" value="0.0"/>
-        <cost name="pts" typeId="c53f0665-1284-48d1-80a2-4f4752c7390a" value="0.0"/>
-        <cost name="CP" typeId="6525e428-b609-455b-8ff7-dc3656708a9e" value="0.0"/>
+        <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="0.0"/>
+        <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="0.0"/>
+        <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="f47e3b22-da0b-4265-9152-8a3c815a235f" name="Reaver volcano cannon" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="24bde0a0-2dec-418a-9ed9-79dd8447e4c1" name="Reaver volcano cannon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="4c192ec8-7d1f-4c79-9396-667e30d16fae" name="Reaver volcano cannon" hidden="false" typeId="798d1891-fc3e-440e-a9d7-1e41effd376a" typeName="Weapon">
+        <profile id="d8d8d102-e2d5-4262-bff7-2ac12589fd5b" name="Reaver volcano cannon" hidden="false" typeId="a5aa8d41-4d63-42c8-b55d-6e48ed06c22e" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="5a654151-3bcc-415a-8bcc-4f936dc64110">120&quot;</characteristic>
-            <characteristic name="Type" typeId="583221e0-05de-486d-9d5f-29f29f57673e">Heavy D6</characteristic>
-            <characteristic name="S" typeId="f51d2bf0-73c7-4814-8513-01226fa4503b">18</characteristic>
-            <characteristic name="AP" typeId="052e9451-7080-48cc-901d-98cfb1b5b8a7">-5</characteristic>
-            <characteristic name="D" typeId="878493bc-53f8-4b51-9251-978997303982">12</characteristic>
-            <characteristic name="Abilities" typeId="203551a5-9b86-4992-a96f-1b369cf73d2b">Blast</characteristic>
+            <characteristic name="Range" typeId="886781d4-1445-43b0-b232-996f586f7971">120&quot;</characteristic>
+            <characteristic name="Type" typeId="4a47918e-af32-4c79-9b7a-d8271d4a89b1">Heavy D6</characteristic>
+            <characteristic name="S" typeId="02a071af-2ef1-40f4-b2c5-5fa32d09059d">18</characteristic>
+            <characteristic name="AP" typeId="9a4e9541-9439-4469-a5a5-757f1d74e69f">-5</characteristic>
+            <characteristic name="D" typeId="b2033c54-3869-43b8-9be4-13f4742341c2">12</characteristic>
+            <characteristic name="Abilities" typeId="d0040129-019c-45c0-876e-2fbb809feb92">Blast</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <costs>
-        <cost name=" PL" typeId="c68f8e57-9276-4a3a-9e86-d6adf1065f76" value="0.0"/>
-        <cost name="pts" typeId="c53f0665-1284-48d1-80a2-4f4752c7390a" value="0.0"/>
-        <cost name="CP" typeId="6525e428-b609-455b-8ff7-dc3656708a9e" value="0.0"/>
+        <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="0.0"/>
+        <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="0.0"/>
+        <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="2004c910-98f6-40c8-9b3c-af5b245a6836" name="Reaver gatling blaster" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="e94f43f9-0cca-419d-8462-816cb2cf4999" name="Reaver gatling blaster" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="332b0f9f-5361-4010-98d1-2efd04b0b94b" name="Reaver gatling blaster" hidden="false" typeId="798d1891-fc3e-440e-a9d7-1e41effd376a" typeName="Weapon">
+        <profile id="4967c210-dd46-440b-8dad-0209463a2891" name="Reaver gatling blaster" hidden="false" typeId="a5aa8d41-4d63-42c8-b55d-6e48ed06c22e" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="5a654151-3bcc-415a-8bcc-4f936dc64110">72&quot;</characteristic>
-            <characteristic name="Type" typeId="583221e0-05de-486d-9d5f-29f29f57673e">Heavy 12</characteristic>
-            <characteristic name="S" typeId="f51d2bf0-73c7-4814-8513-01226fa4503b">8</characteristic>
-            <characteristic name="AP" typeId="052e9451-7080-48cc-901d-98cfb1b5b8a7">-3</characteristic>
-            <characteristic name="D" typeId="878493bc-53f8-4b51-9251-978997303982">3</characteristic>
-            <characteristic name="Abilities" typeId="203551a5-9b86-4992-a96f-1b369cf73d2b">-</characteristic>
+            <characteristic name="Range" typeId="886781d4-1445-43b0-b232-996f586f7971">72&quot;</characteristic>
+            <characteristic name="Type" typeId="4a47918e-af32-4c79-9b7a-d8271d4a89b1">Heavy 12</characteristic>
+            <characteristic name="S" typeId="02a071af-2ef1-40f4-b2c5-5fa32d09059d">8</characteristic>
+            <characteristic name="AP" typeId="9a4e9541-9439-4469-a5a5-757f1d74e69f">-3</characteristic>
+            <characteristic name="D" typeId="b2033c54-3869-43b8-9be4-13f4742341c2">3</characteristic>
+            <characteristic name="Abilities" typeId="d0040129-019c-45c0-876e-2fbb809feb92">-</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <costs>
-        <cost name=" PL" typeId="c68f8e57-9276-4a3a-9e86-d6adf1065f76" value="0.0"/>
-        <cost name="pts" typeId="c53f0665-1284-48d1-80a2-4f4752c7390a" value="0.0"/>
-        <cost name="CP" typeId="6525e428-b609-455b-8ff7-dc3656708a9e" value="0.0"/>
+        <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="0.0"/>
+        <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="0.0"/>
+        <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="7bd25ece-f43a-4070-8e46-80331668c956" name="Chaos Warbringer Nemesis Titan" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="7da381e2-1c5d-4650-a80d-6a8152464969" name="Chaos Warbringer Nemesis Titan" hidden="false" collective="false" import="true" type="model">
       <profiles>
-        <profile id="8fb4f781-035a-48da-97be-91d29e6e8e0e" name="Chaos Warbringer Nemesis Titan 1 (76+ wounds remaining)" hidden="false" typeId="e7887ddd-b8a9-4d53-8706-e0854481f0fc" typeName="Unit">
+        <profile id="c5515ef6-77f1-4c4a-9dbd-2f1686f0c75f" name="Chaos Warbringer Nemesis Titan 1 (76+ wounds remaining)" hidden="false" typeId="2389a9c7-564a-45bc-bafa-44a5457c00e4" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="96661213-8312-459b-9b96-1355ec4a67b4">15&quot;</characteristic>
-            <characteristic name="WS" typeId="9d7576c3-ccf2-4f09-8044-57fcb2345b0a">4+</characteristic>
-            <characteristic name="BS" typeId="33305227-578c-4cf0-a2aa-49445a556d6d">3+</characteristic>
-            <characteristic name="S" typeId="a9f642e9-5a17-4319-8cca-6686f23c1309">8</characteristic>
-            <characteristic name="T" typeId="e621bc60-7d62-4d1e-87f9-37d99e50114c">8</characteristic>
-            <characteristic name="W" typeId="0f59d4db-1023-4662-bb7e-925b80fb0c9e">100</characteristic>
-            <characteristic name="A" typeId="3c1aa456-7080-4fba-b6ec-bcedf1b5f3ee">3</characteristic>
-            <characteristic name="Ld" typeId="b60e9b00-0e5e-4349-8e98-562929d2cf35">10</characteristic>
-            <characteristic name="Save" typeId="1d7e52b7-0f6a-4809-9fdb-01e98d742cfb">2+</characteristic>
+            <characteristic name="M" typeId="dfaf03e2-db64-4777-8c6e-35874a70ac6d">15&quot;</characteristic>
+            <characteristic name="WS" typeId="752c83e3-cd1b-4290-89a8-7dd17f6f0771">4+</characteristic>
+            <characteristic name="BS" typeId="e743642d-b603-4dc4-84c1-1356c804e280">3+</characteristic>
+            <characteristic name="S" typeId="4b473f0c-e75b-4457-b69d-b822efa75d18">8</characteristic>
+            <characteristic name="T" typeId="68a4b50d-30fd-47b4-a0b9-b4150497ed5d">8</characteristic>
+            <characteristic name="W" typeId="e6272de1-50f4-4d6b-9449-e0892f0b5b07">100</characteristic>
+            <characteristic name="A" typeId="bcf73df5-3507-4e6f-951a-334d957e95f2">3</characteristic>
+            <characteristic name="Ld" typeId="71504bf9-7075-47fe-a797-f8ddc54346fd">10</characteristic>
+            <characteristic name="Save" typeId="de720430-a706-464b-9969-4e45fe254916">2+</characteristic>
           </characteristics>
         </profile>
-        <profile id="77fdb593-d9c5-4862-9cb1-90473df37d99" name="Void Shields" hidden="false" typeId="2162327a-7e1a-4909-bb9b-d50e46e36560" typeName="Abilities">
+        <profile id="bac2b143-cb14-405b-8be6-58a9b93ed852" name="Void Shields" hidden="false" typeId="6a77fd08-33e0-4a84-a26a-9c819f5ffbb5" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="2af4d187-b9e6-46e3-8cef-419269a844da">This model has 6 void shields. Each void shield has 3 shield points. While this model has any void shields, it has a 5+ invulnerable save against ranged attacks.
+            <characteristic name="Description" typeId="00250bb0-92ce-4d01-a8c7-8706e5a818c2">This model has 6 void shields. Each void shield has 3 shield points. While this model has any void shields, it has a 5+ invulnerable save against ranged attacks.
 
 Each time a saving throw is failed for this model against a ranged attack, if it has any void shields, it does not suffer any damage. Instead, for each point of damage inflicted, one of its void shields loses 1 shield point. Once a void shield has lost a shield point, it must continue to lose shield points due to any firther damage inflicted until it collapses. Each time an attack causes a void shield to be reducedc to 0 shield points, that void shield collapses: this model loses that void shield and any excess damage inflicted by that attack is lost. Void shields can never be used to prevent mortal wounds (each mortal wound inflicted on a model with void shields causes that model to lose one wound as normal).
 
 At the start of your Command phase, if this model has a void shield that has fewer than 3 shield points remaining, that void shield is restored to 3 shield points.</characteristic>
           </characteristics>
         </profile>
-        <profile id="1e1d2fb7-4582-4d22-ac66-bfd72ea3a584" name="Chaos Warbringer Nemesis Titan 2 (51-75 wounds remaining)" hidden="false" typeId="e7887ddd-b8a9-4d53-8706-e0854481f0fc" typeName="Unit">
+        <profile id="42f86778-00d8-49c8-a389-8927aee6f8b6" name="Chaos Warbringer Nemesis Titan 2 (51-75 wounds remaining)" hidden="false" typeId="2389a9c7-564a-45bc-bafa-44a5457c00e4" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="96661213-8312-459b-9b96-1355ec4a67b4">12&quot;</characteristic>
-            <characteristic name="WS" typeId="9d7576c3-ccf2-4f09-8044-57fcb2345b0a">5+</characteristic>
-            <characteristic name="BS" typeId="33305227-578c-4cf0-a2aa-49445a556d6d">4+</characteristic>
-            <characteristic name="S" typeId="a9f642e9-5a17-4319-8cca-6686f23c1309">8</characteristic>
-            <characteristic name="T" typeId="e621bc60-7d62-4d1e-87f9-37d99e50114c">8</characteristic>
-            <characteristic name="W" typeId="0f59d4db-1023-4662-bb7e-925b80fb0c9e">N/A</characteristic>
-            <characteristic name="A" typeId="3c1aa456-7080-4fba-b6ec-bcedf1b5f3ee">3</characteristic>
-            <characteristic name="Ld" typeId="b60e9b00-0e5e-4349-8e98-562929d2cf35">10</characteristic>
-            <characteristic name="Save" typeId="1d7e52b7-0f6a-4809-9fdb-01e98d742cfb">2+</characteristic>
+            <characteristic name="M" typeId="dfaf03e2-db64-4777-8c6e-35874a70ac6d">12&quot;</characteristic>
+            <characteristic name="WS" typeId="752c83e3-cd1b-4290-89a8-7dd17f6f0771">5+</characteristic>
+            <characteristic name="BS" typeId="e743642d-b603-4dc4-84c1-1356c804e280">4+</characteristic>
+            <characteristic name="S" typeId="4b473f0c-e75b-4457-b69d-b822efa75d18">8</characteristic>
+            <characteristic name="T" typeId="68a4b50d-30fd-47b4-a0b9-b4150497ed5d">8</characteristic>
+            <characteristic name="W" typeId="e6272de1-50f4-4d6b-9449-e0892f0b5b07">N/A</characteristic>
+            <characteristic name="A" typeId="bcf73df5-3507-4e6f-951a-334d957e95f2">3</characteristic>
+            <characteristic name="Ld" typeId="71504bf9-7075-47fe-a797-f8ddc54346fd">10</characteristic>
+            <characteristic name="Save" typeId="de720430-a706-464b-9969-4e45fe254916">2+</characteristic>
           </characteristics>
         </profile>
-        <profile id="158cc05b-323d-4fcc-b3b6-e69e787e0b85" name="Chaos Warbringer Nemesis Titan 3 (26-50 wounds remaining)" hidden="false" typeId="e7887ddd-b8a9-4d53-8706-e0854481f0fc" typeName="Unit">
+        <profile id="af611f3f-9e0b-4a49-aa0d-4f45c590f0eb" name="Chaos Warbringer Nemesis Titan 3 (26-50 wounds remaining)" hidden="false" typeId="2389a9c7-564a-45bc-bafa-44a5457c00e4" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="96661213-8312-459b-9b96-1355ec4a67b4">9&quot;</characteristic>
-            <characteristic name="WS" typeId="9d7576c3-ccf2-4f09-8044-57fcb2345b0a">5+</characteristic>
-            <characteristic name="BS" typeId="33305227-578c-4cf0-a2aa-49445a556d6d">4+</characteristic>
-            <characteristic name="S" typeId="a9f642e9-5a17-4319-8cca-6686f23c1309">8</characteristic>
-            <characteristic name="T" typeId="e621bc60-7d62-4d1e-87f9-37d99e50114c">8</characteristic>
-            <characteristic name="W" typeId="0f59d4db-1023-4662-bb7e-925b80fb0c9e">N/A</characteristic>
-            <characteristic name="A" typeId="3c1aa456-7080-4fba-b6ec-bcedf1b5f3ee">3</characteristic>
-            <characteristic name="Ld" typeId="b60e9b00-0e5e-4349-8e98-562929d2cf35">10</characteristic>
-            <characteristic name="Save" typeId="1d7e52b7-0f6a-4809-9fdb-01e98d742cfb">2+</characteristic>
+            <characteristic name="M" typeId="dfaf03e2-db64-4777-8c6e-35874a70ac6d">9&quot;</characteristic>
+            <characteristic name="WS" typeId="752c83e3-cd1b-4290-89a8-7dd17f6f0771">5+</characteristic>
+            <characteristic name="BS" typeId="e743642d-b603-4dc4-84c1-1356c804e280">4+</characteristic>
+            <characteristic name="S" typeId="4b473f0c-e75b-4457-b69d-b822efa75d18">8</characteristic>
+            <characteristic name="T" typeId="68a4b50d-30fd-47b4-a0b9-b4150497ed5d">8</characteristic>
+            <characteristic name="W" typeId="e6272de1-50f4-4d6b-9449-e0892f0b5b07">N/A</characteristic>
+            <characteristic name="A" typeId="bcf73df5-3507-4e6f-951a-334d957e95f2">3</characteristic>
+            <characteristic name="Ld" typeId="71504bf9-7075-47fe-a797-f8ddc54346fd">10</characteristic>
+            <characteristic name="Save" typeId="de720430-a706-464b-9969-4e45fe254916">2+</characteristic>
           </characteristics>
         </profile>
-        <profile id="b85079a1-a0cf-4661-9540-dfe7e75d1a0e" name="Chaos Warbringer Nemesis Titan 4 (1-25 wounds remaining)" hidden="false" typeId="e7887ddd-b8a9-4d53-8706-e0854481f0fc" typeName="Unit">
+        <profile id="ef93462b-39a0-4b63-830b-7da5820fd180" name="Chaos Warbringer Nemesis Titan 4 (1-25 wounds remaining)" hidden="false" typeId="2389a9c7-564a-45bc-bafa-44a5457c00e4" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="96661213-8312-459b-9b96-1355ec4a67b4">6&quot;</characteristic>
-            <characteristic name="WS" typeId="9d7576c3-ccf2-4f09-8044-57fcb2345b0a">6+</characteristic>
-            <characteristic name="BS" typeId="33305227-578c-4cf0-a2aa-49445a556d6d">5+</characteristic>
-            <characteristic name="S" typeId="a9f642e9-5a17-4319-8cca-6686f23c1309">8</characteristic>
-            <characteristic name="T" typeId="e621bc60-7d62-4d1e-87f9-37d99e50114c">8</characteristic>
-            <characteristic name="W" typeId="0f59d4db-1023-4662-bb7e-925b80fb0c9e">N/A</characteristic>
-            <characteristic name="A" typeId="3c1aa456-7080-4fba-b6ec-bcedf1b5f3ee">3</characteristic>
-            <characteristic name="Ld" typeId="b60e9b00-0e5e-4349-8e98-562929d2cf35">10</characteristic>
-            <characteristic name="Save" typeId="1d7e52b7-0f6a-4809-9fdb-01e98d742cfb">2+</characteristic>
+            <characteristic name="M" typeId="dfaf03e2-db64-4777-8c6e-35874a70ac6d">6&quot;</characteristic>
+            <characteristic name="WS" typeId="752c83e3-cd1b-4290-89a8-7dd17f6f0771">6+</characteristic>
+            <characteristic name="BS" typeId="e743642d-b603-4dc4-84c1-1356c804e280">5+</characteristic>
+            <characteristic name="S" typeId="4b473f0c-e75b-4457-b69d-b822efa75d18">8</characteristic>
+            <characteristic name="T" typeId="68a4b50d-30fd-47b4-a0b9-b4150497ed5d">8</characteristic>
+            <characteristic name="W" typeId="e6272de1-50f4-4d6b-9449-e0892f0b5b07">N/A</characteristic>
+            <characteristic name="A" typeId="bcf73df5-3507-4e6f-951a-334d957e95f2">3</characteristic>
+            <characteristic name="Ld" typeId="71504bf9-7075-47fe-a797-f8ddc54346fd">10</characteristic>
+            <characteristic name="Save" typeId="de720430-a706-464b-9969-4e45fe254916">2+</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="9145f061-8875-4c95-ba8f-1fbfd6e889e6" name="Battle Titan" hidden="false" targetId="18077f32-9c74-44c0-9e4c-c6af223e2780" type="profile"/>
-        <infoLink id="c8efcf42-dac4-4c65-a8df-552a3fc37c08" name="Reactor Meltdown" hidden="false" targetId="f19444e9-e797-459c-aecf-a32e27bbee21" type="profile"/>
+        <infoLink id="2d7d5f38-80ff-4b91-8b45-12c256906238" name="Battle Titan" hidden="false" targetId="c2ede792-2b78-455d-a00f-ad58e14ad97f" type="profile"/>
+        <infoLink id="ecebf657-0bee-403d-8e1a-6b9b7cfc0c42" name="Reactor Meltdown" hidden="false" targetId="232b4d13-f65d-4d7b-819d-833d29a99ed2" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="86742c56-c0e7-4036-a1b5-1374f22dfb72" name="New CategoryLink" hidden="false" targetId="133657b6-5709-4570-af0c-b588e527e5de" primary="false"/>
-        <categoryLink id="9e7a2041-abb3-4609-87fe-eb301b0117d1" name="New CategoryLink" hidden="false" targetId="cb0f7683-c067-4fca-86dd-e32ade4ae5b4" primary="false"/>
-        <categoryLink id="edf25c69-b0ff-4b80-bdbf-7551e6eccee8" name="New CategoryLink" hidden="false" targetId="cafa47ff-68a8-412c-b598-05bcf5b2cfaa" primary="false"/>
-        <categoryLink id="2fd0ce3d-fe83-4eb6-9889-36b4697dec33" name="New CategoryLink" hidden="false" targetId="a722973f-bb77-4c1c-8f43-8ae31ee7426e" primary="false"/>
-        <categoryLink id="a6e57306-16ad-4eed-86e7-e7a182a56c3a" name="New CategoryLink" hidden="false" targetId="7d82f3fc-875b-4bbc-9747-4c1033017b40" primary="true"/>
-        <categoryLink id="85af3247-aa67-4856-bdd1-27551274af2a" name="New CategoryLink" hidden="false" targetId="63db45f3-e31d-48ff-abb6-1b8f46fad5a4" primary="false"/>
-        <categoryLink id="cdf007de-6126-4d00-aa6a-adbb79ef6879" name="New CategoryLink" hidden="false" targetId="84cb6100-a746-4dd2-9486-a4c19df98676" primary="false"/>
+        <categoryLink id="e8ee7d3e-6faf-4466-8400-5fc481e874e1" name="New CategoryLink" hidden="false" targetId="002cf771-ee70-4cdc-90ae-29d0802743dd" primary="false"/>
+        <categoryLink id="07595178-4a6f-4e4f-9cf1-0068b2e0ad9a" name="New CategoryLink" hidden="false" targetId="c06d83aa-7ca5-430c-a63e-6215abe12c54" primary="false"/>
+        <categoryLink id="4b4c6c84-2038-4d8e-ab8e-f59dd938ec93" name="New CategoryLink" hidden="false" targetId="29293cd8-0ee6-40d6-92fd-73cc2727b2a7" primary="false"/>
+        <categoryLink id="ed25da7d-e7f5-4430-ae8a-aa2cf138544f" name="New CategoryLink" hidden="false" targetId="5076ee16-6e8b-45bf-83ca-9bd67ada7ed7" primary="false"/>
+        <categoryLink id="cca922f2-0291-487d-949c-0370efc007e2" name="New CategoryLink" hidden="false" targetId="17bc7a5e-9115-4030-96ae-5f0299efb52a" primary="true"/>
+        <categoryLink id="6a97a9b8-22b3-4efd-a1d5-6caa1726cae4" name="New CategoryLink" hidden="false" targetId="6a06d536-0f42-4717-be8b-a9637a1ad550" primary="false"/>
+        <categoryLink id="3d564736-d300-4bc3-88bf-d43bc1436584" name="New CategoryLink" hidden="false" targetId="b87ce8b0-c5d7-438e-9bae-719ad1a6444c" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="6b04358f-e397-4508-8153-36ff5e20401d" name="Warbringer Nemesis feet" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="33062476-9b71-4f0f-b7f9-eb6d74118a34" name="Warbringer Nemesis feet" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c754eefe-c755-445a-a2f7-c1c6aef66a88" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf217c42-bc93-43fc-bebc-34ffc9f29327" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12616734-03c6-462b-af8a-bb0afbe9ed01" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="51d8093d-652f-434d-8937-8d8106e38c29" type="max"/>
           </constraints>
           <profiles>
-            <profile id="81c9ebde-fc1f-45b9-968b-0d7c147d5585" name="Warbringer Nemesis feet" hidden="false" typeId="798d1891-fc3e-440e-a9d7-1e41effd376a" typeName="Weapon">
+            <profile id="1ed85541-2baf-41f5-a27c-7d70273002d8" name="Warbringer Nemesis feet" hidden="false" typeId="a5aa8d41-4d63-42c8-b55d-6e48ed06c22e" typeName="Weapon">
               <characteristics>
-                <characteristic name="Range" typeId="5a654151-3bcc-415a-8bcc-4f936dc64110">Melee</characteristic>
-                <characteristic name="Type" typeId="583221e0-05de-486d-9d5f-29f29f57673e">Melee</characteristic>
-                <characteristic name="S" typeId="f51d2bf0-73c7-4814-8513-01226fa4503b">User</characteristic>
-                <characteristic name="AP" typeId="052e9451-7080-48cc-901d-98cfb1b5b8a7">-4</characteristic>
-                <characteristic name="D" typeId="878493bc-53f8-4b51-9251-978997303982">4</characteristic>
-                <characteristic name="Abilities" typeId="203551a5-9b86-4992-a96f-1b369cf73d2b">Each time an attack is made with this weapon, make 2 hits rolls instead of 1.</characteristic>
+                <characteristic name="Range" typeId="886781d4-1445-43b0-b232-996f586f7971">Melee</characteristic>
+                <characteristic name="Type" typeId="4a47918e-af32-4c79-9b7a-d8271d4a89b1">Melee</characteristic>
+                <characteristic name="S" typeId="02a071af-2ef1-40f4-b2c5-5fa32d09059d">User</characteristic>
+                <characteristic name="AP" typeId="9a4e9541-9439-4469-a5a5-757f1d74e69f">-4</characteristic>
+                <characteristic name="D" typeId="b2033c54-3869-43b8-9be4-13f4742341c2">4</characteristic>
+                <characteristic name="Abilities" typeId="d0040129-019c-45c0-876e-2fbb809feb92">Each time an attack is made with this weapon, make 2 hits rolls instead of 1.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="c68f8e57-9276-4a3a-9e86-d6adf1065f76" value="0.0"/>
-            <cost name="CP" typeId="6525e428-b609-455b-8ff7-dc3656708a9e" value="0.0"/>
-            <cost name="pts" typeId="c53f0665-1284-48d1-80a2-4f4752c7390a" value="0.0"/>
+            <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="0.0"/>
+            <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
+            <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="4ee03360-30d7-4f38-a505-8f287674970f" name="Anvillus defence battery" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="bf3e5d3d-14f9-4825-ad2f-5a38a07e7e08" name="Anvillus defence battery" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed9abd68-12f0-4080-b13b-54c15c037eaf" type="min"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="396daae4-18dd-4e4c-92f1-fd697aa414f6" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb4a696a-e83c-4a66-aecc-d233d2c8a330" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fe0517d9-5650-4323-8fce-49ace4df5ef3" type="max"/>
           </constraints>
           <profiles>
-            <profile id="3ee0f3dc-52a4-4439-a03c-5fd126ea83f8" name="Anvillus defence battery" hidden="false" typeId="798d1891-fc3e-440e-a9d7-1e41effd376a" typeName="Weapon">
+            <profile id="066fe0a2-de3f-40d5-8fa8-4c877ab3804a" name="Anvillus defence battery" hidden="false" typeId="a5aa8d41-4d63-42c8-b55d-6e48ed06c22e" typeName="Weapon">
               <characteristics>
-                <characteristic name="Range" typeId="5a654151-3bcc-415a-8bcc-4f936dc64110">72&quot;</characteristic>
-                <characteristic name="Type" typeId="583221e0-05de-486d-9d5f-29f29f57673e">Heavy 8</characteristic>
-                <characteristic name="S" typeId="f51d2bf0-73c7-4814-8513-01226fa4503b">8</characteristic>
-                <characteristic name="AP" typeId="052e9451-7080-48cc-901d-98cfb1b5b8a7">-1</characteristic>
-                <characteristic name="D" typeId="878493bc-53f8-4b51-9251-978997303982">2</characteristic>
-                <characteristic name="Abilities" typeId="203551a5-9b86-4992-a96f-1b369cf73d2b">Attacks made with this weapon can only target units that can FLY.</characteristic>
+                <characteristic name="Range" typeId="886781d4-1445-43b0-b232-996f586f7971">72&quot;</characteristic>
+                <characteristic name="Type" typeId="4a47918e-af32-4c79-9b7a-d8271d4a89b1">Heavy 8</characteristic>
+                <characteristic name="S" typeId="02a071af-2ef1-40f4-b2c5-5fa32d09059d">8</characteristic>
+                <characteristic name="AP" typeId="9a4e9541-9439-4469-a5a5-757f1d74e69f">-1</characteristic>
+                <characteristic name="D" typeId="b2033c54-3869-43b8-9be4-13f4742341c2">2</characteristic>
+                <characteristic name="Abilities" typeId="d0040129-019c-45c0-876e-2fbb809feb92">Attacks made with this weapon can only target units that can FLY.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="c68f8e57-9276-4a3a-9e86-d6adf1065f76" value="0.0"/>
-            <cost name="CP" typeId="6525e428-b609-455b-8ff7-dc3656708a9e" value="0.0"/>
-            <cost name="pts" typeId="c53f0665-1284-48d1-80a2-4f4752c7390a" value="0.0"/>
+            <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="0.0"/>
+            <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
+            <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
-        <selectionEntryGroup id="bda177f1-3d02-42eb-bf16-8338508b2105" name="Arm mounted weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="307bc4f9-6020-4fa8-9d7b-096bbe0dd1a1">
+        <selectionEntryGroup id="3118a910-f7b2-4045-bb61-f1b4ec9d8681" name="Arm mounted weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="d4f187f1-281d-46fd-af3f-4813e5e91d1e">
           <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="beb2acd9-ab86-43ff-9e84-0dd904738041" type="max"/>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="a890bfb1-6076-424c-848c-8869bc85f330" type="min"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="6a875bb6-be84-4316-8ab6-8bb0fdfff3db" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="fd7ae494-105a-4ec9-9f3a-d76a1df0c3f2" type="min"/>
           </constraints>
           <entryLinks>
-            <entryLink id="6c126825-a25d-4b34-b7b3-962d937d20c5" name="Reaver melta cannon" hidden="false" collective="false" import="true" targetId="890c1224-dba8-4d82-9c3b-7adb9d559c4a" type="selectionEntry">
+            <entryLink id="c77cd43e-9e73-413d-8952-4e49b17284ad" name="Reaver melta cannon" hidden="false" collective="false" import="true" targetId="0cd789b0-d721-4b6b-8e7d-a9f8aa5ff4cf" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="494fc078-f544-4aff-8852-939dc319feae" type="max"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="4fff8316-d61d-4e24-8bd4-15cccbbf122a" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="b19a242b-58b8-4251-a5c1-b882da2e7476" name="Reaver laser blaster" hidden="false" collective="false" import="true" targetId="6ca58bb7-2ded-4eac-b424-40996db69a7f" type="selectionEntry">
+            <entryLink id="c46448ef-160e-4536-8151-e59e8e1acdc4" name="Reaver laser blaster" hidden="false" collective="false" import="true" targetId="bae92bad-0bd0-4034-be4f-140ccdb3258a" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2688a72c-a9e6-41c0-b23e-2bbc086f85ac" type="max"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9eb99c29-1305-43de-b9a2-4569245826ec" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="307bc4f9-6020-4fa8-9d7b-096bbe0dd1a1" name="Reaver gatling blaster" hidden="false" collective="false" import="true" targetId="2004c910-98f6-40c8-9b3c-af5b245a6836" type="selectionEntry">
+            <entryLink id="d4f187f1-281d-46fd-af3f-4813e5e91d1e" name="Reaver gatling blaster" hidden="false" collective="false" import="true" targetId="e94f43f9-0cca-419d-8462-816cb2cf4999" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="bdac0840-b830-4567-b682-1cc2373b528a" type="max"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="94a447d0-1c67-43ac-934d-7fe2bcd3a442" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="fff2afd5-0679-4bd9-83f5-583737a85784" name="Reaver volcano cannon" hidden="false" collective="false" import="true" targetId="f47e3b22-da0b-4265-9152-8a3c815a235f" type="selectionEntry">
+            <entryLink id="bb2a61b0-985a-4851-a642-a26a5a95a037" name="Reaver volcano cannon" hidden="false" collective="false" import="true" targetId="24bde0a0-2dec-418a-9ed9-79dd8447e4c1" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0a838bd6-d30a-4b7a-8a58-96f611029474" type="max"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="9533983c-0808-4e3a-9bdf-bfd6e0fb8680" type="max"/>
               </constraints>
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="7ce2b613-6696-4daa-8779-2be4815f93a2" name="Main weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="35715e8b-833f-4001-a3e1-f399715e826c">
+        <selectionEntryGroup id="59661dec-85c9-4844-a15d-2e8d03171d85" name="Main weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="3a8fa9b5-219f-4ff1-9795-e086fcdb6394">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f0b7a6e-8528-4b3c-8596-f19789e0ed38" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64848580-d2c9-48ca-b19f-30a42729a630" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="545fdc6a-b1a4-4236-a38b-9596cec98c98" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="decb0541-a89a-4380-99a4-a9be5ca2d855" type="min"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="35715e8b-833f-4001-a3e1-f399715e826c" name="Nemesis quake cannon" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="3a8fa9b5-219f-4ff1-9795-e086fcdb6394" name="Nemesis quake cannon" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="aaba4c41-0b64-4c44-b340-f3d35583c456" name="Nemesis quake cannon" hidden="false" typeId="798d1891-fc3e-440e-a9d7-1e41effd376a" typeName="Weapon">
+                <profile id="00fad3d7-e510-4228-b6b2-f3594990dd72" name="Nemesis quake cannon" hidden="false" typeId="a5aa8d41-4d63-42c8-b55d-6e48ed06c22e" typeName="Weapon">
                   <characteristics>
-                    <characteristic name="Range" typeId="5a654151-3bcc-415a-8bcc-4f936dc64110">24&quot;-480&quot;</characteristic>
-                    <characteristic name="Type" typeId="583221e0-05de-486d-9d5f-29f29f57673e">Heavy 3D6</characteristic>
-                    <characteristic name="S" typeId="f51d2bf0-73c7-4814-8513-01226fa4503b">14</characteristic>
-                    <characteristic name="AP" typeId="052e9451-7080-48cc-901d-98cfb1b5b8a7">-5</characteristic>
-                    <characteristic name="D" typeId="878493bc-53f8-4b51-9251-978997303982">6</characteristic>
-                    <characteristic name="Abilities" typeId="203551a5-9b86-4992-a96f-1b369cf73d2b">Blast. This weapon can target units that are not visible to the bearer.</characteristic>
+                    <characteristic name="Range" typeId="886781d4-1445-43b0-b232-996f586f7971">24&quot;-480&quot;</characteristic>
+                    <characteristic name="Type" typeId="4a47918e-af32-4c79-9b7a-d8271d4a89b1">Heavy 3D6</characteristic>
+                    <characteristic name="S" typeId="02a071af-2ef1-40f4-b2c5-5fa32d09059d">14</characteristic>
+                    <characteristic name="AP" typeId="9a4e9541-9439-4469-a5a5-757f1d74e69f">-5</characteristic>
+                    <characteristic name="D" typeId="b2033c54-3869-43b8-9be4-13f4742341c2">6</characteristic>
+                    <characteristic name="Abilities" typeId="d0040129-019c-45c0-876e-2fbb809feb92">Blast. This weapon can target units that are not visible to the bearer.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="c68f8e57-9276-4a3a-9e86-d6adf1065f76" value="0.0"/>
-                <cost name="CP" typeId="6525e428-b609-455b-8ff7-dc3656708a9e" value="0.0"/>
-                <cost name="pts" typeId="c53f0665-1284-48d1-80a2-4f4752c7390a" value="0.0"/>
+                <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="0.0"/>
+                <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
+                <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="50cb0f13-73fc-4edb-893f-39c2b9c57f61" name="Nemesis volcano cannon" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="9a212af7-beb7-4dc2-8758-e0afb7ee4b81" name="Nemesis volcano cannon" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
-                <profile id="b092a750-ad17-4442-a19f-1ffed09a646c" name="Nemesis volcano cannon" hidden="false" typeId="798d1891-fc3e-440e-a9d7-1e41effd376a" typeName="Weapon">
+                <profile id="6dba744a-e74e-4865-8f57-342f1d2a6306" name="Nemesis volcano cannon" hidden="false" typeId="a5aa8d41-4d63-42c8-b55d-6e48ed06c22e" typeName="Weapon">
                   <characteristics>
-                    <characteristic name="Range" typeId="5a654151-3bcc-415a-8bcc-4f936dc64110">24&quot;-120&quot;</characteristic>
-                    <characteristic name="Type" typeId="583221e0-05de-486d-9d5f-29f29f57673e">Heavy 3D3</characteristic>
-                    <characteristic name="S" typeId="f51d2bf0-73c7-4814-8513-01226fa4503b">18</characteristic>
-                    <characteristic name="AP" typeId="052e9451-7080-48cc-901d-98cfb1b5b8a7">-5</characteristic>
-                    <characteristic name="D" typeId="878493bc-53f8-4b51-9251-978997303982">12</characteristic>
-                    <characteristic name="Abilities" typeId="203551a5-9b86-4992-a96f-1b369cf73d2b">Blast</characteristic>
+                    <characteristic name="Range" typeId="886781d4-1445-43b0-b232-996f586f7971">24&quot;-120&quot;</characteristic>
+                    <characteristic name="Type" typeId="4a47918e-af32-4c79-9b7a-d8271d4a89b1">Heavy 3D3</characteristic>
+                    <characteristic name="S" typeId="02a071af-2ef1-40f4-b2c5-5fa32d09059d">18</characteristic>
+                    <characteristic name="AP" typeId="9a4e9541-9439-4469-a5a5-757f1d74e69f">-5</characteristic>
+                    <characteristic name="D" typeId="b2033c54-3869-43b8-9be4-13f4742341c2">12</characteristic>
+                    <characteristic name="Abilities" typeId="d0040129-019c-45c0-876e-2fbb809feb92">Blast</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name=" PL" typeId="c68f8e57-9276-4a3a-9e86-d6adf1065f76" value="0.0"/>
-                <cost name="CP" typeId="6525e428-b609-455b-8ff7-dc3656708a9e" value="0.0"/>
-                <cost name="pts" typeId="c53f0665-1284-48d1-80a2-4f4752c7390a" value="0.0"/>
+                <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="0.0"/>
+                <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
+                <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="c1fb09dc-ee11-48a3-8561-a5acb71af375" name="Has Battle Honours (Chapter Approved 2018)" hidden="false" collective="false" import="true" targetId="cae1e10f-8743-482e-85e2-0858c089ef2b" type="selectionEntry"/>
-        <entryLink id="5e64b4e5-2fc2-42eb-bf61-615881fd64f4" name="Ardex-defensor maulers" hidden="false" collective="false" import="true" targetId="765842a2-508f-4c92-a7ac-d9c97e1f8662" type="selectionEntry">
+        <entryLink id="a7042893-6ddb-46b3-80e9-aaabdcdd5543" name="Has Battle Honours (Chapter Approved 2018)" hidden="false" collective="false" import="true" targetId="7039e474-2ee6-4d14-a6fe-6a7b01946c2d" type="selectionEntry"/>
+        <entryLink id="49a32ace-a270-4dbf-85bb-d0788ab6bc8f" name="Ardex-defensor maulers" hidden="false" collective="false" import="true" targetId="839f07d1-3558-4fac-913a-176a0094d933" type="selectionEntry">
           <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ab28396-612c-42d8-b074-1d31842189e9" type="min"/>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="515859f2-3fbf-4da1-a53e-a7c46649cb15" type="max"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e7870cd-b7d7-44b3-8ca2-10ee94285cd9" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2d9f7121-e0c6-46df-a5ac-ba06cdfed3b4" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="c68f8e57-9276-4a3a-9e86-d6adf1065f76" value="190.0"/>
-        <cost name="pts" typeId="c53f0665-1284-48d1-80a2-4f4752c7390a" value="3800.0"/>
-        <cost name="CP" typeId="6525e428-b609-455b-8ff7-dc3656708a9e" value="0.0"/>
+        <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="190.0"/>
+        <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="3800.0"/>
+        <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="765842a2-508f-4c92-a7ac-d9c97e1f8662" name="Ardex-defensor maulers" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="839f07d1-3558-4fac-913a-176a0094d933" name="Ardex-defensor maulers" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="4ff9fe4c-155c-445a-9f73-feb658d9e95c" name="Ardex-defensor maulers" hidden="false" typeId="798d1891-fc3e-440e-a9d7-1e41effd376a" typeName="Weapon">
+        <profile id="f6c55ded-b00d-4474-a4cf-5158d375ed0b" name="Ardex-defensor maulers" hidden="false" typeId="a5aa8d41-4d63-42c8-b55d-6e48ed06c22e" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="5a654151-3bcc-415a-8bcc-4f936dc64110">36&quot;</characteristic>
-            <characteristic name="Type" typeId="583221e0-05de-486d-9d5f-29f29f57673e">Heavy 6</characteristic>
-            <characteristic name="S" typeId="f51d2bf0-73c7-4814-8513-01226fa4503b">6</characteristic>
-            <characteristic name="AP" typeId="052e9451-7080-48cc-901d-98cfb1b5b8a7">-2</characteristic>
-            <characteristic name="D" typeId="878493bc-53f8-4b51-9251-978997303982">2</characteristic>
-            <characteristic name="Abilities" typeId="203551a5-9b86-4992-a96f-1b369cf73d2b">Each time an attack is made with this weapon profile when firing Overwatch, that attack hits on a roll of 5 or 6.</characteristic>
+            <characteristic name="Range" typeId="886781d4-1445-43b0-b232-996f586f7971">36&quot;</characteristic>
+            <characteristic name="Type" typeId="4a47918e-af32-4c79-9b7a-d8271d4a89b1">Heavy 6</characteristic>
+            <characteristic name="S" typeId="02a071af-2ef1-40f4-b2c5-5fa32d09059d">6</characteristic>
+            <characteristic name="AP" typeId="9a4e9541-9439-4469-a5a5-757f1d74e69f">-2</characteristic>
+            <characteristic name="D" typeId="b2033c54-3869-43b8-9be4-13f4742341c2">2</characteristic>
+            <characteristic name="Abilities" typeId="d0040129-019c-45c0-876e-2fbb809feb92">Each time an attack is made with this weapon profile when firing Overwatch, that attack hits on a roll of 5 or 6.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <costs>
-        <cost name=" PL" typeId="c68f8e57-9276-4a3a-9e86-d6adf1065f76" value="0.0"/>
-        <cost name="pts" typeId="c53f0665-1284-48d1-80a2-4f4752c7390a" value="0.0"/>
-        <cost name="CP" typeId="6525e428-b609-455b-8ff7-dc3656708a9e" value="0.0"/>
+        <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="0.0"/>
+        <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="0.0"/>
+        <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
-    <profile id="18077f32-9c74-44c0-9e4c-c6af223e2780" name="Battle Titan" hidden="false" typeId="2162327a-7e1a-4909-bb9b-d50e46e36560" typeName="Abilities">
+    <profile id="c2ede792-2b78-455d-a00f-ad58e14ad97f" name="Battle Titan" hidden="false" typeId="6a77fd08-33e0-4a84-a26a-9c819f5ffbb5" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="2af4d187-b9e6-46e3-8cef-419269a844da">This model is eligible to declare a charge in a turn in which it Fell Back. Each time this model makes a Normal Move, Advances or Falls Back, it can be moved across other models (excluding MONSTER and VEHICLE models) as if they were not there, and when it does so it can be moved within Engagement Range of such models, but cannot finish its move within Engagement Range of any of them.</characteristic>
+        <characteristic name="Description" typeId="00250bb0-92ce-4d01-a8c7-8706e5a818c2">This model is eligible to declare a charge in a turn in which it Fell Back. Each time this model makes a Normal Move, Advances or Falls Back, it can be moved across other models (excluding MONSTER and VEHICLE models) as if they were not there, and when it does so it can be moved within Engagement Range of such models, but cannot finish its move within Engagement Range of any of them.</characteristic>
       </characteristics>
     </profile>
-    <profile id="5173ac1b-a9f2-46dd-8a5a-c52ea60280a6" name="Titan Void Shields" hidden="false" typeId="2162327a-7e1a-4909-bb9b-d50e46e36560" typeName="Abilities">
+    <profile id="bed076ef-15de-48b9-98c3-651685f96dd3" name="Titan Void Shields" hidden="false" typeId="6a77fd08-33e0-4a84-a26a-9c819f5ffbb5" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="2af4d187-b9e6-46e3-8cef-419269a844da">Titans are protected by specialised void shield generators, near-impenetrable barriers of force projected out at a distance from their hulls in layers and designed to deflect and absorb the impact of high-energy attacks and missiles against them. In game terms, Titan void shields are represented by a unique kind of saving throw which the controlling player can opt to use instead of their normal save or invulnerable save against any form of attack except from weapons with the Melee type. like invulnerable saves, Titan void shield saves are unaffected by the AP of an attack, but unlike invulnerable saves they may also be used to negate mortal wounds. In this case, roll one dice for each mortal wound that has been inflicted on the Titan, with the mortal wound being ignored if the save roll is passed. Titan void shields must be continuously re-energised and renewed in combat operations and so as the Titan is damaged, the defensive potential of its void shields is reduced. </characteristic>
+        <characteristic name="Description" typeId="00250bb0-92ce-4d01-a8c7-8706e5a818c2">Titans are protected by specialised void shield generators, near-impenetrable barriers of force projected out at a distance from their hulls in layers and designed to deflect and absorb the impact of high-energy attacks and missiles against them. In game terms, Titan void shields are represented by a unique kind of saving throw which the controlling player can opt to use instead of their normal save or invulnerable save against any form of attack except from weapons with the Melee type. like invulnerable saves, Titan void shield saves are unaffected by the AP of an attack, but unlike invulnerable saves they may also be used to negate mortal wounds. In this case, roll one dice for each mortal wound that has been inflicted on the Titan, with the mortal wound being ignored if the save roll is passed. Titan void shields must be continuously re-energised and renewed in combat operations and so as the Titan is damaged, the defensive potential of its void shields is reduced. </characteristic>
       </characteristics>
     </profile>
-    <profile id="f19444e9-e797-459c-aecf-a32e27bbee21" name="Reactor Meltdown" hidden="false" typeId="2162327a-7e1a-4909-bb9b-d50e46e36560" typeName="Abilities">
+    <profile id="232b4d13-f65d-4d7b-819d-833d29a99ed2" name="Reactor Meltdown" hidden="false" typeId="6a77fd08-33e0-4a84-a26a-9c819f5ffbb5" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="2af4d187-b9e6-46e3-8cef-419269a844da">When this model is destroyed, roll one D6 before removing the model from the battlefield. On a 6+ it explodes, and each unit within 3D6&quot; suffers 2D6 mortal wounds.</characteristic>
+        <characteristic name="Description" typeId="00250bb0-92ce-4d01-a8c7-8706e5a818c2">When this model is destroyed, roll one D6 before removing the model from the battlefield. On a 6+ it explodes, and each unit within 3D6&quot; suffers 2D6 mortal wounds.</characteristic>
       </characteristics>
     </profile>
-    <profile id="a9a64679-73df-4447-89d0-84a43589f8f5" name="Titan vulcan mega-bolter" hidden="false" typeId="798d1891-fc3e-440e-a9d7-1e41effd376a" typeName="Weapon">
+    <profile id="c7391c04-1360-44b3-955f-1bb9c8779bb4" name="Titan vulcan mega-bolter" hidden="false" typeId="a5aa8d41-4d63-42c8-b55d-6e48ed06c22e" typeName="Weapon">
       <characteristics>
-        <characteristic name="Range" typeId="5a654151-3bcc-415a-8bcc-4f936dc64110">72&quot;</characteristic>
-        <characteristic name="Type" typeId="583221e0-05de-486d-9d5f-29f29f57673e">Heavy 20</characteristic>
-        <characteristic name="S" typeId="f51d2bf0-73c7-4814-8513-01226fa4503b">6</characteristic>
-        <characteristic name="AP" typeId="052e9451-7080-48cc-901d-98cfb1b5b8a7">-3</characteristic>
-        <characteristic name="D" typeId="878493bc-53f8-4b51-9251-978997303982">2</characteristic>
-        <characteristic name="Abilities" typeId="203551a5-9b86-4992-a96f-1b369cf73d2b">-</characteristic>
+        <characteristic name="Range" typeId="886781d4-1445-43b0-b232-996f586f7971">72&quot;</characteristic>
+        <characteristic name="Type" typeId="4a47918e-af32-4c79-9b7a-d8271d4a89b1">Heavy 20</characteristic>
+        <characteristic name="S" typeId="02a071af-2ef1-40f4-b2c5-5fa32d09059d">6</characteristic>
+        <characteristic name="AP" typeId="9a4e9541-9439-4469-a5a5-757f1d74e69f">-3</characteristic>
+        <characteristic name="D" typeId="b2033c54-3869-43b8-9be4-13f4742341c2">2</characteristic>
+        <characteristic name="Abilities" typeId="d0040129-019c-45c0-876e-2fbb809feb92">-</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
