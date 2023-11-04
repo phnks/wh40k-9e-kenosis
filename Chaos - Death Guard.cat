@@ -473,7 +473,7 @@
       <profiles>
         <profile id="315bdbd6-4afb-4478-a3c7-3471e43c0739" name="Death Guard Greater Blight Drone" hidden="false" typeId="2389a9c7-564a-45bc-bafa-44a5457c00e4" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="dfaf03e2-db64-4777-8c6e-35874a70ac6d">14&quot;</characteristic>
+            <characteristic name="M" typeId="dfaf03e2-db64-4777-8c6e-35874a70ac6d">999&quot;</characteristic>
             <characteristic name="WS" typeId="752c83e3-cd1b-4290-89a8-7dd17f6f0771">3+</characteristic>
             <characteristic name="BS" typeId="e743642d-b603-4dc4-84c1-1356c804e280">3+</characteristic>
             <characteristic name="S" typeId="4b473f0c-e75b-4457-b69d-b822efa75d18">6</characteristic>
