@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="bdf6bf22-b65f-424b-a73f-e30718303bad" name="Chaos - Death Guard" revision="159" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="0014adc9-4e71-4486-bb6c-5acfbfeb88b6" gameSystemRevision="249" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="bdf6bf22-b65f-424b-a73f-e30718303bad" name="Chaos - Death Guard" revision="160" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="0014adc9-4e71-4486-bb6c-5acfbfeb88b6" gameSystemRevision="249" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="d67030eb-f565-4c70-be02-b15acd78f74d" name="Index: Chaos FAQ"/>
     <publication id="a9165d60-d8fe-452a-8851-dca5a0af2d24" name="Codex: Heretic Astartes - Death Guard" publicationDate="23/01/2021"/>
