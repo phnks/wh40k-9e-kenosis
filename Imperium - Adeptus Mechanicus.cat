@@ -5,6 +5,7 @@
     <publication id="b78f6855-89a7-4e9c-b512-64f34e488d03" name="Forgeworld Datasheet"/>
     <publication id="731df132-85ca-4351-b4d2-6a6fbffbea64" name="Warzone Charadon - Book of Rust"/>
     <publication id="e1b22660-7abe-4510-9742-09e04e01cce9" name="Warzone Charadon -  Book of Fire"/>
+    <publication id="598ec626-1b83-402e-8e8d-e0795aa3f077" name="Liber Mechanicum - Forces of the Omnissiah Army Book" shortName="Mech" publicationDate="August 2022"/>
   </publications>
   <profileTypes>
     <profileType id="c5265810-162d-40d9-956a-2152a8581f2a" name="Explosion">
@@ -4977,6 +4978,282 @@ Each time an attack is made with this weapon, the target does not receive the be
         <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="0.0"/>
         <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="0.0"/>
         <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3e27b9c4-ef15-4cf4-b046-a0426ea252fe" name="Castellax Battle-Automata Maniple" publicationId="598ec626-1b83-402e-8e8d-e0795aa3f077" page="37" hidden="false" collective="false" import="true" type="unit">
+      <categoryLinks>
+        <categoryLink id="91694669-e814-4ad8-97c6-057357a595d5" name="Automata Unit-type:" hidden="false" targetId="0fb86800-90bb-4fcd-8879-4063ff7484b7" primary="false"/>
+        <categoryLink id="af548b8b-59f3-414e-8fd6-817bd5b67a25" name="Cybernetica Sub-type:" hidden="false" targetId="56a319f3-6db9-49df-bf3e-da369a3acfc9" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="7a641b05-971e-46fd-be86-fb7256ddfb81" name="Castellax" publicationId="598ec626-1b83-402e-8e8d-e0795aa3f077" page="37" hidden="false" collective="false" import="true" type="model">
+          <modifiers>
+            <modifier type="add" field="category" value="2e05f80d-c113-42cd-9c78-5e9789e731af">
+              <conditions>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ea2d2a9f-aead-4416-a285-ccea42919490" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a5d077a-8255-11ee-b962-0242ac120002" type="min"/>
+            <constraint field="selections" scope="parent" value="5" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ab3fac3c-8255-11ee-b962-0242ac120002" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="bd8cc73a-8255-11ee-b962-0242ac120002" name="Castellax" publicationId="598ec626-1b83-402e-8e8d-e0795aa3f077" page="37" hidden="false" typeId="2389a9c7-564a-45bc-bafa-44a5457c00e4" typeName="Unit">
+              <modifiers>
+                <modifier type="increment" field="e6272de1-50f4-4d6b-9449-e0892f0b5b07" value="1">
+                  <conditions>
+                    <condition field="selections" scope="7a641b05-971e-46fd-be86-fb7256ddfb81" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a89e2b92-8265-11ee-b962-0242ac120002" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="increment" field="752c83e3-cd1b-4290-89a8-7dd17f6f0771" value="1">
+                  <conditions>
+                    <condition field="selections" scope="7a641b05-971e-46fd-be86-fb7256ddfb81" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="a89e2b92-8265-11ee-b962-0242ac120002" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <characteristics>
+                <characteristic name="Move" typeId="dfaf03e2-db64-4777-8c6e-35874a70ac6d">7</characteristic>
+                <characteristic name="WS" typeId="752c83e3-cd1b-4290-89a8-7dd17f6f0771">3</characteristic>
+                <characteristic name="BS" typeId="e743642d-b603-4dc4-84c1-1356c804e280">4</characteristic>
+                <characteristic name="S" typeId="4b473f0c-e75b-4457-b69d-b822efa75d18">7</characteristic>
+                <characteristic name="T" typeId="68a4b50d-30fd-47b4-a0b9-b4150497ed5d">6</characteristic>
+                <characteristic name="W" typeId="e6272de1-50f4-4d6b-9449-e0892f0b5b07">4</characteristic>
+                <characteristic name="A" typeId="bcf73df5-3507-4e6f-951a-334d957e95f2">2</characteristic>
+                <characteristic name="Ld" typeId="71504bf9-7075-47fe-a797-f8ddc54346fd">7</characteristic>
+                <characteristic name="Save" typeId="de720430-a706-464b-9969-4e45fe254916">3+</characteristic>
+              </characteristics>
+              <modifierGroups>
+                <modifierGroup type="and">
+                  <modifiers>
+                    <modifier type="increment" field="dfaf03e2-db64-4777-8c6e-35874a70ac6d" value="1">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c18eef0a-826b-11ee-b962-0242ac120002" type="equalTo"/>
+                            <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4b7832c4-8278-11ee-b962-0242ac120002" type="instanceOf"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                    <modifier type="append" field="dfaf03e2-db64-4777-8c6e-35874a70ac6d" value="*">
+                      <conditionGroups>
+                        <conditionGroup type="and">
+                          <conditions>
+                            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c18eef0a-826b-11ee-b962-0242ac120002" type="equalTo"/>
+                            <condition field="selections" scope="ancestor" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="4b7832c4-8278-11ee-b962-0242ac120002" type="instanceOf"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
+                    </modifier>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="d764-5dc5-59ca-0121" name="Hammer of Wrath (X)" hidden="false" targetId="aec0-c3aa-1e4e-1779" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Hammer of Wrath (1)"/>
+              </modifiers>
+            </infoLink>
+            <infoLink id="d34b-4fc7-12c1-3871" name="It Will Not Die (X)" hidden="false" targetId="219d1a48-8267-11ee-b962-0242ac120002" type="rule">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="force" value="0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="296a-89a3-2269-2093" type="equalTo"/>
+                  </conditions>
+                </modifier>
+                <modifier type="set" field="name" value="It Will Not Die (5+)"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="75c2-1212-5c68-59cf" name="A) May Exchange Main Weapon for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="ba99-35d3-89d1-626b">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a21-a96f-f00f-e28b" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8b2-da34-7269-ed20" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="ba99-35d3-89d1-626b" name="Mauler Bolt Cannon" hidden="false" collective="false" import="true" targetId="7478-2c29-dfc4-f4cf" type="selectionEntry"/>
+                <entryLink id="ab91-981d-f2bd-5624" name="Multi-Melta" hidden="false" collective="false" import="true" targetId="9332-3834-cf3a-56b4" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="da56-d4fc-92fe-fabe" name="Darkfire Cannon" hidden="false" collective="false" import="true" targetId="6f3d-9a42-da1d-2c2e" type="selectionEntry">
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="20"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="ef5c-5de1-f9e9-cee9" name="B) May Exchange both Melee Weapons for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="af01-d4da-d454-2d29">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fd7-68b0-a7d5-b8b5" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2475-8aae-97e6-b889" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="cf13-fe20-b0a5-88e3" name="Siege Wrecker &amp; Shock Charger" hidden="false" collective="false" import="true" type="upgrade">
+                  <entryLinks>
+                    <entryLink id="c874-628d-f075-71b0" name="Siege Wrecker" hidden="false" collective="true" import="true" targetId="178d-8a3a-bfda-7443" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d98-c81c-d3ff-a863" type="min"/>
+                        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dddf-41f4-a971-5dcf" type="max"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink id="ac2a-9e7e-e955-9460" name="Shock Charger" hidden="false" collective="true" import="true" targetId="3234-492f-9ebf-f23c" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b79-7ce4-bd06-a0ae" type="min"/>
+                        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f09-8bc0-268a-a4d5" type="max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="15"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="b48d-19d0-6116-af9d" name="Two Power Blade Arrays*" hidden="false" collective="false" import="true" type="upgrade">
+                  <rules>
+                    <rule id="5163-d31f-e2ff-b4f2" name="Two Power Blade Arrays*" publicationId="598ec626-1b83-402e-8e8d-e0795aa3f077" page="37" hidden="false">
+                      <description>A Castellax with two power blade arrays gains an additional Attack.</description>
+                    </rule>
+                  </rules>
+                  <entryLinks>
+                    <entryLink id="53f7-0e77-0d69-7639" name="Power Blade Array" hidden="false" collective="false" import="true" targetId="2121-ee7c-8ac9-5133" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ef6c-fd23-95da-b815" type="min"/>
+                        <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8428-80d0-ef90-ce59" type="max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="af01-d4da-d454-2d29" name="Two Shock Chargers*" hidden="false" collective="false" import="true" type="upgrade">
+                  <rules>
+                    <rule id="5592-2df6-fcd5-a9f2" name="Two Shock Chargers*" publicationId="598ec626-1b83-402e-8e8d-e0795aa3f077" page="37" hidden="false">
+                      <description>*A Castellax with two shock chargers gains an additional Attack. This additional Attack is not included in the characteristics profile above.</description>
+                    </rule>
+                  </rules>
+                  <entryLinks>
+                    <entryLink id="046f-df9b-f1a2-85f0" name="Shock Charger" hidden="false" collective="false" import="true" targetId="3234-492f-9ebf-f23c" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0437-cdbd-ea42-71ef" type="min"/>
+                        <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb05-ed4d-61f3-965b" type="max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="f012-80da-f40b-3cbd" name="C) Shock Charger / Power Blades may Exchange In-Built Bolter for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="8081-f97c-b25c-affd">
+              <modifiers>
+                <modifier type="increment" field="c6d4-44b8-d12d-4ca7" value="1">
+                  <repeats>
+                    <repeat field="selections" scope="7a641b05-971e-46fd-be86-fb7256ddfb81" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b48d-19d0-6116-af9d" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="7a641b05-971e-46fd-be86-fb7256ddfb81" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="af01-d4da-d454-2d29" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+                <modifier type="increment" field="0a49-dc8a-95be-56d5" value="1">
+                  <repeats>
+                    <repeat field="selections" scope="7a641b05-971e-46fd-be86-fb7256ddfb81" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="af01-d4da-d454-2d29" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="7a641b05-971e-46fd-be86-fb7256ddfb81" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b48d-19d0-6116-af9d" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+                <modifier type="decrement" field="c6d4-44b8-d12d-4ca7" value="1"/>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="2" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6d4-44b8-d12d-4ca7" type="min"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0a49-dc8a-95be-56d5" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="8081-f97c-b25c-affd" name="Bolter" hidden="false" collective="false" import="true" targetId="1ade-0c02-5612-252b" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="In-Built Bolter"/>
+                  </modifiers>
+                </entryLink>
+                <entryLink id="893b-efe7-3a3e-4b39" name="Maxima Bolter" hidden="false" collective="false" import="true" targetId="1d3e-1b60-d133-ea0d" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="In-Built Maxima Bolter"/>
+                  </modifiers>
+                </entryLink>
+                <entryLink id="498e-5313-c591-6149" name="Flamer" hidden="false" collective="false" import="true" targetId="9f41-82e2-90f6-973a" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="In-Built Flamer"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="5"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="5d7e3850-8256-11ee-b962-0242ac120002" name="Paragon of Metal" hidden="false" collective="false" import="true" targetId="a89e2b92-8265-11ee-b962-0242ac120002" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="3e27b9c4-ef15-4cf4-b046-a0426ea252fe" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7a641b05-971e-46fd-be86-fb7256ddfb81" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="35"/>
+              </costs>
+            </entryLink>
+            <entryLink import="true" name="Atomantic Deflector" hidden="false" type="selectionEntry" id="585f-1b45-ae74-5f72" targetId="38fb-9a0b-edef-a497">
+              <constraints>
+                <constraint type="min" value="1" field="selections" scope="parent" shared="true" id="6b93-2d67-30c5-50cb"/>
+                <constraint type="max" value="1" field="selections" scope="parent" shared="true" id="cb9-cab7-18d2-427d"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="85"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="7db0-719f-b641-ec3c" name="Searchlights" hidden="false" collective="false" import="true" targetId="4ae3-79b4-6051-505e" type="selectionEntry">
+          <modifiers>
+            <modifier type="increment" field="d2ee-04cb-5f8a-2642" value="1">
+              <repeats>
+                <repeat field="selections" scope="3e27b9c4-ef15-4cf4-b046-a0426ea252fe" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7a641b05-971e-46fd-be86-fb7256ddfb81" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b442-486a-dd6e-11f0" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="10"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6f3d-9a42-da1d-2c2e" name="Darkfire Cannon" publicationId="598ec626-1b83-402e-8e8d-e0795aa3f077" page="117" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="f9b1-869e-9b30-6413" name="Darkfire Cannon" publicationId="598ec626-1b83-402e-8e8d-e0795aa3f077" page="117" hidden="false" typeId="1a1a-e592-2849-a5c0" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="95ba-cda7-b831-6066">36&quot;</characteristic>
+            <characteristic name="Strength" typeId="24d9-b8e1-a355-2458">7</characteristic>
+            <characteristic name="AP" typeId="f7a6-e0d8-7973-cd8d">2</characteristic>
+            <characteristic name="Type" typeId="2f86-c8b4-b3b4-3ff9">Heavy 2, Blind, Lance, Gets Hot</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7ffc-4609-703e-f1a1" name="Blind" hidden="false" targetId="d836-747d-07d6-2b63" type="rule"/>
+        <infoLink id="e76d-d5eb-af95-8d34" name="Lance" hidden="false" targetId="3d6b-9e0b-56f0-8a1e" type="rule"/>
+        <infoLink id="8d14-fceb-5258-1213" name="Gets Hot" hidden="false" targetId="679f-9d97-5ace-a652" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="516e745d-995b-4d06-a341-8f092f513ff8" name="Skitarii Vanguard" hidden="false" collective="false" import="true" type="model">

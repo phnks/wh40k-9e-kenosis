@@ -31,6 +31,10 @@
     <publication id="3d00c008-19a1-4126-9093-6c5e445cfd4f" name="Shadow Throne" publicationDate="2021-12-18" publisherUrl="games-workshop.com/warhammer-40000-shadow-throne-2021-eng"/>
     <publication id="c6559852-e8d5-4ae3-bf3e-2cffa0d37006" name="The Balance Dataslate" shortName="The Balance Dataslate" publisher="The Balance Dataslate" publicationDate="14th April 2022" publisherUrl="https://www.warhammer-community.com/wp-content/uploads/2022/04/lBLlqvrttJVgyfhC.pdf"/>
     <publication id="0940c74d-ac73-416b-a121-4e8cfde9b3d8" name="War Zone Nephilim: Grand Tournament"/>
+    <publication id="c755c8e1-c575-417c-80e6-ffaf4d3771c9" name="Warhammer: The Horus Heresy - Age of Darkness Rulebook" shortName="Main Rules" publicationDate="June 2022"/>
+    <publication id="784fc8f5-e369-4bcd-9e78-e85e28ec832e" name="Both Astartes Army Books" publicationDate="June 2022"/>
+    <publication id="62ce1b58-8266-11ee-b962-0242ac120002" name="Liber Mechanicum - Forces of the Omnissiah Army Book" shortName="Mech" publicationDate="August 2022"/>
+    <publication id="ec640dac-826e-11ee-b962-0242ac120002" name="Liber Astartes – Loyalist Legiones Astartes Army Book" shortName="LA - Loyalist" publicationDate="June 2022"/>
   </publications>
   <costTypes>
     <costType id="2605c820-4f0f-4cfe-9895-e75c63b738ca" name="pts" defaultCostLimit="0.0" hidden="false"/>
@@ -46,6 +50,11 @@
         <characteristicType id="9a4e9541-9439-4469-a5a5-757f1d74e69f" name="AP"/>
         <characteristicType id="b2033c54-3869-43b8-9be4-13f4742341c2" name="D"/>
         <characteristicType id="d0040129-019c-45c0-876e-2fbb809feb92" name="Abilities"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType id="c4f2196c-826e-11ee-b962-0242ac120002" name="Reactions">
+      <characteristicTypes>
+        <characteristicType id="018a7d4c-826f-11ee-b962-0242ac120002" name="Description"/>
       </characteristicTypes>
     </profileType>
     <profileType id="6a77fd08-33e0-4a84-a26a-9c819f5ffbb5" name="Abilities">
@@ -128,6 +137,52 @@
     <categoryEntry id="6671a3d6-ff8b-49e6-9f5c-163eacead4f3" name="Transport" hidden="false"/>
     <categoryEntry id="adf25d84-331c-475d-b730-b6ed0b144697" name="Flyer" hidden="false"/>
     <categoryEntry id="e9e9baf2-6cb7-413c-81bc-b28f8dbeed5d" name="Dedicated Transport" hidden="false"/>
+    <categoryEntry id="96aa1b24-826c-11ee-b962-0242ac120002" name="Legiones Astartes" hidden="false"/>
+    <categoryEntry id="0fb86800-90bb-4fcd-8879-4063ff7484b7" name="Automata Unit-type:" publicationId="c755c8e1-c575-417c-80e6-ffaf4d3771c9" page="195" hidden="false">
+      <rules>
+        <rule id="c03248dd-9016-459f-8b81-198b5468e3e4" name="Automata Unit-type" publicationId="c755c8e1-c575-417c-80e6-ffaf4d3771c9" page="195" hidden="false">
+          <description>• All Automata models have the Fearless special rule.
+• Successful Wounds inflicted by attacks with the Poisoned or Fleshbane special rules must be re-rolled against models of the Automata Unit Type.
+• A unit that includes one or more models with the Automata Unit Type may not make Reactions.
+• No model that is not also of the Automata Unit Type may join a unit that includes an Automata model.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="0fb9a876-305a-401d-98c5-217f86ec8ddc" name="Fearless" hidden="false" targetId="12b0c685-ca7c-4e33-9ace-f04fb5819b2a" type="rule"/>
+      </infoLinks>
+    </categoryEntry>
+    <categoryEntry id="56a319f3-6db9-49df-bf3e-da369a3acfc9" name="Cybernetica Sub-type:" publicationId="c755c8e1-c575-417c-80e6-ffaf4d3771c9" page="90" hidden="false">
+      <rules>
+        <rule id="ad70-0b7c-539c-3e16" name="Cybernetica Sub-type:" publicationId="c755c8e1-c575-417c-80e6-ffaf4d3771c9" page="90" hidden="false">
+          <description>The following rules apply to all models with the Cybernetica Unit Sub-type:
+• Models with the Cybernetica Unit Sub-type are subject to the Programmed Behaviour provision. During both the controlling player’s Shooting phase and the Charge sub-phase, an Automata unit must attempt a Shooting Attack and/or Charge if there is an enemy unit within range, and must target the closest enemy unit possible that is within its line of sight and is a valid target for a Shooting Attack or Charge. If two or more targets are equally close then the controlling player chooses which will be the target of a Shooting Attack or Charge.
+• A model with the Cybernetica Unit Sub-type may fire all weapons they are equipped with in each Shooting Attack they make, including as part of a Reaction where eligible (this rule on its own does not allow units to make Reactions if they would otherwise be prevented from doing so).
+• Models with the Cybernetica Unit Sub-type may fire Heavy and Ordnance weapons and count as Stationary even if they moved in the preceding Movement phase, and may declare Charges as normal regardless of any Shooting Attacks made in the same turn.
+• Models with the Cybernetica Unit Sub-type ignore any penalties to their Initiative Characteristic when Charging into or through Difficult Terrain or Dangerous Terrain.</description>
+        </rule>
+      </rules>
+    </categoryEntry>
+    <categoryEntry id="2e05f80d-c113-42cd-9c78-5e9789e731af" name="Brethren of Iron Restriction" hidden="false">
+      <modifiers>
+        <modifier type="increment" field="372b0a2b-5204-4fd8-94ab-6a407f196afa" value="1">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ea2d2a9f-aead-4416-a285-ccea42919490" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="372b0a2b-5204-4fd8-94ab-6a407f196afa" value="1">
+          <repeats>
+            <repeat field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2fda-455f-d34d-97e0" repeats="3" roundUp="false"/>
+          </repeats>
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ea2d2a9f-aead-4416-a285-ccea42919490" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="-1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="372b0a2b-5204-4fd8-94ab-6a407f196afa" type="max"/>
+      </constraints>
+    </categoryEntry>
+    <categoryEntry id="064b8cf2-6651-4fcc-a725-fba4a0fa2bc1" name="Legiones Hereticus" hidden="false"/>
     <categoryEntry id="64e2283c-7732-4a45-ac40-96c0c9e670db" name="Character" hidden="false">
       <modifiers>
         <modifier type="increment" field="4ac4-5e27-bfde-a163" value="1.0">
@@ -9383,11 +9438,226 @@ their charge, this unit can fire Dverwatch [and will score hits on unmodified ro
             <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
             <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="0.0"/>
           </costs>
+  </selectionEntry>
+        <selectionEntry id="ea2d2a9f-aead-4416-a285-ccea42919490" name="Brethren Of Iron" publicationId="784fc8f5-e369-4bcd-9e78-e85e28ec832e" page="102" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="9ea43ee5-fc6f-428e-8a5c-a8ebd0ca71fd" name="Brethren Of Iron" publicationId="784fc8f5-e369-4bcd-9e78-e85e28ec832e" page="102" hidden="false">
+              <description>Effects
+• Castellax Battle-automata Maniples* may be taken as non-Compulsory Troops choices, Vorax Battleautomata Maniples* may be taken as non-Compulsory Fast Attack choices and Domitar Battle-automata Maniples* may be taken as non-Compulsory Elites choices in a Detachment using this Rite of War. In addition, a single Thanatar Siege-automata Maniple* of no more than one model may be taken as a non-Compulsory Heavy Support choice in a Detachment using this Rite of War.
+• Any Legion Techmarine in a Detachment using this Rite of War may be upgraded to have a cortex controller at +20 points.
+* Note that rules for these units are found in the Liber Mechanicum book.
+Limitations
+• A Detachment using this Rite of War may not have more units that include one or more models with the Automata Unit Type than the total number of units it includes that do not include any models with the Automata Unit Type.
+• At least one model with a cortex controller must be included in the Detachment for every three models with the Automata Unit Type in the Detachment.
+• No models or units in the Detachment may be given the Paragon of Metal special rule (see Liber Mechanicum).
+• A model with the Forge Lord Legiones Consularis upgrade must be taken as the Compulsory HQ choice for an army using this Rite of War (but need not be chosen as the army Warlord). Note that this will preclude certain other characters from being included in the Detachment, and means in most cases that both a Legion Praetor and a Legion Forge Lord must be taken.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="0"/>
+          </costs>
+          <modifiers>
+            <modifier type="set" value="true" field="hidden">
+              <conditions>
+                <condition type="atLeast" value="1" field="selections" scope="force" childId="064b8cf2-6651-4fcc-a725-fba4a0fa2bc1" shared="true" includeChildSelections="true"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+  </selectionEntry>
+        <selectionEntry id="c18eef0a-826b-11ee-b962-0242ac120002" name="V: White Scars" hidden="false" collective="false" import="true" type="upgrade">
+          <rules>
+            <rule id="431ff3fc-826c-11ee-b962-0242ac120002" name="The Armoury of the White Scars" hidden="false">
+              <description>• Any model with both the Legiones Astartes (White Scars) and Independent Character sepcial rules, but not the Unique Sub-type, may exchange a Legion Scimitar jetbike for a Legion Shamshir jetbike for no additional points cost. A Legion Shamshir jetbike has one Scatterbolt Launcher, in addition, a model with a Legion Shamshir Jetbike that chooses to Run gains the Shrouded (5+) special rule until the start of the controlling player&apos;s next turn. A model with the Infantry Unit Type that selects a Legion Shamshir Jetbike as an upgrade must change its unit type to Cavalry (Antigrav), keeping any other Unit Sub-types it previously had, Changes it&apos;s movement characteristic to 15&quot;, gains the Firing Protocls (2) and Hammer of Wrath (1) special rules and improved its Armour Save to 2+ if it was worse.
+
+• Any model with both the Character Sub-type and the Legiones Astartes (White Scars) special rule may have a Power Weapon upgraded to a Power Glaive for +5 points.
+
+• Any Model with both the Legiones Astartes (White Scars) and Independent Character special rule that does not also have the Unique Sub-type may take a Cyber-Hawk for +10 points.
+
+• The White Scars gain access to a Legion-Specific Legion Consularis Upgrade in the &quot;Stormseer&quot;</description>
+            </rule>
+            <rule id="709c7b8e-826c-11ee-b962-0242ac120002" name="Legiones Cosularis: Stormseer" hidden="false">
+              <description>A Legion Centurion, Legion Tartaros Centurion or Legion Cataphractii Centurion with the Legiones Astartes (White Scars) special rule may be upgraded to a Stormseer Consul instead of selecting any of the standard Consul upgrades, gaining following benefits.
+
+
+• A Stormseer gains the Psyker Sub-type and must select one of the following Psychic Disciplines: The Storm’s Fury , Divination, Telepathy or Thaumaturgy. A Stormseer may not select any other Discipline. In addition, a Stormseer gains the Adamantium Will (4+) special rule.
+
+• A Stormseer may replace a power weapon, bolt pistol or combi-bolter with a force weapon at no additional points cost. In additon a  Stormseer may take a psychic hood for +15 points.</description>
+            </rule>
+          </rules>
+          <costs>
+            <cost name="Pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="0"/>
+          </costs>
+          <categoryLinks>
+            <categoryLink targetId="96aa1b24-826c-11ee-b962-0242ac120002" id="ab0b46ce-826c-11ee-b962-0242ac120002" primary="false" name="Legiones Astartes"/>
+          </categoryLinks>
+          <infoLinks>
+            <infoLink name="Legiones Astartes (White Scars)" hidden="false" type="rule" id="7c55c7da-826e-11ee-b962-0242ac120002" targetId="a83ae470-826e-11ee-b962-0242ac120002"/>
+          </infoLinks>
+          <profiles>
+            <profile name="White Scars Advanced Reaction" typeId="c4f2196c-826e-11ee-b962-0242ac120002" typeName="Reactions" hidden="false" id="d7eaaffc-826e-11ee-b962-0242ac120002" publicationId="ec640dac-826e-11ee-b962-0242ac120002" page="177">
+              <characteristics>
+                <characteristic name="Description" typeId="018a7d4c-826f-11ee-b962-0242ac120002">This Advanced Reaction is available only to units made up entirely of models with the Legiones Astartes (White Scars) special rule. Unlike Core Reactions, Advanced Reactions are activated in unique and specific circumstances, as noted in their descriptions, and can often have game changing effects. Advanced Reactions use up points of a Reactive player’s Reaction Allotment as normal and obey all other restrictions placed upon Reactions, unless it is specifically noted otherwise in their description.
+
+Chasing the Wind – This Advanced Reaction may be made once per battle during the opposing player’s Movement phase when any enemy unit ends a Move with any of its models within 12&quot; of any model in a friendly unit under the Reactive player’s control with the Legiones Astartes (White Scars) special rule. Once the enemy Move that triggers this Reaction is completely resolved, all friendly units composed entirely of models with the Legiones Astartes (White Scars) special rule within 12&quot; of that enemy unit’s final position may immediately make a normal Move – such units may choose to activate Jump Packs to increase their Movement, but may not choose to Run. This move is subject to all the normal penalties for Difficult Terrain, Dangerous Terrain and units that are Pinned, locked in combat or otherwise unable to move may not move due to this Reaction.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+      <selectionEntry id="a89e2b92-8265-11ee-b962-0242ac120002" name="Paragon of Metal" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="deb316b6-8265-11ee-b962-0242ac120002" value="0">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ea2d2a9f-aead-4416-a285-ccea42919490" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="2631d41e-8266-11ee-b962-0242ac120002" value="0">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ea2d2a9f-aead-4416-a285-ccea42919490" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ea2d2a9f-aead-4416-a285-ccea42919490" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2631d41e-8266-11ee-b962-0242ac120002" type="max"/>
+        <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="deb316b6-8265-11ee-b962-0242ac120002" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="3fd229be-8266-11ee-b962-0242ac120002" name="Paragon of Metal" publicationId="62ce1b58-8266-11ee-b962-0242ac120002" page="106" hidden="false">
+          <description>Only one model in an army may be upgraded to have the Paragon of Metal special rule. Models upgraded with the Paragon of Metal special rule must have the Automata (Cybernetica) Unit Type before the upgrade is applied. This rule confers the Paragon Sub-type, which replaces the Cybernetica Unit Sub-type, and confers the It Will Not Die (4+), Precision Strikes (4+), Precision Shots (4+) and Rampage (2) special rules. A model upgraded with the Paragon of Metal special rule also increases both their starting Wounds Characteristic and their Weapon Skill Characteristic by +1.
+In addition, a model with the Paragon of Metal special rule may not be targeted or affected by any Cybertheurgic Power or any Weapon with the Data-djinn special rule, either friendly or enemy.</description>
+        </rule>
+        <rule id="c667727c-8266-11ee-b962-0242ac120002" name="Paragon Unit Sub-type" publicationId="62ce1b58-8266-11ee-b962-0242ac120002" page="91" hidden="false">
+          <description>The following rules apply to all models with the Paragon Unit Sub-type:
+• Models with the Paragon Unit Sub-type are not affected by special rules that negatively modify their Characteristics (other than Wounds or Hull Points).
+• A model with the Paragon Unit Sub-type may fire all weapons they are equipped with in each Shooting Attack they make, including as part of a Reaction.
+• Models with the Paragon Unit Sub-type may fire Heavy and Ordnance weapons and count as Stationary even if they moved in the preceding Movement phase, and may declare Charges as normal regardless of any Shooting Attacks made in the same turn.
+• A unit that contains a model with the Paragon Unit Sub-type may never be joined by any other models, regardless of any other special rule.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="d75495e2-8266-11ee-b962-0242ac120002" name="It Will Not Die (X)" hidden="false" targetId="219d1a48-8267-11ee-b962-0242ac120002" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="It Will Not Die (4+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="3378719a-8267-11ee-b962-0242ac120002" name="Precision Shots (X)" hidden="false" targetId="4da7adb0-8267-11ee-b962-0242ac120002" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Precision Shots (4+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="6284d096-8267-11ee-b962-0242ac120002" name="Precision Strikes (X)" hidden="false" targetId="7346ed42-8267-11ee-b962-0242ac120002" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Precision Strikes (4+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="830e9fc2-8267-11ee-b962-0242ac120002" name="Rampage (X)" hidden="false" targetId="93b4fbe6-8267-11ee-b962-0242ac120002" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Rampage (2)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <costs>
+        <cost name="Pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="0"/>
+      </costs>
+    </selectionEntry>
+        <selectionEntry id="999ae9a6-8278-11ee-b962-0242ac120002" name="Praevian" publicationId="a716-c1c4-7b26-8424" page="115" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="or">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="25a2-7a52-632a-6b2c" type="notInstanceOf"/>
+                    <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b5b7-3410-a8e5-95a6" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="add" field="category" value="30e2-956f-1bf5-1110">
+              <conditions>
+                <condition field="selections" scope="force" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="373b-ce5a-ddc5-cf8f" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <infoLinks>
+            <infoLink id="328e-31c9-9aa5-89ed" name="Legiones Cybernetica" hidden="false" targetId="a2ef-63a4-3531-db91" type="rule"/>
+            <infoLink id="6c18-66c0-7c82-ed9b" name="Master of Automata" hidden="false" targetId="8eef-f84b-37cb-554b" type="rule"/>
+          </infoLinks>
+          <entryLinks>
+            <entryLink id="3322-e7ba-5d2e-6bf4" name="Cortex Controller" hidden="false" collective="false" import="true" targetId="2fda-455f-d34d-97e0" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3760-a2fd-06e4-a8d4" type="max"/>
+                <constraint field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a879-712b-2762-d265" type="min"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="35"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
+        <selectionEntryGroup id="4b7832c4-8278-11ee-b962-0242ac120002" name="Legiones Cybernetica (Praevian)" hidden="true" collective="false" import="true">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="parent" value="1" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="999ae9a6-8278-11ee-b962-0242ac120002" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <entryLinks>
+            <entryLink id="a86e-5ff8-c9f1-8069" name="Vorax Battle-automata Maniple" hidden="false" collective="false" import="true" targetId="f144-1079-11ff-019d" type="selectionEntry">
+              <categoryLinks>
+                <categoryLink id="1fe9-b6c5-94e0-f51b" name="Legiones Astartes" hidden="false" targetId="11f2-472f-c1d1-9ae9" primary="false"/>
+              </categoryLinks>
+            </entryLink>
+            <entryLink id="f51b-5b5f-5051-076d" name="Castellax Battle-Automata Maniple" hidden="false" collective="false" import="true" targetId="537f-846d-90e3-2526" type="selectionEntry">
+              <categoryLinks>
+                <categoryLink targetId="11f2-472f-c1d1-9ae9" id="c4aa-6738-df82-1443" primary="false" name="Legiones Astartes"/>
+              </categoryLinks>
+            </entryLink>
+          </entryLinks>
+          <constraints>
+            <constraint type="max" value="1" field="selections" scope="parent" shared="false" id="fb6-929b-6a6a-4a5f"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry type="upgrade" import="true" name="Decimator (Heavy Support Selected separately / Max 1 unit in army)" hidden="false" id="bbbd-74d7-7754-8af4">
+              <categoryLinks>
+                <categoryLink targetId="5f52-3d91-b958-ceff" id="73cb-b9e2-1124-b6d8" primary="false" name="Praevian / Corrupted Engines Limit 1"/>
+              </categoryLinks>
+            </selectionEntry>
+            <selectionEntry type="upgrade" import="true" name="Blood Slaughterers (Fast Attack Selected separately / Max 1 unit in army)" hidden="false" id="b9b5-6fa-b063-74bf">
+              <categoryLinks>
+                <categoryLink targetId="5f52-3d91-b958-ceff" id="1cc-6120-1a50-ed5e" primary="false" name="Praevian / Corrupted Engines Limit 1"/>
+              </categoryLinks>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
+    <rule id="a83ae470-826e-11ee-b962-0242ac120002" name="Legiones Astartes (White Scars)" publicationId="ec640dac-826e-11ee-b962-0242ac120002" page="176" hidden="false">
+      <description>Swift of Action: All models with this special rule add +1 to their Movement Characteristic and whenever called upon to make a roll to determine which player will take the First Turn or to Seize the Initiative, the controlling player of an army whose Primary Detachment has this special rule may roll an additional dice and discard the lowest rolled dice before determining the result.</description>
+    </rule>
+    <rule id="93b4fbe6-8267-11ee-b962-0242ac120002" name="Rampage (X)" publicationId="e77a-823a-da94-16b9" page="245" hidden="false">
+      <description>At the start of any Fight sub-phase, models with the Rampage special rule gain a number of Attacks equal to the value listed in brackets if outnumbered by enemy models (including the effects of the Bulky special rule) – count all models locked in the combat, not just those models that are engaged. Roll once to determine the number of bonus Attacks all Rampaging models involved in that combat receive that Phase. For example, a model with the Rampage (D3) special rule that is outnumbered by the enemy in close combat receives D3 additional Attacks in that Fight sub-phase.
+
+A model that has made a Disordered Charge that turn receives no benefit from Rampage (see page 182).</description>
+    </rule>
+    <rule id="7346ed42-8267-11ee-b962-0242ac120002" name="Precision Strikes (X)" publicationId="e77a-823a-da94-16b9" page="245" hidden="false">
+      <description>If a model with this special rule, or attacking with a weapon with this special rule, rolls equal to or higher than the value in brackets when making a To Hit roll as part of a melee attack, that hit is a ‘Precision Strike’. For example, if a model with the Precision Strikes (4+) special rule rolls a 4 or higher when making a To Hit roll, then that attack is a Precision Strike.
+Wounds from Precision Strikes are allocated against a model (or models) of the attacking player’s choice in the target unit, as long as that model is engaged in combat with the attacking model’s unit, rather than following the normal rules for Wound allocation.</description>
+    </rule>
+    <rule id="4da7adb0-8267-11ee-b962-0242ac120002" name="Precision Shots (X)" publicationId="e77a-823a-da94-16b9" page="244" hidden="false">
+      <description>If a model with this special rule, or attacking with a weapon with this special rule, rolls equal to or higher than the value in brackets when making a To Hit roll as part of a Shooting Attack, that shot is a ‘Precision Shot’. For example, if a model with the Precision Shots (4+) special rule rolls a 4 or higher when making a To Hit roll, then that attack is a Precision Shot.
+Wounds from Precision Shots are allocated against a model (or models) of the attacking player’s choice in the target unit, as long as the target model is in range and line of sight of the attacking model, rather than following the normal rules for Wound allocation.
+Note that Snap Shots and shots from weapons that scatter, or do not roll To Hit, can never be Precision Shots.</description>
+    </rule>
+    <rule id="219d1a48-8267-11ee-b962-0242ac120002" name="It Will Not Die (X)" publicationId="e77a-823a-da94-16b9" page="242" hidden="false">
+      <description>At the end of each of your turns, roll a D6 for each of your models with this special rule that has less than its starting number of Wounds or Hull Points, but that has not been removed as a casualty or destroyed. On a roll equal to or greater than the number in brackets associated with the special rule, that model regains a Wound, or Hull Point, lost earlier in the game. For example, a model with It Will Not Die (5+) would regain a lost Wound on the roll of a 5 or more.</description>
+    </rule>
     <rule id="a27bc1cf-18f8-41c1-9c7c-24163c6b7b20" name="Deathblow" hidden="false">
       <description>If a target suffers an unsaved Wound from a close combat attack made by this model, the target is reduced to 0 Wounds and is removed as a casualty.</description>
     </rule>
@@ -9453,6 +9723,11 @@ For the purposes of this ability, a Rapid Fire bolt weapon is any bolt weapon (s
     </rule>
     <rule id="f35542f3-16a0-4a56-b8e9-564ef14ad76a" name="Objective Secured" publicationId="714e1972-7d63-484f-836c-c979f60d7e1d" page="237" hidden="false">
       <description>A player controls an objective marker if they have any models with this ability within range of that objective marker, even if there are more enemy models within range of that objective marker. If an enemy model within range of an objective marker also has this ability (or a similar ability), then the objective marker is controlled by the player who has the most models within range of that objective marker as normal.</description>
+    </rule>
+    <rule id="12b0c685-ca7c-4e33-9ace-f04fb5819b2a" name="Fearless" publicationId="c755c8e1-c575-417c-80e6-ffaf4d3771c9" page="238" hidden="false">
+      <description>Units with one or more models with the Fearless special rule automatically pass Pinning tests. Regroup tests and Morale checks.In addition, models with the Fearless special rule ignore the effects of the Fear special rule.
+
+However, units containing one or more models with the Fearless special rule cannot use any Reactions that grant a Cover Save, Armour Save or Invulnerable Save, and cannot choose to fail a Morale check due to the Our Weapons Are Useless special rule (see page 188). If a unit has become Pinned and then gains the Fearless special rule,all the effects of being Pinned are immediately cancelled.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
