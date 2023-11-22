@@ -1,158 +1,158 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ec0fce78-f8ea-447d-bb03-ae83f318dd3e" name="Imperium - Elysian Drop Troops" revision="105" battleScribeVersion="2.03" authorName="Jon K, Joe B" authorContact="Discord: @Alphalas, @CrusherJoe | Twitter: @_alphalas, @theawesomesauce" authorUrl="https://www.bsdata.net/contact" library="true" gameSystemId="0014adc9-4e71-4486-bb6c-5acfbfeb88b6" gameSystemRevision="248" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d0a80a81-2197-4955-9f96-5ce00ed8d7e0" name="Imperium - Elysian Drop Troops" revision="105" battleScribeVersion="2.03" authorName="Jon K, Joe B" authorContact="Discord: @Alphalas, @CrusherJoe | Twitter: @_alphalas, @theawesomesauce" authorUrl="https://www.bsdata.net/contact" library="true" gameSystemId="11f72b7f-57c7-49ff-a1aa-649e95da9c5f" gameSystemRevision="248" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="38e1ddcf-312e-4aeb-bc4d-0c1bbca6711c" name="Codex: Astra Militarum"/>
-    <publication id="bcecc718-1e3e-4bb1-a515-9ed7bb056f95" name="Codex: Genestealer Cults"/>
+    <publication id="72ce135d-97ec-4e60-a342-6de8a8c8ace5" name="Codex: Astra Militarum"/>
+    <publication id="31b393f7-9a08-48d9-a7de-4fdc13f298e0" name="Codex: Genestealer Cults"/>
   </publications>
   <profileTypes>
-    <profileType id="a2e338a5-886f-4113-940f-8f40e6ad2a9a" name="Wound Track (M,BS)">
+    <profileType id="80926e7b-03b1-4074-8c7c-e1a160a780d8" name="Wound Track (M,BS)">
       <characteristicTypes>
-        <characteristicType id="87b5b024-a59d-4641-bb8d-237f14c42249" name="Remaining W"/>
-        <characteristicType id="7910dc70-f3e7-4fef-a651-f232538e0265" name="M"/>
-        <characteristicType id="519b51f5-6f4e-4e3e-823e-e6ae46471422" name="BS"/>
+        <characteristicType id="e606d13b-a2b0-4de1-9a5b-0a8fc776246c" name="Remaining W"/>
+        <characteristicType id="7bf37a18-5417-43b0-a0f2-3c1044422a81" name="M"/>
+        <characteristicType id="8f5e7c9e-38f8-4c3f-812f-706120c3c147" name="BS"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
   <categoryEntries>
-    <categoryEntry id="31f4059a-7086-41ae-9a5e-fa262c3e9577" name="Officio Prefectus" hidden="false"/>
-    <categoryEntry id="ed70e254-43f8-4ac9-a77d-9bef50057096" name="Elysian Drop Sentinels" hidden="false"/>
-    <categoryEntry id="1649675b-6d3b-4973-bfaf-5f8a178e5a36" name="Elysian Sniper Squad" hidden="false"/>
-    <categoryEntry id="7f43cca5-51ca-47cd-9acf-a7a10de53464" name="Valkyrie Sky Talon" hidden="false"/>
+    <categoryEntry id="7c169983-aaa4-48ba-9141-a669746bbc31" name="Officio Prefectus" hidden="false"/>
+    <categoryEntry id="e88115d5-1542-47f1-8626-b93976af46a9" name="Elysian Drop Sentinels" hidden="false"/>
+    <categoryEntry id="6118cb34-d965-48ab-bc65-ac9c019e1b24" name="Elysian Sniper Squad" hidden="false"/>
+    <categoryEntry id="16076617-ed0f-455a-baf6-b94a0b806bf5" name="Valkyrie Sky Talon" hidden="false"/>
   </categoryEntries>
   <entryLinks>
-    <entryLink id="3f517b4a-0d48-4cb9-97f6-136cad99750a" name="Elysian Drop Sentinels [Legends]" hidden="false" collective="false" import="true" targetId="9bc24e0f-5232-45d0-be4a-6690d283597a" type="selectionEntry">
+    <entryLink id="f835618f-189e-41fd-bde9-4aae5377e131" name="Elysian Drop Sentinels [Legends]" hidden="false" collective="false" import="true" targetId="7a5382f5-2677-4173-ae33-9f5e5062dab5" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3df3cefe-c95a-4952-9df7-f0ad8c41a123" type="greaterThan"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9bd8a98c-ecb5-4d33-a2f1-59177e6c1a17" type="greaterThan"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4dc2f696-225e-45f4-afca-bc2784d77144" type="greaterThan"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c95c2a9f-945d-496f-9c54-15d6a5c0d91d" type="greaterThan"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="forces" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="820c4505-72d3-4be1-a079-ffdb58964c07" type="greaterThan"/>
+            <condition field="forces" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6a19eb72-8551-4726-ad07-62f9a7442da5" type="greaterThan"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="42b9224b-dbd3-4a5e-b599-5ce988de6661" type="greaterThan"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3f16acb0-b10b-4fe3-831d-8f8a1a188b71" type="greaterThan"/>
           </conditions>
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="0d1e21a9-bb3c-439b-b42f-1217de7aef45" name="New CategoryLink" hidden="false" targetId="6647b917-6f0f-447b-a15a-b9eb22857a8c" primary="true"/>
+        <categoryLink id="3b75da46-2968-4629-951f-de72830d8d4b" name="New CategoryLink" hidden="false" targetId="691ada24-2db6-40a1-bcd0-089ec36b48bc" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="5643812a-8875-4776-8846-3468e9b0a147" name="Elysian Sniper Squad [Legends]" hidden="false" collective="false" import="true" targetId="05d0c859-8a9c-45ef-9fc1-6c6d03b97316" type="selectionEntry">
+    <entryLink id="7ec1c58e-cf8d-4781-8f79-06fce4286e8d" name="Elysian Sniper Squad [Legends]" hidden="false" collective="false" import="true" targetId="99fb6fb4-1900-4a39-a696-74f0b8a49112" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4dc2f696-225e-45f4-afca-bc2784d77144" type="greaterThan"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c95c2a9f-945d-496f-9c54-15d6a5c0d91d" type="greaterThan"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3df3cefe-c95a-4952-9df7-f0ad8c41a123" type="greaterThan"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9bd8a98c-ecb5-4d33-a2f1-59177e6c1a17" type="greaterThan"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="42b9224b-dbd3-4a5e-b599-5ce988de6661" type="greaterThan"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3f16acb0-b10b-4fe3-831d-8f8a1a188b71" type="greaterThan"/>
           </conditions>
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="aa9582d6-23e9-4375-a7ea-912f71a94670" name="New CategoryLink" hidden="false" targetId="6647b917-6f0f-447b-a15a-b9eb22857a8c" primary="true"/>
+        <categoryLink id="6c53946d-0ee3-4b6c-92d1-d731c5fdda5e" name="New CategoryLink" hidden="false" targetId="691ada24-2db6-40a1-bcd0-089ec36b48bc" primary="true"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="10cb0024-8168-4ff6-b098-8937cc5ac4da" name="Valkyrie Sky Talon [Legends]" hidden="false" collective="false" import="true" targetId="6a38ada6-5086-4015-a1c9-a3bc6da65896" type="selectionEntry">
+    <entryLink id="2ab2af57-9865-42ea-aa5a-416c28241605" name="Valkyrie Sky Talon [Legends]" hidden="false" collective="false" import="true" targetId="d192f303-328e-4941-9197-0e900aeba09d" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="4dc2f696-225e-45f4-afca-bc2784d77144" type="greaterThan"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="c95c2a9f-945d-496f-9c54-15d6a5c0d91d" type="greaterThan"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="3df3cefe-c95a-4952-9df7-f0ad8c41a123" type="greaterThan"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="9bd8a98c-ecb5-4d33-a2f1-59177e6c1a17" type="greaterThan"/>
           </conditions>
         </modifier>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="42b9224b-dbd3-4a5e-b599-5ce988de6661" type="greaterThan"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3f16acb0-b10b-4fe3-831d-8f8a1a188b71" type="greaterThan"/>
           </conditions>
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="4e623929-0379-42c5-947d-7b4e2a887b5b" name="New CategoryLink" hidden="false" targetId="adf25d84-331c-475d-b730-b6ed0b144697" primary="true"/>
+        <categoryLink id="6e420ce1-14a2-4132-b98e-78e070d00b10" name="New CategoryLink" hidden="false" targetId="2293037f-82cc-4efb-aec1-1c265a626af0" primary="true"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="9bc24e0f-5232-45d0-be4a-6690d283597a" name="Elysian Drop Sentinels [Legends]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="7a5382f5-2677-4173-ae33-9f5e5062dab5" name="Elysian Drop Sentinels [Legends]" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="624c24dd-b8f6-4bb2-9e1d-436df35a3d4e" type="greaterThan"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f73f2de7-c9d0-471e-a8c2-072fdbd405eb" type="greaterThan"/>
           </conditions>
         </modifier>
       </modifiers>
       <categoryLinks>
-        <categoryLink id="f6623908-9608-4bf4-b2bd-896f1255860c" name="Faction: Imperium" hidden="false" targetId="89929868-c7ba-4115-8b06-b69e5d3a82b7" primary="false"/>
-        <categoryLink id="e06def4d-cda7-4be8-b4ca-f75ef9fb76e3" name="Astra Militarum" hidden="false" targetId="8ed039b4-992f-457e-9c35-02bcf7a17910" primary="false"/>
-        <categoryLink id="0b2b11b5-c9d9-46a5-9ffc-9acc36bd121f" name="Faction: Elysian Drop Troops" hidden="false" targetId="2d22a28a-d663-4891-b507-adfe14bb2b49" primary="false"/>
-        <categoryLink id="e5fdfb8f-132a-4417-a1dd-b071da58dc26" name="Vehicle" hidden="false" targetId="29293cd8-0ee6-40d6-92fd-73cc2727b2a7" primary="false"/>
-        <categoryLink id="35d5a631-6796-4524-ac02-ba29e5f3a4fe" name="Elysian Drop Sentinels" hidden="false" targetId="ed70e254-43f8-4ac9-a77d-9bef50057096" primary="false"/>
+        <categoryLink id="33d9d678-d1ad-42a2-9cd1-8aa66285c3a2" name="Faction: Imperium" hidden="false" targetId="99357296-820b-46e3-8395-77961c0d8302" primary="false"/>
+        <categoryLink id="316a3e53-ee7e-4c00-9805-95d82c74bc2c" name="Astra Militarum" hidden="false" targetId="12deaedb-da8f-4f2a-95a2-30fa562c58d5" primary="false"/>
+        <categoryLink id="152a3a44-79df-4c21-ba99-304d1e662944" name="Faction: Elysian Drop Troops" hidden="false" targetId="b712dcf6-0ea9-40a5-a2ad-fe4cfc6b41a9" primary="false"/>
+        <categoryLink id="940c76a1-08a4-4660-94fc-3d6f7aa27bed" name="Vehicle" hidden="false" targetId="48c837f6-8a21-4043-845f-e715727c0f0f" primary="false"/>
+        <categoryLink id="0b33bcd8-4d3a-4faf-8ae2-5bb5aec4ebc6" name="Elysian Drop Sentinels" hidden="false" targetId="e88115d5-1542-47f1-8626-b93976af46a9" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="1e3b800c-e319-46f7-8a81-b298048bcc95" name="Drop Sentinel" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="a1666147-98cc-4ecd-9e38-40c451382672" name="Drop Sentinel" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d7ff747-841a-4352-8b26-691eb74ca19c" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d2c3838-7691-4f62-a48b-af6563fb054a" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2e1bdfd6-017c-40a5-8ccc-4a2a0dd3d16b" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e4a5d962-0312-4393-8572-f527f813008d" type="min"/>
           </constraints>
           <profiles>
-            <profile id="711e262a-028b-4ae5-b932-473821b6520b" name="Drop Sentinel" publicationId="430190c6-34ab-46e3-b86c-8e51f1c5db9a" hidden="false" typeId="2389a9c7-564a-45bc-bafa-44a5457c00e4" typeName="Unit">
+            <profile id="6dba7f70-537d-4c1a-9578-455a338c3991" name="Drop Sentinel" publicationId="c18ea2e9-61f5-4542-acc6-3b4ee72e9a84" hidden="false" typeId="96633e23-5f89-47ac-862a-ea3f419e82ad" typeName="Unit">
               <characteristics>
-                <characteristic name="M" typeId="dfaf03e2-db64-4777-8c6e-35874a70ac6d">9&quot;</characteristic>
-                <characteristic name="WS" typeId="752c83e3-cd1b-4290-89a8-7dd17f6f0771">4+</characteristic>
-                <characteristic name="BS" typeId="e743642d-b603-4dc4-84c1-1356c804e280">4+</characteristic>
-                <characteristic name="S" typeId="4b473f0c-e75b-4457-b69d-b822efa75d18">5</characteristic>
-                <characteristic name="T" typeId="68a4b50d-30fd-47b4-a0b9-b4150497ed5d">5</characteristic>
-                <characteristic name="W" typeId="e6272de1-50f4-4d6b-9449-e0892f0b5b07">6</characteristic>
-                <characteristic name="A" typeId="bcf73df5-3507-4e6f-951a-334d957e95f2">1</characteristic>
-                <characteristic name="Ld" typeId="71504bf9-7075-47fe-a797-f8ddc54346fd">7</characteristic>
-                <characteristic name="Save" typeId="de720430-a706-464b-9969-4e45fe254916">4+</characteristic>
+                <characteristic name="M" typeId="29908c04-cacb-4ff6-80a3-f7ac34f9b320">9&quot;</characteristic>
+                <characteristic name="WS" typeId="b0f83996-9c8e-42bb-80ae-6183503a8687">4+</characteristic>
+                <characteristic name="BS" typeId="fcd83b9f-a688-4fd1-88ed-5cf248c9ecdd">4+</characteristic>
+                <characteristic name="S" typeId="cba76dde-3857-489e-a3cb-f1c82182901c">5</characteristic>
+                <characteristic name="T" typeId="082cd324-3c32-4cf7-8a77-34c5ff973db1">5</characteristic>
+                <characteristic name="W" typeId="f5983de7-8c32-4395-a17c-18fc765ec74a">6</characteristic>
+                <characteristic name="A" typeId="40b1852f-baa7-49a7-9e04-0d0cea23edea">1</characteristic>
+                <characteristic name="Ld" typeId="1bb39308-fe32-4190-9336-713b6293a715">7</characteristic>
+                <characteristic name="Save" typeId="c4f7addd-d978-4a27-b039-8e4a15fa6bda">4+</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <infoLinks>
-            <infoLink id="d2cf04bd-eed4-4059-afe1-b661bec614cd" name="Aerial Drop" hidden="false" targetId="7b03488d-8a1d-4312-8fd5-6199ee0aea2f" type="profile"/>
-            <infoLink id="c272b12a-adaa-46e8-80e5-3d4d59b15b22" name="Smoke Launchers" hidden="false" targetId="99886f06-724a-44cc-a604-8b73d4f008a5" type="profile"/>
-            <infoLink id="44ecae08-15f7-4bcd-baa2-e98e1c6d2dc8" name="Explodes (6+/3&quot;/1)" hidden="false" targetId="0c73de3a-8bf8-478a-a80c-869557c94e91" type="profile"/>
-            <infoLink id="b8cac552-0bc0-4991-acc8-4d0f4c636f1b" name="Scout Vehicle" hidden="false" targetId="70fb90c4-5b36-4230-9784-8d4794705aac" type="profile"/>
+            <infoLink id="37e9c28f-9d95-4f4a-97ee-0c3e100bcd1b" name="Aerial Drop" hidden="false" targetId="1796af3a-fa3c-44a9-a27f-6bb93638d9c0" type="profile"/>
+            <infoLink id="758cbd4d-83fe-4004-8ea5-e26ea7a2a48f" name="Smoke Launchers" hidden="false" targetId="4c5a9335-5681-4c06-8deb-e10794e9a5fa" type="profile"/>
+            <infoLink id="301ad4e4-dbec-45f6-96b9-43e93d89c7e2" name="Explodes (6+/3&quot;/1)" hidden="false" targetId="9e5a2bc7-cd9d-42c9-aad7-c938e3d36dae" type="profile"/>
+            <infoLink id="b3fba9f2-4d10-4a45-9d47-a02adb00281f" name="Scout Vehicle" hidden="false" targetId="60440275-86bb-4946-a105-b749e5fbd904" type="profile"/>
           </infoLinks>
           <selectionEntryGroups>
-            <selectionEntryGroup id="c32a31dd-5ca4-4942-b433-13ca6c9ffa2a" name="Heavy Bolter" hidden="false" collective="false" import="true" defaultSelectionEntryId="cd54959b-e4c2-491e-b93b-4e296f954995">
+            <selectionEntryGroup id="6f2dd55a-e8ae-437d-9d41-7a677283af30" name="Heavy Bolter" hidden="false" collective="false" import="true" defaultSelectionEntryId="090d8b6e-6f5c-475f-8ccd-a9e6faa3a533">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="09b3fc9c-1136-4fbb-b2b0-d9fc75016c44" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be3dbdf8-cc33-440b-995c-b414cfedb4bf" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f180a13e-a3d1-4d8f-8784-f95f2c848c2e" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5aaf3b9b-cd45-432a-aa36-ee3a6e7f8bd1" type="min"/>
               </constraints>
               <entryLinks>
-                <entryLink id="ca3a5fb4-d082-4411-a2fd-390ea4e940e8" name="Heavy flamer" hidden="false" collective="false" import="true" targetId="48f19597-66e7-4a65-ae40-921ae8fb211a" type="selectionEntry">
+                <entryLink id="14ae76d5-e85b-4917-af29-1a33396ec343" name="Heavy flamer" hidden="false" collective="false" import="true" targetId="62d4af7d-f9a0-4596-8790-bb6b4e1c52b4" type="selectionEntry">
                   <modifiers>
                     <modifier type="set" field="points" value="0.0"/>
                   </modifiers>
                 </entryLink>
-                <entryLink id="c3d8d5d9-59ae-4ce0-b2b6-76ed156400f3" name="Multi-melta" hidden="false" collective="false" import="true" targetId="dbd466e2-5e71-475e-b52c-085bd00a3ef5" type="selectionEntry">
+                <entryLink id="abae49df-1d5a-4b56-bdae-ba27d1ba00c4" name="Multi-melta" hidden="false" collective="false" import="true" targetId="304df958-dfa6-46b7-ae2a-8ddcb2528bf6" type="selectionEntry">
                   <costs>
-                    <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="10.0"/>
+                    <cost name="pts" typeId="points" value="10.0"/>
                   </costs>
                 </entryLink>
-                <entryLink id="cd54959b-e4c2-491e-b93b-4e296f954995" name="Heavy bolter" hidden="false" collective="false" import="true" targetId="7218fe94-f603-4172-b705-5b3993c33db9" type="selectionEntry">
+                <entryLink id="090d8b6e-6f5c-475f-8ccd-a9e6faa3a533" name="Heavy bolter" hidden="false" collective="false" import="true" targetId="50a8e36e-76db-456b-8a8a-89c516255e10" type="selectionEntry">
                   <modifiers>
                     <modifier type="set" field="points" value="0.0"/>
                   </modifiers>
@@ -161,390 +161,390 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks>
-            <entryLink id="b38eea5b-ed59-4995-985c-33ff2f96f8b4" name="Hunter-killer missile" hidden="false" collective="false" import="true" targetId="0a0df4aa-1f67-42ab-bdb7-2ccec4046deb" type="selectionEntry">
+            <entryLink id="a5e65756-ae13-4a11-b8b6-514d8c12cd2a" name="Hunter-killer missile" hidden="false" collective="false" import="true" targetId="ee263cc6-20de-4f40-99fd-c5df4d5e76b0" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a586fee0-bf03-45c2-b06d-bdbe431435dd" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ad52afd6-bef5-4354-8dd3-7ac01cc9e5d4" type="max"/>
               </constraints>
               <costs>
-                <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="5.0"/>
+                <cost name="pts" typeId="points" value="5.0"/>
               </costs>
             </entryLink>
-            <entryLink id="b62a0b9e-5d92-4263-b951-5a533540291d" name="Unit has battle honors?" hidden="false" collective="false" import="true" targetId="7039e474-2ee6-4d14-a6fe-6a7b01946c2d" type="selectionEntry"/>
+            <entryLink id="26da30db-6119-48cf-8c76-e886970d1f76" name="Unit has battle honors?" hidden="false" collective="false" import="true" targetId="6168801d-3c5a-4af8-a0b4-57c24a1c7b27" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="3.0"/>
-            <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="50.0"/>
-            <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
+            <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="3.0"/>
+            <cost name="pts" typeId="points" value="50.0"/>
+            <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
-        <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="0.0"/>
-        <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="0.0"/>
-        <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
+        <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="05d0c859-8a9c-45ef-9fc1-6c6d03b97316" name="Elysian Sniper Squad [Legends]" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="99fb6fb4-1900-4a39-a696-74f0b8a49112" name="Elysian Sniper Squad [Legends]" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="624c24dd-b8f6-4bb2-9e1d-436df35a3d4e" type="greaterThan"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f73f2de7-c9d0-471e-a8c2-072fdbd405eb" type="greaterThan"/>
           </conditions>
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="b57afaaa-37ea-490e-9aa3-24c8348e8160" name="Weapons Team" publicationId="430190c6-34ab-46e3-b86c-8e51f1c5db9a" hidden="false" typeId="6a77fd08-33e0-4a84-a26a-9c819f5ffbb5" typeName="Abilities">
+        <profile id="e565ec88-4769-4184-acd0-22c33c2eca95" name="Weapons Team" publicationId="c18ea2e9-61f5-4542-acc6-3b4ee72e9a84" hidden="false" typeId="d8b7eb23-4e11-4efa-90fb-b26e0ab318fa" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="00250bb0-92ce-4d01-a8c7-8706e5a818c2">For the purposes of embarking within TRANSPORTS, models in this unit are considered to be Heavy Weapons Team models.</characteristic>
+            <characteristic name="Description" typeId="19f8973f-c187-4eef-9206-9c8057c78779">For the purposes of embarking within TRANSPORTS, models in this unit are considered to be Heavy Weapons Team models.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <categoryLinks>
-        <categoryLink id="e6785de0-8b36-46a3-aae5-b795a51d4b82" name="Faction: Imperium" hidden="false" targetId="89929868-c7ba-4115-8b06-b69e5d3a82b7" primary="false"/>
-        <categoryLink id="f140847a-2834-4949-a42d-5e585246da00" name="Astra Militarum" hidden="false" targetId="8ed039b4-992f-457e-9c35-02bcf7a17910" primary="false"/>
-        <categoryLink id="c7dfbddf-87d9-4914-b326-2b9ece199f60" name="Faction: Elysian Drop Troops" hidden="false" targetId="2d22a28a-d663-4891-b507-adfe14bb2b49" primary="false"/>
-        <categoryLink id="269f1e91-4fee-4eff-8286-12515690fa65" name="Infantry" hidden="false" targetId="aa1d7f38-212a-4df4-8a8c-1fa5840f6e3c" primary="false"/>
-        <categoryLink id="fb97cc97-d042-427a-a748-2c3e09aaae77" name="Elysian Sniper Squad" hidden="false" targetId="1649675b-6d3b-4973-bfaf-5f8a178e5a36" primary="false"/>
+        <categoryLink id="7c7ea97f-2e2d-4b16-a926-d751193710c0" name="Faction: Imperium" hidden="false" targetId="99357296-820b-46e3-8395-77961c0d8302" primary="false"/>
+        <categoryLink id="32f403b1-a5ca-4d45-9bd4-7353ccc4e7e8" name="Astra Militarum" hidden="false" targetId="12deaedb-da8f-4f2a-95a2-30fa562c58d5" primary="false"/>
+        <categoryLink id="f4238bc9-c27e-495d-ae53-bf284f360eaa" name="Faction: Elysian Drop Troops" hidden="false" targetId="b712dcf6-0ea9-40a5-a2ad-fe4cfc6b41a9" primary="false"/>
+        <categoryLink id="606530b7-806b-42ce-b798-aabc906cef06" name="Infantry" hidden="false" targetId="3b0d3718-5028-4133-9acd-6d0864373b6f" primary="false"/>
+        <categoryLink id="783bc5d9-c8aa-4aa4-b59d-4ac72424f655" name="Elysian Sniper Squad" hidden="false" targetId="6118cb34-d965-48ab-bc65-ac9c019e1b24" primary="false"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="b2ddc8dd-056f-4128-bde0-010d935de912" name="Sniper Team" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="ed41bbd4-3f0e-4c3a-a14b-90feb6a6b502" name="Sniper Team" hidden="false" collective="false" import="true" type="model">
           <constraints>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d117034-2863-4134-9e74-6cc3f4cf9dc9" type="min"/>
-            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d8e4eb1d-96e7-42f1-85d7-425488342866" type="max"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e7bea7cd-e80e-4565-b81b-9cc104056af5" type="min"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b491b5e-0ce3-420b-9d05-8eff78f0996d" type="max"/>
           </constraints>
           <profiles>
-            <profile id="683a3aab-228d-416e-aaa6-7268190ace67" name="Sniper Team" publicationId="430190c6-34ab-46e3-b86c-8e51f1c5db9a" hidden="false" typeId="2389a9c7-564a-45bc-bafa-44a5457c00e4" typeName="Unit">
+            <profile id="179030ec-9e97-4e99-8f52-2735181c2a6b" name="Sniper Team" publicationId="c18ea2e9-61f5-4542-acc6-3b4ee72e9a84" hidden="false" typeId="96633e23-5f89-47ac-862a-ea3f419e82ad" typeName="Unit">
               <characteristics>
-                <characteristic name="M" typeId="dfaf03e2-db64-4777-8c6e-35874a70ac6d">6&quot;</characteristic>
-                <characteristic name="WS" typeId="752c83e3-cd1b-4290-89a8-7dd17f6f0771">4+</characteristic>
-                <characteristic name="BS" typeId="e743642d-b603-4dc4-84c1-1356c804e280">3+</characteristic>
-                <characteristic name="S" typeId="4b473f0c-e75b-4457-b69d-b822efa75d18">3</characteristic>
-                <characteristic name="T" typeId="68a4b50d-30fd-47b4-a0b9-b4150497ed5d">3</characteristic>
-                <characteristic name="W" typeId="e6272de1-50f4-4d6b-9449-e0892f0b5b07">2</characteristic>
-                <characteristic name="A" typeId="bcf73df5-3507-4e6f-951a-334d957e95f2">2</characteristic>
-                <characteristic name="Ld" typeId="71504bf9-7075-47fe-a797-f8ddc54346fd">6</characteristic>
-                <characteristic name="Save" typeId="de720430-a706-464b-9969-4e45fe254916">5+</characteristic>
+                <characteristic name="M" typeId="29908c04-cacb-4ff6-80a3-f7ac34f9b320">6&quot;</characteristic>
+                <characteristic name="WS" typeId="b0f83996-9c8e-42bb-80ae-6183503a8687">4+</characteristic>
+                <characteristic name="BS" typeId="fcd83b9f-a688-4fd1-88ed-5cf248c9ecdd">3+</characteristic>
+                <characteristic name="S" typeId="cba76dde-3857-489e-a3cb-f1c82182901c">3</characteristic>
+                <characteristic name="T" typeId="082cd324-3c32-4cf7-8a77-34c5ff973db1">3</characteristic>
+                <characteristic name="W" typeId="f5983de7-8c32-4395-a17c-18fc765ec74a">2</characteristic>
+                <characteristic name="A" typeId="40b1852f-baa7-49a7-9e04-0d0cea23edea">2</characteristic>
+                <characteristic name="Ld" typeId="1bb39308-fe32-4190-9336-713b6293a715">6</characteristic>
+                <characteristic name="Save" typeId="c4f7addd-d978-4a27-b039-8e4a15fa6bda">5+</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <entryLinks>
-            <entryLink id="c216595a-93b9-43f2-ae50-5b6fe584c23c" name="Frag &amp; Krak grenades" hidden="false" collective="false" import="true" targetId="fd2d1411-330e-4f52-9326-a5470bc648e9" type="selectionEntry">
+            <entryLink id="fddea78c-f28b-4714-aef9-700dc4612b7d" name="Frag &amp; Krak grenades" hidden="false" collective="false" import="true" targetId="7b529465-1de5-4759-a9e6-9def5b9acc1f" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8576ec5d-7e48-4093-b6d1-7ae92b54c4ad" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d10dc1a4-0718-49fe-a3a8-d8cb82f2bfee" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e644cc42-c785-4b8f-b987-79eec8ba96d8" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e675ed32-413a-49f6-95c8-b5c0fd43c194" type="min"/>
               </constraints>
             </entryLink>
-            <entryLink id="ea292224-fd99-4318-8d32-f3ce21b0968e" name="Sniper rifle" hidden="false" collective="false" import="true" targetId="6ad65144-3ca1-4860-986d-97dc42e05926" type="selectionEntry">
+            <entryLink id="8c928211-f355-417e-9481-65b8d7d1eecf" name="Sniper rifle" hidden="false" collective="false" import="true" targetId="880cb4f2-aaa9-4454-b870-4025a9bbc031" type="selectionEntry">
               <modifiers>
                 <modifier type="set" field="points" value="0.0"/>
               </modifiers>
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a689a3c-e1ee-4864-9b5e-1ec63e855007" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e121652d-ccd4-40e8-8462-eaf32cea19e4" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b81ea1c0-237d-486c-a2b8-e22f8f662c2d" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3cd08fff-5f74-4a9a-85e0-51c17ff6b38c" type="min"/>
               </constraints>
             </entryLink>
-            <entryLink id="04c189a8-1a54-4a20-a100-5a0bea4a2fec" name="Lasgun" hidden="false" collective="false" import="true" targetId="8fbf3fac-e8a0-4a39-895c-3ec722e42786" type="selectionEntry">
+            <entryLink id="5cbfbef2-e24a-412b-9f52-5e1a5ffc6e37" name="Lasgun" hidden="false" collective="false" import="true" targetId="6cac52e5-3289-467c-a006-bab253fde692" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a1ab850-db3d-47da-b9b3-16fc2b7bf999" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="93fa9cd4-ffd7-43bb-b068-cf335fe1bda1" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="74540da8-0ead-4607-bfdb-46322bcfec5e" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5851362a-747d-4587-8a19-0bfe315eb8fb" type="min"/>
               </constraints>
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="0.0"/>
-            <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
-            <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="0.0"/>
+            <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
+            <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="1bc0f80f-1d85-4c58-8dd7-bca63661e92d" name="Has Battle Honours (Chapter Approved 2018)" hidden="false" collective="false" import="true" targetId="7039e474-2ee6-4d14-a6fe-6a7b01946c2d" type="selectionEntry"/>
+        <entryLink id="23a43c9d-5efe-4f48-9906-59ba55fd015e" name="Has Battle Honours (Chapter Approved 2018)" hidden="false" collective="false" import="true" targetId="6168801d-3c5a-4af8-a0b4-57c24a1c7b27" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="1.0"/>
-        <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="30.0"/>
-        <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
+        <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="1.0"/>
+        <cost name="pts" typeId="points" value="30.0"/>
+        <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="6a38ada6-5086-4015-a1c9-a3bc6da65896" name="Valkyrie Sky Talon [Legends]" publicationId="430190c6-34ab-46e3-b86c-8e51f1c5db9a" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="d192f303-328e-4941-9197-0e900aeba09d" name="Valkyrie Sky Talon [Legends]" publicationId="c18ea2e9-61f5-4542-acc6-3b4ee72e9a84" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="624c24dd-b8f6-4bb2-9e1d-436df35a3d4e" type="greaterThan"/>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="f73f2de7-c9d0-471e-a8c2-072fdbd405eb" type="greaterThan"/>
           </conditions>
         </modifier>
       </modifiers>
       <profiles>
-        <profile id="6ed760bf-e66d-4b67-b42d-6f55f8dd7eb7" name="Valkyrie Sky Talon [1] (7-14+ wounds remaining)" publicationId="430190c6-34ab-46e3-b86c-8e51f1c5db9a" hidden="false" typeId="2389a9c7-564a-45bc-bafa-44a5457c00e4" typeName="Unit">
+        <profile id="88b2547c-7a85-4112-a843-748715e93d33" name="Valkyrie Sky Talon [1] (7-14+ wounds remaining)" publicationId="c18ea2e9-61f5-4542-acc6-3b4ee72e9a84" hidden="false" typeId="96633e23-5f89-47ac-862a-ea3f419e82ad" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="dfaf03e2-db64-4777-8c6e-35874a70ac6d">20-45&quot;</characteristic>
-            <characteristic name="WS" typeId="752c83e3-cd1b-4290-89a8-7dd17f6f0771">6+</characteristic>
-            <characteristic name="BS" typeId="e743642d-b603-4dc4-84c1-1356c804e280">4+</characteristic>
-            <characteristic name="S" typeId="4b473f0c-e75b-4457-b69d-b822efa75d18">7</characteristic>
-            <characteristic name="T" typeId="68a4b50d-30fd-47b4-a0b9-b4150497ed5d">7</characteristic>
-            <characteristic name="W" typeId="e6272de1-50f4-4d6b-9449-e0892f0b5b07">14</characteristic>
-            <characteristic name="A" typeId="bcf73df5-3507-4e6f-951a-334d957e95f2">3</characteristic>
-            <characteristic name="Ld" typeId="71504bf9-7075-47fe-a797-f8ddc54346fd">7</characteristic>
-            <characteristic name="Save" typeId="de720430-a706-464b-9969-4e45fe254916">3+</characteristic>
+            <characteristic name="M" typeId="29908c04-cacb-4ff6-80a3-f7ac34f9b320">20-45&quot;</characteristic>
+            <characteristic name="WS" typeId="b0f83996-9c8e-42bb-80ae-6183503a8687">6+</characteristic>
+            <characteristic name="BS" typeId="fcd83b9f-a688-4fd1-88ed-5cf248c9ecdd">4+</characteristic>
+            <characteristic name="S" typeId="cba76dde-3857-489e-a3cb-f1c82182901c">7</characteristic>
+            <characteristic name="T" typeId="082cd324-3c32-4cf7-8a77-34c5ff973db1">7</characteristic>
+            <characteristic name="W" typeId="f5983de7-8c32-4395-a17c-18fc765ec74a">14</characteristic>
+            <characteristic name="A" typeId="40b1852f-baa7-49a7-9e04-0d0cea23edea">3</characteristic>
+            <characteristic name="Ld" typeId="1bb39308-fe32-4190-9336-713b6293a715">7</characteristic>
+            <characteristic name="Save" typeId="c4f7addd-d978-4a27-b039-8e4a15fa6bda">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="79aa8b5a-cb5a-4cd0-9bfa-62801a3a39f6" name="Valkyrie Sky Talon [2] (4-6 wounds remaining)" publicationId="430190c6-34ab-46e3-b86c-8e51f1c5db9a" hidden="false" typeId="2389a9c7-564a-45bc-bafa-44a5457c00e4" typeName="Unit">
+        <profile id="f411b49e-1625-437b-8fd3-2d77d634135e" name="Valkyrie Sky Talon [2] (4-6 wounds remaining)" publicationId="c18ea2e9-61f5-4542-acc6-3b4ee72e9a84" hidden="false" typeId="96633e23-5f89-47ac-862a-ea3f419e82ad" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="dfaf03e2-db64-4777-8c6e-35874a70ac6d">20-30&quot;</characteristic>
-            <characteristic name="WS" typeId="752c83e3-cd1b-4290-89a8-7dd17f6f0771">6+</characteristic>
-            <characteristic name="BS" typeId="e743642d-b603-4dc4-84c1-1356c804e280">5+</characteristic>
-            <characteristic name="S" typeId="4b473f0c-e75b-4457-b69d-b822efa75d18">7</characteristic>
-            <characteristic name="T" typeId="68a4b50d-30fd-47b4-a0b9-b4150497ed5d">7</characteristic>
-            <characteristic name="W" typeId="e6272de1-50f4-4d6b-9449-e0892f0b5b07">N/A</characteristic>
-            <characteristic name="A" typeId="bcf73df5-3507-4e6f-951a-334d957e95f2">3</characteristic>
-            <characteristic name="Ld" typeId="71504bf9-7075-47fe-a797-f8ddc54346fd">7</characteristic>
-            <characteristic name="Save" typeId="de720430-a706-464b-9969-4e45fe254916">3+</characteristic>
+            <characteristic name="M" typeId="29908c04-cacb-4ff6-80a3-f7ac34f9b320">20-30&quot;</characteristic>
+            <characteristic name="WS" typeId="b0f83996-9c8e-42bb-80ae-6183503a8687">6+</characteristic>
+            <characteristic name="BS" typeId="fcd83b9f-a688-4fd1-88ed-5cf248c9ecdd">5+</characteristic>
+            <characteristic name="S" typeId="cba76dde-3857-489e-a3cb-f1c82182901c">7</characteristic>
+            <characteristic name="T" typeId="082cd324-3c32-4cf7-8a77-34c5ff973db1">7</characteristic>
+            <characteristic name="W" typeId="f5983de7-8c32-4395-a17c-18fc765ec74a">N/A</characteristic>
+            <characteristic name="A" typeId="40b1852f-baa7-49a7-9e04-0d0cea23edea">3</characteristic>
+            <characteristic name="Ld" typeId="1bb39308-fe32-4190-9336-713b6293a715">7</characteristic>
+            <characteristic name="Save" typeId="c4f7addd-d978-4a27-b039-8e4a15fa6bda">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="eade1b15-b404-445f-ac26-5be4c2faa4e1" name="Valkyrie Sky Talon [3] (1-3 wounds remaining)" publicationId="430190c6-34ab-46e3-b86c-8e51f1c5db9a" hidden="false" typeId="2389a9c7-564a-45bc-bafa-44a5457c00e4" typeName="Unit">
+        <profile id="07b02fc3-0f06-471a-b7b7-bfde234b27e3" name="Valkyrie Sky Talon [3] (1-3 wounds remaining)" publicationId="c18ea2e9-61f5-4542-acc6-3b4ee72e9a84" hidden="false" typeId="96633e23-5f89-47ac-862a-ea3f419e82ad" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="dfaf03e2-db64-4777-8c6e-35874a70ac6d">20-25&quot;</characteristic>
-            <characteristic name="WS" typeId="752c83e3-cd1b-4290-89a8-7dd17f6f0771">6+</characteristic>
-            <characteristic name="BS" typeId="e743642d-b603-4dc4-84c1-1356c804e280">6+</characteristic>
-            <characteristic name="S" typeId="4b473f0c-e75b-4457-b69d-b822efa75d18">7</characteristic>
-            <characteristic name="T" typeId="68a4b50d-30fd-47b4-a0b9-b4150497ed5d">7</characteristic>
-            <characteristic name="W" typeId="e6272de1-50f4-4d6b-9449-e0892f0b5b07">N/A</characteristic>
-            <characteristic name="A" typeId="bcf73df5-3507-4e6f-951a-334d957e95f2">3</characteristic>
-            <characteristic name="Ld" typeId="71504bf9-7075-47fe-a797-f8ddc54346fd">7</characteristic>
-            <characteristic name="Save" typeId="de720430-a706-464b-9969-4e45fe254916">3+</characteristic>
+            <characteristic name="M" typeId="29908c04-cacb-4ff6-80a3-f7ac34f9b320">20-25&quot;</characteristic>
+            <characteristic name="WS" typeId="b0f83996-9c8e-42bb-80ae-6183503a8687">6+</characteristic>
+            <characteristic name="BS" typeId="fcd83b9f-a688-4fd1-88ed-5cf248c9ecdd">6+</characteristic>
+            <characteristic name="S" typeId="cba76dde-3857-489e-a3cb-f1c82182901c">7</characteristic>
+            <characteristic name="T" typeId="082cd324-3c32-4cf7-8a77-34c5ff973db1">7</characteristic>
+            <characteristic name="W" typeId="f5983de7-8c32-4395-a17c-18fc765ec74a">N/A</characteristic>
+            <characteristic name="A" typeId="40b1852f-baa7-49a7-9e04-0d0cea23edea">3</characteristic>
+            <characteristic name="Ld" typeId="1bb39308-fe32-4190-9336-713b6293a715">7</characteristic>
+            <characteristic name="Save" typeId="c4f7addd-d978-4a27-b039-8e4a15fa6bda">3+</characteristic>
           </characteristics>
         </profile>
-        <profile id="a06ed52a-9bd9-4f68-bf16-1480452dab89" name="Valkyrie Sky Talon" publicationId="430190c6-34ab-46e3-b86c-8e51f1c5db9a" hidden="false" typeId="a995a735-db6f-4adc-9959-76748f9a5b05" typeName="Transport">
+        <profile id="48a2742f-3ad0-4c71-9253-5ef405e2ec49" name="Valkyrie Sky Talon" publicationId="c18ea2e9-61f5-4542-acc6-3b4ee72e9a84" hidden="false" typeId="660c36f1-650e-48bd-ab25-c063660dbefc" typeName="Transport">
           <characteristics>
-            <characteristic name="Capacity" typeId="6ac64fe7-6655-4be0-87ec-6f69cf75e887">This model has a transport capacity of 1 ELYSIAN TAUROS model or 2 ELYSIAN DROP SENTINEL models.</characteristic>
+            <characteristic name="Capacity" typeId="6214203c-0bb7-46c2-a508-cc13a491140e">This model has a transport capacity of 1 ELYSIAN TAUROS model or 2 ELYSIAN DROP SENTINEL models.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="9f9d94b3-aa00-4359-9163-bd5fc2b2d9bd" name="Explodes (6+/6&quot;/D3)" hidden="false" targetId="9ba96bee-1138-4f80-a5d0-25de9ebfbc19" type="profile"/>
-        <infoLink id="c2940a5f-e39f-4b38-a492-cc5b6a701110" name="Hard to Hit" hidden="false" targetId="7fb72ace-d79a-4123-9392-756b21f2cf39" type="profile"/>
-        <infoLink id="43081b56-08b7-47d7-b4af-64c7f122a3f3" name="Airborne" hidden="false" targetId="740371fb-d471-4997-bef3-8aaace0322b2" type="profile"/>
-        <infoLink id="1338ae45-3acd-454d-b87d-10e40f478e7c" name="Supersonic" hidden="false" targetId="33e24eac-fffe-4454-836c-33dd0c4b35de" type="profile"/>
-        <infoLink id="358f8c35-8431-4dd6-891d-863b4a050a43" name="Hover Jet" hidden="false" targetId="1051404d-02eb-4256-a056-f408c1f0c35e" type="profile"/>
-        <infoLink id="85c3ef4d-6da7-4687-a2f3-16c51c083841" name="Grav Chute Insertion" hidden="false" targetId="5637bea7-1635-4542-ad87-b6d0e33248d8" type="profile"/>
+        <infoLink id="0c79c8cf-583b-4810-b38b-e79a320ddb1e" name="Explodes (6+/6&quot;/D3)" hidden="false" targetId="4e2f0210-2025-4fcc-b065-f2fb4f7878d9" type="profile"/>
+        <infoLink id="38c7e4aa-b3b9-4507-b514-4b488ad41569" name="Hard to Hit" hidden="false" targetId="574f5406-22d7-4a49-944d-9478f967e1d7" type="profile"/>
+        <infoLink id="8854e7ea-2226-46d1-a70e-e39a88f720b5" name="Airborne" hidden="false" targetId="eb1819dd-1f36-42c2-be61-09cf52664aef" type="profile"/>
+        <infoLink id="d108b66b-662e-470f-b815-c8ba1ceb9874" name="Supersonic" hidden="false" targetId="54f1c1ff-bc03-47e2-bb8d-621d0fd77b27" type="profile"/>
+        <infoLink id="8e01ee48-89b2-45d0-ad96-0e6cc3a0b391" name="Hover Jet" hidden="false" targetId="a792920e-173c-4701-bebd-82c82b171463" type="profile"/>
+        <infoLink id="baa22621-ac80-4873-a1bd-73f3bd924195" name="Grav Chute Insertion" hidden="false" targetId="669dc44e-f1c6-4fdd-9f9b-4930b2c21659" type="profile"/>
       </infoLinks>
       <categoryLinks>
-        <categoryLink id="3dd97a3a-c824-4801-bf86-31aa344a863e" name="Aircraft" hidden="false" targetId="e35cf52d-3b61-42a1-a887-cb6e65e474db" primary="false"/>
-        <categoryLink id="8113f3d7-4e21-47a8-ba33-9261228471dd" name="Faction: Imperium" hidden="false" targetId="89929868-c7ba-4115-8b06-b69e5d3a82b7" primary="false"/>
-        <categoryLink id="37f5569e-99f9-4be6-9006-22530aeda000" name="Faction: Astra Militarum" hidden="false" targetId="8ed039b4-992f-457e-9c35-02bcf7a17910" primary="false"/>
-        <categoryLink id="7d763bd6-55c7-4265-8efb-37cf4f7c87e4" name="Faction: Elysian Drop Troops" hidden="false" targetId="2d22a28a-d663-4891-b507-adfe14bb2b49" primary="false"/>
-        <categoryLink id="7b719ee2-b70c-41e8-95bc-a017bf94bf95" name="Vehicle" hidden="false" targetId="29293cd8-0ee6-40d6-92fd-73cc2727b2a7" primary="false"/>
-        <categoryLink id="ce4a52f8-5a21-44f3-a172-a2c00fe0e9fb" name="Fly" hidden="false" targetId="e603c272-40b4-4294-a12d-d02170faf248" primary="false"/>
-        <categoryLink id="7c6b76cc-1644-4470-b756-5865ff105e7a" name="Transport" hidden="false" targetId="6671a3d6-ff8b-49e6-9f5c-163eacead4f3" primary="false"/>
-        <categoryLink id="809bfc82-8883-4b1f-b8e8-69b9622d94fc" name="Valkyrie Sky Talon" hidden="false" targetId="7f43cca5-51ca-47cd-9acf-a7a10de53464" primary="false"/>
+        <categoryLink id="13156db4-3fc5-4dcd-9f38-706187745f38" name="Aircraft" hidden="false" targetId="49ece776-79f0-4d7b-b95a-3a44bdc9b234" primary="false"/>
+        <categoryLink id="1c8101b6-6d6c-4dbd-84c9-b6ca6bf18a32" name="Faction: Imperium" hidden="false" targetId="99357296-820b-46e3-8395-77961c0d8302" primary="false"/>
+        <categoryLink id="3825f5fa-5f9a-4ade-9c79-38f4ae87bb1a" name="Faction: Astra Militarum" hidden="false" targetId="12deaedb-da8f-4f2a-95a2-30fa562c58d5" primary="false"/>
+        <categoryLink id="15fc35da-6a75-4939-bf5b-83fadf1a1500" name="Faction: Elysian Drop Troops" hidden="false" targetId="b712dcf6-0ea9-40a5-a2ad-fe4cfc6b41a9" primary="false"/>
+        <categoryLink id="12997db2-0be7-429d-ad86-5ae2d3916608" name="Vehicle" hidden="false" targetId="48c837f6-8a21-4043-845f-e715727c0f0f" primary="false"/>
+        <categoryLink id="42130c5c-8c12-4da6-9326-b76186343f34" name="Fly" hidden="false" targetId="4580ef4e-098f-4cc8-87dc-0ecc97a6f494" primary="false"/>
+        <categoryLink id="2c9374a1-4306-4d6b-a7c5-555217ad1a4e" name="Transport" hidden="false" targetId="ede60de9-ffdb-4c66-881b-78a0f46aaa29" primary="false"/>
+        <categoryLink id="01a06017-b53f-4d5c-b1e0-c89d984b5610" name="Valkyrie Sky Talon" hidden="false" targetId="16076617-ed0f-455a-baf6-b94a0b806bf5" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
-        <selectionEntryGroup id="140cae6c-2b11-4f7c-a5ba-c29b630b03a2" name="Wing-mounted Weapons Sky Talon" hidden="false" collective="false" import="true" defaultSelectionEntryId="00ef23e5-39ac-400c-84a4-96c2db20e8eb">
+        <selectionEntryGroup id="31e7129e-c30a-4a38-b015-7f529b6ee617" name="Wing-mounted Weapons Sky Talon" hidden="false" collective="false" import="true" defaultSelectionEntryId="2e1b72f3-b154-45cb-a552-9ef454db74bb">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5758718d-e45c-4a64-8782-5a4ae9261716" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="5efaa7aa-f98b-4d88-b3d7-c69142ac7208" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0eafc053-409b-4739-a107-b0891637eece" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0e0b3f76-2380-40db-94a2-41452597e1f9" type="max"/>
           </constraints>
           <selectionEntries>
-            <selectionEntry id="00ef23e5-39ac-400c-84a4-96c2db20e8eb" name="2x Hellstrike Missiles" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="2e1b72f3-b154-45cb-a552-9ef454db74bb" name="2x Hellstrike Missiles" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="07b246c2-e04e-442c-a7cc-0a86883f4ecb" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0b90be8b-89e2-49be-9eac-2342a5c94fa0" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="5294dc38-87e8-44c8-9742-921b4c6a0062" name="Hellstrike Missile" hidden="false" targetId="de0111bd-fc44-4fca-a2b0-69784b46d0d4" type="profile"/>
+                <infoLink id="a87cf6b3-8b6b-48a0-a12d-24aa16deac2d" name="Hellstrike Missile" hidden="false" targetId="0adbc401-7d90-41eb-94ad-33a59502e386" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="10.0"/>
-                <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="0.0"/>
-                <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
+                <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
+                <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="94096f1a-9dae-4dcf-a016-b57953208f18" name="2x Multiple Rocket Pods" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="a0039b74-be8a-4dba-97ec-c715f69a4ada" name="2x Multiple Rocket Pods" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="2475e1a6-851e-40fb-b9e7-53a959d76f7a" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="1d8ab392-3bf8-454f-a8c9-e9e9fae5d2eb" type="max"/>
               </constraints>
               <infoLinks>
-                <infoLink id="15f99df5-2d69-4689-b455-d371f4cb858f" name="Multiple Rocket Pod" hidden="false" targetId="1d1c0bfa-8a53-4056-b324-c9232dcd2d33" type="profile"/>
+                <infoLink id="c658e80f-dda1-4db5-91ec-dd2763778714" name="Multiple Rocket Pod" hidden="false" targetId="02d1bda3-9a7f-429c-b4a3-599e7cdc1fdc" type="profile"/>
               </infoLinks>
               <costs>
-                <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="0.0"/>
-                <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
-                <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="0.0"/>
+                <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
+                <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="68bef555-a6b5-4b12-8aa7-9cb66f5686a0" name="Heavy bolter" hidden="false" collective="false" import="true" targetId="7218fe94-f603-4172-b705-5b3993c33db9" type="selectionEntry">
+        <entryLink id="ecc12838-4451-45e6-b66a-d70545c374ea" name="Heavy bolter" hidden="false" collective="false" import="true" targetId="50a8e36e-76db-456b-8a8a-89c516255e10" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="points" value="0.0"/>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="679ba3b0-58b4-48cd-9d59-d07519f7cdb2" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="497a68c8-5e55-4e91-9dfe-e359fa79d009" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b9be93f-9cbe-4161-a21a-8bd54b73d37d" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5c2ca4de-cb71-44a1-85f3-27273b3d691a" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="19aa7902-8dd7-489b-8a2b-08130985b123" name="Has Battle Honours (Chapter Approved 2018)" hidden="false" collective="false" import="true" targetId="7039e474-2ee6-4d14-a6fe-6a7b01946c2d" type="selectionEntry"/>
+        <entryLink id="e17abf1d-1286-4d28-9deb-872a3a4b1cec" name="Has Battle Honours (Chapter Approved 2018)" hidden="false" collective="false" import="true" targetId="6168801d-3c5a-4af8-a0b4-57c24a1c7b27" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="6.0"/>
-        <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="115.0"/>
-        <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
+        <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="6.0"/>
+        <cost name="pts" typeId="points" value="115.0"/>
+        <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
-    <profile id="1897bb4d-3a82-4860-b6a2-dd7af147c9d3" name="Voice of Command" hidden="false" typeId="6a77fd08-33e0-4a84-a26a-9c819f5ffbb5" typeName="Abilities">
+    <profile id="25fab48a-75ca-463e-afc2-68cc7b30e44d" name="Voice of Command" hidden="false" typeId="d8b7eb23-4e11-4efa-90fb-b26e0ab318fa" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="00250bb0-92ce-4d01-a8c7-8706e5a818c2">This unit may issue orders to those under their command at the start of any of their Shooting phases. Orders may only be issued to INFANTRY units within 6&quot; of this unit that have the ELYSIAN DROP TROOPS keyword. To issue an order, pick a target unit and choose which order you wish to issue from the table below. A unit may only be affected by one order per turn.</characteristic>
+        <characteristic name="Description" typeId="19f8973f-c187-4eef-9206-9c8057c78779">This unit may issue orders to those under their command at the start of any of their Shooting phases. Orders may only be issued to INFANTRY units within 6&quot; of this unit that have the ELYSIAN DROP TROOPS keyword. To issue an order, pick a target unit and choose which order you wish to issue from the table below. A unit may only be affected by one order per turn.</characteristic>
       </characteristics>
     </profile>
-    <profile id="b2d38133-9d84-40d9-8453-0eed3ba480a5" name="Iron Discipline" hidden="false" typeId="6a77fd08-33e0-4a84-a26a-9c819f5ffbb5" typeName="Abilities">
+    <profile id="2ee5224d-a8bd-4a77-8039-3d7daf8f862b" name="Iron Discipline" hidden="false" typeId="d8b7eb23-4e11-4efa-90fb-b26e0ab318fa" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="00250bb0-92ce-4d01-a8c7-8706e5a818c2">​Any friendly ELYSIAN DROP TROOPS units within 6&quot; of this model may re-roll failed Morale tests.</characteristic>
+        <characteristic name="Description" typeId="19f8973f-c187-4eef-9206-9c8057c78779">​Any friendly ELYSIAN DROP TROOPS units within 6&quot; of this model may re-roll failed Morale tests.</characteristic>
       </characteristics>
     </profile>
-    <profile id="8cb9b584-1684-45bb-a605-46b1a69fc5c0" name="Aura of Discipline" hidden="false" typeId="6a77fd08-33e0-4a84-a26a-9c819f5ffbb5" typeName="Abilities">
+    <profile id="8400e65b-8857-4baa-a683-75649ca0a859" name="Aura of Discipline" hidden="false" typeId="d8b7eb23-4e11-4efa-90fb-b26e0ab318fa" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="00250bb0-92ce-4d01-a8c7-8706e5a818c2">All friendly ELYSIAN DROP TROOPS units within 6&quot; of a COMMISSAR can use his Leadership instead of their own.</characteristic>
+        <characteristic name="Description" typeId="19f8973f-c187-4eef-9206-9c8057c78779">All friendly ELYSIAN DROP TROOPS units within 6&quot; of a COMMISSAR can use his Leadership instead of their own.</characteristic>
       </characteristics>
     </profile>
-    <profile id="962510c6-97f0-49bd-972b-0dc45445fa56" name="Summary Execution" hidden="false" typeId="6a77fd08-33e0-4a84-a26a-9c819f5ffbb5" typeName="Abilities">
+    <profile id="ef871992-ddc4-4b71-a763-83e7a22df4fb" name="Summary Execution" hidden="false" typeId="d8b7eb23-4e11-4efa-90fb-b26e0ab318fa" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="00250bb0-92ce-4d01-a8c7-8706e5a818c2">The first time an Astra Militarum unit fails a Morale test during the Morale phase whilst it is within 6&quot; of any friendly Commissars, you can execute a model. If you do, one model of your choice in that unit is slain and the Morale test is re- rolled (do not include this slain model when re-rolling the Morale test).</characteristic>
+        <characteristic name="Description" typeId="19f8973f-c187-4eef-9206-9c8057c78779">The first time an Astra Militarum unit fails a Morale test during the Morale phase whilst it is within 6&quot; of any friendly Commissars, you can execute a model. If you do, one model of your choice in that unit is slain and the Morale test is re- rolled (do not include this slain model when re-rolling the Morale test).</characteristic>
       </characteristics>
     </profile>
-    <profile id="7ed84bd3-57fd-4737-a3d0-1542e0cce6cb" name="Refractor Field" hidden="false" typeId="6a77fd08-33e0-4a84-a26a-9c819f5ffbb5" typeName="Abilities">
+    <profile id="3107691d-3ecb-43b0-a976-382a4ba46ad1" name="Refractor Field" hidden="false" typeId="d8b7eb23-4e11-4efa-90fb-b26e0ab318fa" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="00250bb0-92ce-4d01-a8c7-8706e5a818c2">​This model has a 5+ invulnerable save.</characteristic>
+        <characteristic name="Description" typeId="19f8973f-c187-4eef-9206-9c8057c78779">​This model has a 5+ invulnerable save.</characteristic>
       </characteristics>
     </profile>
-    <profile id="51b1c43f-8d48-4306-bc97-234bb168a382" name="Guardsman" publicationId="14d5f0d5-2b20-48f9-a7ae-e95fa9007c28" page="74" hidden="false" typeId="2389a9c7-564a-45bc-bafa-44a5457c00e4" typeName="Unit">
+    <profile id="a6aaf3b5-205b-43c8-a208-bc80a61b9631" name="Guardsman" publicationId="c0cd7935-8327-4ea4-a19f-a19bf2a760ab" page="74" hidden="false" typeId="96633e23-5f89-47ac-862a-ea3f419e82ad" typeName="Unit">
       <characteristics>
-        <characteristic name="M" typeId="dfaf03e2-db64-4777-8c6e-35874a70ac6d">6&quot;</characteristic>
-        <characteristic name="WS" typeId="752c83e3-cd1b-4290-89a8-7dd17f6f0771">4+</characteristic>
-        <characteristic name="BS" typeId="e743642d-b603-4dc4-84c1-1356c804e280">4+</characteristic>
-        <characteristic name="S" typeId="4b473f0c-e75b-4457-b69d-b822efa75d18">3</characteristic>
-        <characteristic name="T" typeId="68a4b50d-30fd-47b4-a0b9-b4150497ed5d">3</characteristic>
-        <characteristic name="W" typeId="e6272de1-50f4-4d6b-9449-e0892f0b5b07">1</characteristic>
-        <characteristic name="A" typeId="bcf73df5-3507-4e6f-951a-334d957e95f2">1</characteristic>
-        <characteristic name="Ld" typeId="71504bf9-7075-47fe-a797-f8ddc54346fd">7</characteristic>
-        <characteristic name="Save" typeId="de720430-a706-464b-9969-4e45fe254916">5+</characteristic>
+        <characteristic name="M" typeId="29908c04-cacb-4ff6-80a3-f7ac34f9b320">6&quot;</characteristic>
+        <characteristic name="WS" typeId="b0f83996-9c8e-42bb-80ae-6183503a8687">4+</characteristic>
+        <characteristic name="BS" typeId="fcd83b9f-a688-4fd1-88ed-5cf248c9ecdd">4+</characteristic>
+        <characteristic name="S" typeId="cba76dde-3857-489e-a3cb-f1c82182901c">3</characteristic>
+        <characteristic name="T" typeId="082cd324-3c32-4cf7-8a77-34c5ff973db1">3</characteristic>
+        <characteristic name="W" typeId="f5983de7-8c32-4395-a17c-18fc765ec74a">1</characteristic>
+        <characteristic name="A" typeId="40b1852f-baa7-49a7-9e04-0d0cea23edea">1</characteristic>
+        <characteristic name="Ld" typeId="1bb39308-fe32-4190-9336-713b6293a715">7</characteristic>
+        <characteristic name="Save" typeId="c4f7addd-d978-4a27-b039-8e4a15fa6bda">5+</characteristic>
       </characteristics>
     </profile>
-    <profile id="4d75360f-a41c-4239-abe8-8f1ecbe2ac7c" name="Sergeant" page="" hidden="false" typeId="2389a9c7-564a-45bc-bafa-44a5457c00e4" typeName="Unit">
+    <profile id="62688803-1a70-426d-a2fc-4c8ac4588819" name="Sergeant" page="" hidden="false" typeId="96633e23-5f89-47ac-862a-ea3f419e82ad" typeName="Unit">
       <characteristics>
-        <characteristic name="M" typeId="dfaf03e2-db64-4777-8c6e-35874a70ac6d">6&quot;</characteristic>
-        <characteristic name="WS" typeId="752c83e3-cd1b-4290-89a8-7dd17f6f0771">4+</characteristic>
-        <characteristic name="BS" typeId="e743642d-b603-4dc4-84c1-1356c804e280">4+</characteristic>
-        <characteristic name="S" typeId="4b473f0c-e75b-4457-b69d-b822efa75d18">3</characteristic>
-        <characteristic name="T" typeId="68a4b50d-30fd-47b4-a0b9-b4150497ed5d">3</characteristic>
-        <characteristic name="W" typeId="e6272de1-50f4-4d6b-9449-e0892f0b5b07">1</characteristic>
-        <characteristic name="A" typeId="bcf73df5-3507-4e6f-951a-334d957e95f2">2</characteristic>
-        <characteristic name="Ld" typeId="71504bf9-7075-47fe-a797-f8ddc54346fd">8</characteristic>
-        <characteristic name="Save" typeId="de720430-a706-464b-9969-4e45fe254916">5+</characteristic>
+        <characteristic name="M" typeId="29908c04-cacb-4ff6-80a3-f7ac34f9b320">6&quot;</characteristic>
+        <characteristic name="WS" typeId="b0f83996-9c8e-42bb-80ae-6183503a8687">4+</characteristic>
+        <characteristic name="BS" typeId="fcd83b9f-a688-4fd1-88ed-5cf248c9ecdd">4+</characteristic>
+        <characteristic name="S" typeId="cba76dde-3857-489e-a3cb-f1c82182901c">3</characteristic>
+        <characteristic name="T" typeId="082cd324-3c32-4cf7-8a77-34c5ff973db1">3</characteristic>
+        <characteristic name="W" typeId="f5983de7-8c32-4395-a17c-18fc765ec74a">1</characteristic>
+        <characteristic name="A" typeId="40b1852f-baa7-49a7-9e04-0d0cea23edea">2</characteristic>
+        <characteristic name="Ld" typeId="1bb39308-fe32-4190-9336-713b6293a715">8</characteristic>
+        <characteristic name="Save" typeId="c4f7addd-d978-4a27-b039-8e4a15fa6bda">5+</characteristic>
       </characteristics>
     </profile>
-    <profile id="48f3ef88-c89a-4a41-b0c1-94ccf92ffed7" name="Vox-caster" hidden="false" typeId="6a77fd08-33e0-4a84-a26a-9c819f5ffbb5" typeName="Abilities">
+    <profile id="a2812fb7-6d7c-4471-bfed-bc63516fd8ac" name="Vox-caster" hidden="false" typeId="d8b7eb23-4e11-4efa-90fb-b26e0ab318fa" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="00250bb0-92ce-4d01-a8c7-8706e5a818c2">If a friendly OFFICER is within 3&quot; of a unit with a vox-caster when using their Voice of Command ability, you may extend the range of the order to 18&quot; if the target unit also contains a vox-caster.</characteristic>
+        <characteristic name="Description" typeId="19f8973f-c187-4eef-9206-9c8057c78779">If a friendly OFFICER is within 3&quot; of a unit with a vox-caster when using their Voice of Command ability, you may extend the range of the order to 18&quot; if the target unit also contains a vox-caster.</characteristic>
       </characteristics>
     </profile>
-    <profile id="7b8dcf24-7950-4939-ac39-8ab7b855cb29" name="Veteran Sergeant" hidden="false" typeId="2389a9c7-564a-45bc-bafa-44a5457c00e4" typeName="Unit">
+    <profile id="9e8f99e1-bf4c-4304-a450-84829ea93df0" name="Veteran Sergeant" hidden="false" typeId="96633e23-5f89-47ac-862a-ea3f419e82ad" typeName="Unit">
       <characteristics>
-        <characteristic name="M" typeId="dfaf03e2-db64-4777-8c6e-35874a70ac6d">6&quot;</characteristic>
-        <characteristic name="WS" typeId="752c83e3-cd1b-4290-89a8-7dd17f6f0771">4+</characteristic>
-        <characteristic name="BS" typeId="e743642d-b603-4dc4-84c1-1356c804e280">3+</characteristic>
-        <characteristic name="S" typeId="4b473f0c-e75b-4457-b69d-b822efa75d18">3</characteristic>
-        <characteristic name="T" typeId="68a4b50d-30fd-47b4-a0b9-b4150497ed5d">3</characteristic>
-        <characteristic name="W" typeId="e6272de1-50f4-4d6b-9449-e0892f0b5b07">1</characteristic>
-        <characteristic name="A" typeId="bcf73df5-3507-4e6f-951a-334d957e95f2">2</characteristic>
-        <characteristic name="Ld" typeId="71504bf9-7075-47fe-a797-f8ddc54346fd">8</characteristic>
-        <characteristic name="Save" typeId="de720430-a706-464b-9969-4e45fe254916">5+</characteristic>
+        <characteristic name="M" typeId="29908c04-cacb-4ff6-80a3-f7ac34f9b320">6&quot;</characteristic>
+        <characteristic name="WS" typeId="b0f83996-9c8e-42bb-80ae-6183503a8687">4+</characteristic>
+        <characteristic name="BS" typeId="fcd83b9f-a688-4fd1-88ed-5cf248c9ecdd">3+</characteristic>
+        <characteristic name="S" typeId="cba76dde-3857-489e-a3cb-f1c82182901c">3</characteristic>
+        <characteristic name="T" typeId="082cd324-3c32-4cf7-8a77-34c5ff973db1">3</characteristic>
+        <characteristic name="W" typeId="f5983de7-8c32-4395-a17c-18fc765ec74a">1</characteristic>
+        <characteristic name="A" typeId="40b1852f-baa7-49a7-9e04-0d0cea23edea">2</characteristic>
+        <characteristic name="Ld" typeId="1bb39308-fe32-4190-9336-713b6293a715">8</characteristic>
+        <characteristic name="Save" typeId="c4f7addd-d978-4a27-b039-8e4a15fa6bda">5+</characteristic>
       </characteristics>
     </profile>
-    <profile id="fe017784-5864-47db-bf51-f583401edf84" name="Veteran Weapons Team" hidden="false" typeId="2389a9c7-564a-45bc-bafa-44a5457c00e4" typeName="Unit">
+    <profile id="805ecaf8-53d5-4e32-aed4-4d8baa9bee84" name="Veteran Weapons Team" hidden="false" typeId="96633e23-5f89-47ac-862a-ea3f419e82ad" typeName="Unit">
       <characteristics>
-        <characteristic name="M" typeId="dfaf03e2-db64-4777-8c6e-35874a70ac6d">6&quot;</characteristic>
-        <characteristic name="WS" typeId="752c83e3-cd1b-4290-89a8-7dd17f6f0771">4+</characteristic>
-        <characteristic name="BS" typeId="e743642d-b603-4dc4-84c1-1356c804e280">3+</characteristic>
-        <characteristic name="S" typeId="4b473f0c-e75b-4457-b69d-b822efa75d18">3</characteristic>
-        <characteristic name="T" typeId="68a4b50d-30fd-47b4-a0b9-b4150497ed5d">3</characteristic>
-        <characteristic name="W" typeId="e6272de1-50f4-4d6b-9449-e0892f0b5b07">2</characteristic>
-        <characteristic name="A" typeId="bcf73df5-3507-4e6f-951a-334d957e95f2">2</characteristic>
-        <characteristic name="Ld" typeId="71504bf9-7075-47fe-a797-f8ddc54346fd">7</characteristic>
-        <characteristic name="Save" typeId="de720430-a706-464b-9969-4e45fe254916">5+</characteristic>
+        <characteristic name="M" typeId="29908c04-cacb-4ff6-80a3-f7ac34f9b320">6&quot;</characteristic>
+        <characteristic name="WS" typeId="b0f83996-9c8e-42bb-80ae-6183503a8687">4+</characteristic>
+        <characteristic name="BS" typeId="fcd83b9f-a688-4fd1-88ed-5cf248c9ecdd">3+</characteristic>
+        <characteristic name="S" typeId="cba76dde-3857-489e-a3cb-f1c82182901c">3</characteristic>
+        <characteristic name="T" typeId="082cd324-3c32-4cf7-8a77-34c5ff973db1">3</characteristic>
+        <characteristic name="W" typeId="f5983de7-8c32-4395-a17c-18fc765ec74a">2</characteristic>
+        <characteristic name="A" typeId="40b1852f-baa7-49a7-9e04-0d0cea23edea">2</characteristic>
+        <characteristic name="Ld" typeId="1bb39308-fe32-4190-9336-713b6293a715">7</characteristic>
+        <characteristic name="Save" typeId="c4f7addd-d978-4a27-b039-8e4a15fa6bda">5+</characteristic>
       </characteristics>
     </profile>
-    <profile id="d30b5c70-a134-4429-9b3f-3b6ba1c216ce" name="Veteran Guardsmen" hidden="false" typeId="2389a9c7-564a-45bc-bafa-44a5457c00e4" typeName="Unit">
+    <profile id="2506d6c8-d284-429e-a741-19e08e8ba180" name="Veteran Guardsmen" hidden="false" typeId="96633e23-5f89-47ac-862a-ea3f419e82ad" typeName="Unit">
       <characteristics>
-        <characteristic name="M" typeId="dfaf03e2-db64-4777-8c6e-35874a70ac6d">6&quot;</characteristic>
-        <characteristic name="WS" typeId="752c83e3-cd1b-4290-89a8-7dd17f6f0771">4+</characteristic>
-        <characteristic name="BS" typeId="e743642d-b603-4dc4-84c1-1356c804e280">3+</characteristic>
-        <characteristic name="S" typeId="4b473f0c-e75b-4457-b69d-b822efa75d18">3</characteristic>
-        <characteristic name="T" typeId="68a4b50d-30fd-47b4-a0b9-b4150497ed5d">3</characteristic>
-        <characteristic name="W" typeId="e6272de1-50f4-4d6b-9449-e0892f0b5b07">1</characteristic>
-        <characteristic name="A" typeId="bcf73df5-3507-4e6f-951a-334d957e95f2">1</characteristic>
-        <characteristic name="Ld" typeId="71504bf9-7075-47fe-a797-f8ddc54346fd">7</characteristic>
-        <characteristic name="Save" typeId="de720430-a706-464b-9969-4e45fe254916">5+</characteristic>
+        <characteristic name="M" typeId="29908c04-cacb-4ff6-80a3-f7ac34f9b320">6&quot;</characteristic>
+        <characteristic name="WS" typeId="b0f83996-9c8e-42bb-80ae-6183503a8687">4+</characteristic>
+        <characteristic name="BS" typeId="fcd83b9f-a688-4fd1-88ed-5cf248c9ecdd">3+</characteristic>
+        <characteristic name="S" typeId="cba76dde-3857-489e-a3cb-f1c82182901c">3</characteristic>
+        <characteristic name="T" typeId="082cd324-3c32-4cf7-8a77-34c5ff973db1">3</characteristic>
+        <characteristic name="W" typeId="f5983de7-8c32-4395-a17c-18fc765ec74a">1</characteristic>
+        <characteristic name="A" typeId="40b1852f-baa7-49a7-9e04-0d0cea23edea">1</characteristic>
+        <characteristic name="Ld" typeId="1bb39308-fe32-4190-9336-713b6293a715">7</characteristic>
+        <characteristic name="Save" typeId="c4f7addd-d978-4a27-b039-8e4a15fa6bda">5+</characteristic>
       </characteristics>
     </profile>
-    <profile id="66a6fe13-6595-4ba5-9781-6cbca8fd0eee" name="Medi-pack" hidden="false" typeId="6a77fd08-33e0-4a84-a26a-9c819f5ffbb5" typeName="Abilities">
+    <profile id="ba5bc0f3-e5e7-43af-a17c-017d2f8b2e0c" name="Medi-pack" hidden="false" typeId="d8b7eb23-4e11-4efa-90fb-b26e0ab318fa" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="00250bb0-92ce-4d01-a8c7-8706e5a818c2">At the end of any of your Movement phases, a model with a medi-pack can attempt to heal a single model.  Select a friendly ASTRA MILITARUM INFANTRY unit within 3&quot; and roll a D6.  On a roll of a 4+, one model in the unit recovers a wound it lost earlier in the battle (if the model has a Wounds characteristic of 1, one model slain earlier in the battle is returned to the unit instead).  A unit can only be the target of this ability once in each turn.</characteristic>
+        <characteristic name="Description" typeId="19f8973f-c187-4eef-9206-9c8057c78779">At the end of any of your Movement phases, a model with a medi-pack can attempt to heal a single model.  Select a friendly ASTRA MILITARUM INFANTRY unit within 3&quot; and roll a D6.  On a roll of a 4+, one model in the unit recovers a wound it lost earlier in the battle (if the model has a Wounds characteristic of 1, one model slain earlier in the battle is returned to the unit instead).  A unit can only be the target of this ability once in each turn.</characteristic>
       </characteristics>
     </profile>
-    <profile id="5812bb8a-da3e-41a5-af72-0df12ad14f00" name="Hold the Line" hidden="false" typeId="6a77fd08-33e0-4a84-a26a-9c819f5ffbb5" typeName="Abilities">
+    <profile id="05576c72-0c9e-439a-b93d-f2eca3d54277" name="Hold the Line" hidden="false" typeId="d8b7eb23-4e11-4efa-90fb-b26e0ab318fa" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="00250bb0-92ce-4d01-a8c7-8706e5a818c2">Hold the Line! The ordered unit ignores models killed during the Shooting phase or Fight phase when taking Morale tests until the start of the next Movement phase.</characteristic>
+        <characteristic name="Description" typeId="19f8973f-c187-4eef-9206-9c8057c78779">Hold the Line! The ordered unit ignores models killed during the Shooting phase or Fight phase when taking Morale tests until the start of the next Movement phase.</characteristic>
       </characteristics>
     </profile>
-    <profile id="e7243211-7884-4281-8e44-df4f3bf011fa" name="First Rank Fire Second Rank Fire" hidden="false" typeId="6a77fd08-33e0-4a84-a26a-9c819f5ffbb5" typeName="Abilities">
+    <profile id="a56ccd9e-16de-4d6c-872d-b72ad714a438" name="First Rank Fire Second Rank Fire" hidden="false" typeId="d8b7eb23-4e11-4efa-90fb-b26e0ab318fa" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="00250bb0-92ce-4d01-a8c7-8706e5a818c2">First Rank, Fire! Second Rank, Fire! All lasguns and hot-shot lasguns in the ordered unit change their Type to Rapid Fire 2 until the end of the phase. </characteristic>
+        <characteristic name="Description" typeId="19f8973f-c187-4eef-9206-9c8057c78779">First Rank, Fire! Second Rank, Fire! All lasguns and hot-shot lasguns in the ordered unit change their Type to Rapid Fire 2 until the end of the phase. </characteristic>
       </characteristics>
     </profile>
-    <profile id="92404585-1e90-4cea-8762-6a234bfca1cf" name="Bring it Down" hidden="false" typeId="6a77fd08-33e0-4a84-a26a-9c819f5ffbb5" typeName="Abilities">
+    <profile id="1a4ef87a-5a93-48f4-9e35-d07de5653330" name="Bring it Down" hidden="false" typeId="d8b7eb23-4e11-4efa-90fb-b26e0ab318fa" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="00250bb0-92ce-4d01-a8c7-8706e5a818c2">Bring it Down! Re-roll wound rolls of a 1 for all models in the ordered unit until the end of the phase. </characteristic>
+        <characteristic name="Description" typeId="19f8973f-c187-4eef-9206-9c8057c78779">Bring it Down! Re-roll wound rolls of a 1 for all models in the ordered unit until the end of the phase. </characteristic>
       </characteristics>
     </profile>
-    <profile id="a17dec7e-0aa6-48a8-a5e4-857e0ec57d3e" name="Move and Fire" hidden="false" typeId="6a77fd08-33e0-4a84-a26a-9c819f5ffbb5" typeName="Abilities">
+    <profile id="7411479e-c1c8-441d-a814-e5b3b4688b80" name="Move and Fire" hidden="false" typeId="d8b7eb23-4e11-4efa-90fb-b26e0ab318fa" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="00250bb0-92ce-4d01-a8c7-8706e5a818c2">Move and Fire! All INFANTRY models in the ordered units count their weapons as being Assault weapons until the end of the turn. </characteristic>
+        <characteristic name="Description" typeId="19f8973f-c187-4eef-9206-9c8057c78779">Move and Fire! All INFANTRY models in the ordered units count their weapons as being Assault weapons until the end of the turn. </characteristic>
       </characteristics>
     </profile>
-    <profile id="261daeda-77f3-4ac9-9ef1-306fbf101b13" name="Get Back in the Fight" hidden="false" typeId="6a77fd08-33e0-4a84-a26a-9c819f5ffbb5" typeName="Abilities">
+    <profile id="1d1aa1ef-dc6e-45e7-8fef-bb6bd492d31c" name="Get Back in the Fight" hidden="false" typeId="d8b7eb23-4e11-4efa-90fb-b26e0ab318fa" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="00250bb0-92ce-4d01-a8c7-8706e5a818c2">Get Back in the Fight! The ordered unit can shoot this phase even if it Fell Back in its Movement phase. </characteristic>
+        <characteristic name="Description" typeId="19f8973f-c187-4eef-9206-9c8057c78779">Get Back in the Fight! The ordered unit can shoot this phase even if it Fell Back in its Movement phase. </characteristic>
       </characteristics>
     </profile>
-    <profile id="f0a354cf-4ee2-4c4d-9fc3-615c21da872a" name="Move Move Move" hidden="false" typeId="6a77fd08-33e0-4a84-a26a-9c819f5ffbb5" typeName="Abilities">
+    <profile id="a5c64866-af77-46cc-9800-24aa1e294f65" name="Move Move Move" hidden="false" typeId="d8b7eb23-4e11-4efa-90fb-b26e0ab318fa" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="00250bb0-92ce-4d01-a8c7-8706e5a818c2">Move! Move! Move! Instead of shooting this phase, the ordered unit immediately moves as if it were the Movement phase. it must Advance as part of this move, and cannot declare a charge during this turn. </characteristic>
+        <characteristic name="Description" typeId="19f8973f-c187-4eef-9206-9c8057c78779">Move! Move! Move! Instead of shooting this phase, the ordered unit immediately moves as if it were the Movement phase. it must Advance as part of this move, and cannot declare a charge during this turn. </characteristic>
       </characteristics>
     </profile>
-    <profile id="274a793b-d141-4259-9910-72bd18cb288e" name="Take Aim" hidden="false" typeId="6a77fd08-33e0-4a84-a26a-9c819f5ffbb5" typeName="Abilities">
+    <profile id="45654e6f-896f-4c8e-9274-96d94d7344e5" name="Take Aim" hidden="false" typeId="d8b7eb23-4e11-4efa-90fb-b26e0ab318fa" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="00250bb0-92ce-4d01-a8c7-8706e5a818c2">Take Aim! Re-roll hit rolls of 1 for all models in the ordered unit until the end of the phase. </characteristic>
+        <characteristic name="Description" typeId="19f8973f-c187-4eef-9206-9c8057c78779">Take Aim! Re-roll hit rolls of 1 for all models in the ordered unit until the end of the phase. </characteristic>
       </characteristics>
     </profile>
-    <profile id="7b03488d-8a1d-4312-8fd5-6199ee0aea2f" name="Aerial Drop" publicationId="430190c6-34ab-46e3-b86c-8e51f1c5db9a" hidden="false" typeId="6a77fd08-33e0-4a84-a26a-9c819f5ffbb5" typeName="Abilities">
+    <profile id="1796af3a-fa3c-44a9-a27f-6bb93638d9c0" name="Aerial Drop" publicationId="c18ea2e9-61f5-4542-acc6-3b4ee72e9a84" hidden="false" typeId="d8b7eb23-4e11-4efa-90fb-b26e0ab318fa" typeName="Abilities">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
-            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2d22a28a-d663-4891-b507-adfe14bb2b49" type="notInstanceOf"/>
+            <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b712dcf6-0ea9-40a5-a2ad-fe4cfc6b41a9" type="notInstanceOf"/>
           </conditions>
         </modifier>
       </modifiers>
       <characteristics>
-        <characteristic name="Description" typeId="00250bb0-92ce-4d01-a8c7-8706e5a818c2">During deployment, you can set up this unit in a high altitude transport instead of setting it up on the battlefield. If you do, then in the Reinforcements step of one of your Movement phases, you can set up this unit anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
+        <characteristic name="Description" typeId="19f8973f-c187-4eef-9206-9c8057c78779">During deployment, you can set up this unit in a high altitude transport instead of setting it up on the battlefield. If you do, then in the Reinforcements step of one of your Movement phases, you can set up this unit anywhere on the battlefield that is more than 9&quot; away from any enemy models.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
   <catalogueLinks>
-    <catalogueLink id="cdde2d77-2d13-498e-b0e1-95cfe0b5330a" name="Imperium - Inquisition" targetId="c037d8b0-05cf-436a-a399-2036c5754daa" type="catalogue" importRootEntries="true"/>
-    <catalogueLink id="bcda1058-aaa2-4bec-bc2b-21215f759b57" name="Imperium - Astra Militarum - Library" targetId="5bdaebce-c5e9-4b95-909e-b31c98880cca" type="catalogue" importRootEntries="false"/>
-    <catalogueLink id="8037dc31-5e30-4e1b-a10b-f92e6f3fd707" name="Imperium - Officio Assassinorum" targetId="48330394-56a8-46de-b8b0-3b9699465351" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="211e307d-7724-4013-b2c8-3a86992c72f3" name="Imperium - Inquisition" targetId="25231cff-2c3f-47e7-aae6-ff024be1c25e" type="catalogue" importRootEntries="true"/>
+    <catalogueLink id="d67fd78b-3018-4778-82fb-7143b79361ad" name="Imperium - Astra Militarum - Library" targetId="eee5686d-8ab1-4a9a-b27d-217a137da8c7" type="catalogue" importRootEntries="false"/>
+    <catalogueLink id="ea69c36a-2884-47ba-b9ec-1df003082043" name="Imperium - Officio Assassinorum" targetId="f12414ae-371a-4ecf-826e-f5b71d98efe3" type="catalogue" importRootEntries="true"/>
   </catalogueLinks>
 </catalogue>

@@ -1,226 +1,226 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1ca2830c-f592-40e3-9c47-7764319edead" name="Imperium - Adeptus Astra Telepathica" revision="22" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="Discord: @Alphalas | Twitter: @_alphalas" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="0014adc9-4e71-4486-bb6c-5acfbfeb88b6" gameSystemRevision="248" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9e75509b-0f15-431e-aa15-1ded0c5fc43e" name="Imperium - Adeptus Astra Telepathica" revision="22" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="Discord: @Alphalas | Twitter: @_alphalas" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="11f72b7f-57c7-49ff-a1aa-649e95da9c5f" gameSystemRevision="248" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="1d46d683-9b6b-426b-93ec-5d68a621f775" name="Codex: Astra Militarum"/>
+    <publication id="abd3cfdc-d94b-4506-a630-146040788df5" name="Codex: Astra Militarum"/>
   </publications>
   <categoryEntries>
-    <categoryEntry id="0a4dc199-e98a-4474-9b93-2b24032d65bd" name="Faction: Astra Telepathica" hidden="false"/>
-    <categoryEntry id="c39d1f05-9fb6-4efb-84ec-828a376d18b5" name="Faction: Scholastica Psykana" hidden="false"/>
-    <categoryEntry id="93500c9d-5247-4ec3-b14c-640578ee90ff" name="Primaris Psyker" hidden="false"/>
-    <categoryEntry id="d5c65a22-3a4d-4b52-8d6c-0545387c4e81" name="Wyrdvane Psykers" hidden="false"/>
-    <categoryEntry id="6cbe9f15-a432-4a2f-87a7-d2936f213e8d" name="Astropath" hidden="false"/>
+    <categoryEntry id="8b2186cd-33d8-4770-b0a7-cf6f074b3de8" name="Faction: Astra Telepathica" hidden="false"/>
+    <categoryEntry id="27ba05a5-1ffc-4435-88bf-f496898d4007" name="Faction: Scholastica Psykana" hidden="false"/>
+    <categoryEntry id="05514788-eb3d-430a-bf54-a601a858d2e4" name="Primaris Psyker" hidden="false"/>
+    <categoryEntry id="72a17809-d284-4233-98a3-e5164ff410ba" name="Wyrdvane Psykers" hidden="false"/>
+    <categoryEntry id="85746547-1f3b-4b84-8eb1-2b31e565c6c7" name="Astropath" hidden="false"/>
   </categoryEntries>
   <entryLinks>
-    <entryLink id="06f644ba-2074-447b-abc0-56368de7dd85" name="Astropath" hidden="false" collective="false" import="true" targetId="391153b1-320b-48ef-8d8f-499f0e92ab77" type="selectionEntry">
+    <entryLink id="f085e0ed-528d-4904-abea-e09b958b7642" name="Astropath" hidden="false" collective="false" import="true" targetId="becce33d-c37c-4126-8d9f-0852d2e97001" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="1b026e01-ad98-475b-a3fc-ed2bfa33b5d4" name="New CategoryLink" hidden="false" targetId="6647b917-6f0f-447b-a15a-b9eb22857a8c" primary="true"/>
-        <categoryLink id="f112f24c-e11e-4a1f-8614-0c2e0d4e6189" name="Astropath" hidden="false" targetId="6cbe9f15-a432-4a2f-87a7-d2936f213e8d" primary="false"/>
-        <categoryLink id="0af0572f-e790-4670-a4c9-95d4987cb1d8" name="Character" hidden="false" targetId="64e2283c-7732-4a45-ac40-96c0c9e670db" primary="false"/>
-        <categoryLink id="871117e1-cffb-44ba-8610-76347d345400" name="Faction: Astra Militarum" hidden="false" targetId="8ed039b4-992f-457e-9c35-02bcf7a17910" primary="false"/>
-        <categoryLink id="615a8425-275a-4b2b-a321-854c45a39965" name="Faction: Astra Telepathica" hidden="false" targetId="0a4dc199-e98a-4474-9b93-2b24032d65bd" primary="false"/>
-        <categoryLink id="4de9ceb2-20a1-42ae-ac89-6947c24631af" name="Faction: Imperium" hidden="false" targetId="89929868-c7ba-4115-8b06-b69e5d3a82b7" primary="false"/>
-        <categoryLink id="c0bea8d6-be18-4faa-b399-83067f5347a3" name="Faction: Scholastica Psykana" hidden="false" targetId="c39d1f05-9fb6-4efb-84ec-828a376d18b5" primary="false"/>
-        <categoryLink id="cb41c8b7-e037-42e3-96bd-82847cf5a53f" name="Infantry" hidden="false" targetId="aa1d7f38-212a-4df4-8a8c-1fa5840f6e3c" primary="false"/>
-        <categoryLink id="72a5b84f-72c2-4485-85ec-52c71bd4554b" name="Psyker" hidden="false" targetId="144a04ea-41c6-4877-ad55-aa098ff3ae7b" primary="false"/>
+        <categoryLink id="77253e40-bce7-4706-9f59-7ec4d7952baa" name="New CategoryLink" hidden="false" targetId="691ada24-2db6-40a1-bcd0-089ec36b48bc" primary="true"/>
+        <categoryLink id="a6f8c4e2-b450-445a-94f8-718ecf96a75a" name="Astropath" hidden="false" targetId="85746547-1f3b-4b84-8eb1-2b31e565c6c7" primary="false"/>
+        <categoryLink id="ea9d5357-67ba-472b-bb44-f90cc7fdf6ba" name="Character" hidden="false" targetId="add136a2-cc8d-41f9-9435-00c4752583fc" primary="false"/>
+        <categoryLink id="93ef70af-7581-4cc3-be07-6b0cb6891a1e" name="Faction: Astra Militarum" hidden="false" targetId="12deaedb-da8f-4f2a-95a2-30fa562c58d5" primary="false"/>
+        <categoryLink id="e03aa8c3-82d1-4fa6-91d8-b6c055ffb98b" name="Faction: Astra Telepathica" hidden="false" targetId="8b2186cd-33d8-4770-b0a7-cf6f074b3de8" primary="false"/>
+        <categoryLink id="80270ab0-2851-4fd8-9fa2-0c62fba81aeb" name="Faction: Imperium" hidden="false" targetId="99357296-820b-46e3-8395-77961c0d8302" primary="false"/>
+        <categoryLink id="0f2d241e-1102-4d3f-b8e4-fc6fba26e2f5" name="Faction: Scholastica Psykana" hidden="false" targetId="27ba05a5-1ffc-4435-88bf-f496898d4007" primary="false"/>
+        <categoryLink id="5850a342-ff24-470c-a0df-18dcec23e587" name="Infantry" hidden="false" targetId="3b0d3718-5028-4133-9acd-6d0864373b6f" primary="false"/>
+        <categoryLink id="8182fc46-fdb2-4d4d-bac6-bf2d57b810d9" name="Psyker" hidden="false" targetId="cd7c96de-d129-4a09-af40-a5023888aa7c" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="ad04fb28-07a2-435d-ad0f-c87fdd0c8c04" name="Primaris Psyker" hidden="false" collective="false" import="true" targetId="d5093e09-3888-4029-acd2-6bf6f24b52fe" type="selectionEntry">
+    <entryLink id="c82d2bf9-bcbd-4872-81e5-f3f32d170650" name="Primaris Psyker" hidden="false" collective="false" import="true" targetId="1dfd6ef6-048e-4e7e-85b7-3ce407dd6fb4" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="cd6514a6-fef7-49be-a108-57d57e1a1e42" name="New CategoryLink" hidden="false" targetId="947930e5-abb9-4c1a-9eef-928a93eb59e7" primary="true"/>
-        <categoryLink id="e0cb39ef-a62c-495f-9cd9-b18d59292e73" name="Character" hidden="false" targetId="64e2283c-7732-4a45-ac40-96c0c9e670db" primary="false"/>
-        <categoryLink id="db11c437-19e5-4e4a-931b-ac4ee9d02094" name="Faction: Astra Militarum" hidden="false" targetId="8ed039b4-992f-457e-9c35-02bcf7a17910" primary="false"/>
-        <categoryLink id="46e1baf4-36cc-4b57-bffa-d635a11adeeb" name="Faction: Astra Telepathica" hidden="false" targetId="0a4dc199-e98a-4474-9b93-2b24032d65bd" primary="false"/>
-        <categoryLink id="5186a53b-f74c-4b7a-ac64-bdb8daba88ad" name="Faction: Imperium" hidden="false" targetId="89929868-c7ba-4115-8b06-b69e5d3a82b7" primary="false"/>
-        <categoryLink id="b70c2980-344e-409c-8ef1-819d2c2a152b" name="Faction: Scholastica Psykana" hidden="false" targetId="c39d1f05-9fb6-4efb-84ec-828a376d18b5" primary="false"/>
-        <categoryLink id="d6171714-544d-4ce9-8dd9-053d600eae20" name="Infantry" hidden="false" targetId="aa1d7f38-212a-4df4-8a8c-1fa5840f6e3c" primary="false"/>
-        <categoryLink id="5d2f747f-f3d2-4209-9e25-c7599590437c" name="Primaris Psyker" hidden="false" targetId="93500c9d-5247-4ec3-b14c-640578ee90ff" primary="false"/>
-        <categoryLink id="fa7cddb9-ebf9-46a3-8351-66440490366a" name="Psyker" hidden="false" targetId="144a04ea-41c6-4877-ad55-aa098ff3ae7b" primary="false"/>
+        <categoryLink id="22210d3b-284e-4ef7-a8ad-4f5187f4afab" name="New CategoryLink" hidden="false" targetId="3eecd778-7d2d-4bdf-a3cd-f75ac81745b8" primary="true"/>
+        <categoryLink id="345058cd-081b-47af-96e1-3ef97a86eda8" name="Character" hidden="false" targetId="add136a2-cc8d-41f9-9435-00c4752583fc" primary="false"/>
+        <categoryLink id="05498a55-1105-4800-a33a-e47b5edabea0" name="Faction: Astra Militarum" hidden="false" targetId="12deaedb-da8f-4f2a-95a2-30fa562c58d5" primary="false"/>
+        <categoryLink id="f0737365-dd66-47b6-a706-b74b7f14a3bb" name="Faction: Astra Telepathica" hidden="false" targetId="8b2186cd-33d8-4770-b0a7-cf6f074b3de8" primary="false"/>
+        <categoryLink id="557e9f5e-4b83-4f43-89d6-383c484b36ef" name="Faction: Imperium" hidden="false" targetId="99357296-820b-46e3-8395-77961c0d8302" primary="false"/>
+        <categoryLink id="df881fac-7fa1-4384-84aa-922d8230e62b" name="Faction: Scholastica Psykana" hidden="false" targetId="27ba05a5-1ffc-4435-88bf-f496898d4007" primary="false"/>
+        <categoryLink id="a15fb450-d10a-42dc-b58c-fcca80c541a1" name="Infantry" hidden="false" targetId="3b0d3718-5028-4133-9acd-6d0864373b6f" primary="false"/>
+        <categoryLink id="da93fcb6-50dc-4c99-a557-2e29bb87e7e7" name="Primaris Psyker" hidden="false" targetId="05514788-eb3d-430a-bf54-a601a858d2e4" primary="false"/>
+        <categoryLink id="c99ee7e4-8c2f-4407-86df-90d53d414a5d" name="Psyker" hidden="false" targetId="cd7c96de-d129-4a09-af40-a5023888aa7c" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="ed6c3792-edf5-4665-9764-73148a60597f" name="Operative Requisition Sanctioned" hidden="false" collective="false" import="true" targetId="2d946d3a-1abb-490b-9951-718dbc1d1fff" type="selectionEntry"/>
-    <entryLink id="e51c0132-1614-4cef-90e5-1e2854a57a2b" name="Aradia Madellan" hidden="false" collective="false" import="true" targetId="2f0b311c-7909-4d44-bd50-638198aa801d" type="selectionEntry"/>
+    <entryLink id="78a2446e-9701-4847-9e06-818278143eef" name="Operative Requisition Sanctioned" hidden="false" collective="false" import="true" targetId="3818c0dd-12c0-46c7-a344-55f4f0cf7a42" type="selectionEntry"/>
+    <entryLink id="d1f044d7-171f-4eef-be55-bf896909cdc2" name="Aradia Madellan" hidden="false" collective="false" import="true" targetId="f9b681b2-a8fd-4606-bdf0-2a2b7cd4621c" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
-    <selectionEntry id="8389a297-69d4-4811-8e44-d1d4f37e60ef" name="Warlord" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="cd59db21-0fd2-419b-aa92-66749eb4d048" name="Warlord" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2cbea3d3-f9a3-4a2e-ad24-53b7d96945c8" type="max"/>
-        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="f92942d7-8bed-4ede-a655-2d80f6626388" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="70299d57-763b-4540-8077-f24d84ac6685" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="45067f54-e004-4610-bd42-d5f81d1321a1" type="max"/>
       </constraints>
       <costs>
-        <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="0.0"/>
-        <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
-        <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="0.0"/>
+        <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
+        <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="61b56e40-fdfd-4749-94ed-e738c1087a39" name="Psykana Discipline" publicationId="1d46d683-9b6b-426b-93ec-5d68a621f775" page="137" hidden="false" collective="false" import="true">
+    <selectionEntryGroup id="3af28f3f-93b5-47dc-8458-cf5c4ee5126f" name="Psykana Discipline" publicationId="abd3cfdc-d94b-4506-a630-146040788df5" page="137" hidden="false" collective="false" import="true">
       <selectionEntries>
-        <selectionEntry id="c905d57f-3478-4129-a962-21416e6881b9" name="Terrifying Visions" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="0e4b4643-8e47-492a-9fe8-a8f6fae411bb" name="Terrifying Visions" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b749ba7-7b3d-4cd2-9987-9505bb033640" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58b42d87-63c8-44d8-8615-269b5c059935" type="max"/>
           </constraints>
           <profiles>
-            <profile id="2ebe447d-a4e8-440e-9ed3-88af10660382" name="1) Terrifying Visions" hidden="false" typeId="ef1f32c0-aab5-4c41-8df8-d27e5eaf27df" typeName="Psychic Power">
+            <profile id="6b24cec6-a475-4ec2-8013-9679f1715532" name="1) Terrifying Visions" hidden="false" typeId="e743f6ce-6ef0-4d8b-a0a2-cf98d6a3150b" typeName="Psychic Power">
               <characteristics>
-                <characteristic name="Warp Charge" typeId="7316cb03-0dac-4de6-ad6f-d4c105ad53f9">7</characteristic>
-                <characteristic name="Range" typeId="179158cf-7aee-45d0-85e6-040c00eabb9a">18&quot;</characteristic>
-                <characteristic name="Details" typeId="28e3670e-82c0-443d-97c3-f145e6b8ab6c">Choose an enemy unit within 18&quot; of the psyker. That unit subtracts 2 from its Leadership until the start of your next turn.</characteristic>
+                <characteristic name="Warp Charge" typeId="e3afcfeb-c1cd-4a61-a32e-12f36596db53">7</characteristic>
+                <characteristic name="Range" typeId="bed5a1c5-2957-4e3b-a18c-769c85280428">18&quot;</characteristic>
+                <characteristic name="Details" typeId="f82f17a8-c139-40cc-88d1-4298bc31f303">Choose an enemy unit within 18&quot; of the psyker. That unit subtracts 2 from its Leadership until the start of your next turn.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="0.0"/>
-            <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="0.0"/>
-            <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
+            <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="37ea682a-e10c-415a-bdf5-b04775665658" name="Gaze of the Emperor" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="eefe4d28-31bd-487d-b4eb-32d27aa00062" name="Gaze of the Emperor" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2087d6da-9a59-45ca-b6e6-2c51e2ee33d7" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c32cda4f-3a49-411d-bf11-9d940c385818" type="max"/>
           </constraints>
           <profiles>
-            <profile id="f459491b-f915-43af-b3b3-877f3951f17c" name="2) Gaze of the Emperor" hidden="false" typeId="ef1f32c0-aab5-4c41-8df8-d27e5eaf27df" typeName="Psychic Power">
+            <profile id="5b1c1715-19c5-4bd3-9d64-f85b80618825" name="2) Gaze of the Emperor" hidden="false" typeId="e743f6ce-6ef0-4d8b-a0a2-cf98d6a3150b" typeName="Psychic Power">
               <characteristics>
-                <characteristic name="Warp Charge" typeId="7316cb03-0dac-4de6-ad6f-d4c105ad53f9">6</characteristic>
-                <characteristic name="Range" typeId="179158cf-7aee-45d0-85e6-040c00eabb9a">2D6&quot;</characteristic>
-                <characteristic name="Details" typeId="28e3670e-82c0-443d-97c3-f145e6b8ab6c">Draw a straight line 2D6&quot; long directly away from the psyker. Roll a die for each model the center of the line passes over. On a 4+ that model&apos;s unit suffers a mortal wound.</characteristic>
+                <characteristic name="Warp Charge" typeId="e3afcfeb-c1cd-4a61-a32e-12f36596db53">6</characteristic>
+                <characteristic name="Range" typeId="bed5a1c5-2957-4e3b-a18c-769c85280428">2D6&quot;</characteristic>
+                <characteristic name="Details" typeId="f82f17a8-c139-40cc-88d1-4298bc31f303">Draw a straight line 2D6&quot; long directly away from the psyker. Roll a die for each model the center of the line passes over. On a 4+ that model&apos;s unit suffers a mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="0.0"/>
-            <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="0.0"/>
-            <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
+            <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="b9fc99f1-2eef-49db-85d1-36839d66e678" name="Psychic Barrier" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="8057bd4d-4a5a-4b4f-972c-34f3b70de27b" name="Psychic Barrier" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a0acdfa-8101-4ec9-9213-d10b0bb0c245" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ed45fce-1c60-43d4-bb99-f41f1c6ef3c8" type="max"/>
           </constraints>
           <profiles>
-            <profile id="8ac9f173-068f-42e2-b45c-6f2949cefff8" name="3) Psychic Barrier" hidden="false" typeId="ef1f32c0-aab5-4c41-8df8-d27e5eaf27df" typeName="Psychic Power">
+            <profile id="30cbafed-47c1-435b-b743-c79f9dfc4c52" name="3) Psychic Barrier" hidden="false" typeId="e743f6ce-6ef0-4d8b-a0a2-cf98d6a3150b" typeName="Psychic Power">
               <characteristics>
-                <characteristic name="Warp Charge" typeId="7316cb03-0dac-4de6-ad6f-d4c105ad53f9">6</characteristic>
-                <characteristic name="Range" typeId="179158cf-7aee-45d0-85e6-040c00eabb9a">12&quot;</characteristic>
-                <characteristic name="Details" typeId="28e3670e-82c0-443d-97c3-f145e6b8ab6c">Select a friendly ASTRA MILITARUM unit within 12&quot; of the psyker. Until the start of your next Psychic phase, add 1 to that unit&apos;s saving throws.</characteristic>
+                <characteristic name="Warp Charge" typeId="e3afcfeb-c1cd-4a61-a32e-12f36596db53">6</characteristic>
+                <characteristic name="Range" typeId="bed5a1c5-2957-4e3b-a18c-769c85280428">12&quot;</characteristic>
+                <characteristic name="Details" typeId="f82f17a8-c139-40cc-88d1-4298bc31f303">Select a friendly ASTRA MILITARUM unit within 12&quot; of the psyker. Until the start of your next Psychic phase, add 1 to that unit&apos;s saving throws.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="0.0"/>
-            <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="0.0"/>
-            <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
+            <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="ef276dff-c81d-4b9f-a18e-08e1566571b2" name="Nightshroud" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="fb969b3e-5ebf-4c78-bc74-c81fd16612e2" name="Nightshroud" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e40ec9a-45e4-4cd5-a990-59471953e436" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4b3cf635-faf4-41ef-93dc-1721315d8720" type="max"/>
           </constraints>
           <profiles>
-            <profile id="9efc3459-5784-4387-9a57-6a3ed5f5a1b5" name="4) Nightshroud" hidden="false" typeId="ef1f32c0-aab5-4c41-8df8-d27e5eaf27df" typeName="Psychic Power">
+            <profile id="3ff661b9-efd5-4a82-bb03-5730794a0154" name="4) Nightshroud" hidden="false" typeId="e743f6ce-6ef0-4d8b-a0a2-cf98d6a3150b" typeName="Psychic Power">
               <characteristics>
-                <characteristic name="Warp Charge" typeId="7316cb03-0dac-4de6-ad6f-d4c105ad53f9">6</characteristic>
-                <characteristic name="Range" typeId="179158cf-7aee-45d0-85e6-040c00eabb9a">12&quot;</characteristic>
-                <characteristic name="Details" typeId="28e3670e-82c0-443d-97c3-f145e6b8ab6c">Choose a friendly ASTRA MILITARUM unit within 12&quot; of the psyker. Until the start of your next turn, any enemy unit that targets the chosen unit with a ranged weapon suffers a -1 penalty to its hit rolls.</characteristic>
+                <characteristic name="Warp Charge" typeId="e3afcfeb-c1cd-4a61-a32e-12f36596db53">6</characteristic>
+                <characteristic name="Range" typeId="bed5a1c5-2957-4e3b-a18c-769c85280428">12&quot;</characteristic>
+                <characteristic name="Details" typeId="f82f17a8-c139-40cc-88d1-4298bc31f303">Choose a friendly ASTRA MILITARUM unit within 12&quot; of the psyker. Until the start of your next turn, any enemy unit that targets the chosen unit with a ranged weapon suffers a -1 penalty to its hit rolls.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="0.0"/>
-            <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="0.0"/>
-            <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
+            <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="b213e459-5ff8-4e19-9123-6d66445878f4" name="Mental Fortitude" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="2a4ac3fe-13ac-4a24-b8b7-7b0f43ac30fc" name="Mental Fortitude" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e6b38d4d-7b28-427f-b27e-51e081cf3ea8" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="63759f69-f9b3-4efe-97e6-3b04de8c700f" type="max"/>
           </constraints>
           <profiles>
-            <profile id="2655d632-5b76-4f26-a0df-26efee33d9a6" name="5) Mental Fortitude" hidden="false" typeId="ef1f32c0-aab5-4c41-8df8-d27e5eaf27df" typeName="Psychic Power">
+            <profile id="7196aab0-430e-4c6a-9734-44aabdbda87e" name="5) Mental Fortitude" hidden="false" typeId="e743f6ce-6ef0-4d8b-a0a2-cf98d6a3150b" typeName="Psychic Power">
               <characteristics>
-                <characteristic name="Warp Charge" typeId="7316cb03-0dac-4de6-ad6f-d4c105ad53f9">4</characteristic>
-                <characteristic name="Range" typeId="179158cf-7aee-45d0-85e6-040c00eabb9a">12&quot;</characteristic>
-                <characteristic name="Details" typeId="28e3670e-82c0-443d-97c3-f145e6b8ab6c">Select a friendly ASTRA MILITARUM unit within 12&quot; of the psyker. Until the start of your next Psychic phase, that unit automatically passes Morale tests.</characteristic>
+                <characteristic name="Warp Charge" typeId="e3afcfeb-c1cd-4a61-a32e-12f36596db53">4</characteristic>
+                <characteristic name="Range" typeId="bed5a1c5-2957-4e3b-a18c-769c85280428">12&quot;</characteristic>
+                <characteristic name="Details" typeId="f82f17a8-c139-40cc-88d1-4298bc31f303">Select a friendly ASTRA MILITARUM unit within 12&quot; of the psyker. Until the start of your next Psychic phase, that unit automatically passes Morale tests.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="0.0"/>
-            <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="0.0"/>
-            <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
+            <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="60226a96-b74b-47eb-9b60-b271aed787b1" name="Psychic Maelstrom" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="73a0cc50-d078-40d4-be95-32787f72eddb" name="Psychic Maelstrom" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f5c18d2c-90f2-4015-8622-9a46be3dff0d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d27e814-1123-4eb4-ba68-16f1658058d9" type="max"/>
           </constraints>
           <profiles>
-            <profile id="0c8a4276-499e-4375-ab25-19c35cb92fe6" name="6) Psychic Maelstrom" hidden="false" typeId="ef1f32c0-aab5-4c41-8df8-d27e5eaf27df" typeName="Psychic Power">
+            <profile id="ba33b575-9df3-430b-917b-ee21768c1b22" name="6) Psychic Maelstrom" hidden="false" typeId="e743f6ce-6ef0-4d8b-a0a2-cf98d6a3150b" typeName="Psychic Power">
               <characteristics>
-                <characteristic name="Warp Charge" typeId="7316cb03-0dac-4de6-ad6f-d4c105ad53f9">7</characteristic>
-                <characteristic name="Range" typeId="179158cf-7aee-45d0-85e6-040c00eabb9a">18&quot;</characteristic>
-                <characteristic name="Details" typeId="28e3670e-82c0-443d-97c3-f145e6b8ab6c">Select an enemy unit within 18&quot; of the psyker. Roll a D6. On a 2+, that unit suffers a mortal wound. Unless this mortal wound is negated, you can ten roll another die. On a 3+ that enemy unit suffers another mortal wound. Continue this process, adding 1 to the die roll required each time (so the next roll would need a 4+, than 5+, etc.) until you fail to cause a mortal wound, or the enemy unit is destroyed.</characteristic>
+                <characteristic name="Warp Charge" typeId="e3afcfeb-c1cd-4a61-a32e-12f36596db53">7</characteristic>
+                <characteristic name="Range" typeId="bed5a1c5-2957-4e3b-a18c-769c85280428">18&quot;</characteristic>
+                <characteristic name="Details" typeId="f82f17a8-c139-40cc-88d1-4298bc31f303">Select an enemy unit within 18&quot; of the psyker. Roll a D6. On a 2+, that unit suffers a mortal wound. Unless this mortal wound is negated, you can ten roll another die. On a 3+ that enemy unit suffers another mortal wound. Continue this process, adding 1 to the die roll required each time (so the next roll would need a 4+, than 5+, etc.) until you fail to cause a mortal wound, or the enemy unit is destroyed.</characteristic>
               </characteristics>
             </profile>
           </profiles>
           <costs>
-            <cost name=" PL" typeId="49c73212-c956-4bb7-83b3-c17a8a976b95" value="0.0"/>
-            <cost name="pts" typeId="2605c820-4f0f-4cfe-9895-e75c63b738ca" value="0.0"/>
-            <cost name="CP" typeId="9442e5fe-e1a9-4e3d-bbeb-599f65a0fab7" value="0.0"/>
+            <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedProfiles>
-    <profile id="35493629-324d-4a59-bec0-da379409e26d" name="Wyrdvane Psyker" publicationId="1d46d683-9b6b-426b-93ec-5d68a621f775" page="42" hidden="false" typeId="2389a9c7-564a-45bc-bafa-44a5457c00e4" typeName="Unit">
+    <profile id="79b31820-567a-4973-ad05-37a8ae5afc63" name="Wyrdvane Psyker" publicationId="abd3cfdc-d94b-4506-a630-146040788df5" page="42" hidden="false" typeId="96633e23-5f89-47ac-862a-ea3f419e82ad" typeName="Unit">
       <characteristics>
-        <characteristic name="M" typeId="dfaf03e2-db64-4777-8c6e-35874a70ac6d"/>
-        <characteristic name="WS" typeId="752c83e3-cd1b-4290-89a8-7dd17f6f0771">2</characteristic>
-        <characteristic name="BS" typeId="e743642d-b603-4dc4-84c1-1356c804e280">3</characteristic>
-        <characteristic name="S" typeId="4b473f0c-e75b-4457-b69d-b822efa75d18">2</characteristic>
-        <characteristic name="T" typeId="68a4b50d-30fd-47b4-a0b9-b4150497ed5d">3</characteristic>
-        <characteristic name="W" typeId="e6272de1-50f4-4d6b-9449-e0892f0b5b07">1</characteristic>
-        <characteristic name="A" typeId="bcf73df5-3507-4e6f-951a-334d957e95f2">1</characteristic>
-        <characteristic name="Ld" typeId="71504bf9-7075-47fe-a797-f8ddc54346fd">8</characteristic>
-        <characteristic name="Save" typeId="de720430-a706-464b-9969-4e45fe254916">5+</characteristic>
+        <characteristic name="M" typeId="29908c04-cacb-4ff6-80a3-f7ac34f9b320"/>
+        <characteristic name="WS" typeId="b0f83996-9c8e-42bb-80ae-6183503a8687">2</characteristic>
+        <characteristic name="BS" typeId="fcd83b9f-a688-4fd1-88ed-5cf248c9ecdd">3</characteristic>
+        <characteristic name="S" typeId="cba76dde-3857-489e-a3cb-f1c82182901c">2</characteristic>
+        <characteristic name="T" typeId="082cd324-3c32-4cf7-8a77-34c5ff973db1">3</characteristic>
+        <characteristic name="W" typeId="f5983de7-8c32-4395-a17c-18fc765ec74a">1</characteristic>
+        <characteristic name="A" typeId="40b1852f-baa7-49a7-9e04-0d0cea23edea">1</characteristic>
+        <characteristic name="Ld" typeId="1bb39308-fe32-4190-9336-713b6293a715">8</characteristic>
+        <characteristic name="Save" typeId="c4f7addd-d978-4a27-b039-8e4a15fa6bda">5+</characteristic>
       </characteristics>
     </profile>
-    <profile id="0f6fbb91-acd4-40fd-8a3f-c7e83123eb55" name="Primaris Psyker" hidden="false" typeId="2389a9c7-564a-45bc-bafa-44a5457c00e4" typeName="Unit">
+    <profile id="46583e8f-86f7-4e10-b103-182aaf78fc13" name="Primaris Psyker" hidden="false" typeId="96633e23-5f89-47ac-862a-ea3f419e82ad" typeName="Unit">
       <characteristics>
-        <characteristic name="M" typeId="dfaf03e2-db64-4777-8c6e-35874a70ac6d"/>
-        <characteristic name="WS" typeId="752c83e3-cd1b-4290-89a8-7dd17f6f0771">4</characteristic>
-        <characteristic name="BS" typeId="e743642d-b603-4dc4-84c1-1356c804e280">4</characteristic>
-        <characteristic name="S" typeId="4b473f0c-e75b-4457-b69d-b822efa75d18">3</characteristic>
-        <characteristic name="T" typeId="68a4b50d-30fd-47b4-a0b9-b4150497ed5d">3</characteristic>
-        <characteristic name="W" typeId="e6272de1-50f4-4d6b-9449-e0892f0b5b07">2</characteristic>
-        <characteristic name="A" typeId="bcf73df5-3507-4e6f-951a-334d957e95f2">2</characteristic>
-        <characteristic name="Ld" typeId="71504bf9-7075-47fe-a797-f8ddc54346fd">9</characteristic>
-        <characteristic name="Save" typeId="de720430-a706-464b-9969-4e45fe254916">5+</characteristic>
+        <characteristic name="M" typeId="29908c04-cacb-4ff6-80a3-f7ac34f9b320"/>
+        <characteristic name="WS" typeId="b0f83996-9c8e-42bb-80ae-6183503a8687">4</characteristic>
+        <characteristic name="BS" typeId="fcd83b9f-a688-4fd1-88ed-5cf248c9ecdd">4</characteristic>
+        <characteristic name="S" typeId="cba76dde-3857-489e-a3cb-f1c82182901c">3</characteristic>
+        <characteristic name="T" typeId="082cd324-3c32-4cf7-8a77-34c5ff973db1">3</characteristic>
+        <characteristic name="W" typeId="f5983de7-8c32-4395-a17c-18fc765ec74a">2</characteristic>
+        <characteristic name="A" typeId="40b1852f-baa7-49a7-9e04-0d0cea23edea">2</characteristic>
+        <characteristic name="Ld" typeId="1bb39308-fe32-4190-9336-713b6293a715">9</characteristic>
+        <characteristic name="Save" typeId="c4f7addd-d978-4a27-b039-8e4a15fa6bda">5+</characteristic>
       </characteristics>
     </profile>
-    <profile id="e03124f0-e2f9-42f0-8a4a-095e3df93f7d" name="Astropath" publicationId="1d46d683-9b6b-426b-93ec-5d68a621f775" page="31" hidden="false" typeId="2389a9c7-564a-45bc-bafa-44a5457c00e4" typeName="Unit">
+    <profile id="fd5183e6-64d4-49d9-9cb0-3b4acf83499e" name="Astropath" publicationId="abd3cfdc-d94b-4506-a630-146040788df5" page="31" hidden="false" typeId="96633e23-5f89-47ac-862a-ea3f419e82ad" typeName="Unit">
       <characteristics>
-        <characteristic name="M" typeId="dfaf03e2-db64-4777-8c6e-35874a70ac6d">6&quot;</characteristic>
-        <characteristic name="WS" typeId="752c83e3-cd1b-4290-89a8-7dd17f6f0771">5+</characteristic>
-        <characteristic name="BS" typeId="e743642d-b603-4dc4-84c1-1356c804e280">6+</characteristic>
-        <characteristic name="S" typeId="4b473f0c-e75b-4457-b69d-b822efa75d18">3</characteristic>
-        <characteristic name="T" typeId="68a4b50d-30fd-47b4-a0b9-b4150497ed5d">3</characteristic>
-        <characteristic name="W" typeId="e6272de1-50f4-4d6b-9449-e0892f0b5b07">3</characteristic>
-        <characteristic name="A" typeId="bcf73df5-3507-4e6f-951a-334d957e95f2">1</characteristic>
-        <characteristic name="Ld" typeId="71504bf9-7075-47fe-a797-f8ddc54346fd">6</characteristic>
-        <characteristic name="Save" typeId="de720430-a706-464b-9969-4e45fe254916">6+</characteristic>
+        <characteristic name="M" typeId="29908c04-cacb-4ff6-80a3-f7ac34f9b320">6&quot;</characteristic>
+        <characteristic name="WS" typeId="b0f83996-9c8e-42bb-80ae-6183503a8687">5+</characteristic>
+        <characteristic name="BS" typeId="fcd83b9f-a688-4fd1-88ed-5cf248c9ecdd">6+</characteristic>
+        <characteristic name="S" typeId="cba76dde-3857-489e-a3cb-f1c82182901c">3</characteristic>
+        <characteristic name="T" typeId="082cd324-3c32-4cf7-8a77-34c5ff973db1">3</characteristic>
+        <characteristic name="W" typeId="f5983de7-8c32-4395-a17c-18fc765ec74a">3</characteristic>
+        <characteristic name="A" typeId="40b1852f-baa7-49a7-9e04-0d0cea23edea">1</characteristic>
+        <characteristic name="Ld" typeId="1bb39308-fe32-4190-9336-713b6293a715">6</characteristic>
+        <characteristic name="Save" typeId="c4f7addd-d978-4a27-b039-8e4a15fa6bda">6+</characteristic>
       </characteristics>
     </profile>
-    <profile id="ab6dc958-5bbf-4205-b38a-575ca239c98e" name="It&apos;s for Your Own Good" hidden="false" typeId="6a77fd08-33e0-4a84-a26a-9c819f5ffbb5" typeName="Abilities">
+    <profile id="f93429c9-4325-4c86-a4bc-cf16fb3079ff" name="It&apos;s for Your Own Good" hidden="false" typeId="d8b7eb23-4e11-4efa-90fb-b26e0ab318fa" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="00250bb0-92ce-4d01-a8c7-8706e5a818c2">If this model is slain as a result of Perils of the Warp whilst within 6&quot; of a friendly COMMISSAR, they are executed before anything untoward can happen - the power they are attempting still fails, but units within 6&quot; of them do not suffer D3 mortal wounds as normal.</characteristic>
+        <characteristic name="Description" typeId="19f8973f-c187-4eef-9206-9c8057c78779">If this model is slain as a result of Perils of the Warp whilst within 6&quot; of a friendly COMMISSAR, they are executed before anything untoward can happen - the power they are attempting still fails, but units within 6&quot; of them do not suffer D3 mortal wounds as normal.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
   <catalogueLinks>
-    <catalogueLink id="9537d54d-e76f-48a2-80e3-100be1ab1196" name="Imperium - Officio Assassinorum" targetId="48330394-56a8-46de-b8b0-3b9699465351" type="catalogue" importRootEntries="false"/>
-    <catalogueLink id="1a737155-81b5-4dd9-8bd9-5db8bbf7deda" name="Imperium - Astra Militarum" targetId="2a49ded5-c0a0-4e30-9d21-8696087298ed" type="catalogue" importRootEntries="false"/>
+    <catalogueLink id="4cebae50-6a3c-4095-b0c0-ed1cefc3f4b3" name="Imperium - Officio Assassinorum" targetId="f12414ae-371a-4ecf-826e-f5b71d98efe3" type="catalogue" importRootEntries="false"/>
+    <catalogueLink id="7667e52b-8bb6-44a4-ac28-238902fcaec8" name="Imperium - Astra Militarum" targetId="6de19b44-1756-4d30-a42c-a293a4b24809" type="catalogue" importRootEntries="false"/>
   </catalogueLinks>
 </catalogue>
