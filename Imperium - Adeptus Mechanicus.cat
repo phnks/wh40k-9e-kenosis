@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b20f3d1a-ca3b-4580-8a8b-f595b3877883" name="Imperium - Adeptus Mechanicus" revision="204" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Thairne" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="11f72b7f-57c7-49ff-a1aa-649e95da9c5f" gameSystemRevision="251" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b20f3d1a-ca3b-4580-8a8b-f595b3877883" name="Imperium - Adeptus Mechanicus" revision="205" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Thairne" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="11f72b7f-57c7-49ff-a1aa-649e95da9c5f" gameSystemRevision="251" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="629ea54e-0a94-4d10-887c-342cb4a4c74f" name="Codex: Adeptus Mechanicus"/>
     <publication id="73a8ad3c-941b-42eb-b1c9-6f2165c511fb" name="Forgeworld Datasheet"/>
@@ -531,6 +531,19 @@
     </entryLink>
     <entryLink id="15b473cd-c62b-482e-987b-4fb4c8b1a553" name="Unit Filter" hidden="false" collective="false" import="true" targetId="ab313c39-91fb-4735-b9e9-0ec426f12deb" type="selectionEntry"/>
     <entryLink id="29c7c1c7-3e24-4e14-aec2-be6169cda309" name="Army of Renown - Skitarii Veteran Cohort" hidden="false" collective="false" import="true" targetId="97f4490f-562b-4534-b10e-f7361f073f40" type="selectionEntry"/>
+    <entryLink id="197e-2106-9d72-6752" name="Castellax Battle-Automata Maniple" hidden="false" collective="false" import="true" targetId="cebe-cf7c-5527-1584" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d5392f10-7ca4-4113-a37b-5aa147694ffa" type="atLeast"/>
+          </conditions>
+          <modifiers>
+            <modifier type="add" field="category" value="68a3e97f-b471-4ada-a5b9-f7b944b72585"/>
+            <modifier type="add" field="category" value="66e6a875-b5a8-4d88-8334-58d741adac24"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+    </entryLink>
   </entryLinks>
   <infoLinks>
     <infoLink id="af16a972-87ee-4d00-977b-d4f01c9f32bf" name="Extremis Sentinel Protocols" hidden="false" targetId="aeb1df7d-9252-4c1a-992e-74c7b7ee778e" type="rule"/>
