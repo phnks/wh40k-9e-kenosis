@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b20f3d1a-ca3b-4580-8a8b-f595b3877883" name="Imperium - Adeptus Mechanicus" revision="205" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Thairne" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="11f72b7f-57c7-49ff-a1aa-649e95da9c5f" gameSystemRevision="251" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b20f3d1a-ca3b-4580-8a8b-f595b3877883" name="Imperium - Adeptus Mechanicus" revision="206" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Thairne" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="11f72b7f-57c7-49ff-a1aa-649e95da9c5f" gameSystemRevision="251" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="629ea54e-0a94-4d10-887c-342cb4a4c74f" name="Codex: Adeptus Mechanicus"/>
     <publication id="73a8ad3c-941b-42eb-b1c9-6f2165c511fb" name="Forgeworld Datasheet"/>
@@ -8764,7 +8764,7 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
         <categoryLink id="d7cb-bb08-05e6-fa2c" name="Faction: Adeptus Mechanicus" hidden="false" targetId="21d39ca6-86bd-4887-a4bf-0cb407d0d02f" primary="false"/>
         <categoryLink id="b77d-730f-e7b1-6957" name="Faction: Cult Mechanicus" hidden="false" targetId="47b9cdb9-28fa-4325-afc0-f59fd846c131" primary="false"/>
         <categoryLink id="96aa-0266-65c2-ea96" name="Faction: Imperium" hidden="false" targetId="99357296-820b-46e3-8395-77961c0d8302" primary="false"/>
-        <categoryLink id="1010-08e6-e807-e392" name="Troops" hidden="false" targetId="5176c51e-8715-41ae-976c-bdfce2a3272e" primary="false"/>
+        <categoryLink id="1010-08e6-e807-e392" name="Troops" hidden="false" targetId="5176c51e-8715-41ae-976c-bdfce2a3272e" primary="true"/>
         <categoryLink id="cc13-d3c8-83f9-1094" name="Monster" hidden="false" targetId="4bc9db4c-04fb-47c9-b63d-9c466d55a92f" primary="false"/>
       </categoryLinks>
       <selectionEntries>
@@ -8789,7 +8789,7 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
             </profile>
           </profiles>
           <selectionEntryGroups>
-            <selectionEntryGroup id="1826-e423-a1ad-2fb8" name="A) May Exchange Main Weapon for:" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="1826-e423-a1ad-2fb8" name="A) May Exchange Main Weapon for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="9b89-f21d-dd27-cf7d">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fdb5-7a23-ba8c-b756" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8bf9-ad32-7fbb-2c74" type="max"/>
@@ -8800,16 +8800,26 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
                     <cost name="pts" typeId="points" value="20.0"/>
                   </costs>
                 </entryLink>
+                <entryLink id="9b89-f21d-dd27-cf7d" name="Mauler Bolt Cannon" hidden="false" collective="false" import="true" targetId="9106-8b91-2699-098f" type="selectionEntry"/>
+                <entryLink id="4135-14be-20c3-6a72" name="Multi-Melta" hidden="false" collective="false" import="true" targetId="15b5-15cc-730d-6642" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="points" value="20.0"/>
+                  </costs>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
             <cost name="pts" typeId="points" value="85.0"/>
+            <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
+            <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="10.0"/>
+        <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
+        <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c869-d5ff-d9cd-7239" name="Darkfire Cannon" hidden="false" collective="false" import="true" type="upgrade">
@@ -8828,6 +8838,47 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
       <infoLinks>
         <infoLink id="f447-df35-8661-8b96" name="Lance" hidden="false" targetId="db92-b51b-f7f8-6ef4" type="rule"/>
         <infoLink id="8c50-db62-1208-8cf0" name="Gets Hot" hidden="false" targetId="bd79-a6dc-fb21-13c5" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9106-8b91-2699-098f" name="Mauler Bolt Cannon" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="f254-e1dd-4ab9-6e3b" name="Mauler Bolt Cannon" hidden="false" typeId="327087aa-3bc6-45db-8bef-b83aa26d2c80" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c297eb44-1f5e-4c56-a0d6-488c32aecd66">24&quot;</characteristic>
+            <characteristic name="Type" typeId="e472d41f-d999-422d-b009-03cd0c3a9e6f">Heavy 4</characteristic>
+            <characteristic name="S" typeId="31bb5033-ac6f-4fb2-9fa9-dd4922faa0f8">6</characteristic>
+            <characteristic name="AP" typeId="1962f9e8-72aa-4bd7-9e42-09a7bd95eccf">-2</characteristic>
+            <characteristic name="D" typeId="8fe73330-1760-49d0-bf9d-cabcfdb9ba3d">1</characteristic>
+            <characteristic name="Abilities" typeId="67e4860e-b1fe-4e2a-9386-7b0a64e10037"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="15b5-15cc-730d-6642" name="Multi-Melta" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="316b-7702-5eb1-ff75" name="Multi-Melta" hidden="false" typeId="327087aa-3bc6-45db-8bef-b83aa26d2c80" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c297eb44-1f5e-4c56-a0d6-488c32aecd66">24&quot;</characteristic>
+            <characteristic name="Type" typeId="e472d41f-d999-422d-b009-03cd0c3a9e6f">Heavy 1</characteristic>
+            <characteristic name="S" typeId="31bb5033-ac6f-4fb2-9fa9-dd4922faa0f8">8</characteristic>
+            <characteristic name="AP" typeId="1962f9e8-72aa-4bd7-9e42-09a7bd95eccf">-5</characteristic>
+            <characteristic name="D" typeId="8fe73330-1760-49d0-bf9d-cabcfdb9ba3d">D6</characteristic>
+            <characteristic name="Abilities" typeId="67e4860e-b1fe-4e2a-9386-7b0a64e10037">Armourbane (Melta), Twin-linked</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="cbc4-a980-5083-5c24" name="Armourbane (X)" hidden="false" targetId="3ced-a19d-e283-db66" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Armourbane (Melta)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="0c8d-f81e-64ba-3150" name="Twin-linked" hidden="false" targetId="5e33-9350-e714-c105" type="rule"/>
       </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -9750,6 +9801,26 @@ Weapons that do not roll To Hit (such as Blast weapons) must roll a D6 for each 
 
 Gets Hot and Re-rolls
 If a model has the ability to re-roll its rolls To Hit (including because of BS 6+ or the Twin-linked special rule), a Wound is only suffered if the To Hit re-roll is a 1; it may also re-roll Gets Hot results of 1 for weapons that do not roll To Hit.</description>
+    </rule>
+    <rule id="3ced-a19d-e283-db66" name="Armourbane (X)" hidden="false">
+      <description>If a model or weapon has this special rule, it rolls an additional D6 for armour penetration when targeting a Vehicle model, or, when targeting a model with the Automata or Dreadnought Unit Type, re-rolls all failed rolls To Wound instead. These effects apply to both Shooting Attacks and close combat attacks.
+
+Some instances of the Armourbane special rule may include a qualifier after the rule in brackets, for example Armourbane (Melta) or Armourbane (Melee). These variant rules are described below:
+
+Armourbane (Melta): A model or weapon with this Armourbane special rule only gains the benefits of the Armourbane special rule when at half range or less. If the attack is more than half its Maximum Range away, it rolls to penetrate as normal. If a weapon with this version of Armourbane also has the Blast special rule (see page 234), measure the distance to the centre of the Blast marker after it has scattered. If this is half the weapon’s range or less, then all Hits are counted as having the Armourbane special rule, otherwise the Hits are resolved as if they did not have the Armourbane special rule.
+
+Armourbane (Melee): A weapon or model with this version of the Armourbane special rule only gains the benefits of the Armourbane special rule when attacking in close combat.
+
+Armourbane (Ranged): A weapon or model with this version of the Armourbane special rule only gains the benefits of the Armourbane special rule when making Shooting Attacks.</description>
+    </rule>
+    <rule id="5e33-9350-e714-c105" name="Twin-linked" hidden="false">
+      <description>When attacking with a weapon that has this special rule, the controlling player may re-roll all failed To Hit rolls.
+
+Twin-linked Blast Weapons
+If the Scatter dice does not roll a Hit, you can choose to re-roll the dice when making a Shooting Attack with a Twin-linked Blast weapon. If you choose to do so, you must re-roll both the 2D6 and the Scatter dice.
+
+Twin-linked Template Weapons
+Twin-linked Template weapons are fired just like a single weapon, but must re-roll failed To Wound rolls and Armour Penetration rolls.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
