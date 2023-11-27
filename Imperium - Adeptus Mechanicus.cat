@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b20f3d1a-ca3b-4580-8a8b-f595b3877883" name="Imperium - Adeptus Mechanicus" revision="206" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Thairne" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="11f72b7f-57c7-49ff-a1aa-649e95da9c5f" gameSystemRevision="251" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b20f3d1a-ca3b-4580-8a8b-f595b3877883" name="Imperium - Adeptus Mechanicus" revision="207" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Thairne" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="11f72b7f-57c7-49ff-a1aa-649e95da9c5f" gameSystemRevision="251" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="629ea54e-0a94-4d10-887c-342cb4a4c74f" name="Codex: Adeptus Mechanicus"/>
     <publication id="73a8ad3c-941b-42eb-b1c9-6f2165c511fb" name="Forgeworld Datasheet"/>
@@ -8808,6 +8808,56 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
+            <selectionEntryGroup id="6fcf-8eef-31c7-7513" name="B) May Exchange both Melee Weapons for:" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32a2-6e2e-a171-a293" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac73-e792-4e90-fd0b" type="min"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="8599-306c-c937-c127" name="Two Power Blade Arrays*" hidden="false" collective="false" import="true" type="upgrade">
+                  <entryLinks>
+                    <entryLink id="9420-f3cb-a195-b964" name="Power Blade Array" hidden="false" collective="false" import="true" targetId="bcd7-541f-8525-7f0e" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9503-a75e-c176-79c7" type="min"/>
+                        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9f22-e1ea-c4f0-cc3e" type="max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="5.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="fc80-e711-36ea-e246" name="Siege Wrecker &amp; Shock Charger" hidden="false" collective="false" import="true" type="upgrade">
+                  <entryLinks>
+                    <entryLink id="41eb-fb42-b7b0-5dc5" name="Shock Charger" hidden="false" collective="false" import="true" targetId="f41b-5e37-fd0a-6ee5" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6bf2-c13f-318d-637d" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9900-aa7d-89d4-64d3" type="max"/>
+                      </constraints>
+                    </entryLink>
+                    <entryLink id="fc27-bb5c-c7f7-e285" name="Siege Wrecker" hidden="false" collective="false" import="true" targetId="92a9-5cb1-032f-30d1" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dada-54c8-a50e-fba1" type="min"/>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="92c2-39a5-a4de-109d" type="max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="15.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="8a09-12eb-33c1-d00d" name="Two Shock Chargers*" hidden="false" collective="false" import="true" type="upgrade">
+                  <entryLinks>
+                    <entryLink id="99dc-89fa-ff9e-02a3" name="Shock Charger" hidden="false" collective="false" import="true" targetId="f41b-5e37-fd0a-6ee5" type="selectionEntry">
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e8b-aeed-868e-e3a9" type="min"/>
+                        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee93-157a-d8c1-2bd6" type="max"/>
+                      </constraints>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
             <cost name="pts" typeId="points" value="85.0"/>
@@ -8879,6 +8929,60 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
           </modifiers>
         </infoLink>
         <infoLink id="0c8d-f81e-64ba-3150" name="Twin-linked" hidden="false" targetId="5e33-9350-e714-c105" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="bcd7-541f-8525-7f0e" name="Power Blade Array" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="24d0-fea9-a383-e396" name="Power Blade Array" hidden="false" typeId="327087aa-3bc6-45db-8bef-b83aa26d2c80" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c297eb44-1f5e-4c56-a0d6-488c32aecd66">Melee</characteristic>
+            <characteristic name="Type" typeId="e472d41f-d999-422d-b009-03cd0c3a9e6f">Melee</characteristic>
+            <characteristic name="S" typeId="31bb5033-ac6f-4fb2-9fa9-dd4922faa0f8">User</characteristic>
+            <characteristic name="AP" typeId="1962f9e8-72aa-4bd7-9e42-09a7bd95eccf">-2</characteristic>
+            <characteristic name="D" typeId="8fe73330-1760-49d0-bf9d-cabcfdb9ba3d">3</characteristic>
+            <characteristic name="Abilities" typeId="67e4860e-b1fe-4e2a-9386-7b0a64e10037">Breaching (5+)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="1ce2-c0c4-bdcd-8916" name="Breaching (X)" hidden="false" targetId="9e70-8e1a-b6ec-f03e" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Breaching (5+)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="f41b-5e37-fd0a-6ee5" name="Shock Charger" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="b390-e914-00a1-920c" name="Shock Charger" hidden="false" typeId="327087aa-3bc6-45db-8bef-b83aa26d2c80" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c297eb44-1f5e-4c56-a0d6-488c32aecd66">Melee</characteristic>
+            <characteristic name="Type" typeId="e472d41f-d999-422d-b009-03cd0c3a9e6f">Melee</characteristic>
+            <characteristic name="S" typeId="31bb5033-ac6f-4fb2-9fa9-dd4922faa0f8">User</characteristic>
+            <characteristic name="AP" typeId="1962f9e8-72aa-4bd7-9e42-09a7bd95eccf">-3</characteristic>
+            <characteristic name="D" typeId="8fe73330-1760-49d0-bf9d-cabcfdb9ba3d">1</characteristic>
+            <characteristic name="Abilities" typeId="67e4860e-b1fe-4e2a-9386-7b0a64e10037"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="92a9-5cb1-032f-30d1" name="Siege Wrecker" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="bfd8-9253-e58f-00ab" name="Siege Wrecker" hidden="false" typeId="327087aa-3bc6-45db-8bef-b83aa26d2c80" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c297eb44-1f5e-4c56-a0d6-488c32aecd66">Melee</characteristic>
+            <characteristic name="Type" typeId="e472d41f-d999-422d-b009-03cd0c3a9e6f">Melee</characteristic>
+            <characteristic name="S" typeId="31bb5033-ac6f-4fb2-9fa9-dd4922faa0f8">10</characteristic>
+            <characteristic name="AP" typeId="1962f9e8-72aa-4bd7-9e42-09a7bd95eccf">-4</characteristic>
+            <characteristic name="D" typeId="8fe73330-1760-49d0-bf9d-cabcfdb9ba3d">D6</characteristic>
+            <characteristic name="Abilities" typeId="67e4860e-b1fe-4e2a-9386-7b0a64e10037">Sunder, Wrecker, Specialist Weapon</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9cec-b2ae-0a6a-e1ac" name="Sunder" hidden="false" targetId="8b97-b64a-2b22-0dc7" type="rule"/>
+        <infoLink id="11f7-c1c7-708f-dd98" name="Wrecker" hidden="false" targetId="1458-119b-7457-3884" type="rule"/>
+        <infoLink id="5123-438b-fcc1-62da" name="Specialist Weapon" hidden="false" targetId="4635-5e1c-f94f-ad69" type="rule"/>
       </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -9821,6 +9925,20 @@ If the Scatter dice does not roll a Hit, you can choose to re-roll the dice when
 
 Twin-linked Template Weapons
 Twin-linked Template weapons are fired just like a single weapon, but must re-roll failed To Wound rolls and Armour Penetration rolls.</description>
+    </rule>
+    <rule id="9e70-8e1a-b6ec-f03e" name="Breaching (X)" hidden="false">
+      <description>When rolling To Wound for a model that has the Breaching (X) special rule, or is attacking with a weapon that has the Breaching (X) special rule, for each To Wound roll equal to or higher than the value listed in brackets, the controlling player must resolve these wounds at AP 2 instead of the weapon’s normal AP value. This rule has no effect on models that do not have Wounds, such as models with the Vehicle Unit Type.
+
+For example, a model with the Breaching (5+) special rule that rolls To Wound and rolls a result of ‘5’ or higher, the Wound inflicted gains an AP of ‘2’ regardless of the AP value listed on the weapon’s profile. Note that a weapon that has both the Breaching (X) and the Gets Hot special rules always uses the base AP of the weapon when rolls of ‘1’ To Hit inflict Wounds on the attacking model.</description>
+    </rule>
+    <rule id="8b97-b64a-2b22-0dc7" name="Sunder" hidden="false">
+      <description>Attacks with this special rule may re-roll failed Armour Penetration rolls against Vehicles and Buildings (both with Shooting Attacks and in close combat) and re-roll Glancing Hits, in an attempt to instead get a Penetrating Hit, but the second result must be kept.</description>
+    </rule>
+    <rule id="1458-119b-7457-3884" name="Wrecker" hidden="false">
+      <description>Penetrating Hits caused by attacks made with weapons or models with this special rule add +1 to the result of any rolls on the Vehicle or Building Damage tables.</description>
+    </rule>
+    <rule id="4635-5e1c-f94f-ad69" name="Specialist Weapon" hidden="false">
+      <description>A model fighting with this weapon does not receive +1 Attack for fighting with two weapons unless it is armed with two or more Melee weapons with the Specialist Weapon rule. The additional weapon does not have to be the same weapon as the one used to attack, but it must have the Specialist Weapon rule in order to grant an additional Attack for fighting with two weapons.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
