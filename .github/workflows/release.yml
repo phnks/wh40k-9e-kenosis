@@ -1,39 +1,26 @@
 name: release
-
 on:
   push:
     branches:
       - master
-
 jobs:
   publish:
     permissions: write-all
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: Read current version
-        id: read_version
-        run: echo "::set-output name=version::$(cat VERSION)"
-
-      - name: Increment version
-        id: increment_version
-        run: echo "::set-output name=version::$(echo "${{ steps.read_version.outputs.version }}" | awk -F. '{$NF+=1; OFS="."; print $0}' > VERSION)"
-
       - name: Create a release
         uses: actions/github-script@v6
+        id: create_release
         with:
           github-token: ${{ secrets.PAT }}
           script: |
             const { data: release } = await github.rest.repos.createRelease({
               owner: 'phnks',
               repo: 'wh40k-kenosis',
-              tag_name: 'v${{ steps.increment_version.outputs.version }}',
+              tag_name: 'v${{ github.run_id }}',
               name: 'Latest Release',
               body: ''
-            });
-            core.setOutput('tag_name', release.tag_name);
-            core.setOutput('name', release.name);
-            core.setOutput('html_url', release.html_url);
+            })
+            core.setOutput('tag_name', release.tag_name)
+            core.setOutput('name', release.name)
+            core.setOutput('html_url', release.html_url)
