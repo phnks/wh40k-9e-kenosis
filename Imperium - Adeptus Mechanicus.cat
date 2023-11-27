@@ -8808,7 +8808,7 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
-            <selectionEntryGroup id="6fcf-8eef-31c7-7513" name="B) May Exchange both Melee Weapons for:" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="6fcf-8eef-31c7-7513" name="B) May Exchange both Melee Weapons for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="8a09-12eb-33c1-d00d">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="32a2-6e2e-a171-a293" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac73-e792-4e90-fd0b" type="min"/>
