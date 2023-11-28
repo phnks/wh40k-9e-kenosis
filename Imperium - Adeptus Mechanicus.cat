@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b20f3d1a-ca3b-4580-8a8b-f595b3877883" name="Imperium - Adeptus Mechanicus" revision="207" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Thairne" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="11f72b7f-57c7-49ff-a1aa-649e95da9c5f" gameSystemRevision="251" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b20f3d1a-ca3b-4580-8a8b-f595b3877883" name="Imperium - Adeptus Mechanicus" revision="208" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Thairne" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="11f72b7f-57c7-49ff-a1aa-649e95da9c5f" gameSystemRevision="252" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="629ea54e-0a94-4d10-887c-342cb4a4c74f" name="Codex: Adeptus Mechanicus"/>
     <publication id="73a8ad3c-941b-42eb-b1c9-6f2165c511fb" name="Forgeworld Datasheet"/>
@@ -8825,6 +8825,8 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
                   </entryLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="5.0"/>
+                    <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
+                    <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="fc80-e711-36ea-e246" name="Siege Wrecker &amp; Shock Charger" hidden="false" collective="false" import="true" type="upgrade">
@@ -8844,6 +8846,8 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
                   </entryLinks>
                   <costs>
                     <cost name="pts" typeId="points" value="15.0"/>
+                    <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
+                    <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
                   </costs>
                 </selectionEntry>
                 <selectionEntry id="8a09-12eb-33c1-d00d" name="Two Shock Chargers*" hidden="false" collective="false" import="true" type="upgrade">
@@ -8855,10 +8859,64 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
                       </constraints>
                     </entryLink>
                   </entryLinks>
+                  <costs>
+                    <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
+            <selectionEntryGroup id="fff4-cf93-f9bd-a92f" name="C) Shock Charger / Power Blades may Exchange In-Built Bolter for:" hidden="false" collective="false" import="true">
+              <modifiers>
+                <modifier type="decrement" field="943c-52a8-06ba-9e54" value="1.0"/>
+                <modifier type="increment" field="a7e2-6d2b-952c-b4fc" value="1.0">
+                  <repeats>
+                    <repeat field="selections" scope="fd5b-bfe5-5578-8aaf" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8a09-12eb-33c1-d00d" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="fd5b-bfe5-5578-8aaf" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8599-306c-c937-c127" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+                <modifier type="increment" field="943c-52a8-06ba-9e54" value="1.0">
+                  <repeats>
+                    <repeat field="selections" scope="fd5b-bfe5-5578-8aaf" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8a09-12eb-33c1-d00d" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="fd5b-bfe5-5578-8aaf" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8599-306c-c937-c127" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7e2-6d2b-952c-b4fc" type="max"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="943c-52a8-06ba-9e54" type="min"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="828e-2d90-479e-e7bd" name="Boltgun" hidden="false" collective="false" import="true" targetId="b0d4efa5-e1b6-4e5b-b48a-6a3ca5ecf6af" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="In-Built Bolter"/>
+                  </modifiers>
+                </entryLink>
+                <entryLink id="5ac7-d48e-4447-b0b8" name="Flamer" hidden="false" collective="false" import="true" targetId="2ac9-3e33-d723-d7da" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="In-Built Flamer"/>
+                  </modifiers>
+                  <costs>
+                    <cost name="pts" typeId="points" value="5.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="0263-a58f-c638-b3b9" name="Maxima Bolter" hidden="false" collective="false" import="true" targetId="d337-6e1a-666d-387d" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="name" value="In-Built Maxima Bolter"/>
+                  </modifiers>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
           </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="576f-721b-fe87-dc96" name="Atomantic Deflector" hidden="false" collective="false" import="true" targetId="49cf-b8d9-0797-09ca" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc03-5a1d-65c9-79af" type="min"/>
+                <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fae8-7bd8-43d8-a2ad" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="85.0"/>
             <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
@@ -8908,6 +8966,11 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="15b5-15cc-730d-6642" name="Multi-Melta" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -8930,6 +8993,11 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
         </infoLink>
         <infoLink id="0c8d-f81e-64ba-3150" name="Twin-linked" hidden="false" targetId="5e33-9350-e714-c105" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="bcd7-541f-8525-7f0e" name="Power Blade Array" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -8951,6 +9019,11 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
           </modifiers>
         </infoLink>
       </infoLinks>
+      <costs>
+        <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="f41b-5e37-fd0a-6ee5" name="Shock Charger" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -8965,6 +9038,11 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="92a9-5cb1-032f-30d1" name="Siege Wrecker" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -8984,6 +9062,56 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
         <infoLink id="11f7-c1c7-708f-dd98" name="Wrecker" hidden="false" targetId="1458-119b-7457-3884" type="rule"/>
         <infoLink id="5123-438b-fcc1-62da" name="Specialist Weapon" hidden="false" targetId="4635-5e1c-f94f-ad69" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2ac9-3e33-d723-d7da" name="Flamer" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="f316-2779-5dda-371b" name="Flamer" hidden="false" typeId="327087aa-3bc6-45db-8bef-b83aa26d2c80" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c297eb44-1f5e-4c56-a0d6-488c32aecd66">Template</characteristic>
+            <characteristic name="Type" typeId="e472d41f-d999-422d-b009-03cd0c3a9e6f">Assault 1</characteristic>
+            <characteristic name="S" typeId="31bb5033-ac6f-4fb2-9fa9-dd4922faa0f8">4</characteristic>
+            <characteristic name="AP" typeId="1962f9e8-72aa-4bd7-9e42-09a7bd95eccf">-1</characteristic>
+            <characteristic name="D" typeId="8fe73330-1760-49d0-bf9d-cabcfdb9ba3d">1</characteristic>
+            <characteristic name="Abilities" typeId="67e4860e-b1fe-4e2a-9386-7b0a64e10037"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c714-3f39-b2bc-e060" name="Template Weapons" hidden="false" targetId="309c-9141-f5c1-03bd" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d337-6e1a-666d-387d" name="Maxima Bolter" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="89d9-a23a-1952-0655" name="Maxima Bolter" hidden="false" typeId="327087aa-3bc6-45db-8bef-b83aa26d2c80" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c297eb44-1f5e-4c56-a0d6-488c32aecd66">12</characteristic>
+            <characteristic name="Type" typeId="e472d41f-d999-422d-b009-03cd0c3a9e6f">Assault 3</characteristic>
+            <characteristic name="S" typeId="31bb5033-ac6f-4fb2-9fa9-dd4922faa0f8">4</characteristic>
+            <characteristic name="AP" typeId="1962f9e8-72aa-4bd7-9e42-09a7bd95eccf">-1</characteristic>
+            <characteristic name="D" typeId="8fe73330-1760-49d0-bf9d-cabcfdb9ba3d">1</characteristic>
+            <characteristic name="Abilities" typeId="67e4860e-b1fe-4e2a-9386-7b0a64e10037"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="49cf-b8d9-0797-09ca" name="Atomantic Deflector" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="ee55-a3c4-1e00-d1d7" name="Atomantic Deflector" hidden="false" typeId="d8b7eb23-4e11-4efa-90fb-b26e0ab318fa" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="19f8973f-c187-4eef-9206-9c8057c78779">A model with an atomantic deflector gains a 5+ Invulnerable Save and any model with an atomantic deflector and a Wounds Characteristic that suffers an unsaved Wound with the Instant Death special rule is not immediately removed as a casualty, but instead loses D3 Wounds instead of one for each unsaved Wound with the Instant Death special rule inflicted on it. In addition, when a model with an atomantic deflector loses its last Wound or Hull Point, but before it is removed as a casualty or replaced with a Wreck, all models both friendly and enemy within D6&quot; suffer an automatic Hit at Str 8, AP -.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
