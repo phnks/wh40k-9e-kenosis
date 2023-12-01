@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b20f3d1a-ca3b-4580-8a8b-f595b3877883" name="Imperium - Adeptus Mechanicus" revision="208" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Thairne" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="11f72b7f-57c7-49ff-a1aa-649e95da9c5f" gameSystemRevision="252" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b20f3d1a-ca3b-4580-8a8b-f595b3877883" name="Imperium - Adeptus Mechanicus" revision="209" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Thairne" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="11f72b7f-57c7-49ff-a1aa-649e95da9c5f" gameSystemRevision="252" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="629ea54e-0a94-4d10-887c-342cb4a4c74f" name="Codex: Adeptus Mechanicus"/>
     <publication id="73a8ad3c-941b-42eb-b1c9-6f2165c511fb" name="Forgeworld Datasheet"/>
@@ -8788,6 +8788,13 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink id="d86b-5941-b2ef-8e0e" name="Hammer of Wrath (X)" hidden="false" targetId="5fda-15b3-73bf-9e7f" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Hammer of Wrath (1)"/>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
           <selectionEntryGroups>
             <selectionEntryGroup id="1826-e423-a1ad-2fb8" name="A) May Exchange Main Weapon for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="9b89-f21d-dd27-cf7d">
               <constraints>
@@ -8867,7 +8874,7 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup id="fff4-cf93-f9bd-a92f" name="C) Shock Charger / Power Blades may Exchange In-Built Bolter for:" hidden="false" collective="false" import="true">
+            <selectionEntryGroup id="fff4-cf93-f9bd-a92f" name="C) Shock Charger / Power Blades may Exchange In-Built Bolter for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="828e-2d90-479e-e7bd">
               <modifiers>
                 <modifier type="decrement" field="943c-52a8-06ba-9e54" value="1.0"/>
                 <modifier type="increment" field="a7e2-6d2b-952c-b4fc" value="1.0">
@@ -8912,9 +8919,18 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
           <entryLinks>
             <entryLink id="576f-721b-fe87-dc96" name="Atomantic Deflector" hidden="false" collective="false" import="true" targetId="49cf-b8d9-0797-09ca" type="selectionEntry">
               <constraints>
-                <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc03-5a1d-65c9-79af" type="min"/>
-                <constraint field="selections" scope="parent" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fae8-7bd8-43d8-a2ad" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc03-5a1d-65c9-79af" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fae8-7bd8-43d8-a2ad" type="max"/>
               </constraints>
+            </entryLink>
+            <entryLink id="52e7-2ecc-2b24-b646" name="Paragon of Metal" hidden="false" collective="false" import="true" targetId="fd53-3ddf-ed81-9d9c" type="selectionEntry">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="cebe-cf7c-5527-1584" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fd5b-bfe5-5578-8aaf" type="greaterThan"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
             </entryLink>
           </entryLinks>
           <costs>
@@ -9112,6 +9128,47 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
           </characteristics>
         </profile>
       </profiles>
+    </selectionEntry>
+    <selectionEntry id="fd53-3ddf-ed81-9d9c" name="Paragon of Metal" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4817-f467-db21-b115" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bc82-7b39-70e9-22b1" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="3447-8292-b5a9-e653" name="Paragon of Metal" hidden="false">
+          <description>Only one model in an army may be upgraded to have the Paragon of Metal special rule. Models upgraded with the Paragon of Metal special rule must have the Automata (Cybernetica) Unit Type before the upgrade is applied. This rule confers the Paragon Sub-type, which replaces the Cybernetica Unit Sub-type, and confers the It Will Not Die (4+), Precision Strikes (4+), Precision Shots (4+) and Rampage (2) special rules. A model upgraded with the Paragon of Metal special rule also increases both their starting Wounds Characteristic and their Weapon Skill Characteristic by +1.
+In addition, a model with the Paragon of Metal special rule may not be targeted or affected by any Cybertheurgic Power or any Weapon with the Data-djinn special rule, either friendly or enemy.</description>
+        </rule>
+        <rule id="4811-132c-51dc-5ea0" name="Paragon Unit Sub-type" hidden="false">
+          <description>The following rules apply to all models with the Paragon Unit Sub-type:
+• Models with the Paragon Unit Sub-type are not affected by special rules that negatively modify their Characteristics (other than Wounds or Hull Points).
+• A model with the Paragon Unit Sub-type may fire all weapons they are equipped with in each Shooting Attack they make, including as part of a Reaction.
+• Models with the Paragon Unit Sub-type may fire Heavy and Ordnance weapons and count as Stationary even if they moved in the preceding Movement phase, and may declare Charges as normal regardless of any Shooting Attacks made in the same turn.
+• A unit that contains a model with the Paragon Unit Sub-type may never be joined by any other models, regardless of any other special rule.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="aaa7-0abc-3af6-7307" name="It Will Not Die (X)" hidden="false" targetId="41fc-6fd3-8473-acda" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="It Will Not Die (4+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="a60e-8f3c-d6b0-4fba" name="Precision Shots (X)" hidden="false" targetId="3159-83ee-fdc3-fd0c" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Precision Shots (4+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="67b5-17dc-e5de-0bdc" name="Precision Strikes (X)" hidden="false" targetId="3e71-a6d6-933d-ce3e" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Precision Strikes (4+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="55a8-c413-96ab-3ec4" name="Rampage (X)" hidden="false" targetId="6074-9019-6e9e-48be" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Rampage (2)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -10067,6 +10124,28 @@ For example, a model with the Breaching (5+) special rule that rolls To Wound an
     </rule>
     <rule id="4635-5e1c-f94f-ad69" name="Specialist Weapon" hidden="false">
       <description>A model fighting with this weapon does not receive +1 Attack for fighting with two weapons unless it is armed with two or more Melee weapons with the Specialist Weapon rule. The additional weapon does not have to be the same weapon as the one used to attack, but it must have the Specialist Weapon rule in order to grant an additional Attack for fighting with two weapons.</description>
+    </rule>
+    <rule id="5fda-15b3-73bf-9e7f" name="Hammer of Wrath (X)" hidden="false">
+      <description>If a model with this special rule ends its Charge Move in base or hull contact with an enemy model, it makes a number of additional attacks equal to the value in brackets listed as part of this special rule.These attacks hit automatically and are resolved at the models unmodified Strength with AP-. These attacks do not benefit from any of the model&apos;s special rules (such as Furious Charge, Rending, etc.).These attacks are resolved during the Fight sub-phase at Initiative step 10 but do not grant the model an additional Pile-in Move.
+
+If a model with this special rule Charges a Vehicle of any kind or a Building, the hits are resolved against the Armour Value of the Facing the charging model is touching. If the model is in contact with two or more Facings, the player controlling the target model chooses a Facing upon which the attacks are resolved. If a model with this special rule Charges a Building or Vehicle that is a Transport, the hits are resolved against the Building or Vehicle, not the unit Embarked within the Building or Vehicle.</description>
+    </rule>
+    <rule id="41fc-6fd3-8473-acda" name="It Will Not Die (X)" hidden="false">
+      <description>At the end of each of your turns, roll a D6 for each of your models with this special rule that has less than its starting number of Wounds or Hull Points, but that has not been removed as a casualty or destroyed. On a roll equal to or greater than the number in brackets associated with the special rule, that model regains a Wound, or Hull Point, lost earlier in the game. For example, a model with It Will Not Die (5+) would regain a lost Wound on the roll of a 5 or more.</description>
+    </rule>
+    <rule id="3159-83ee-fdc3-fd0c" name="Precision Shots (X)" hidden="false">
+      <description>If a model with this special rule, or attacking with a weapon with this special rule, rolls equal to or higher than the value in brackets when making a To Hit roll as part of a Shooting Attack, that shot is a ‘Precision Shot’. For example, if a model with the Precision Shots (4+) special rule rolls a 4 or higher when making a To Hit roll, then that attack is a Precision Shot.
+Wounds from Precision Shots are allocated against a model (or models) of the attacking player’s choice in the target unit, as long as the target model is in range and line of sight of the attacking model, rather than following the normal rules for Wound allocation.
+Note that Snap Shots and shots from weapons that scatter, or do not roll To Hit, can never be Precision Shots.</description>
+    </rule>
+    <rule id="3e71-a6d6-933d-ce3e" name="Precision Strikes (X)" hidden="false">
+      <description>If a model with this special rule, or attacking with a weapon with this special rule, rolls equal to or higher than the value in brackets when making a To Hit roll as part of a melee attack, that hit is a ‘Precision Strike’. For example, if a model with the Precision Strikes (4+) special rule rolls a 4 or higher when making a To Hit roll, then that attack is a Precision Strike.
+Wounds from Precision Strikes are allocated against a model (or models) of the attacking player’s choice in the target unit, as long as that model is engaged in combat with the attacking model’s unit, rather than following the normal rules for Wound allocation.</description>
+    </rule>
+    <rule id="6074-9019-6e9e-48be" name="Rampage (X)" hidden="false">
+      <description>At the start of any Fight sub-phase, models with the Rampage special rule gain a number of Attacks equal to the value listed in brackets if outnumbered by enemy models (including the effects of the Bulky special rule) – count all models locked in the combat, not just those models that are engaged. Roll once to determine the number of bonus Attacks all Rampaging models involved in that combat receive that Phase. For example, a model with the Rampage (D3) special rule that is outnumbered by the enemy in close combat receives D3 additional Attacks in that Fight sub-phase.
+
+A model that has made a Disordered Charge that turn receives no benefit from Rampage (see page 182).</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
