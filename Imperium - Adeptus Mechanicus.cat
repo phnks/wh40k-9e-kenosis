@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b20f3d1a-ca3b-4580-8a8b-f595b3877883" name="Imperium - Adeptus Mechanicus" revision="209" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Thairne" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="11f72b7f-57c7-49ff-a1aa-649e95da9c5f" gameSystemRevision="252" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b20f3d1a-ca3b-4580-8a8b-f595b3877883" name="Imperium - Adeptus Mechanicus" revision="210" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Thairne" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="11f72b7f-57c7-49ff-a1aa-649e95da9c5f" gameSystemRevision="254" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="629ea54e-0a94-4d10-887c-342cb4a4c74f" name="Codex: Adeptus Mechanicus"/>
     <publication id="73a8ad3c-941b-42eb-b1c9-6f2165c511fb" name="Forgeworld Datasheet"/>
@@ -8777,14 +8777,14 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
             <profile id="c10f-4c3d-473a-e8d1" name="Castellax" hidden="false" typeId="96633e23-5f89-47ac-862a-ea3f419e82ad" typeName="Unit">
               <characteristics>
                 <characteristic name="M" typeId="29908c04-cacb-4ff6-80a3-f7ac34f9b320">7</characteristic>
-                <characteristic name="WS" typeId="b0f83996-9c8e-42bb-80ae-6183503a8687">4</characteristic>
-                <characteristic name="BS" typeId="fcd83b9f-a688-4fd1-88ed-5cf248c9ecdd">3</characteristic>
+                <characteristic name="WS" typeId="b0f83996-9c8e-42bb-80ae-6183503a8687">4+</characteristic>
+                <characteristic name="BS" typeId="fcd83b9f-a688-4fd1-88ed-5cf248c9ecdd">3+</characteristic>
                 <characteristic name="S" typeId="cba76dde-3857-489e-a3cb-f1c82182901c">7</characteristic>
                 <characteristic name="T" typeId="082cd324-3c32-4cf7-8a77-34c5ff973db1">6</characteristic>
                 <characteristic name="W" typeId="f5983de7-8c32-4395-a17c-18fc765ec74a">6</characteristic>
                 <characteristic name="A" typeId="40b1852f-baa7-49a7-9e04-0d0cea23edea">2</characteristic>
                 <characteristic name="Ld" typeId="1bb39308-fe32-4190-9336-713b6293a715">7</characteristic>
-                <characteristic name="Save" typeId="c4f7addd-d978-4a27-b039-8e4a15fa6bda">3</characteristic>
+                <characteristic name="Save" typeId="c4f7addd-d978-4a27-b039-8e4a15fa6bda">3+</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -8931,6 +8931,9 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
                   </conditions>
                 </modifier>
               </modifiers>
+              <costs>
+                <cost name="pts" typeId="points" value="35.0"/>
+              </costs>
             </entryLink>
           </entryLinks>
           <costs>
@@ -8953,7 +8956,7 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
             <characteristic name="Range" typeId="c297eb44-1f5e-4c56-a0d6-488c32aecd66">36&quot;</characteristic>
             <characteristic name="Type" typeId="e472d41f-d999-422d-b009-03cd0c3a9e6f">Heavy 2</characteristic>
             <characteristic name="S" typeId="31bb5033-ac6f-4fb2-9fa9-dd4922faa0f8">7</characteristic>
-            <characteristic name="AP" typeId="1962f9e8-72aa-4bd7-9e42-09a7bd95eccf">4</characteristic>
+            <characteristic name="AP" typeId="1962f9e8-72aa-4bd7-9e42-09a7bd95eccf">-4</characteristic>
             <characteristic name="D" typeId="8fe73330-1760-49d0-bf9d-cabcfdb9ba3d">D6</characteristic>
             <characteristic name="Abilities" typeId="67e4860e-b1fe-4e2a-9386-7b0a64e10037">Lance, Gets Hot</characteristic>
           </characteristics>
@@ -9119,15 +9122,26 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="49cf-b8d9-0797-09ca" name="Atomantic Deflector" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="ee55-a3c4-1e00-d1d7" name="Atomantic Deflector" hidden="false" typeId="d8b7eb23-4e11-4efa-90fb-b26e0ab318fa" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="19f8973f-c187-4eef-9206-9c8057c78779">A model with an atomantic deflector gains a 5+ Invulnerable Save and any model with an atomantic deflector and a Wounds Characteristic that suffers an unsaved Wound with the Instant Death special rule is not immediately removed as a casualty, but instead loses D3 Wounds instead of one for each unsaved Wound with the Instant Death special rule inflicted on it. In addition, when a model with an atomantic deflector loses its last Wound or Hull Point, but before it is removed as a casualty or replaced with a Wreck, all models both friendly and enemy within D6&quot; suffer an automatic Hit at Str 8, AP -.</characteristic>
+            <characteristic name="Description" typeId="19f8973f-c187-4eef-9206-9c8057c78779">A model with an atomantic deflector gains a 5+ Invulnerable Save and any model with an atomantic deflector and a Wounds Characteristic that suffers any mortal wounds gets 3+ Feel No Pain on the mortal wounds.
+In addition, when a model with an atomantic deflector loses its last Wound or Hull Point, but before it is removed as a casualty or replaced with a Wreck, all models both friendly and enemy within D6&quot; suffer an automatic Hit at Str 8, AP  0.</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="fd53-3ddf-ed81-9d9c" name="Paragon of Metal" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -9169,6 +9183,181 @@ In addition, a model with the Paragon of Metal special rule may not be targeted 
           </modifiers>
         </infoLink>
       </infoLinks>
+      <costs>
+        <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2621-4f9d-c92c-d20e" name="Karacnos Assault Tank" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="a99b-572e-6bbb-d94c" name="Karacnos" hidden="false" typeId="0914-3504-9893-39db" typeName="Vehicle">
+          <characteristics>
+            <characteristic name="M" typeId="3945-bffa-0946-e9b4">12</characteristic>
+            <characteristic name="BS" typeId="de2f-b464-50fb-fa03">3+</characteristic>
+            <characteristic name="Front" typeId="2b42-cf1d-e7c4-357f">14</characteristic>
+            <characteristic name="Side" typeId="9280-2ea9-121a-2dd2">12</characteristic>
+            <characteristic name="Rear" typeId="f801-d770-143f-60c5">12</characteristic>
+            <characteristic name="HP" typeId="fe5f-ab23-eb1a-6896">5</characteristic>
+            <characteristic name="Transport Capacity" typeId="c824-12d7-c9ca-4340"/>
+            <characteristic name="Access Points" typeId="5e0b-6b4c-3fe9-7914"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9d5e-76ef-b3fe-aedd" name="Hazardous Munitions" hidden="false" targetId="ec5d-9114-f2a5-6158" type="rule"/>
+        <infoLink id="776a-653f-16e1-6433" name="Galvanic Traction Drive" hidden="false" targetId="f7ae-9003-1a92-1a2a" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d956-cf05-e7d3-67e3" name="Faction: Adeptus Mechanicus" hidden="false" targetId="21d39ca6-86bd-4887-a4bf-0cb407d0d02f" primary="false"/>
+        <categoryLink id="7a53-2d43-6510-0aa0" name="Faction: &lt;Forge World&gt;" hidden="false" targetId="08da7c57-1546-4106-afa5-6f4edee6eb41" primary="false"/>
+        <categoryLink id="0161-4b46-5f58-7d74" name="Faction: Imperium" hidden="false" targetId="99357296-820b-46e3-8395-77961c0d8302" primary="false"/>
+        <categoryLink id="aebb-23af-bf57-4b94" name="Heavy Support" hidden="false" targetId="e8c0ddf9-eeda-4096-9d1a-e3048f911225" primary="true"/>
+        <categoryLink id="4ede-8870-77be-d4d9" name="Vehicle" hidden="false" targetId="48c837f6-8a21-4043-845f-e715727c0f0f" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3a2d-9066-f77a-e884" name="Hull (Front) Mounted Hunter-Killer Missiles" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cc7-0d2d-36b1-1483" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="6d47-fea7-93fe-8b29" name="Hunter-killer missile" hidden="false" collective="false" import="true" targetId="ee263cc6-20de-4f40-99fd-c5df4d5e76b0" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="68c9-67cb-fadd-704b" name="Flare Shield" hidden="false" collective="false" import="true" targetId="ef2b-80b8-6b4e-1421" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d703-463b-e47e-653a" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4a2-f184-ffe8-2bb7" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="3457-5d4f-01cc-7930" name="Karacnos Mortar Battery" hidden="false" collective="false" import="true" targetId="2439-49b4-86fb-7b97" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="name" value="Hull (Front) Mounted Karacnos Mortar Battery"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c355-afd1-20dc-2599" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00ad-dd86-a42f-36c6" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="aea7-2ce6-10ad-90ca" name="Lightning Lock" hidden="false" collective="false" import="true" targetId="c8f6-62f3-cbcb-88c0" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="name" value="Sponson Mounted Lightning Locks"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b63-c71e-3bc5-390a" type="max"/>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e603-087d-50ff-0eea" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="aafd-eda1-fd6d-c6dc" name="Shock Ram" hidden="false" collective="false" import="true" targetId="5f68-b4ad-4a96-3f45" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cde1-8487-79de-b981" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="285c-8b28-2a3a-3b15" type="min"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
+        <cost name="pts" typeId="points" value="225.0"/>
+        <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ef2b-80b8-6b4e-1421" name="Flare Shield" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="9f82-cc46-0520-17f5" name="Flare Shield" hidden="false" typeId="d8b7eb23-4e11-4efa-90fb-b26e0ab318fa" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="19f8973f-c187-4eef-9206-9c8057c78779">A model with a flare shield reduces the strength of Shooting Attacks made against its Front Armour by -1, or -2 if that Shooting Attack has the Blast special rule or uses a template to determine its Range. A flare shield has no effect on Shooting Attacks inflicted with weapons of the Destroyer type.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2439-49b4-86fb-7b97" name="Karacnos Mortar Battery" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="f002-067a-fb56-0b21" name="Karacnos Mortar Battery" hidden="false" typeId="327087aa-3bc6-45db-8bef-b83aa26d2c80" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c297eb44-1f5e-4c56-a0d6-488c32aecd66">60&quot;</characteristic>
+            <characteristic name="Type" typeId="e472d41f-d999-422d-b009-03cd0c3a9e6f">Heavy 1</characteristic>
+            <characteristic name="S" typeId="31bb5033-ac6f-4fb2-9fa9-dd4922faa0f8">6</characteristic>
+            <characteristic name="AP" typeId="1962f9e8-72aa-4bd7-9e42-09a7bd95eccf">-2</characteristic>
+            <characteristic name="D" typeId="8fe73330-1760-49d0-bf9d-cabcfdb9ba3d">3</characteristic>
+            <characteristic name="Abilities" typeId="67e4860e-b1fe-4e2a-9386-7b0a64e10037">Blast (7&quot;), Barrage, Fleshbane,  Ignores Cover, Crawling Fire</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="bbb5-cb0d-e46d-52da" name="Blast" hidden="false" targetId="c36b-ef06-8992-9728" type="rule"/>
+        <infoLink id="f4dc-dfef-a222-3850" name="Barrage" hidden="false" targetId="3e4d-04c9-8cd1-93b6" type="rule"/>
+        <infoLink id="680e-121b-e52d-e2e1" name="Crawling Fire" hidden="false" targetId="8f25-119e-1ddf-7e58" type="rule"/>
+        <infoLink id="dc77-b958-a517-d730" name="Fleshbane" hidden="false" targetId="ae98-72fe-dacc-74e2" type="rule"/>
+        <infoLink id="9da5-a133-925a-225b" name="Ignores Cover" hidden="false" targetId="83d1-da1a-0084-2564" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="c8f6-62f3-cbcb-88c0" name="Lightning Lock" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="4c16-022f-31db-d0e2" name="Lightning Lock" hidden="false" typeId="327087aa-3bc6-45db-8bef-b83aa26d2c80" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c297eb44-1f5e-4c56-a0d6-488c32aecd66">36&quot;</characteristic>
+            <characteristic name="Type" typeId="e472d41f-d999-422d-b009-03cd0c3a9e6f">Heavy 1</characteristic>
+            <characteristic name="S" typeId="31bb5033-ac6f-4fb2-9fa9-dd4922faa0f8">7</characteristic>
+            <characteristic name="AP" typeId="1962f9e8-72aa-4bd7-9e42-09a7bd95eccf">-3</characteristic>
+            <characteristic name="D" typeId="8fe73330-1760-49d0-bf9d-cabcfdb9ba3d">D3+3</characteristic>
+            <characteristic name="Abilities" typeId="67e4860e-b1fe-4e2a-9386-7b0a64e10037">Blast (3&quot;), Rending (4+), Shred, Exoshock (4+)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="25ec-a4a5-478a-e03a" name="Blast" hidden="false" targetId="c36b-ef06-8992-9728" type="rule"/>
+        <infoLink id="2b42-8a7c-6120-185e" name="Exoshock (X)" hidden="false" targetId="8844-1a58-dfe4-6262" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Exoshock (4+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="5738-7855-3820-23bc" name="Rending (X)" hidden="false" targetId="88c6-9852-9cb7-6b35" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Rending (4+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="08d6-c20c-15fd-9bca" name="Shred" hidden="false" targetId="6f24-ed7c-c006-7606" type="rule"/>
+      </infoLinks>
+      <costs>
+        <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5f68-b4ad-4a96-3f45" name="Shock Ram" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="7dd3-8f30-11fe-001d" name="Shock Ram" hidden="false" typeId="327087aa-3bc6-45db-8bef-b83aa26d2c80" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c297eb44-1f5e-4c56-a0d6-488c32aecd66">Melee</characteristic>
+            <characteristic name="Type" typeId="e472d41f-d999-422d-b009-03cd0c3a9e6f">Melee</characteristic>
+            <characteristic name="S" typeId="31bb5033-ac6f-4fb2-9fa9-dd4922faa0f8">10</characteristic>
+            <characteristic name="AP" typeId="1962f9e8-72aa-4bd7-9e42-09a7bd95eccf">-2</characteristic>
+            <characteristic name="D" typeId="8fe73330-1760-49d0-bf9d-cabcfdb9ba3d">D6</characteristic>
+            <characteristic name="Abilities" typeId="67e4860e-b1fe-4e2a-9386-7b0a64e10037">Ram (D6)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -10112,9 +10301,9 @@ Twin-linked Template Weapons
 Twin-linked Template weapons are fired just like a single weapon, but must re-roll failed To Wound rolls and Armour Penetration rolls.</description>
     </rule>
     <rule id="9e70-8e1a-b6ec-f03e" name="Breaching (X)" hidden="false">
-      <description>When rolling To Wound for a model that has the Breaching (X) special rule, or is attacking with a weapon that has the Breaching (X) special rule, for each To Wound roll equal to or higher than the value listed in brackets, the controlling player must resolve these wounds at AP 2 instead of the weapon’s normal AP value. This rule has no effect on models that do not have Wounds, such as models with the Vehicle Unit Type.
+      <description>When rolling To Wound for a model that has the Breaching (X) special rule, or is attacking with a weapon that has the Breaching (X) special rule, for each To Wound roll equal to or higher than the value listed in brackets, the controlling player must resolve these wounds at AP -4 instead of the weapon’s normal AP value. This rule has no effect on models that do not have Wounds, such as models with the Vehicle Unit Type.
 
-For example, a model with the Breaching (5+) special rule that rolls To Wound and rolls a result of ‘5’ or higher, the Wound inflicted gains an AP of ‘2’ regardless of the AP value listed on the weapon’s profile. Note that a weapon that has both the Breaching (X) and the Gets Hot special rules always uses the base AP of the weapon when rolls of ‘1’ To Hit inflict Wounds on the attacking model.</description>
+For example, a model with the Breaching (5+) special rule that rolls To Wound and rolls a result of ‘5’ or higher, the Wound inflicted gains an AP of ‘-4’ regardless of the AP value listed on the weapon’s profile. Note that a weapon that has both the Breaching (X) and the Gets Hot special rules always uses the base AP of the weapon when rolls of ‘1’ To Hit inflict Wounds on the attacking model.</description>
     </rule>
     <rule id="8b97-b64a-2b22-0dc7" name="Sunder" hidden="false">
       <description>Attacks with this special rule may re-roll failed Armour Penetration rolls against Vehicles and Buildings (both with Shooting Attacks and in close combat) and re-roll Glancing Hits, in an attempt to instead get a Penetrating Hit, but the second result must be kept.</description>
@@ -10126,7 +10315,7 @@ For example, a model with the Breaching (5+) special rule that rolls To Wound an
       <description>A model fighting with this weapon does not receive +1 Attack for fighting with two weapons unless it is armed with two or more Melee weapons with the Specialist Weapon rule. The additional weapon does not have to be the same weapon as the one used to attack, but it must have the Specialist Weapon rule in order to grant an additional Attack for fighting with two weapons.</description>
     </rule>
     <rule id="5fda-15b3-73bf-9e7f" name="Hammer of Wrath (X)" hidden="false">
-      <description>If a model with this special rule ends its Charge Move in base or hull contact with an enemy model, it makes a number of additional attacks equal to the value in brackets listed as part of this special rule.These attacks hit automatically and are resolved at the models unmodified Strength with AP-. These attacks do not benefit from any of the model&apos;s special rules (such as Furious Charge, Rending, etc.).These attacks are resolved during the Fight sub-phase at Initiative step 10 but do not grant the model an additional Pile-in Move.
+      <description>If a model with this special rule ends its Charge Move in base or hull contact with an enemy model, it makes a number of additional attacks equal to the value in brackets listed as part of this special rule.These attacks hit automatically and are resolved at the models unmodified Strength with AP 0. These attacks do not benefit from any of the model&apos;s special rules (such as Furious Charge, Rending, etc.).
 
 If a model with this special rule Charges a Vehicle of any kind or a Building, the hits are resolved against the Armour Value of the Facing the charging model is touching. If the model is in contact with two or more Facings, the player controlling the target model chooses a Facing upon which the attacks are resolved. If a model with this special rule Charges a Building or Vehicle that is a Transport, the hits are resolved against the Building or Vehicle, not the unit Embarked within the Building or Vehicle.</description>
     </rule>
@@ -10136,16 +10325,99 @@ If a model with this special rule Charges a Vehicle of any kind or a Building, t
     <rule id="3159-83ee-fdc3-fd0c" name="Precision Shots (X)" hidden="false">
       <description>If a model with this special rule, or attacking with a weapon with this special rule, rolls equal to or higher than the value in brackets when making a To Hit roll as part of a Shooting Attack, that shot is a ‘Precision Shot’. For example, if a model with the Precision Shots (4+) special rule rolls a 4 or higher when making a To Hit roll, then that attack is a Precision Shot.
 Wounds from Precision Shots are allocated against a model (or models) of the attacking player’s choice in the target unit, as long as the target model is in range and line of sight of the attacking model, rather than following the normal rules for Wound allocation.
-Note that Snap Shots and shots from weapons that scatter, or do not roll To Hit, can never be Precision Shots.</description>
+Note that Overwatch and shots from weapons that scatter, or do not roll To Hit, can never be Precision Shots.</description>
     </rule>
     <rule id="3e71-a6d6-933d-ce3e" name="Precision Strikes (X)" hidden="false">
       <description>If a model with this special rule, or attacking with a weapon with this special rule, rolls equal to or higher than the value in brackets when making a To Hit roll as part of a melee attack, that hit is a ‘Precision Strike’. For example, if a model with the Precision Strikes (4+) special rule rolls a 4 or higher when making a To Hit roll, then that attack is a Precision Strike.
 Wounds from Precision Strikes are allocated against a model (or models) of the attacking player’s choice in the target unit, as long as that model is engaged in combat with the attacking model’s unit, rather than following the normal rules for Wound allocation.</description>
     </rule>
     <rule id="6074-9019-6e9e-48be" name="Rampage (X)" hidden="false">
-      <description>At the start of any Fight sub-phase, models with the Rampage special rule gain a number of Attacks equal to the value listed in brackets if outnumbered by enemy models (including the effects of the Bulky special rule) – count all models locked in the combat, not just those models that are engaged. Roll once to determine the number of bonus Attacks all Rampaging models involved in that combat receive that Phase. For example, a model with the Rampage (D3) special rule that is outnumbered by the enemy in close combat receives D3 additional Attacks in that Fight sub-phase.
+      <description>At the start of any Fight phase, models with the Rampage special rule gain a number of Attacks equal to the value listed in brackets if outnumbered by enemy models (including the effects of the Bulky special rule) – count all models locked in the combat, not just those models that are engaged. Roll once to determine the number of bonus Attacks all Rampaging models involved in that combat receive that Phase. For example, a model with the Rampage (D3) special rule that is outnumbered by the enemy in close combat receives D3 additional Attacks in that Fight sub-phase.</description>
+    </rule>
+    <rule id="ec5d-9114-f2a5-6158" name="Hazardous Munitions" hidden="false">
+      <description>If a model with this special rule suffers an Explodes as a result of a Melee or Shooting Attack, the Explodes result causes nearby units to suffer D6 mortal wounds for each model within D6+6&quot; instead of the usual damage and area of effect.</description>
+    </rule>
+    <rule id="f7ae-9003-1a92-1a2a" name="Galvanic Traction Drive" hidden="false">
+      <description>A model with this special rule must re-roll failed Dangerous Terrain tests.</description>
+    </rule>
+    <rule id="c36b-ef06-8992-9728" name="Blast" hidden="false">
+      <description>When firing a Blast weapon, models do not roll To Hit. Instead, pick one enemy model visible to the firer and place the Blast (3&quot;) marker with its hole entirely over the base of the target model, or its hull if the target is a Vehicle. The hole at the centre of the marker must be within the weapon’s Maximum Range. You cannot place the Blast marker so that the base or hull of any friendly model is even partially under it.
 
-A model that has made a Disordered Charge that turn receives no benefit from Rampage (see page 182).</description>
+The large area affected by the blast means it is going to be very hard to miss completely. Nonetheless, the shot might not land exactly where intended. Roll for the Blast marker to scatter and subtract the firer’s Ballistic Skill from the distance (if any) that it scatters, to a minimum of 0&quot;. Note that it is possible, and absolutely fine, for a shot to scatter beyond the weapon’s Maximum or Minimum Range and line of sight. This represents the chance of ricochets, the missile blasting through cover and other random events. In these cases, Hits are worked out as normal and can hit and Wound units out of range and line of sight (or even your own units, or models locked in combat). If the shot scatters so that the hole in the centre of the marker is beyond the battlefield’s edge, the shot is a complete miss and is discarded.
+
+Once the final position of the Blast marker has been determined, take a good look at it from above – each unit suffers one Hit for each of the models included in that unit that is fully or partially beneath the Blast marker, even if those models are not within the firer’s line of sight.
+
+Once the number of Hits inflicted on the unit has been worked out, roll To Wound and Save as normal. Note that, unlike other attacks, Wounds inflicted by an attack with the Blast special rule can be allocated to any models in the target unit, even if they are out of sight of any models from the attacking unit.
+
+Multiple Blasts
+If a unit is firing more than one shot with the Blast special rule, scatter each shot, one at a time, as described above and determine how many Hits are scored with each individual Blast marker. After the last shot, add up the total number of Hits scored and roll all of the To Wound rolls as normal.
+
+Blast Weapons and Re-rolls
+If a model has the ability to re-roll its rolls To Hit and chooses to do so after firing a Blast weapon, the player must re-roll both the Scatter dice and the 2D6. Note that this applies only to models able to fully re-roll a To Hit roll, not to models that may re-roll To Hit rolls of a specific value – for example, models that can re-roll To Hit rolls of a ‘1’ cannot re-roll either the Scatter dice or 2D6 unless another rule allows them to do so.
+
+Blast Weapons and Snap Shots
+Blast weapons cannot be fired as Snap Shots.
+
+Large Blast
+Large Blast weapons use the 5&quot; Blast marker, but otherwise obey all the rules for Blast weapons.
+
+Massive Blast
+Massive Blast weapons use the 7&quot; Blast marker, but otherwise obey all the rules for Blast weapons.
+
+Apocalyptic Blast
+Apocalyptic Blast weapons use the 10&quot; Blast marker, but otherwise obey all the rules for Blast weapons.
+
+Apocalyptic Mega-blast (5&quot;/7&quot;/10&quot;)
+Apocalyptic Mega-blast weapons use the Apocalyptic Blast marker. They obey the rules for Blast weapons, with the following exceptions:
+
+Apocalyptic Mega-blast weapons have three Strength values and three AP values. Correspondingly, the Apocalyptic Blast marker is divided into three zones, as shown in the diagram on the next page, one for each Strength and AP value.
+
+The Strength and AP of any Hits depends on the zone in which the target model is located. The first Strength and AP value are used for the inner zone, the second Strength and AP value are used for the middle zone, and the third Strength and AP value are used for the outer zone. Always use the best Strength and AP if a model straddles two or more zones. If a unit has models in several zones, work out the Hits inflicted for each zone separately. Note that there will be a different Wound Pool for each zone.
+
+To determine whether a unit wounded by an Apocalyptic Mega-blast weapon is allowed a Cover Save, and when determining Wound allocation, always assume the shot is coming from the centre of the Apocalyptic Blast marker, instead of from the firing model.
+
+Hits from Apocalyptic Mega-blast weapons made against Vehicles are always resolved against their Side Armour Value.</description>
+    </rule>
+    <rule id="3e4d-04c9-8cd1-93b6" name="Barrage" hidden="false">
+      <description>All Barrage weapons use Blast markers and consequently use the rules for Blast weapons, as indicated by their profile, with the following exceptions:
+Barrage weapons can fire indirectly. This means they can fire at a target that they do not have line of sight to, as long as the target is beyond their Minimum Range (if applicable). When firing indirectly, the Ballistic Skill of the firer is not subtracted from the scatter distance; unless a Hit is rolled on the Scatter dice, the Blast marker always scatters a full 2D6&quot;. If a Barrage weapon has line of sight to its target it can fire directly, even if the target is within its Minimum Range.
+Note that any Hits inflicted upon Vehicles by an Attack using the Barrage special rule are always resolved against the Vehicle’s Side Armour Value.
+
+Multiple Barrages
+If a unit fires more than one shot with the Barrage special rule, they fire together, as follows:
+The Barrage weapon closest to the target unit fires first. Place the Blast marker over the target, then roll for scatter as described earlier. Once the first marker is placed, roll a Scatter dice for each other Barrage weapon shot fired by the unit. If an arrow is rolled, place the marker in the direction indicated so that it is next to and touching the edge of the first marker placed (see diagram below). If a Hit is rolled, the firing player places the marker so that it touches any part of any marker in the group that has already been placed. Note that it is perfectly fine if some markers are placed overlapping one another (including being directly over the top of a previous marker). Once all of the markers are in place, add up the number of Hits and roll To Wound for these Hits. To determine Cover Saves, always assume the shot is coming from the centre of the first Blast marker that was placed in the Multiple Barrage.
+
+Apocalyptic Barrage
+An Apocalyptic Barrage follows all of the rules for a Barrage weapon, but uses the clover-shaped Apocalyptic Barrage marker. Before the marker is placed, the attacker is allowed to rotate the marker about its centre to maximise the number of models that could potentially be hit. Place the marker and roll for scatter in the same way you would for a Blast. If the marker scatters, be careful to maintain the same orientation as you move it. 
+
+Once the final position of the marker has been determined, roll a number of dice equal to the number of attacks on the weapon’s profile. So, for example, with a weapon with the type ‘Heavy 4, Apocalyptic Barrage’, you would roll four dice. Each dice roll corresponds to a ‘strike’ on one of the circles on the Apocalyptic Barrage marker. For example, each roll of a 2 indicates a strike on circle number 2. Resolve the strikes as for a Multiple Barrage, as if each were a Barrage attack that had landed on that circle and hit all the models underneath it. To determine Cover Saves, always assume the shot is coming from the centre of the entire Apocalyptic Barrage marker.</description>
+    </rule>
+    <rule id="ae98-72fe-dacc-74e2" name="Fleshbane" hidden="false">
+      <description>If a model has this special rule, or is attacking with a Melee weapon that has this special rule, they always Wound on a 2+ in close combat.
+Similarly, if a model makes a Shooting Attack with a weapon that has this special rule, they always Wound on a 2+.
+In either case, this special rule has no effect against Vehicles or Buildings.</description>
+    </rule>
+    <rule id="83d1-da1a-0084-2564" name="Ignores Cover" hidden="false">
+      <description>Cover Saves and Damage Mitigation rolls granted by the Shrouded special rule cannot be taken against Wounds or Hull Point damage caused by weapons with the Ignores Cover special rule. This includes Cover Saves granted by Reactions and other special rules as well as Cover Saves conferred by terrain.</description>
+    </rule>
+    <rule id="8f25-119e-1ddf-7e58" name="Crawling Fire" hidden="false">
+      <description>After the Blast marker for a weapon with this special rule is placed, the attacking unit’s controlling player may move the marker up to 2&quot; in any direction so long as this would cover more models than it previously would have.</description>
+    </rule>
+    <rule id="88c6-9852-9cb7-6b35" name="Rending (X)" hidden="false">
+      <description>If a model has the Rending special rule, or is attacking with a Melee weapon that has the Rending special rule, there is a chance that their close combat attacks will strike a critical blow. For each To Wound roll equal to or higher than the value listed, the target automatically suffers a Wound, regardless of its Toughness. The controlling player may choose to resolve these Wounds at AP -4 instead of the weapon’s normal AP value.
+Similarly, if a model makes a Shooting Attack with a weapon that has the Rending special rule, a To Wound roll of equal to or greater than the listed value wounds automatically, regardless of Toughness, and is resolved at AP -4.
+In either case, against Vehicles each Armour Penetration roll of equal to or greater than the listed value allows a further D3 to be rolled, with the result added to the total Strength of the attack. These Hits are not resolved at AP -4, but are instead resolved using the weapon’s AP value.
+For example, a model with the Rending (5+) special rule that rolls To Wound against a non-Vehicle model will wound automatically on the roll of a 5+, and the attacking player has the choice of using an AP value of -4 instead of the AP value of their weapon.</description>
+    </rule>
+    <rule id="6f24-ed7c-c006-7606" name="Shred" hidden="false">
+      <description>If a model has the Shred special rule, or is attacking with a Melee weapon that has the Shred rule, it re-rolls failed To Wound rolls in close combat.
+
+Similarly, if a model makes a Shooting Attack with a weapon that has the Shred rule, it re-rolls its failed To Wound rolls.</description>
+    </rule>
+    <rule id="8844-1a58-dfe4-6262" name="Exoshock (X)" hidden="false">
+      <description>If this weapon successfully scores a Penetrating Hit on a target, roll a D6. If the result of that roll is equal to or higher than the value in brackets after the rule, a second automatic Penetrating Hit is inflicted on the same target against which Cover Saves may not be taken. For example, a weapon with the Exoshock (4+) special rule would inflict a second Penetrating Hit on the score of a 4+. This second Penetrating Hit does not gain the effects of any other special rules, and cannot trigger additional Hits.
+
+If, for any reason, a given instance of this rule does not have a value in brackets after the special rule, assume the value is 6+.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>

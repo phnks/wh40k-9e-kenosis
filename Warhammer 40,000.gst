@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="11f72b7f-57c7-49ff-a1aa-649e95da9c5f" name="Warhammer 40,000 Kenosis Edition" revision="252" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@WH40k Data Dev" authorUrl="https://www.bsdata.net/contact" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="11f72b7f-57c7-49ff-a1aa-649e95da9c5f" name="Warhammer 40,000 Kenosis Edition" revision="254" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@WH40k Data Dev" authorUrl="https://www.bsdata.net/contact" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <readme>This is the game system file for Warhammer 40,000, supporting the Kenosis edition of the game.  It is required for all other catalogues to function.</readme>
   <publications>
     <publication id="c2c6b1a5-0fdf-4f02-b74f-8e58c4f36841" name="Warhammer 40,000 Core Book" shortName="BRB" publisher="Games Workshop" publicationDate="2020-07-25" publisherUrl="https://www.games-workshop.com/Warhammer-40000-9th-Rulebook-EN-2020"/>
@@ -109,6 +109,18 @@
     <profileType id="e1b3bd16-7c9f-43ae-a52d-eaed3229357f" name="Landing Pad Configuration">
       <characteristicTypes>
         <characteristicType id="f0811229-fef8-44f7-ae4f-bf8c866e97ef" name="Effect"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType id="0914-3504-9893-39db" name="Vehicle">
+      <characteristicTypes>
+        <characteristicType id="3945-bffa-0946-e9b4" name="M"/>
+        <characteristicType id="de2f-b464-50fb-fa03" name="BS"/>
+        <characteristicType id="2b42-cf1d-e7c4-357f" name="Front"/>
+        <characteristicType id="9280-2ea9-121a-2dd2" name="Side"/>
+        <characteristicType id="f801-d770-143f-60c5" name="Rear"/>
+        <characteristicType id="fe5f-ab23-eb1a-6896" name="HP"/>
+        <characteristicType id="c824-12d7-c9ca-4340" name="Transport Capacity"/>
+        <characteristicType id="5e0b-6b4c-3fe9-7914" name="Access Points"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
@@ -9467,6 +9479,9 @@ Template weapons can fire Snap Shots at any non-Flyer target. If a Template weap
 
 Hellstorm Weapons
 Hellstorm weapons have the word ‘Hellstorm’ instead of a range on their weapon profile. Hellstorm weapons use the Hellstorm template (see page 152), but otherwise obey the rules for other Template weapons.</description>
+    </rule>
+    <rule id="500e-b42d-0b21-26c5" name="Ram (X)" hidden="false">
+      <description>When a model with a weapon with this special rule performs a Ram Attack, it inflicts a number of additional hits equal to the value of X. These additional hits are resolved using the profile of the weapon with this special rule.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
