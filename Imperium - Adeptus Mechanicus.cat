@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b20f3d1a-ca3b-4580-8a8b-f595b3877883" name="Imperium - Adeptus Mechanicus" revision="211" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Thairne" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="11f72b7f-57c7-49ff-a1aa-649e95da9c5f" gameSystemRevision="254" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b20f3d1a-ca3b-4580-8a8b-f595b3877883" name="Imperium - Adeptus Mechanicus" revision="212" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Thairne" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="11f72b7f-57c7-49ff-a1aa-649e95da9c5f" gameSystemRevision="254" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="629ea54e-0a94-4d10-887c-342cb4a4c74f" name="Codex: Adeptus Mechanicus"/>
     <publication id="73a8ad3c-941b-42eb-b1c9-6f2165c511fb" name="Forgeworld Datasheet"/>
@@ -552,6 +552,35 @@
           </conditions>
         </modifier>
       </modifiers>
+    </entryLink>
+    <entryLink id="e18e-fba4-3a60-587b" name="Thallax Cohort" hidden="false" collective="false" import="true" targetId="dc70-96de-07cd-6e47" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d5392f10-7ca4-4113-a37b-5aa147694ffa" type="atLeast"/>
+          </conditions>
+          <modifiers>
+            <modifier type="add" field="category" value="68a3e97f-b471-4ada-a5b9-f7b944b72585"/>
+            <modifier type="add" field="category" value="66e6a875-b5a8-4d88-8334-58d741adac24"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <categoryLinks>
+        <categoryLink id="5084-55f7-9bda-ebfb" name="Core" hidden="false" targetId="4a1d67b2-0a2f-4c11-8b63-89cd5b312592" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f6db-e12e-0574-4861" name="Iron Circle Maniple" hidden="false" collective="false" import="true" targetId="3800-7712-7c66-84b5" type="selectionEntry">
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d5392f10-7ca4-4113-a37b-5aa147694ffa" type="atLeast"/>
+          </conditions>
+          <modifiers>
+            <modifier type="add" field="category" value="68a3e97f-b471-4ada-a5b9-f7b944b72585"/>
+            <modifier type="add" field="category" value="66e6a875-b5a8-4d88-8334-58d741adac24"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
     </entryLink>
   </entryLinks>
   <infoLinks>
@@ -8817,7 +8846,7 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
                   </costs>
                 </entryLink>
                 <entryLink id="9b89-f21d-dd27-cf7d" name="Mauler Bolt Cannon" hidden="false" collective="false" import="true" targetId="9106-8b91-2699-098f" type="selectionEntry"/>
-                <entryLink id="4135-14be-20c3-6a72" name="Multi-Melta" hidden="false" collective="false" import="true" targetId="15b5-15cc-730d-6642" type="selectionEntry">
+                <entryLink id="4135-14be-20c3-6a72" name="Multi-melta" hidden="false" collective="false" import="true" targetId="cb0eb62e-f6e8-4ec3-b32f-28153c88c3c6" type="selectionEntry">
                   <costs>
                     <cost name="pts" typeId="points" value="20.0"/>
                   </costs>
@@ -8994,33 +9023,6 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
           </characteristics>
         </profile>
       </profiles>
-      <costs>
-        <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="15b5-15cc-730d-6642" name="Multi-Melta" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="316b-7702-5eb1-ff75" name="Multi-Melta" hidden="false" typeId="327087aa-3bc6-45db-8bef-b83aa26d2c80" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="c297eb44-1f5e-4c56-a0d6-488c32aecd66">24&quot;</characteristic>
-            <characteristic name="Type" typeId="e472d41f-d999-422d-b009-03cd0c3a9e6f">Heavy 1</characteristic>
-            <characteristic name="S" typeId="31bb5033-ac6f-4fb2-9fa9-dd4922faa0f8">8</characteristic>
-            <characteristic name="AP" typeId="1962f9e8-72aa-4bd7-9e42-09a7bd95eccf">-5</characteristic>
-            <characteristic name="D" typeId="8fe73330-1760-49d0-bf9d-cabcfdb9ba3d">D6</characteristic>
-            <characteristic name="Abilities" typeId="67e4860e-b1fe-4e2a-9386-7b0a64e10037">Armourbane (Melta), Twin-linked</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="cbc4-a980-5083-5c24" name="Armourbane (X)" hidden="false" targetId="3ced-a19d-e283-db66" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Armourbane (Melta)"/>
-          </modifiers>
-        </infoLink>
-        <infoLink id="0c8d-f81e-64ba-3150" name="Twin-linked" hidden="false" targetId="5e33-9350-e714-c105" type="rule"/>
-      </infoLinks>
       <costs>
         <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -9367,6 +9369,301 @@ In addition, a model with the Paragon of Metal special rule may not be targeted 
         <cost name="pts" typeId="points" value="0.0"/>
         <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="dc70-96de-07cd-6e47" name="Thallax Cohort" hidden="false" collective="false" import="true" type="upgrade">
+      <categoryLinks>
+        <categoryLink id="df60-aaa0-3c15-4402" name="Faction: &lt;Forge World&gt;" hidden="false" targetId="08da7c57-1546-4106-afa5-6f4edee6eb41" primary="false"/>
+        <categoryLink id="3439-62ab-3693-f57d" name="Faction: Adeptus Mechanicus" hidden="false" targetId="21d39ca6-86bd-4887-a4bf-0cb407d0d02f" primary="false"/>
+        <categoryLink id="4bcf-d0fa-e307-0d7d" name="Faction: Cult Mechanicus" hidden="false" targetId="47b9cdb9-28fa-4325-afc0-f59fd846c131" primary="false"/>
+        <categoryLink id="a1f2-ae6a-b793-5e3f" name="Faction: Imperium" hidden="false" targetId="99357296-820b-46e3-8395-77961c0d8302" primary="false"/>
+        <categoryLink id="f1fb-90af-107e-01e8" name="Troops" hidden="false" targetId="5176c51e-8715-41ae-976c-bdfce2a3272e" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="6ad4-5852-9142-33b3" name="Thallax" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eae3-699c-ef94-33cc" type="max"/>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5107-4132-76c7-6d3a" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="af90-3b59-4ef6-0cb6" name="Thallax" hidden="false" typeId="96633e23-5f89-47ac-862a-ea3f419e82ad" typeName="Unit">
+              <characteristics>
+                <characteristic name="M" typeId="29908c04-cacb-4ff6-80a3-f7ac34f9b320">7</characteristic>
+                <characteristic name="WS" typeId="b0f83996-9c8e-42bb-80ae-6183503a8687">4+</characteristic>
+                <characteristic name="BS" typeId="fcd83b9f-a688-4fd1-88ed-5cf248c9ecdd">3+</characteristic>
+                <characteristic name="S" typeId="cba76dde-3857-489e-a3cb-f1c82182901c">4</characteristic>
+                <characteristic name="T" typeId="082cd324-3c32-4cf7-8a77-34c5ff973db1">5</characteristic>
+                <characteristic name="W" typeId="f5983de7-8c32-4395-a17c-18fc765ec74a">3</characteristic>
+                <characteristic name="A" typeId="40b1852f-baa7-49a7-9e04-0d0cea23edea">2</characteristic>
+                <characteristic name="Ld" typeId="1bb39308-fe32-4190-9336-713b6293a715">7</characteristic>
+                <characteristic name="Save" typeId="c4f7addd-d978-4a27-b039-8e4a15fa6bda">4+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="9814-2c48-0d0c-e800" name="Bulky (X)" hidden="false" targetId="7588-aef1-14bd-79c6" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Bulky (2)"/>
+              </modifiers>
+            </infoLink>
+            <infoLink id="b9ea-a779-4a6b-487c" name="Djinn-Sight" hidden="false" targetId="35ab-6199-cbae-17c3" type="rule"/>
+            <infoLink id="446a-505f-7e1f-79b9" name="Feel No Pain (X)" hidden="false" targetId="88d0-b1c6-58f3-0498" type="rule">
+              <modifiers>
+                <modifier type="set" field="name" value="Feel No Pain (6+)"/>
+              </modifiers>
+            </infoLink>
+            <infoLink id="9418-aaa8-1035-aa79" name="Relentless" hidden="false" targetId="ced4-ec63-55fc-0baf" type="rule"/>
+            <infoLink id="51e1-85bf-5004-9707" name="Stubborn" hidden="false" targetId="4aec-9a52-3086-2950" type="rule"/>
+          </infoLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="2800-53f7-a718-7246" name="1 in 3 models may exchange their lightning gun for one of the following:" hidden="false" collective="false" import="true">
+              <modifiers>
+                <modifier type="increment" field="fd98-57dd-9751-2b40" value="1.0">
+                  <repeats>
+                    <repeat field="selections" scope="dc70-96de-07cd-6e47" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd98-57dd-9751-2b40" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="4fbf-b756-90b3-8571" name="Multi-melta" hidden="false" collective="false" import="true" targetId="cb0eb62e-f6e8-4ec3-b32f-28153c88c3c6" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7624-92a7-c4d8-8e46" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="25.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="73fb-a7c5-8f60-26ce" name="Irad-Cleanser" hidden="false" collective="false" import="true" targetId="e15e-e91f-4325-f6e5" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="points" value="10.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="0d27-4a4e-7ab2-f8ea" name="Multi-Laser" hidden="false" collective="false" import="true" targetId="f238-9c9b-ab66-b1e0" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="points" value="5.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="e2a3-16f4-f29e-6f05" name="Phased Plasma-Fusil" hidden="false" collective="false" import="true" targetId="a346-a1c2-cc7e-1f0f" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="points" value="10.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="e72a-d8e5-8ad4-cf33" name="Photon Thruster" hidden="false" collective="false" import="true" targetId="9dd5-8500-ac44-84d7" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="points" value="25.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="9e7f-cfb6-29b4-c818" name="Any model with a Lightning Gun may take:" hidden="false" collective="false" import="true">
+              <modifiers>
+                <modifier type="increment" field="a7a3-37f9-7cc0-cfe2" value="1.0">
+                  <repeats>
+                    <repeat field="selections" scope="dc70-96de-07cd-6e47" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+                <modifier type="decrement" field="a7a3-37f9-7cc0-cfe2" value="1.0">
+                  <repeats>
+                    <repeat field="selections" scope="dc70-96de-07cd-6e47" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2800-53f7-a718-7246" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7a3-37f9-7cc0-cfe2" type="max"/>
+              </constraints>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="points" value="37.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="14.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e15e-e91f-4325-f6e5" name="Irad-Cleanser" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="6922-b89a-3466-aad0" name="Irad-Cleanser" hidden="false" typeId="327087aa-3bc6-45db-8bef-b83aa26d2c80" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c297eb44-1f5e-4c56-a0d6-488c32aecd66">Template</characteristic>
+            <characteristic name="Type" typeId="e472d41f-d999-422d-b009-03cd0c3a9e6f">Assault 1</characteristic>
+            <characteristic name="S" typeId="31bb5033-ac6f-4fb2-9fa9-dd4922faa0f8">2</characteristic>
+            <characteristic name="AP" typeId="1962f9e8-72aa-4bd7-9e42-09a7bd95eccf">-1</characteristic>
+            <characteristic name="D" typeId="8fe73330-1760-49d0-bf9d-cabcfdb9ba3d">1</characteristic>
+            <characteristic name="Abilities" typeId="67e4860e-b1fe-4e2a-9386-7b0a64e10037">Fleshbane</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="15e1-3057-bc2d-247e" name="Fleshbane" hidden="false" targetId="ae98-72fe-dacc-74e2" type="rule"/>
+        <infoLink id="83db-6e88-be21-dd41" name="Template Weapons" hidden="false" targetId="309c-9141-f5c1-03bd" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="f238-9c9b-ab66-b1e0" name="Multi-Laser" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="a692-0438-9b11-19ca" name="Multi-Laser" hidden="false" typeId="327087aa-3bc6-45db-8bef-b83aa26d2c80" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c297eb44-1f5e-4c56-a0d6-488c32aecd66">36&quot;</characteristic>
+            <characteristic name="Type" typeId="e472d41f-d999-422d-b009-03cd0c3a9e6f">Heavy 3</characteristic>
+            <characteristic name="S" typeId="31bb5033-ac6f-4fb2-9fa9-dd4922faa0f8">6</characteristic>
+            <characteristic name="AP" typeId="1962f9e8-72aa-4bd7-9e42-09a7bd95eccf">-</characteristic>
+            <characteristic name="D" typeId="8fe73330-1760-49d0-bf9d-cabcfdb9ba3d"/>
+            <characteristic name="Abilities" typeId="67e4860e-b1fe-4e2a-9386-7b0a64e10037"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="a346-a1c2-cc7e-1f0f" name="Phased Plasma-Fusil" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="8cfc-e24b-8c96-fdce" name="Phased Plasma-Fusil" hidden="false" typeId="327087aa-3bc6-45db-8bef-b83aa26d2c80" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c297eb44-1f5e-4c56-a0d6-488c32aecd66">24&quot;</characteristic>
+            <characteristic name="Type" typeId="e472d41f-d999-422d-b009-03cd0c3a9e6f">Heavy 3</characteristic>
+            <characteristic name="S" typeId="31bb5033-ac6f-4fb2-9fa9-dd4922faa0f8">6</characteristic>
+            <characteristic name="AP" typeId="1962f9e8-72aa-4bd7-9e42-09a7bd95eccf">-3</characteristic>
+            <characteristic name="D" typeId="8fe73330-1760-49d0-bf9d-cabcfdb9ba3d">1</characteristic>
+            <characteristic name="Abilities" typeId="67e4860e-b1fe-4e2a-9386-7b0a64e10037">Breaching (4+), Gets Hot</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="6454-af64-1371-6381" name="Gets Hot" hidden="false" targetId="bd79-a6dc-fb21-13c5" type="rule"/>
+        <infoLink id="8687-669e-de3f-e231" name="Breaching (X)" hidden="false" targetId="9e70-8e1a-b6ec-f03e" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Breaching (4+)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="9dd5-8500-ac44-84d7" name="Photon Thruster" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="8138-cf70-7c90-3178" name="Photon Thruster" hidden="false" typeId="327087aa-3bc6-45db-8bef-b83aa26d2c80" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c297eb44-1f5e-4c56-a0d6-488c32aecd66">24&quot;</characteristic>
+            <characteristic name="Type" typeId="e472d41f-d999-422d-b009-03cd0c3a9e6f">Assault 2</characteristic>
+            <characteristic name="S" typeId="31bb5033-ac6f-4fb2-9fa9-dd4922faa0f8">6</characteristic>
+            <characteristic name="AP" typeId="1962f9e8-72aa-4bd7-9e42-09a7bd95eccf">-4</characteristic>
+            <characteristic name="D" typeId="8fe73330-1760-49d0-bf9d-cabcfdb9ba3d">1</characteristic>
+            <characteristic name="Abilities" typeId="67e4860e-b1fe-4e2a-9386-7b0a64e10037">Lance, Gets Hot</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="706b-a3cb-bfbb-048d" name="Gets Hot" hidden="false" targetId="bd79-a6dc-fb21-13c5" type="rule"/>
+        <infoLink id="878b-c693-bf67-25fb" name="Lance" hidden="false" targetId="db92-b51b-f7f8-6ef4" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="3800-7712-7c66-84b5" name="Iron Circle Maniple" hidden="false" collective="false" import="true" type="upgrade">
+      <rules>
+        <rule id="eb05-7d01-31bd-7730" name="Moving Bulwark" hidden="false">
+          <description>When a model with this special rule is in base contact with another friendly model that also has the Moving Bulwark special rule, both models increase their Invulnerable Saves by one step (i.e from 5+ to 4+) to a maximum of a 4+ Invulnerable Save.</description>
+        </rule>
+        <rule id="4778-233b-317e-90a5" name="The Shield of the Iron Tyrant" hidden="false">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="97a03951-9950-423e-9f5c-c3f736d6a430" type="lessThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <description>An Iron Circle Maniple composed of at least three models may be selected as a Retinue Squad in a detachment that includes Perturabo, instead of as an Elite choice. An Iron Circle Maniple selected as a Retinue Squad counts Perturabo as its leader for the purposes of this special rule. An Iron Circle Maniple selected as a Retinue Squad must be deployed with Perturabo deployed as part of the unit and Perturabo may not voluntarily leave the Retinue Squad during play, Domitar-ferrum that are part of an Iron Circle Maniple chosen as a Retinue Squad for Perturabo gain the Feel No Pain (5+) special rule.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="bd77-f719-944e-ce73" name="Angels of Death" hidden="false" targetId="34b840b4-b26c-4d51-b796-a2e72f23c99b" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Hammer of Wrath (3)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="3a53-c66d-ea20-04e3" name="Barrage" hidden="false" targetId="3e4d-04c9-8cd1-93b6" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Feel No Pain (5+)"/>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="97a03951-9950-423e-9f5c-c3f736d6a430" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d4ab-2cec-0da9-a7b6" name="Faction: &lt;Forge World&gt;" hidden="false" targetId="08da7c57-1546-4106-afa5-6f4edee6eb41" primary="false"/>
+        <categoryLink id="f21e-ae5f-cdb5-ca33" name="Faction: Adeptus Mechanicus" hidden="false" targetId="21d39ca6-86bd-4887-a4bf-0cb407d0d02f" primary="false"/>
+        <categoryLink id="f77f-bfab-8b93-1108" name="Elites" hidden="false" targetId="691ada24-2db6-40a1-bcd0-089ec36b48bc" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="d0b3-aa87-d78f-6ca7" name="Domitar-ferrum" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="add" field="category" value="97a03951-9950-423e-9f5c-c3f736d6a430">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="97a03951-9950-423e-9f5c-c3f736d6a430" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="set" field="f6d4-080c-bf0a-282f" value="3.0">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0cf42ced-4084-4075-afdf-baf0b2f1b215" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d663-8103-b558-19ff" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6d4-080c-bf0a-282f" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="9d03-67ec-2a00-f052" name="Domitar-ferrum" hidden="false" typeId="96633e23-5f89-47ac-862a-ea3f419e82ad" typeName="Unit">
+              <characteristics>
+                <characteristic name="M" typeId="29908c04-cacb-4ff6-80a3-f7ac34f9b320"/>
+                <characteristic name="WS" typeId="b0f83996-9c8e-42bb-80ae-6183503a8687">4</characteristic>
+                <characteristic name="BS" typeId="fcd83b9f-a688-4fd1-88ed-5cf248c9ecdd">3</characteristic>
+                <characteristic name="S" typeId="cba76dde-3857-489e-a3cb-f1c82182901c">7</characteristic>
+                <characteristic name="T" typeId="082cd324-3c32-4cf7-8a77-34c5ff973db1">7</characteristic>
+                <characteristic name="W" typeId="f5983de7-8c32-4395-a17c-18fc765ec74a">5</characteristic>
+                <characteristic name="A" typeId="40b1852f-baa7-49a7-9e04-0d0cea23edea">3</characteristic>
+                <characteristic name="Ld" typeId="1bb39308-fe32-4190-9336-713b6293a715">8</characteristic>
+                <characteristic name="Save" typeId="c4f7addd-d978-4a27-b039-8e4a15fa6bda">3+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntries>
+            <selectionEntry id="73a9-9cbf-e3ba-32cb" name="Karceri Battle Shield" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec23-986c-5dbb-e7da" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a23-d3d1-bb79-b657" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="5a76-ef80-700f-884b" name="Karceri Battle Shield" hidden="false" typeId="d8b7eb23-4e11-4efa-90fb-b26e0ab318fa" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="19f8973f-c187-4eef-9206-9c8057c78779">A model with a Karceri battle shield gains a 5+ Invulnerable Save and any model with a Karceri battle shield that suffers and unsaved wound with the Instant Death special rule is not immediately removed as a casualty, but instead loses D3 Wounds instead of one for each unsaved Wound with the Instant Death special rule inflicted on it. In addition, any charge that targets a unit that includes one or more models equipped with a Karceri battle shield which is not already locked in combat is always resolved as a Disordered Charge.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="76cb-7acf-ba4a-a153" name="Multi-Laser" hidden="false" collective="false" import="true" targetId="f238-9c9b-ab66-b1e0" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6217-1e13-562c-9fa0" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d13-0212-815e-276a" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="b0d2-5de4-8e9b-2f1f" name="Multi-melta" hidden="false" collective="false" import="true" targetId="304df958-dfa6-46b7-ae2a-8ddcb2528bf6" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a87-055c-991a-1973" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27e7-c75a-f666-f746" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -10427,6 +10724,30 @@ Similarly, if a model makes a Shooting Attack with a weapon that has the Shred r
       <description>If this weapon successfully scores a Penetrating Hit on a target, roll a D6. If the result of that roll is equal to or higher than the value in brackets after the rule, a second automatic Penetrating Hit is inflicted on the same target against which Cover Saves may not be taken. For example, a weapon with the Exoshock (4+) special rule would inflict a second Penetrating Hit on the score of a 4+. This second Penetrating Hit does not gain the effects of any other special rules, and cannot trigger additional Hits.
 
 If, for any reason, a given instance of this rule does not have a value in brackets after the special rule, assume the value is 6+.</description>
+    </rule>
+    <rule id="35ab-6199-cbae-17c3" name="Djinn-Sight" hidden="false">
+      <description>When making Shooting Attacks, djinn-sight reduces the benefits of any Cover Save the target unit has by -2 (a 4+ becoming a 6+, a 5+ being ignored entirely, and so on). Additionally, Infiltrators may not be set up within 24&quot; of units with this special rule, regardless of line of sight.</description>
+    </rule>
+    <rule id="88d0-b1c6-58f3-0498" name="Feel No Pain (X)" hidden="false">
+      <description>When a model with this special rule suffers an unsaved Wound, it can make a special Feel No Pain roll to avoid being Wounded (this is a special Saving Throw which is made after unsaved Wounds are suffered).
+Feel No Pain rolls may not be taken against unsaved Wounds that have the Instant Death special rule.
+Roll a D6 each time an unsaved Wound is suffered. On a result that is equal to or greater than the value in brackets, the unsaved Wound is discounted - treat it as having been saved. On any other result the Wound is taken as normal.
+For example, a unit with the special rule Feel No Pain (5+) would need to score a 5 or 6 in order to discount a Wound inflicted upon it.
+This is a Damage Mitigation roll - any model may make only a single Damage Mitigation roll of any type for any given Wound (see page 174).</description>
+    </rule>
+    <rule id="ec6f-2de5-6778-3c40" name="Deep Strike" hidden="false">
+      <description>A unit made up entirely of models with this special rule may perform a Deep Strike Assault as described on page 310. Certain Faction or unit special rules may present other options for the deployment of units with the Deep Strike special rule.</description>
+    </rule>
+    <rule id="ced4-ec63-55fc-0baf" name="Relentless" hidden="false">
+      <description>Relentless models can shoot with Heavy or Ordnance weapons, counting as Stationary, even if they moved in the previous Movement phase. They are also allowed to Charge in the same turn they fire Heavy, Ordnance, or Rapid Fire weapons.</description>
+    </rule>
+    <rule id="4aec-9a52-3086-2950" name="Stubborn" hidden="false">
+      <description>When a unit that contains at least one model with this special rule takes Morale checks or Pinning tests, the unit ignore any negative Leadership modifiers. If a unit is both Fearless and Stubborn, the unit uses the rules for Fearless instead.</description>
+    </rule>
+    <rule id="7588-aef1-14bd-79c6" name="Bulky (X)" hidden="false">
+      <description>Bulky models count as a number of models equal to the value X in brackets after the rule’s name for the purposes of Transport Capacity and whether a given unit outnumbers another in combat.
+
+For example, a unit comprised of five  odels all of which have the Bulky (3) special rule, would count as 15 models when attempting to Embark on a Transport Vehicle or when deciding if they outnumber an enemy unit.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
