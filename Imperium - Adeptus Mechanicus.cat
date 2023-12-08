@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b20f3d1a-ca3b-4580-8a8b-f595b3877883" name="Imperium - Adeptus Mechanicus" revision="213" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Thairne" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="11f72b7f-57c7-49ff-a1aa-649e95da9c5f" gameSystemRevision="254" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b20f3d1a-ca3b-4580-8a8b-f595b3877883" name="Imperium - Adeptus Mechanicus" revision="214" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Thairne" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="11f72b7f-57c7-49ff-a1aa-649e95da9c5f" gameSystemRevision="254" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="629ea54e-0a94-4d10-887c-342cb4a4c74f" name="Codex: Adeptus Mechanicus"/>
     <publication id="73a8ad3c-941b-42eb-b1c9-6f2165c511fb" name="Forgeworld Datasheet"/>
     <publication id="d61e66b2-9613-4d81-885a-ee1f9fa3fbd8" name="Warzone Charadon - Book of Rust"/>
     <publication id="694d12eb-076f-4b87-ad39-5e4c2184357f" name="Warzone Charadon -  Book of Fire"/>
+    <publication id="48e2-71eb-74b7-ffb7" name="Liber Mechanicum - Forces of the Omnissiah Army Book"/>
   </publications>
   <profileTypes>
     <profileType id="5b91345b-0ccf-4326-a45b-58c6003a098c" name="Explosion">
@@ -9473,8 +9474,70 @@ In addition, a model with the Paragon of Metal special rule may not be targeted 
               <constraints>
                 <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7a3-37f9-7cc0-cfe2" type="max"/>
               </constraints>
+              <entryLinks>
+                <entryLink id="e816-ec99-840f-4887" name="Chain Bayonet" hidden="false" collective="false" import="true" targetId="141b-9964-3827-2968" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7c7-b9d0-3505-5188" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2.0"/>
+                  </costs>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="6b43-c8f9-ae24-205a" name="Dedicated Transport" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40fe-4500-dd35-59a6" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="ae14-8db4-167f-64db" name="Triaros Armoured Conveyor" hidden="false" collective="false" import="true" targetId="2ba7-e629-b282-ffc2" type="selectionEntry"/>
+              </entryLinks>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="8f7e-a93b-6c4e-8190" name="Close Combat Weapon" hidden="false" collective="false" import="true" targetId="b032-f16a-5491-1d9b" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4547-a617-b694-41c5" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bff9-2199-19da-d1ef" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="72d2-83e6-ca31-351b" name="Frag grenades" hidden="false" collective="false" import="true" targetId="7c6adbf4-baa7-43a6-a121-f423493115e5" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="770e-4310-a8e5-1199" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a05-2179-e1b6-89e7" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="d989-1459-2786-6c27" name="Incunabulan Jet Pack" hidden="false" collective="false" import="true" targetId="b6a5-eace-182c-5637" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="038a-74a1-d7d6-589d" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0883-aa32-79c8-4b94" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="b739-765f-7f20-b94a" name="Lightning Gun" hidden="false" collective="false" import="true" targetId="d5f3-c306-b428-d570" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d456-e2ba-4652-78aa" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bdf3-1ab1-61d0-7cdd" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="d9d4-c5bc-8576-9334" name="Lorica Thallax" hidden="false" collective="false" import="true" targetId="15fe-942b-8deb-8010" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1eb-f30e-fcb1-542d" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9539-231f-a583-5829" type="min"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="a021-3d41-740a-c48f" name="Melta bombs" hidden="false" collective="false" import="true" targetId="35299215-c73f-4600-b471-a7371cbd7eef" type="selectionEntry">
+              <modifiers>
+                <modifier type="increment" field="points" value="5.0">
+                  <repeats>
+                    <repeat field="selections" scope="dc70-96de-07cd-6e47" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16c0-43e1-f17f-f95a" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="37.0"/>
             <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
@@ -9706,6 +9769,143 @@ In addition, a model with the Paragon of Metal special rule may not be targeted 
           </characteristics>
         </profile>
       </profiles>
+    </selectionEntry>
+    <selectionEntry id="141b-9964-3827-2968" name="Chain Bayonet" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="cd71-aa9a-35d5-d828" name="Chain Bayonet" hidden="false" typeId="327087aa-3bc6-45db-8bef-b83aa26d2c80" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c297eb44-1f5e-4c56-a0d6-488c32aecd66">Melee</characteristic>
+            <characteristic name="Type" typeId="e472d41f-d999-422d-b009-03cd0c3a9e6f">Melee</characteristic>
+            <characteristic name="S" typeId="31bb5033-ac6f-4fb2-9fa9-dd4922faa0f8">+1</characteristic>
+            <characteristic name="AP" typeId="1962f9e8-72aa-4bd7-9e42-09a7bd95eccf">0</characteristic>
+            <characteristic name="D" typeId="8fe73330-1760-49d0-bf9d-cabcfdb9ba3d">1</characteristic>
+            <characteristic name="Abilities" typeId="67e4860e-b1fe-4e2a-9386-7b0a64e10037">Two-handed, Shred</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c923-dd02-4c7a-93b6" name="Shred" hidden="false" targetId="6f24-ed7c-c006-7606" type="rule"/>
+        <infoLink id="e6ae-cdf2-ef9b-e77d" name="Two-handed" hidden="false" targetId="2099-f5d6-8acc-62fb" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="2ba7-e629-b282-ffc2" name="Triaros Armoured Conveyor" hidden="false" collective="false" import="true" type="unit">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba0f-bc05-7e03-cc06" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="6289-6cad-70cc-1292" name="Triaros Armoured Conveyor" publicationId="ec03f878-0373-4196-899f-9aa28d6c281b" page="38" hidden="false" typeId="96633e23-5f89-47ac-862a-ea3f419e82ad" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="29908c04-cacb-4ff6-80a3-f7ac34f9b320"/>
+            <characteristic name="WS" typeId="b0f83996-9c8e-42bb-80ae-6183503a8687"/>
+            <characteristic name="BS" typeId="fcd83b9f-a688-4fd1-88ed-5cf248c9ecdd">4</characteristic>
+            <characteristic name="S" typeId="cba76dde-3857-489e-a3cb-f1c82182901c"/>
+            <characteristic name="T" typeId="082cd324-3c32-4cf7-8a77-34c5ff973db1"/>
+            <characteristic name="W" typeId="f5983de7-8c32-4395-a17c-18fc765ec74a"/>
+            <characteristic name="A" typeId="40b1852f-baa7-49a7-9e04-0d0cea23edea"/>
+            <characteristic name="Ld" typeId="1bb39308-fe32-4190-9336-713b6293a715"/>
+            <characteristic name="Save" typeId="c4f7addd-d978-4a27-b039-8e4a15fa6bda"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="135.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b032-f16a-5491-1d9b" name="Close Combat Weapon" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="7adc-f0d4-4c12-d47e" name="Close Combat Weapon" hidden="false" typeId="327087aa-3bc6-45db-8bef-b83aa26d2c80" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c297eb44-1f5e-4c56-a0d6-488c32aecd66">Melee</characteristic>
+            <characteristic name="Type" typeId="e472d41f-d999-422d-b009-03cd0c3a9e6f">Melee</characteristic>
+            <characteristic name="S" typeId="31bb5033-ac6f-4fb2-9fa9-dd4922faa0f8">User</characteristic>
+            <characteristic name="AP" typeId="1962f9e8-72aa-4bd7-9e42-09a7bd95eccf">0</characteristic>
+            <characteristic name="D" typeId="8fe73330-1760-49d0-bf9d-cabcfdb9ba3d">1</characteristic>
+            <characteristic name="Abilities" typeId="67e4860e-b1fe-4e2a-9386-7b0a64e10037"/>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="b6a5-eace-182c-5637" name="Incunabulan Jet Pack" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="4e81-e4b1-925c-e68f" name="Incunabulan Jet Pack" publicationId="73a8ad3c-941b-42eb-b1c9-6f2165c511fb" page="130" hidden="false" typeId="d8b7eb23-4e11-4efa-90fb-b26e0ab318fa" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="19f8973f-c187-4eef-9206-9c8057c78779">A unit composed entirely of models with Incunabulan jet packs may choose to increase its Move Characteristic by +6&quot; and ignore terrain while Moving during the Movement phase. A unit that ends or begins its movement in Dangerous Terrain will still need to take Dangerous Terrain tests as normal, even when employing Incunabulan jet packs and treats Difficult Terrain as Dangerous Terrain. In addition to the bonus to Move during the Movement phase, a unit composed entirely of models with Incunabulan jet packs may make an additional Move of 6&quot; during the Shooting phase. This Move must be taken after the unit has completed any Shooting Attacks, is not limited by the weapons fired by that unit during the Shooting phase and ignores terrain in the same manner as moves made using a Incunabulan jet pack in the Movement phase.
+Any model with an Incunabulan jet pack also gains the Bulky (2) and Deep Strike special rules, or if it already has the Bulky (2) special rule it gains the Bulky (3) special rule instead. Models with an Incunabulan jet pack may Embark on models with the Transport Unit Sub-type, contrary to the normal Transport rules, but still must take into account their size due to the Bulky (X) special rule.
+During any Reaction that allows a unit to Move, a unit composed entirely of models with Incunabulan jet packs increases the distance of that Move by 6 and allows it to ignore terrain in the same manner as other Incunabulan jet pack moves.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="0777-8264-632b-7f8b" name="Deep Strike" hidden="false" targetId="ec6f-2de5-6778-3c40" type="rule"/>
+        <infoLink id="cf48-236a-e3cf-9f3f" name="Bulky (X)" hidden="false" targetId="7588-aef1-14bd-79c6" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Bulky (2 or 3)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="d5f3-c306-b428-d570" name="Lightning Gun" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="a4af-acb7-bd1a-4c05" name="Lightning Gun (Arc)" publicationId="73a8ad3c-941b-42eb-b1c9-6f2165c511fb" page="113" hidden="false" typeId="327087aa-3bc6-45db-8bef-b83aa26d2c80" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c297eb44-1f5e-4c56-a0d6-488c32aecd66">18&quot;</characteristic>
+            <characteristic name="Type" typeId="e472d41f-d999-422d-b009-03cd0c3a9e6f">Heavy 3</characteristic>
+            <characteristic name="S" typeId="31bb5033-ac6f-4fb2-9fa9-dd4922faa0f8">4</characteristic>
+            <characteristic name="AP" typeId="1962f9e8-72aa-4bd7-9e42-09a7bd95eccf">0</characteristic>
+            <characteristic name="D" typeId="8fe73330-1760-49d0-bf9d-cabcfdb9ba3d">2</characteristic>
+            <characteristic name="Abilities" typeId="67e4860e-b1fe-4e2a-9386-7b0a64e10037">Shred</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="74c6-d0f7-658d-5f66" name="Lightning Gun (Strike)" publicationId="48e2-71eb-74b7-ffb7" page="113" hidden="false" typeId="327087aa-3bc6-45db-8bef-b83aa26d2c80" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c297eb44-1f5e-4c56-a0d6-488c32aecd66">18&quot;</characteristic>
+            <characteristic name="Type" typeId="e472d41f-d999-422d-b009-03cd0c3a9e6f">Heavy 1</characteristic>
+            <characteristic name="S" typeId="31bb5033-ac6f-4fb2-9fa9-dd4922faa0f8">7</characteristic>
+            <characteristic name="AP" typeId="1962f9e8-72aa-4bd7-9e42-09a7bd95eccf">-1</characteristic>
+            <characteristic name="D" typeId="8fe73330-1760-49d0-bf9d-cabcfdb9ba3d">D6</characteristic>
+            <characteristic name="Abilities" typeId="67e4860e-b1fe-4e2a-9386-7b0a64e10037">Rending (4+), Shred</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="ccb5-30d0-77a1-a9ac" name="Rending (X)" hidden="false" targetId="88c6-9852-9cb7-6b35" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Rending (4+)"/>
+          </modifiers>
+        </infoLink>
+        <infoLink id="9f80-6fc6-f927-8da5" name="Shred" hidden="false" targetId="6f24-ed7c-c006-7606" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="15fe-942b-8deb-8010" name="Lorica Thallax" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="065c-1837-0dcf-02b7" name="Lorica Thallax" publicationId="48e2-71eb-74b7-ffb7" page="124" hidden="false" typeId="d8b7eb23-4e11-4efa-90fb-b26e0ab318fa" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="19f8973f-c187-4eef-9206-9c8057c78779">The Lorica Thallax confers a 4+ Armour Save. In addition, a unit that includes any models with Lorica Thallax may not make Sweeping Advances.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+    <selectionEntry id="16d8-88e0-16d1-c879" name="Meltabombs" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="ecf0-dbde-d313-49df" name="Meltabombs" publicationId="48e2-71eb-74b7-ffb7" page="138" hidden="false" typeId="327087aa-3bc6-45db-8bef-b83aa26d2c80" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c297eb44-1f5e-4c56-a0d6-488c32aecd66">Melee</characteristic>
+            <characteristic name="Type" typeId="e472d41f-d999-422d-b009-03cd0c3a9e6f">Melee</characteristic>
+            <characteristic name="S" typeId="31bb5033-ac6f-4fb2-9fa9-dd4922faa0f8">8</characteristic>
+            <characteristic name="AP" typeId="1962f9e8-72aa-4bd7-9e42-09a7bd95eccf">-5</characteristic>
+            <characteristic name="D" typeId="8fe73330-1760-49d0-bf9d-cabcfdb9ba3d">D6</characteristic>
+            <characteristic name="Abilities" typeId="67e4860e-b1fe-4e2a-9386-7b0a64e10037">Detonation, Unwieldy, Armourbane (Melee), Instant Death</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="7013-d22f-2297-654b" name="Detonation" hidden="false" targetId="a135-711d-98f7-58d2" type="rule"/>
+        <infoLink id="bb00-9f2d-c6f0-45cf" name="Armourbane (X)" hidden="false" targetId="3ced-a19d-e283-db66" type="rule">
+          <modifiers>
+            <modifier type="set" field="name" value="Armourbane (Melta)"/>
+          </modifiers>
+        </infoLink>
+      </infoLinks>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -10815,6 +11015,12 @@ A unit that has become Pinned cannot Move, Run or Charge. It can only fire Snap 
     </rule>
     <rule id="dca7-f2cb-8062-ec75" name="Legiones Astartes (Iron Warriors)" hidden="false">
       <description>Wrack &amp; Ruin: When a model with this special rule makes a Shooting Attack or Melee attack targeting a model with the Dreadnought, Automata, Vehicle or Building Unit Type it gains +1 to the Strength of that attack.</description>
+    </rule>
+    <rule id="2099-f5d6-8acc-62fb" name="Two-handed" hidden="false">
+      <description>A model attacking with this weapon never receives +1 Attack for fighting with two Melee weapons (see page 177).</description>
+    </rule>
+    <rule id="a135-711d-98f7-58d2" name="Detonation" hidden="false">
+      <description>A weapon with this special rule may only be used to attack models of the Vehicle type or any model with a Movement Characteristic of 0 or ‘-’, or Buildings or Fortifications. Furthermore, a model that is chosen to attack with a weapon with this special rule during the Fight phase may only make a single attack in the Fight sub-phase, regardless of its Attacks Characteristic and any bonus attacks from Charging or other special rules.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
