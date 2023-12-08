@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b20f3d1a-ca3b-4580-8a8b-f595b3877883" name="Imperium - Adeptus Mechanicus" revision="212" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Thairne" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="11f72b7f-57c7-49ff-a1aa-649e95da9c5f" gameSystemRevision="254" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b20f3d1a-ca3b-4580-8a8b-f595b3877883" name="Imperium - Adeptus Mechanicus" revision="213" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Thairne" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="11f72b7f-57c7-49ff-a1aa-649e95da9c5f" gameSystemRevision="254" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="629ea54e-0a94-4d10-887c-342cb4a4c74f" name="Codex: Adeptus Mechanicus"/>
     <publication id="73a8ad3c-941b-42eb-b1c9-6f2165c511fb" name="Forgeworld Datasheet"/>
@@ -9477,11 +9477,15 @@ In addition, a model with the Paragon of Metal special rule may not be targeted 
           </selectionEntryGroups>
           <costs>
             <cost name="pts" typeId="points" value="37.0"/>
+            <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
+            <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name="pts" typeId="points" value="14.0"/>
+        <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
+        <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e15e-e91f-4325-f6e5" name="Irad-Cleanser" hidden="false" collective="false" import="true" type="upgrade">
@@ -9501,6 +9505,11 @@ In addition, a model with the Paragon of Metal special rule may not be targeted 
         <infoLink id="15e1-3057-bc2d-247e" name="Fleshbane" hidden="false" targetId="ae98-72fe-dacc-74e2" type="rule"/>
         <infoLink id="83db-6e88-be21-dd41" name="Template Weapons" hidden="false" targetId="309c-9141-f5c1-03bd" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="f238-9c9b-ab66-b1e0" name="Multi-Laser" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -9515,6 +9524,11 @@ In addition, a model with the Paragon of Metal special rule may not be targeted 
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a346-a1c2-cc7e-1f0f" name="Phased Plasma-Fusil" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -9537,6 +9551,11 @@ In addition, a model with the Paragon of Metal special rule may not be targeted 
           </modifiers>
         </infoLink>
       </infoLinks>
+      <costs>
+        <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9dd5-8500-ac44-84d7" name="Photon Thruster" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -9555,39 +9574,26 @@ In addition, a model with the Paragon of Metal special rule may not be targeted 
         <infoLink id="706b-a3cb-bfbb-048d" name="Gets Hot" hidden="false" targetId="bd79-a6dc-fb21-13c5" type="rule"/>
         <infoLink id="878b-c693-bf67-25fb" name="Lance" hidden="false" targetId="db92-b51b-f7f8-6ef4" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
+      </costs>
     </selectionEntry>
-    <selectionEntry id="3800-7712-7c66-84b5" name="Iron Circle Maniple" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="3800-7712-7c66-84b5" name="Iron Circle Maniple" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="eb05-7d01-31bd-7730" name="Moving Bulwark" hidden="false">
           <description>When a model with this special rule is in base contact with another friendly model that also has the Moving Bulwark special rule, both models increase their Invulnerable Saves by one step (i.e from 5+ to 4+) to a maximum of a 4+ Invulnerable Save.</description>
         </rule>
-        <rule id="4778-233b-317e-90a5" name="The Shield of the Iron Tyrant" hidden="false">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="97a03951-9950-423e-9f5c-c3f736d6a430" type="lessThan"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <description>An Iron Circle Maniple composed of at least three models may be selected as a Retinue Squad in a detachment that includes Perturabo, instead of as an Elite choice. An Iron Circle Maniple selected as a Retinue Squad counts Perturabo as its leader for the purposes of this special rule. An Iron Circle Maniple selected as a Retinue Squad must be deployed with Perturabo deployed as part of the unit and Perturabo may not voluntarily leave the Retinue Squad during play, Domitar-ferrum that are part of an Iron Circle Maniple chosen as a Retinue Squad for Perturabo gain the Feel No Pain (5+) special rule.</description>
-        </rule>
       </rules>
       <infoLinks>
-        <infoLink id="bd77-f719-944e-ce73" name="Angels of Death" hidden="false" targetId="34b840b4-b26c-4d51-b796-a2e72f23c99b" type="rule">
+        <infoLink id="bd77-f719-944e-ce73" name="Hammer of Wrath (X)" hidden="false" targetId="5fda-15b3-73bf-9e7f" type="rule">
           <modifiers>
             <modifier type="set" field="name" value="Hammer of Wrath (3)"/>
           </modifiers>
         </infoLink>
-        <infoLink id="3a53-c66d-ea20-04e3" name="Barrage" hidden="false" targetId="3e4d-04c9-8cd1-93b6" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Feel No Pain (5+)"/>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="97a03951-9950-423e-9f5c-c3f736d6a430" type="notInstanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-        </infoLink>
+        <infoLink id="1f6f-78e2-4bd9-720b" name="Relentless" hidden="false" targetId="ced4-ec63-55fc-0baf" type="rule"/>
+        <infoLink id="0523-52a2-261a-fcbf" name="Legiones Astartes (Iron Warriors)" hidden="false" targetId="dca7-f2cb-8062-ec75" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="d4ab-2cec-0da9-a7b6" name="Faction: &lt;Forge World&gt;" hidden="false" targetId="08da7c57-1546-4106-afa5-6f4edee6eb41" primary="false"/>
@@ -9595,19 +9601,7 @@ In addition, a model with the Paragon of Metal special rule may not be targeted 
         <categoryLink id="f77f-bfab-8b93-1108" name="Elites" hidden="false" targetId="691ada24-2db6-40a1-bcd0-089ec36b48bc" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="d0b3-aa87-d78f-6ca7" name="Domitar-ferrum" hidden="false" collective="false" import="true" type="upgrade">
-          <modifiers>
-            <modifier type="add" field="category" value="97a03951-9950-423e-9f5c-c3f736d6a430">
-              <conditions>
-                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="97a03951-9950-423e-9f5c-c3f736d6a430" type="equalTo"/>
-              </conditions>
-            </modifier>
-            <modifier type="set" field="f6d4-080c-bf0a-282f" value="3.0">
-              <conditions>
-                <condition field="selections" scope="ancestor" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0cf42ced-4084-4075-afdf-baf0b2f1b215" type="instanceOf"/>
-              </conditions>
-            </modifier>
-          </modifiers>
+        <selectionEntry id="d0b3-aa87-d78f-6ca7" name="Domitar-ferrum" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d663-8103-b558-19ff" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6d4-080c-bf0a-282f" type="min"/>
@@ -9615,37 +9609,49 @@ In addition, a model with the Paragon of Metal special rule may not be targeted 
           <profiles>
             <profile id="9d03-67ec-2a00-f052" name="Domitar-ferrum" hidden="false" typeId="96633e23-5f89-47ac-862a-ea3f419e82ad" typeName="Unit">
               <characteristics>
-                <characteristic name="M" typeId="29908c04-cacb-4ff6-80a3-f7ac34f9b320"/>
-                <characteristic name="WS" typeId="b0f83996-9c8e-42bb-80ae-6183503a8687">4</characteristic>
-                <characteristic name="BS" typeId="fcd83b9f-a688-4fd1-88ed-5cf248c9ecdd">3</characteristic>
+                <characteristic name="M" typeId="29908c04-cacb-4ff6-80a3-f7ac34f9b320">8</characteristic>
+                <characteristic name="WS" typeId="b0f83996-9c8e-42bb-80ae-6183503a8687">3+</characteristic>
+                <characteristic name="BS" typeId="fcd83b9f-a688-4fd1-88ed-5cf248c9ecdd">4+</characteristic>
                 <characteristic name="S" typeId="cba76dde-3857-489e-a3cb-f1c82182901c">7</characteristic>
                 <characteristic name="T" typeId="082cd324-3c32-4cf7-8a77-34c5ff973db1">7</characteristic>
-                <characteristic name="W" typeId="f5983de7-8c32-4395-a17c-18fc765ec74a">5</characteristic>
+                <characteristic name="W" typeId="f5983de7-8c32-4395-a17c-18fc765ec74a">9</characteristic>
                 <characteristic name="A" typeId="40b1852f-baa7-49a7-9e04-0d0cea23edea">3</characteristic>
                 <characteristic name="Ld" typeId="1bb39308-fe32-4190-9336-713b6293a715">8</characteristic>
                 <characteristic name="Save" typeId="c4f7addd-d978-4a27-b039-8e4a15fa6bda">3+</characteristic>
               </characteristics>
             </profile>
           </profiles>
-          <selectionEntries>
-            <selectionEntry id="73a9-9cbf-e3ba-32cb" name="Karceri Battle Shield" hidden="false" collective="false" import="true" type="upgrade">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec23-986c-5dbb-e7da" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3a23-d3d1-bb79-b657" type="max"/>
-              </constraints>
-              <profiles>
-                <profile id="5a76-ef80-700f-884b" name="Karceri Battle Shield" hidden="false" typeId="d8b7eb23-4e11-4efa-90fb-b26e0ab318fa" typeName="Abilities">
-                  <characteristics>
-                    <characteristic name="Description" typeId="19f8973f-c187-4eef-9206-9c8057c78779">A model with a Karceri battle shield gains a 5+ Invulnerable Save and any model with a Karceri battle shield that suffers and unsaved wound with the Instant Death special rule is not immediately removed as a casualty, but instead loses D3 Wounds instead of one for each unsaved Wound with the Instant Death special rule inflicted on it. In addition, any charge that targets a unit that includes one or more models equipped with a Karceri battle shield which is not already locked in combat is always resolved as a Disordered Charge.</characteristic>
-                  </characteristics>
-                </profile>
-              </profiles>
-            </selectionEntry>
-          </selectionEntries>
+          <categoryLinks>
+            <categoryLink id="d713-6d9d-dc6f-2408" name="Automata Unit-type:" hidden="false" targetId="8168-79f2-592b-c330" primary="false"/>
+            <categoryLink id="7fc4-bb84-df6c-2cc2" name="Cybernetica Sub-type:" hidden="false" targetId="6d41-1301-b029-5afc" primary="false"/>
+          </categoryLinks>
+          <costs>
+            <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
+            <cost name="pts" typeId="points" value="135.0"/>
+            <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b8c9-8d15-70e2-227e" name="Karceri Battle Shield" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b6f-0873-e333-f11b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e70a-4529-4e72-1e01" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="c148-35e9-fd32-8b96" name="Karceri Battle Shield" hidden="false" typeId="d8b7eb23-4e11-4efa-90fb-b26e0ab318fa" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="19f8973f-c187-4eef-9206-9c8057c78779">A model with a Karceri battle shield gains a 5+ Invulnerable Save and any model with a Karceri battle shield that suffers a mortal wound gets a 2+ Feel No Pain saving throw against them. In addition, any charge that targets a unit that includes one or more models equipped with a Karceri battle shield which is not already locked in combat gets -1 attacks.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
-        <entryLink id="76cb-7acf-ba4a-a153" name="Multi-Laser" hidden="false" collective="false" import="true" targetId="f238-9c9b-ab66-b1e0" type="selectionEntry">
+        <entryLink id="76cb-7acf-ba4a-a153" name="Shrapnel Cannon" hidden="false" collective="false" import="true" targetId="bb9d-ec4d-158c-9e9a" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="false"/>
           </modifiers>
@@ -9654,7 +9660,7 @@ In addition, a model with the Paragon of Metal special rule may not be targeted 
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d13-0212-815e-276a" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="b0d2-5de4-8e9b-2f1f" name="Multi-melta" hidden="false" collective="false" import="true" targetId="304df958-dfa6-46b7-ae2a-8ddcb2528bf6" type="selectionEntry">
+        <entryLink id="b0d2-5de4-8e9b-2f1f" name="Graviton Maul" hidden="false" collective="false" import="true" targetId="a71e-66d8-e905-7d65" type="selectionEntry">
           <modifiers>
             <modifier type="set" field="hidden" value="false"/>
           </modifiers>
@@ -9664,6 +9670,42 @@ In addition, a model with the Paragon of Metal special rule may not be targeted 
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
+        <cost name="pts" typeId="points" value="15.0"/>
+        <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a71e-66d8-e905-7d65" name="Graviton Maul" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="7887-2d46-d75e-552f" name="Graviton Maul" hidden="false" typeId="327087aa-3bc6-45db-8bef-b83aa26d2c80" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c297eb44-1f5e-4c56-a0d6-488c32aecd66">Melee</characteristic>
+            <characteristic name="Type" typeId="e472d41f-d999-422d-b009-03cd0c3a9e6f">Melee</characteristic>
+            <characteristic name="S" typeId="31bb5033-ac6f-4fb2-9fa9-dd4922faa0f8">+2</characteristic>
+            <characteristic name="AP" typeId="1962f9e8-72aa-4bd7-9e42-09a7bd95eccf">-4</characteristic>
+            <characteristic name="D" typeId="8fe73330-1760-49d0-bf9d-cabcfdb9ba3d">3</characteristic>
+            <characteristic name="Abilities" typeId="67e4860e-b1fe-4e2a-9386-7b0a64e10037">Haywire</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="acb0-ce60-d3ba-5a67" name="Haywire" hidden="false" targetId="5234-afab-8c19-ac2a" type="rule"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry id="bb9d-ec4d-158c-9e9a" name="Shrapnel Cannon" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="2bc4-59f1-4df5-785e" name="Shrapnel Cannon" hidden="false" typeId="327087aa-3bc6-45db-8bef-b83aa26d2c80" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c297eb44-1f5e-4c56-a0d6-488c32aecd66">24&quot;</characteristic>
+            <characteristic name="Type" typeId="e472d41f-d999-422d-b009-03cd0c3a9e6f">Heavy 4</characteristic>
+            <characteristic name="S" typeId="31bb5033-ac6f-4fb2-9fa9-dd4922faa0f8">5</characteristic>
+            <characteristic name="AP" typeId="1962f9e8-72aa-4bd7-9e42-09a7bd95eccf">0</characteristic>
+            <characteristic name="D" typeId="8fe73330-1760-49d0-bf9d-cabcfdb9ba3d">1</characteristic>
+            <characteristic name="Abilities" typeId="67e4860e-b1fe-4e2a-9386-7b0a64e10037"/>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -10748,6 +10790,31 @@ This is a Damage Mitigation roll - any model may make only a single Damage Mitig
       <description>Bulky models count as a number of models equal to the value X in brackets after the rule’s name for the purposes of Transport Capacity and whether a given unit outnumbers another in combat.
 
 For example, a unit comprised of five  odels all of which have the Bulky (3) special rule, would count as 15 models when attempting to Embark on a Transport Vehicle or when deciding if they outnumber an enemy unit.</description>
+    </rule>
+    <rule id="5234-afab-8c19-ac2a" name="Haywire" hidden="false">
+      <description>When a weapon with this special rule Hits a model with the Vehicle, Dreadnought or Automata Unit Type, roll a D6 to determine the effect rather than rolling To Wound or for armour penetration normally. AP has no effect on this roll:
+D6 Result
+1 No Effect.
+2-5 Vehicles suffer a Glancing Hit, other models suffer 1 Wound. Only Invulnerable Saves or Damage Mitigation rolls may be taken against Wounds inflicted by this result.
+6 Vehicles suffer a Penetrating Hit, Dreadnoughts and Automata suffer 1 Wound. No Saves or Damage Mitigation rolls may be taken against Wounds inflicted by this result.</description>
+    </rule>
+    <rule id="5529-aafb-3ef0-1818" name="Brutal (X)" hidden="false">
+      <description>When a model is allocated a Wound inflicted by a weapon with this special rule, it does not suffer only one Wound but instead a number of Wounds equal to the number in brackets associated with the specific varient of this special rule, with all of the Wounds inflicted using the same AP and special rules as that of the initial Wound. Roll to save against each Wound inflicted separately, but note that Wounds do not spill over to other models and are lost. This special rule has no effect on models that do not hae a Toughness value.</description>
+    </rule>
+    <rule id="94cc-a9b3-e227-1530" name="Pinning" hidden="false">
+      <description>If a non-Vehicle unit suffers one or more unsaved Wounds from a weapon with the Pinning special rule, it must take a Leadership test once the firing unit has finished its Shooting Attacks for that Phase. This is called a Pinning test. If the unit fails the Test, it is Pinned. As long as the Test is passed, a unit can be called upon to take multiple Pinning tests in a single turn, but only once for each unit shooting at them.
+
+A unit that is affected by any of the following conditions does not take Pinning tests, and if called upon to do so is considered to automatically pass them:
+• The unit is locked in combat.
+• The unit is already Pinned (the unit remains Pinned, but takes no further Tests).
+• The unit is composed entirely of Vehicle models.
+• The unit is Embarked on a Transport Vehicle.
+• The target unit is affected by the Fearless special rule.
+
+A unit that has become Pinned cannot Move, Run or Charge. It can only fire Snap Shots if it attacks during the Shooting phase and cannot make Reactions in any Phase. At the end of its following turn, the unit returns to normal and the unit is free to act as normal from then on. Whilst it is Pinned, a unit is affected normally by enemy actions (for example, it takes Morale checks as normal). If the unit is forced to move, for example if it has to Fall Back, it returns to normal immediately. If assaulted, the unit will fight as usual, but because they are not set to receive the Charge, enemy units do not receive the Initiative penalty for assaulting a unit in Difficult Terrain (sec page 222), even if the unit is in Difficult Terrain. If a unit becomes Pinned during a Charge, then that Charge automatically fails. Units that are locked in combat cannot be Pinned and do not take Pinning tests.</description>
+    </rule>
+    <rule id="dca7-f2cb-8062-ec75" name="Legiones Astartes (Iron Warriors)" hidden="false">
+      <description>Wrack &amp; Ruin: When a model with this special rule makes a Shooting Attack or Melee attack targeting a model with the Dreadnought, Automata, Vehicle or Building Unit Type it gains +1 to the Strength of that attack.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
