@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b20f3d1a-ca3b-4580-8a8b-f595b3877883" name="Imperium - Adeptus Mechanicus" revision="214" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Thairne" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="11f72b7f-57c7-49ff-a1aa-649e95da9c5f" gameSystemRevision="254" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b20f3d1a-ca3b-4580-8a8b-f595b3877883" name="Imperium - Adeptus Mechanicus" revision="215" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Thairne" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="11f72b7f-57c7-49ff-a1aa-649e95da9c5f" gameSystemRevision="254" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="629ea54e-0a94-4d10-887c-342cb4a4c74f" name="Codex: Adeptus Mechanicus"/>
     <publication id="73a8ad3c-941b-42eb-b1c9-6f2165c511fb" name="Forgeworld Datasheet"/>
@@ -9415,129 +9415,6 @@ In addition, a model with the Paragon of Metal special rule may not be targeted 
             <infoLink id="9418-aaa8-1035-aa79" name="Relentless" hidden="false" targetId="ced4-ec63-55fc-0baf" type="rule"/>
             <infoLink id="51e1-85bf-5004-9707" name="Stubborn" hidden="false" targetId="4aec-9a52-3086-2950" type="rule"/>
           </infoLinks>
-          <selectionEntryGroups>
-            <selectionEntryGroup id="2800-53f7-a718-7246" name="1 in 3 models may exchange their lightning gun for one of the following:" hidden="false" collective="false" import="true">
-              <modifiers>
-                <modifier type="increment" field="fd98-57dd-9751-2b40" value="1.0">
-                  <repeats>
-                    <repeat field="selections" scope="dc70-96de-07cd-6e47" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd98-57dd-9751-2b40" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="4fbf-b756-90b3-8571" name="Multi-melta" hidden="false" collective="false" import="true" targetId="cb0eb62e-f6e8-4ec3-b32f-28153c88c3c6" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7624-92a7-c4d8-8e46" type="max"/>
-                  </constraints>
-                  <costs>
-                    <cost name="pts" typeId="points" value="25.0"/>
-                  </costs>
-                </entryLink>
-                <entryLink id="73fb-a7c5-8f60-26ce" name="Irad-Cleanser" hidden="false" collective="false" import="true" targetId="e15e-e91f-4325-f6e5" type="selectionEntry">
-                  <costs>
-                    <cost name="pts" typeId="points" value="10.0"/>
-                  </costs>
-                </entryLink>
-                <entryLink id="0d27-4a4e-7ab2-f8ea" name="Multi-Laser" hidden="false" collective="false" import="true" targetId="f238-9c9b-ab66-b1e0" type="selectionEntry">
-                  <costs>
-                    <cost name="pts" typeId="points" value="5.0"/>
-                  </costs>
-                </entryLink>
-                <entryLink id="e2a3-16f4-f29e-6f05" name="Phased Plasma-Fusil" hidden="false" collective="false" import="true" targetId="a346-a1c2-cc7e-1f0f" type="selectionEntry">
-                  <costs>
-                    <cost name="pts" typeId="points" value="10.0"/>
-                  </costs>
-                </entryLink>
-                <entryLink id="e72a-d8e5-8ad4-cf33" name="Photon Thruster" hidden="false" collective="false" import="true" targetId="9dd5-8500-ac44-84d7" type="selectionEntry">
-                  <costs>
-                    <cost name="pts" typeId="points" value="25.0"/>
-                  </costs>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
-            <selectionEntryGroup id="9e7f-cfb6-29b4-c818" name="Any model with a Lightning Gun may take:" hidden="false" collective="false" import="true">
-              <modifiers>
-                <modifier type="increment" field="a7a3-37f9-7cc0-cfe2" value="1.0">
-                  <repeats>
-                    <repeat field="selections" scope="dc70-96de-07cd-6e47" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                </modifier>
-                <modifier type="decrement" field="a7a3-37f9-7cc0-cfe2" value="1.0">
-                  <repeats>
-                    <repeat field="selections" scope="dc70-96de-07cd-6e47" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2800-53f7-a718-7246" repeats="1" roundUp="false"/>
-                  </repeats>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7a3-37f9-7cc0-cfe2" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="e816-ec99-840f-4887" name="Chain Bayonet" hidden="false" collective="false" import="true" targetId="141b-9964-3827-2968" type="selectionEntry">
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7c7-b9d0-3505-5188" type="max"/>
-                  </constraints>
-                  <costs>
-                    <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2.0"/>
-                  </costs>
-                </entryLink>
-              </entryLinks>
-            </selectionEntryGroup>
-            <selectionEntryGroup id="6b43-c8f9-ae24-205a" name="Dedicated Transport" hidden="false" collective="false" import="true">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40fe-4500-dd35-59a6" type="max"/>
-              </constraints>
-              <entryLinks>
-                <entryLink id="ae14-8db4-167f-64db" name="Triaros Armoured Conveyor" hidden="false" collective="false" import="true" targetId="2ba7-e629-b282-ffc2" type="selectionEntry"/>
-              </entryLinks>
-            </selectionEntryGroup>
-          </selectionEntryGroups>
-          <entryLinks>
-            <entryLink id="8f7e-a93b-6c4e-8190" name="Close Combat Weapon" hidden="false" collective="false" import="true" targetId="b032-f16a-5491-1d9b" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4547-a617-b694-41c5" type="min"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bff9-2199-19da-d1ef" type="max"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="72d2-83e6-ca31-351b" name="Frag grenades" hidden="false" collective="false" import="true" targetId="7c6adbf4-baa7-43a6-a121-f423493115e5" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="770e-4310-a8e5-1199" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8a05-2179-e1b6-89e7" type="min"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="d989-1459-2786-6c27" name="Incunabulan Jet Pack" hidden="false" collective="false" import="true" targetId="b6a5-eace-182c-5637" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="038a-74a1-d7d6-589d" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0883-aa32-79c8-4b94" type="min"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="b739-765f-7f20-b94a" name="Lightning Gun" hidden="false" collective="false" import="true" targetId="d5f3-c306-b428-d570" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d456-e2ba-4652-78aa" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bdf3-1ab1-61d0-7cdd" type="min"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="d9d4-c5bc-8576-9334" name="Lorica Thallax" hidden="false" collective="false" import="true" targetId="15fe-942b-8deb-8010" type="selectionEntry">
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1eb-f30e-fcb1-542d" type="max"/>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9539-231f-a583-5829" type="min"/>
-              </constraints>
-            </entryLink>
-            <entryLink id="a021-3d41-740a-c48f" name="Melta bombs" hidden="false" collective="false" import="true" targetId="35299215-c73f-4600-b471-a7371cbd7eef" type="selectionEntry">
-              <modifiers>
-                <modifier type="increment" field="points" value="5.0">
-                  <repeats>
-                    <repeat field="selections" scope="dc70-96de-07cd-6e47" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
-                  </repeats>
-                </modifier>
-              </modifiers>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="16c0-43e1-f17f-f95a" type="max"/>
-              </constraints>
-            </entryLink>
-          </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="37.0"/>
             <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
@@ -9545,6 +9422,129 @@ In addition, a model with the Paragon of Metal special rule may not be targeted 
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="bb82-d4fb-b99f-8af5" name="1 in 3 models may exchange their lightning gun for one of the following:" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="increment" field="b4aa-b3db-4da0-4bcc" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="dc70-96de-07cd-6e47" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b4aa-b3db-4da0-4bcc" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="bb36-57bb-dd16-d940" name="Multi-melta" hidden="false" collective="false" import="true" targetId="cb0eb62e-f6e8-4ec3-b32f-28153c88c3c6" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c20-0345-50f4-4137" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="25.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="fcd7-c13e-7599-145b" name="Irad-Cleanser" hidden="false" collective="false" import="true" targetId="e15e-e91f-4325-f6e5" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="bcfb-9d7d-20c3-e6b0" name="Multi-Laser" hidden="false" collective="false" import="true" targetId="f238-9c9b-ab66-b1e0" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="6a55-2ec8-ed3b-7dc7" name="Phased Plasma-Fusil" hidden="false" collective="false" import="true" targetId="a346-a1c2-cc7e-1f0f" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="3390-d763-a4d0-5f10" name="Photon Thruster" hidden="false" collective="false" import="true" targetId="9dd5-8500-ac44-84d7" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="25.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="08e9-7b7f-77f8-d77c" name="Any model with a Lightning Gun may take:" hidden="false" collective="false" import="true">
+          <modifiers>
+            <modifier type="increment" field="c6aa-cb14-1884-26c0" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="dc70-96de-07cd-6e47" value="3.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+            <modifier type="decrement" field="c6aa-cb14-1884-26c0" value="1.0">
+              <repeats>
+                <repeat field="selections" scope="dc70-96de-07cd-6e47" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="bb82-d4fb-b99f-8af5" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6aa-cb14-1884-26c0" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="ef32-3fb7-0023-051b" name="Chain Bayonet" hidden="false" collective="false" import="true" targetId="141b-9964-3827-2968" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba84-e99f-8e73-e802" type="max"/>
+              </constraints>
+              <costs>
+                <cost name="Pts" typeId="d2ee-04cb-5f8a-2642" value="2.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="f3e3-608c-1340-f194" name="Dedicated Transport" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="22b8-212f-42b5-659d" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="f7e4-3cda-5889-765e" name="Triaros Armoured Conveyor" hidden="false" collective="false" import="true" targetId="2ba7-e629-b282-ffc2" type="selectionEntry"/>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="1343-2b3b-5767-b094" name="Close Combat Weapon" hidden="false" collective="false" import="true" targetId="b032-f16a-5491-1d9b" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b20-5bcd-40b2-ca90" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="40e1-a1c1-e0f0-fae8" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="1f74-00ad-4c92-b17c" name="Frag grenades" hidden="false" collective="false" import="true" targetId="7c6adbf4-baa7-43a6-a121-f423493115e5" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1953-ada9-79ff-dea8" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="796b-2e91-7ed0-39ab" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="1c6f-7bb9-f14d-ddb9" name="Incunabulan Jet Pack" hidden="false" collective="false" import="true" targetId="b6a5-eace-182c-5637" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12bc-761d-4ac3-5e49" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6ff-28c7-059b-341c" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="0ec1-5e8a-9908-4660" name="Lightning Gun" hidden="false" collective="false" import="true" targetId="d5f3-c306-b428-d570" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b0c3-8118-8e7b-d3ac" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f54e-5a7d-489e-2e7f" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="972f-c209-e2d5-8580" name="Lorica Thallax" hidden="false" collective="false" import="true" targetId="15fe-942b-8deb-8010" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04a1-0082-e979-42a6" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eeab-887a-c83d-ba81" type="min"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="0f61-ae32-4bdb-cf88" name="Melta bombs" hidden="false" collective="false" import="true" targetId="35299215-c73f-4600-b471-a7371cbd7eef" type="selectionEntry">
+          <modifiers>
+            <modifier type="increment" field="points" value="5.0">
+              <repeats>
+                <repeat field="selections" scope="dc70-96de-07cd-6e47" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+              </repeats>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c78-399c-b88c-89dc" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="14.0"/>
         <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
