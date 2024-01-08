@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b20f3d1a-ca3b-4580-8a8b-f595b3877883" name="Imperium - Adeptus Mechanicus" revision="221" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Thairne" authorUrl="https://www.bsdata.net/contact" library="false" gameSystemId="11f72b7f-57c7-49ff-a1aa-649e95da9c5f" gameSystemRevision="254" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b20f3d1a-ca3b-4580-8a8b-f595b3877883" name="Imperium - Adeptus Mechanicus" revision="222" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="11f72b7f-57c7-49ff-a1aa-649e95da9c5f" gameSystemRevision="254" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="629ea54e-0a94-4d10-887c-342cb4a4c74f" name="Codex: Adeptus Mechanicus"/>
     <publication id="73a8ad3c-941b-42eb-b1c9-6f2165c511fb" name="Forgeworld Datasheet"/>
@@ -9475,22 +9475,54 @@ In addition, a model with the Paragon of Metal special rule may not be targeted 
     </selectionEntry>
     <selectionEntry id="2621-4f9d-c92c-d20e" name="Karacnos Assault Tank" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="a99b-572e-6bbb-d94c" name="Karacnos" hidden="false" typeId="0914-3504-9893-39db" typeName="Vehicle">
+        <profile id="a99b-572e-6bbb-d94c" name="Karacnos Assault Tank 1 (11-16)" hidden="false" typeId="96633e23-5f89-47ac-862a-ea3f419e82ad" typeName="Unit">
           <characteristics>
-            <characteristic name="M" typeId="3945-bffa-0946-e9b4">12</characteristic>
-            <characteristic name="BS" typeId="de2f-b464-50fb-fa03">3+</characteristic>
-            <characteristic name="Front" typeId="2b42-cf1d-e7c4-357f">14</characteristic>
-            <characteristic name="Side" typeId="9280-2ea9-121a-2dd2">12</characteristic>
-            <characteristic name="Rear" typeId="f801-d770-143f-60c5">12</characteristic>
-            <characteristic name="HP" typeId="fe5f-ab23-eb1a-6896">5</characteristic>
-            <characteristic name="Transport Capacity" typeId="c824-12d7-c9ca-4340"/>
-            <characteristic name="Access Points" typeId="5e0b-6b4c-3fe9-7914"/>
+            <characteristic name="M" typeId="29908c04-cacb-4ff6-80a3-f7ac34f9b320">15</characteristic>
+            <characteristic name="WS" typeId="b0f83996-9c8e-42bb-80ae-6183503a8687">4+</characteristic>
+            <characteristic name="BS" typeId="fcd83b9f-a688-4fd1-88ed-5cf248c9ecdd">3+</characteristic>
+            <characteristic name="S" typeId="cba76dde-3857-489e-a3cb-f1c82182901c">7</characteristic>
+            <characteristic name="T" typeId="082cd324-3c32-4cf7-8a77-34c5ff973db1">8</characteristic>
+            <characteristic name="W" typeId="f5983de7-8c32-4395-a17c-18fc765ec74a">16</characteristic>
+            <characteristic name="A" typeId="40b1852f-baa7-49a7-9e04-0d0cea23edea">8</characteristic>
+            <characteristic name="Ld" typeId="1bb39308-fe32-4190-9336-713b6293a715">8</characteristic>
+            <characteristic name="Save" typeId="c4f7addd-d978-4a27-b039-8e4a15fa6bda">3+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7622-173b-d715-6dae" name="Karacnos Assault Tank 2 (5-10)" hidden="false" typeId="96633e23-5f89-47ac-862a-ea3f419e82ad" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="29908c04-cacb-4ff6-80a3-f7ac34f9b320">15</characteristic>
+            <characteristic name="WS" typeId="b0f83996-9c8e-42bb-80ae-6183503a8687">4+</characteristic>
+            <characteristic name="BS" typeId="fcd83b9f-a688-4fd1-88ed-5cf248c9ecdd">4+</characteristic>
+            <characteristic name="S" typeId="cba76dde-3857-489e-a3cb-f1c82182901c">7</characteristic>
+            <characteristic name="T" typeId="082cd324-3c32-4cf7-8a77-34c5ff973db1">8</characteristic>
+            <characteristic name="W" typeId="f5983de7-8c32-4395-a17c-18fc765ec74a">N/A</characteristic>
+            <characteristic name="A" typeId="40b1852f-baa7-49a7-9e04-0d0cea23edea">6</characteristic>
+            <characteristic name="Ld" typeId="1bb39308-fe32-4190-9336-713b6293a715">8</characteristic>
+            <characteristic name="Save" typeId="c4f7addd-d978-4a27-b039-8e4a15fa6bda">3+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="c8da-ca15-4265-1094" name="Karacnos Assault Tank 3 (1-4)" hidden="false" typeId="96633e23-5f89-47ac-862a-ea3f419e82ad" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="29908c04-cacb-4ff6-80a3-f7ac34f9b320">15</characteristic>
+            <characteristic name="WS" typeId="b0f83996-9c8e-42bb-80ae-6183503a8687">4+</characteristic>
+            <characteristic name="BS" typeId="fcd83b9f-a688-4fd1-88ed-5cf248c9ecdd">5+</characteristic>
+            <characteristic name="S" typeId="cba76dde-3857-489e-a3cb-f1c82182901c">7</characteristic>
+            <characteristic name="T" typeId="082cd324-3c32-4cf7-8a77-34c5ff973db1">8</characteristic>
+            <characteristic name="W" typeId="f5983de7-8c32-4395-a17c-18fc765ec74a">N/A</characteristic>
+            <characteristic name="A" typeId="40b1852f-baa7-49a7-9e04-0d0cea23edea">D6</characteristic>
+            <characteristic name="Ld" typeId="1bb39308-fe32-4190-9336-713b6293a715">8</characteristic>
+            <characteristic name="Save" typeId="c4f7addd-d978-4a27-b039-8e4a15fa6bda">3+</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <rules>
+        <rule id="b419-00a2-46d6-322f" name="Flare Shield" hidden="false">
+          <description>This model subtracts 1 from the damage of each hit against it in the shooting phase to a minimum of 1.</description>
+        </rule>
+      </rules>
       <infoLinks>
-        <infoLink id="9d5e-76ef-b3fe-aedd" name="Hazardous Munitions" hidden="false" targetId="ec5d-9114-f2a5-6158" type="rule"/>
-        <infoLink id="776a-653f-16e1-6433" name="Galvanic Traction Drive" hidden="false" targetId="f7ae-9003-1a92-1a2a" type="rule"/>
+        <infoLink id="7020-b2b4-3b5f-934d" name="Doctrina Imperatives" hidden="false" targetId="5283f4ac-8991-4a10-9a2a-52f657566b07" type="rule"/>
+        <infoLink id="033a-ed3d-8a2d-ec42" name="Explodes (Karacnos)" hidden="false" targetId="4dff-b49c-1244-ddb0" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="d956-cf05-e7d3-67e3" name="Faction: Adeptus Mechanicus" hidden="false" targetId="21d39ca6-86bd-4887-a4bf-0cb407d0d02f" primary="false"/>
@@ -9499,40 +9531,14 @@ In addition, a model with the Paragon of Metal special rule may not be targeted 
         <categoryLink id="aebb-23af-bf57-4b94" name="Heavy Support" hidden="false" targetId="e8c0ddf9-eeda-4096-9d1a-e3048f911225" primary="true"/>
         <categoryLink id="4ede-8870-77be-d4d9" name="Vehicle" hidden="false" targetId="48c837f6-8a21-4043-845f-e715727c0f0f" primary="false"/>
       </categoryLinks>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="3a2d-9066-f77a-e884" name="Hull (Front) Mounted Hunter-Killer Missiles" hidden="false" collective="false" import="true">
-          <constraints>
-            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5cc7-0d2d-36b1-1483" type="max"/>
-          </constraints>
-          <entryLinks>
-            <entryLink id="6d47-fea7-93fe-8b29" name="Hunter-killer missile" hidden="false" collective="false" import="true" targetId="ee263cc6-20de-4f40-99fd-c5df4d5e76b0" type="selectionEntry">
-              <costs>
-                <cost name="pts" typeId="points" value="5.0"/>
-              </costs>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="68c9-67cb-fadd-704b" name="Flare Shield" hidden="false" collective="false" import="true" targetId="ef2b-80b8-6b4e-1421" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d703-463b-e47e-653a" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a4a2-f184-ffe8-2bb7" type="max"/>
-          </constraints>
-        </entryLink>
         <entryLink id="3457-5d4f-01cc-7930" name="Karacnos Mortar Battery" hidden="false" collective="false" import="true" targetId="2439-49b4-86fb-7b97" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="name" value="Hull (Front) Mounted Karacnos Mortar Battery"/>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c355-afd1-20dc-2599" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00ad-dd86-a42f-36c6" type="min"/>
           </constraints>
         </entryLink>
         <entryLink id="aea7-2ce6-10ad-90ca" name="Lightning Lock" hidden="false" collective="false" import="true" targetId="c8f6-62f3-cbcb-88c0" type="selectionEntry">
-          <modifiers>
-            <modifier type="set" field="name" value="Sponson Mounted Lightning Locks"/>
-          </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b63-c71e-3bc5-390a" type="max"/>
             <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e603-087d-50ff-0eea" type="min"/>
@@ -9552,41 +9558,19 @@ In addition, a model with the Paragon of Metal special rule may not be targeted 
         <cost name="Pts" typeId="b9ae-7202-083c-4746" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ef2b-80b8-6b4e-1421" name="Flare Shield" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="9f82-cc46-0520-17f5" name="Flare Shield" hidden="false" typeId="d8b7eb23-4e11-4efa-90fb-b26e0ab318fa" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="19f8973f-c187-4eef-9206-9c8057c78779">A model with a flare shield reduces the strength of Shooting Attacks made against its Front Armour by -1, or -2 if that Shooting Attack has the Blast special rule or uses a template to determine its Range. A flare shield has no effect on Shooting Attacks inflicted with weapons of the Destroyer type.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
-        <cost name="Pts" typeId="b9ae-7202-083c-4746" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="2439-49b4-86fb-7b97" name="Karacnos Mortar Battery" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="f002-067a-fb56-0b21" name="Karacnos Mortar Battery" hidden="false" typeId="327087aa-3bc6-45db-8bef-b83aa26d2c80" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="c297eb44-1f5e-4c56-a0d6-488c32aecd66">60&quot;</characteristic>
-            <characteristic name="Type" typeId="e472d41f-d999-422d-b009-03cd0c3a9e6f">Heavy 1</characteristic>
+            <characteristic name="Type" typeId="e472d41f-d999-422d-b009-03cd0c3a9e6f">Heavy 3D6</characteristic>
             <characteristic name="S" typeId="31bb5033-ac6f-4fb2-9fa9-dd4922faa0f8">6</characteristic>
             <characteristic name="AP" typeId="1962f9e8-72aa-4bd7-9e42-09a7bd95eccf">-2</characteristic>
-            <characteristic name="D" typeId="8fe73330-1760-49d0-bf9d-cabcfdb9ba3d">3</characteristic>
-            <characteristic name="Abilities" typeId="67e4860e-b1fe-4e2a-9386-7b0a64e10037">Blast (7&quot;), Barrage, Fleshbane,  Ignores Cover, Crawling Fire</characteristic>
+            <characteristic name="D" typeId="8fe73330-1760-49d0-bf9d-cabcfdb9ba3d">1</characteristic>
+            <characteristic name="Abilities" typeId="67e4860e-b1fe-4e2a-9386-7b0a64e10037">Blast. This weapon can target units that are not visible to the bearer. On a wound roll of 6+; change this weapon&apos;s Damage to 2.</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="bbb5-cb0d-e46d-52da" name="Blast" hidden="false" targetId="c36b-ef06-8992-9728" type="rule"/>
-        <infoLink id="f4dc-dfef-a222-3850" name="Barrage" hidden="false" targetId="3e4d-04c9-8cd1-93b6" type="rule"/>
-        <infoLink id="680e-121b-e52d-e2e1" name="Crawling Fire" hidden="false" targetId="8f25-119e-1ddf-7e58" type="rule"/>
-        <infoLink id="dc77-b958-a517-d730" name="Fleshbane" hidden="false" targetId="ae98-72fe-dacc-74e2" type="rule"/>
-        <infoLink id="9da5-a133-925a-225b" name="Ignores Cover" hidden="false" targetId="83d1-da1a-0084-2564" type="rule"/>
-      </infoLinks>
       <costs>
         <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -9603,24 +9587,10 @@ In addition, a model with the Paragon of Metal special rule may not be targeted 
             <characteristic name="S" typeId="31bb5033-ac6f-4fb2-9fa9-dd4922faa0f8">7</characteristic>
             <characteristic name="AP" typeId="1962f9e8-72aa-4bd7-9e42-09a7bd95eccf">-3</characteristic>
             <characteristic name="D" typeId="8fe73330-1760-49d0-bf9d-cabcfdb9ba3d">D3+3</characteristic>
-            <characteristic name="Abilities" typeId="67e4860e-b1fe-4e2a-9386-7b0a64e10037">Blast (3&quot;), Rending (4+), Shred, Exoshock (4+)</characteristic>
+            <characteristic name="Abilities" typeId="67e4860e-b1fe-4e2a-9386-7b0a64e10037">Blast. You can re-roll failed wounds with this weapon. </characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="25ec-a4a5-478a-e03a" name="Blast" hidden="false" targetId="c36b-ef06-8992-9728" type="rule"/>
-        <infoLink id="2b42-8a7c-6120-185e" name="Exoshock (X)" hidden="false" targetId="8844-1a58-dfe4-6262" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Exoshock (4+)"/>
-          </modifiers>
-        </infoLink>
-        <infoLink id="5738-7855-3820-23bc" name="Rending (X)" hidden="false" targetId="88c6-9852-9cb7-6b35" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Rending (4+)"/>
-          </modifiers>
-        </infoLink>
-        <infoLink id="08d6-c20c-15fd-9bca" name="Shred" hidden="false" targetId="6f24-ed7c-c006-7606" type="rule"/>
-      </infoLinks>
       <costs>
         <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -9634,10 +9604,10 @@ In addition, a model with the Paragon of Metal special rule may not be targeted 
           <characteristics>
             <characteristic name="Range" typeId="c297eb44-1f5e-4c56-a0d6-488c32aecd66">Melee</characteristic>
             <characteristic name="Type" typeId="e472d41f-d999-422d-b009-03cd0c3a9e6f">Melee</characteristic>
-            <characteristic name="S" typeId="31bb5033-ac6f-4fb2-9fa9-dd4922faa0f8">10</characteristic>
-            <characteristic name="AP" typeId="1962f9e8-72aa-4bd7-9e42-09a7bd95eccf">-2</characteristic>
-            <characteristic name="D" typeId="8fe73330-1760-49d0-bf9d-cabcfdb9ba3d">D6</characteristic>
-            <characteristic name="Abilities" typeId="67e4860e-b1fe-4e2a-9386-7b0a64e10037">Ram (D6)</characteristic>
+            <characteristic name="S" typeId="31bb5033-ac6f-4fb2-9fa9-dd4922faa0f8">+2</characteristic>
+            <characteristic name="AP" typeId="1962f9e8-72aa-4bd7-9e42-09a7bd95eccf">-1</characteristic>
+            <characteristic name="D" typeId="8fe73330-1760-49d0-bf9d-cabcfdb9ba3d">2</characteristic>
+            <characteristic name="Abilities" typeId="67e4860e-b1fe-4e2a-9386-7b0a64e10037">On a turn in which this unit charged double the number of attacks made with this weapon.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -11059,44 +11029,6 @@ Wounds from Precision Strikes are allocated against a model (or models) of the a
     <rule id="f7ae-9003-1a92-1a2a" name="Galvanic Traction Drive" hidden="false">
       <description>A model with this special rule must re-roll failed Dangerous Terrain tests.</description>
     </rule>
-    <rule id="c36b-ef06-8992-9728" name="Blast" hidden="false">
-      <description>When firing a Blast weapon, models do not roll To Hit. Instead, pick one enemy model visible to the firer and place the Blast (3&quot;) marker with its hole entirely over the base of the target model, or its hull if the target is a Vehicle. The hole at the centre of the marker must be within the weapon’s Maximum Range. You cannot place the Blast marker so that the base or hull of any friendly model is even partially under it.
-
-The large area affected by the blast means it is going to be very hard to miss completely. Nonetheless, the shot might not land exactly where intended. Roll for the Blast marker to scatter and subtract the firer’s Ballistic Skill from the distance (if any) that it scatters, to a minimum of 0&quot;. Note that it is possible, and absolutely fine, for a shot to scatter beyond the weapon’s Maximum or Minimum Range and line of sight. This represents the chance of ricochets, the missile blasting through cover and other random events. In these cases, Hits are worked out as normal and can hit and Wound units out of range and line of sight (or even your own units, or models locked in combat). If the shot scatters so that the hole in the centre of the marker is beyond the battlefield’s edge, the shot is a complete miss and is discarded.
-
-Once the final position of the Blast marker has been determined, take a good look at it from above – each unit suffers one Hit for each of the models included in that unit that is fully or partially beneath the Blast marker, even if those models are not within the firer’s line of sight.
-
-Once the number of Hits inflicted on the unit has been worked out, roll To Wound and Save as normal. Note that, unlike other attacks, Wounds inflicted by an attack with the Blast special rule can be allocated to any models in the target unit, even if they are out of sight of any models from the attacking unit.
-
-Multiple Blasts
-If a unit is firing more than one shot with the Blast special rule, scatter each shot, one at a time, as described above and determine how many Hits are scored with each individual Blast marker. After the last shot, add up the total number of Hits scored and roll all of the To Wound rolls as normal.
-
-Blast Weapons and Re-rolls
-If a model has the ability to re-roll its rolls To Hit and chooses to do so after firing a Blast weapon, the player must re-roll both the Scatter dice and the 2D6. Note that this applies only to models able to fully re-roll a To Hit roll, not to models that may re-roll To Hit rolls of a specific value – for example, models that can re-roll To Hit rolls of a ‘1’ cannot re-roll either the Scatter dice or 2D6 unless another rule allows them to do so.
-
-Blast Weapons and Snap Shots
-Blast weapons cannot be fired as Snap Shots.
-
-Large Blast
-Large Blast weapons use the 5&quot; Blast marker, but otherwise obey all the rules for Blast weapons.
-
-Massive Blast
-Massive Blast weapons use the 7&quot; Blast marker, but otherwise obey all the rules for Blast weapons.
-
-Apocalyptic Blast
-Apocalyptic Blast weapons use the 10&quot; Blast marker, but otherwise obey all the rules for Blast weapons.
-
-Apocalyptic Mega-blast (5&quot;/7&quot;/10&quot;)
-Apocalyptic Mega-blast weapons use the Apocalyptic Blast marker. They obey the rules for Blast weapons, with the following exceptions:
-
-Apocalyptic Mega-blast weapons have three Strength values and three AP values. Correspondingly, the Apocalyptic Blast marker is divided into three zones, as shown in the diagram on the next page, one for each Strength and AP value.
-
-The Strength and AP of any Hits depends on the zone in which the target model is located. The first Strength and AP value are used for the inner zone, the second Strength and AP value are used for the middle zone, and the third Strength and AP value are used for the outer zone. Always use the best Strength and AP if a model straddles two or more zones. If a unit has models in several zones, work out the Hits inflicted for each zone separately. Note that there will be a different Wound Pool for each zone.
-
-To determine whether a unit wounded by an Apocalyptic Mega-blast weapon is allowed a Cover Save, and when determining Wound allocation, always assume the shot is coming from the centre of the Apocalyptic Blast marker, instead of from the firing model.
-
-Hits from Apocalyptic Mega-blast weapons made against Vehicles are always resolved against their Side Armour Value.</description>
-    </rule>
     <rule id="3e4d-04c9-8cd1-93b6" name="Barrage" hidden="false">
       <description>All Barrage weapons use Blast markers and consequently use the rules for Blast weapons, as indicated by their profile, with the following exceptions:
 Barrage weapons can fire indirectly. This means they can fire at a target that they do not have line of sight to, as long as the target is beyond their Minimum Range (if applicable). When firing indirectly, the Ballistic Skill of the firer is not subtracted from the scatter distance; unless a Hit is rolled on the Scatter dice, the Blast marker always scatters a full 2D6&quot;. If a Barrage weapon has line of sight to its target it can fire directly, even if the target is within its Minimum Range.
@@ -11986,6 +11918,13 @@ For each combined landing that you want to make, select two &lt;FORGE WORLD&gt; 
         <characteristic name="A" typeId="40b1852f-baa7-49a7-9e04-0d0cea23edea">3</characteristic>
         <characteristic name="Ld" typeId="1bb39308-fe32-4190-9336-713b6293a715">7</characteristic>
         <characteristic name="Save" typeId="c4f7addd-d978-4a27-b039-8e4a15fa6bda">3+</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="4dff-b49c-1244-ddb0" name="Explodes (Karacnos)" publicationId="629ea54e-0a94-4d10-887c-342cb4a4c74f" hidden="false" typeId="5b91345b-0ccf-4326-a45b-58c6003a098c" typeName="Explosion">
+      <characteristics>
+        <characteristic name="Dice Roll" typeId="dc49dcb7-ef4b-4dc5-80aa-9733c73dc5c0">6</characteristic>
+        <characteristic name="Distance" typeId="af807274-1d96-429e-812b-c8a88a1288fb">6&quot;</characteristic>
+        <characteristic name="Mortal Wounds" typeId="13302d54-e22b-4496-af81-6ffa374576d7">D3</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
