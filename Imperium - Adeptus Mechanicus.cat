@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b20f3d1a-ca3b-4580-8a8b-f595b3877883" name="Imperium - Adeptus Mechanicus" revision="226" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="11f72b7f-57c7-49ff-a1aa-649e95da9c5f" gameSystemRevision="254" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b20f3d1a-ca3b-4580-8a8b-f595b3877883" name="Imperium - Adeptus Mechanicus" revision="227" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="11f72b7f-57c7-49ff-a1aa-649e95da9c5f" gameSystemRevision="254" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="629ea54e-0a94-4d10-887c-342cb4a4c74f" name="Codex: Adeptus Mechanicus"/>
     <publication id="73a8ad3c-941b-42eb-b1c9-6f2165c511fb" name="Forgeworld Datasheet"/>
@@ -9094,7 +9094,7 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
                     <cost name="pts" typeId="points" value="15.0"/>
                   </costs>
                 </entryLink>
-                <entryLink id="4135-14be-20c3-6a72" name="Multi-melta" hidden="false" collective="false" import="true" targetId="cb0eb62e-f6e8-4ec3-b32f-28153c88c3c6" type="selectionEntry">
+                <entryLink id="4135-14be-20c3-6a72" name="Multi-melta" hidden="false" collective="false" import="true" targetId="304df958-dfa6-46b7-ae2a-8ddcb2528bf6" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec8e-32e0-e847-6537" type="max"/>
                     <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="481e-cef8-3f07-731c" type="min"/>
