@@ -9622,6 +9622,7 @@ In addition, a model with the Paragon of Metal special rule may not be targeted 
         <infoLink id="0eb5-e927-f587-9cab" name="Battle Automata" hidden="false" targetId="737b-3b41-e609-4ae3" type="rule"/>
         <infoLink id="2a1a-9299-b074-dc9f" name="Brutal Charge" hidden="false" targetId="9ed5-edca-9686-9682" type="rule"/>
         <infoLink id="47fc-1e81-42e5-b1ec" name="Reactor Blast" hidden="false" targetId="e151-3d0f-9eea-cfb3" type="profile"/>
+        <infoLink id="6f4a-ac61-c84e-b80b" name="Canticles of the Omnissiah" hidden="false" targetId="98057866-4488-461a-aa58-29609e9cbab8" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="d4ab-2cec-0da9-a7b6" name="Faction: &lt;Forge World&gt;" hidden="false" targetId="08da7c57-1546-4106-afa5-6f4edee6eb41" primary="false"/>
@@ -9690,6 +9691,11 @@ In addition, a model with the Paragon of Metal special rule may not be targeted 
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a87-055c-991a-1973" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="27e7-c75a-f666-f746" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="24bf-300b-1add-8c88" name="Enhanced Targeting Array" hidden="false" collective="false" import="true" targetId="059d-0440-3b2d-81e5" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82df-1f74-099c-a761" type="max"/>
           </constraints>
         </entryLink>
       </entryLinks>
