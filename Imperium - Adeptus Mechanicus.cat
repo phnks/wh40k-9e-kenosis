@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b20f3d1a-ca3b-4580-8a8b-f595b3877883" name="Imperium - Adeptus Mechanicus" revision="223" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="11f72b7f-57c7-49ff-a1aa-649e95da9c5f" gameSystemRevision="254" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b20f3d1a-ca3b-4580-8a8b-f595b3877883" name="Imperium - Adeptus Mechanicus" revision="224" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="11f72b7f-57c7-49ff-a1aa-649e95da9c5f" gameSystemRevision="254" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="629ea54e-0a94-4d10-887c-342cb4a4c74f" name="Codex: Adeptus Mechanicus"/>
     <publication id="73a8ad3c-941b-42eb-b1c9-6f2165c511fb" name="Forgeworld Datasheet"/>
@@ -535,28 +535,8 @@
     </entryLink>
     <entryLink id="15b473cd-c62b-482e-987b-4fb4c8b1a553" name="Unit Filter" hidden="false" collective="false" import="true" targetId="ab313c39-91fb-4735-b9e9-0ec426f12deb" type="selectionEntry"/>
     <entryLink id="29c7c1c7-3e24-4e14-aec2-be6169cda309" name="Army of Renown - Skitarii Veteran Cohort" hidden="false" collective="false" import="true" targetId="97f4490f-562b-4534-b10e-f7361f073f40" type="selectionEntry"/>
-    <entryLink id="197e-2106-9d72-6752" name="Castellax Battle-Automata Maniple" hidden="false" collective="false" import="true" targetId="cebe-cf7c-5527-1584" type="selectionEntry">
-      <modifierGroups>
-        <modifierGroup>
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d5392f10-7ca4-4113-a37b-5aa147694ffa" type="atLeast"/>
-          </conditions>
-          <modifiers>
-            <modifier type="add" field="category" value="68a3e97f-b471-4ada-a5b9-f7b944b72585"/>
-            <modifier type="add" field="category" value="66e6a875-b5a8-4d88-8334-58d741adac24"/>
-          </modifiers>
-        </modifierGroup>
-      </modifierGroups>
-    </entryLink>
-    <entryLink id="f191-7ee7-adaf-6941" name="Karacnos Assault Tank" hidden="false" collective="false" import="true" targetId="2621-4f9d-c92c-d20e" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d5392f10-7ca4-4113-a37b-5aa147694ffa" type="atLeast"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-    </entryLink>
+    <entryLink id="197e-2106-9d72-6752" name="Castellax Battle-Automata Maniple" hidden="false" collective="false" import="true" targetId="cebe-cf7c-5527-1584" type="selectionEntry"/>
+    <entryLink id="f191-7ee7-adaf-6941" name="Karacnos Assault Tank" hidden="false" collective="false" import="true" targetId="2621-4f9d-c92c-d20e" type="selectionEntry"/>
     <entryLink id="f6db-e12e-0574-4861" name="Iron Circle Maniple" hidden="false" collective="false" import="true" targetId="3800-7712-7c66-84b5" type="selectionEntry">
       <modifierGroups>
         <modifierGroup>
@@ -9058,7 +9038,8 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
         <categoryLink id="c35e-9f04-10db-5a16" name="Faction: &lt;Forge World&gt;" hidden="false" targetId="08da7c57-1546-4106-afa5-6f4edee6eb41" primary="false"/>
         <categoryLink id="d7cb-bb08-05e6-fa2c" name="Faction: Adeptus Mechanicus" hidden="false" targetId="21d39ca6-86bd-4887-a4bf-0cb407d0d02f" primary="false"/>
         <categoryLink id="96aa-0266-65c2-ea96" name="Faction: Imperium" hidden="false" targetId="99357296-820b-46e3-8395-77961c0d8302" primary="false"/>
-        <categoryLink id="5979-2fea-9b08-4a37" name="Vehicle" hidden="false" targetId="48c837f6-8a21-4043-845f-e715727c0f0f" primary="true"/>
+        <categoryLink id="5979-2fea-9b08-4a37" name="Vehicle" hidden="false" targetId="48c837f6-8a21-4043-845f-e715727c0f0f" primary="false"/>
+        <categoryLink id="ba90-ea37-74d5-ddc4" name="Troops" hidden="false" targetId="5176c51e-8715-41ae-976c-bdfce2a3272e" primary="true"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="fd5b-bfe5-5578-8aaf" name="Castellax" hidden="false" collective="false" import="true" type="model">
