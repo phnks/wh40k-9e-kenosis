@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b20f3d1a-ca3b-4580-8a8b-f595b3877883" name="Imperium - Adeptus Mechanicus" revision="225" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="11f72b7f-57c7-49ff-a1aa-649e95da9c5f" gameSystemRevision="254" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b20f3d1a-ca3b-4580-8a8b-f595b3877883" name="Imperium - Adeptus Mechanicus" revision="226" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="11f72b7f-57c7-49ff-a1aa-649e95da9c5f" gameSystemRevision="254" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="629ea54e-0a94-4d10-887c-342cb4a4c74f" name="Codex: Adeptus Mechanicus"/>
     <publication id="73a8ad3c-941b-42eb-b1c9-6f2165c511fb" name="Forgeworld Datasheet"/>
@@ -9077,16 +9077,28 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
               </constraints>
               <entryLinks>
                 <entryLink id="0a8a-4a6a-cf3a-a411" name="Darkfire Cannon" hidden="false" collective="false" import="true" targetId="c869-d5ff-d9cd-7239" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="82d1-cb5d-a030-439f" type="max"/>
+                    <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2909-02bf-c43c-8358" type="min"/>
+                  </constraints>
                   <costs>
                     <cost name="pts" typeId="points" value="30.0"/>
                   </costs>
                 </entryLink>
                 <entryLink id="9b89-f21d-dd27-cf7d" name="Mauler Bolt Cannon" hidden="false" collective="false" import="true" targetId="9106-8b91-2699-098f" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3dd-deba-0ecd-ca0a" type="max"/>
+                    <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b974-b780-e73b-e268" type="min"/>
+                  </constraints>
                   <costs>
                     <cost name="pts" typeId="points" value="15.0"/>
                   </costs>
                 </entryLink>
                 <entryLink id="4135-14be-20c3-6a72" name="Multi-melta" hidden="false" collective="false" import="true" targetId="cb0eb62e-f6e8-4ec3-b32f-28153c88c3c6" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ec8e-32e0-e847-6537" type="max"/>
+                    <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="481e-cef8-3f07-731c" type="min"/>
+                  </constraints>
                   <costs>
                     <cost name="pts" typeId="points" value="25.0"/>
                   </costs>
@@ -9130,7 +9142,7 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
             </selectionEntryGroup>
             <selectionEntryGroup id="fff4-cf93-f9bd-a92f" name="C) Melee weapons may Exchange In-Built Bolter for:" hidden="false" collective="false" import="true" defaultSelectionEntryId="828e-2d90-479e-e7bd">
               <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7e2-6d2b-952c-b4fc" type="max"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a7e2-6d2b-952c-b4fc" type="max"/>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="943c-52a8-06ba-9e54" type="min"/>
               </constraints>
               <entryLinks>
