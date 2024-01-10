@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b20f3d1a-ca3b-4580-8a8b-f595b3877883" name="Imperium - Adeptus Mechanicus" revision="228" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="11f72b7f-57c7-49ff-a1aa-649e95da9c5f" gameSystemRevision="254" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b20f3d1a-ca3b-4580-8a8b-f595b3877883" name="Imperium - Adeptus Mechanicus" revision="229" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="11f72b7f-57c7-49ff-a1aa-649e95da9c5f" gameSystemRevision="254" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="629ea54e-0a94-4d10-887c-342cb4a4c74f" name="Codex: Adeptus Mechanicus"/>
     <publication id="73a8ad3c-941b-42eb-b1c9-6f2165c511fb" name="Forgeworld Datasheet"/>
@@ -550,6 +550,7 @@
         </modifierGroup>
       </modifierGroups>
     </entryLink>
+    <entryLink id="a7a1-3149-aca6-8032" name="Myrmidon Destructors" hidden="false" collective="false" import="true" targetId="5dd5-9843-02a3-7154" type="selectionEntry"/>
   </entryLinks>
   <infoLinks>
     <infoLink id="af16a972-87ee-4d00-977b-d4f01c9f32bf" name="Extremis Sentinel Protocols" hidden="false" targetId="aeb1df7d-9252-4c1a-992e-74c7b7ee778e" type="rule"/>
@@ -9033,7 +9034,7 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
         <cost name="Pts" typeId="b9ae-7202-083c-4746" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="cebe-cf7c-5527-1584" name="Castellax Battle-Automata Maniple" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="cebe-cf7c-5527-1584" name="Castellax Battle-Automata" hidden="false" collective="false" import="true" type="unit">
       <categoryLinks>
         <categoryLink id="c35e-9f04-10db-5a16" name="Faction: &lt;Forge World&gt;" hidden="false" targetId="08da7c57-1546-4106-afa5-6f4edee6eb41" primary="false"/>
         <categoryLink id="d7cb-bb08-05e6-fa2c" name="Faction: Adeptus Mechanicus" hidden="false" targetId="21d39ca6-86bd-4887-a4bf-0cb407d0d02f" primary="false"/>
@@ -9610,7 +9611,7 @@ In addition, a model with the Paragon of Metal special rule may not be targeted 
         <cost name="Pts" typeId="b9ae-7202-083c-4746" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="3800-7712-7c66-84b5" name="Iron Circle Maniple" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="3800-7712-7c66-84b5" name="Domitar-Ferrum Battle-Automata" hidden="false" collective="false" import="true" type="unit">
       <rules>
         <rule id="eb05-7d01-31bd-7730" name="Moving Bulwark" hidden="false">
           <description>Two and more models have a 4+ invulnerable save</description>
@@ -9630,7 +9631,7 @@ In addition, a model with the Paragon of Metal special rule may not be targeted 
         <categoryLink id="f77f-bfab-8b93-1108" name="Elites" hidden="false" targetId="691ada24-2db6-40a1-bcd0-089ec36b48bc" primary="true"/>
       </categoryLinks>
       <selectionEntries>
-        <selectionEntry id="d0b3-aa87-d78f-6ca7" name="Domitar-ferrum" hidden="false" collective="false" import="true" type="model">
+        <selectionEntry id="d0b3-aa87-d78f-6ca7" name="Domitar-Ferrum" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d663-8103-b558-19ff" type="max"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f6d4-080c-bf0a-282f" type="min"/>
@@ -9703,6 +9704,7 @@ In addition, a model with the Paragon of Metal special rule may not be targeted 
         <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
         <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
         <cost name="Pts" typeId="b9ae-7202-083c-4746" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a71e-66d8-e905-7d65" name="Graviton Maul" hidden="false" collective="false" import="true" type="upgrade">
@@ -9950,6 +9952,227 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
         <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
         <cost name="Pts" typeId="b9ae-7202-083c-4746" value="0.0"/>
         <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5dd5-9843-02a3-7154" name="Myrmidon Destructors" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="98b2-df6b-cecc-60c1" name="Canticles of the Omnissiah" hidden="false" targetId="98057866-4488-461a-aa58-29609e9cbab8" type="rule"/>
+        <infoLink id="4914-26e2-698e-a3a1" name="Refractor Field" hidden="false" targetId="152676ab-3f3b-460e-bac2-41d795eb171d" type="profile"/>
+        <infoLink id="a2c3-70ce-6b13-c153" name="Lumbering Advance" hidden="false" targetId="5311-7e26-a82a-473c" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="4175-85d3-f47f-40e9" name="Faction: &lt;Forge World&gt;" hidden="false" targetId="08da7c57-1546-4106-afa5-6f4edee6eb41" primary="false"/>
+        <categoryLink id="f09f-e5b2-c4a4-de4d" name="Faction: Adeptus Mechanicus" hidden="false" targetId="21d39ca6-86bd-4887-a4bf-0cb407d0d02f" primary="false"/>
+        <categoryLink id="c9f0-97da-014e-928f" name="Faction: Cult Mechanicus" hidden="false" targetId="47b9cdb9-28fa-4325-afc0-f59fd846c131" primary="false"/>
+        <categoryLink id="a44b-d005-f270-9917" name="Faction: Imperium" hidden="false" targetId="f71009e6-0b45-47d3-8dc8-921ac1ad28b5" primary="false"/>
+        <categoryLink id="a70f-3b77-c4c9-20d3" name="Heavy Support" hidden="false" targetId="e8c0ddf9-eeda-4096-9d1a-e3048f911225" primary="true"/>
+        <categoryLink id="c8c1-256b-be97-5f56" name="Infantry" hidden="false" targetId="3b0d3718-5028-4133-9acd-6d0864373b6f" primary="false"/>
+        <categoryLink id="fc04-a6a5-d9d3-446c" name="Core" hidden="false" targetId="4a1d67b2-0a2f-4c11-8b63-89cd5b312592" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="c43d-6ea0-7c4e-4cb9" name="Myrmidon Destructor" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0c2-0bcd-3086-75aa" type="min"/>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2909-b235-a5e9-56a8" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="9611-ea32-9eab-bdaa" name="Myrmidon Destructor" hidden="false" typeId="96633e23-5f89-47ac-862a-ea3f419e82ad" typeName="Unit">
+              <characteristics>
+                <characteristic name="M" typeId="29908c04-cacb-4ff6-80a3-f7ac34f9b320">6&quot;</characteristic>
+                <characteristic name="WS" typeId="b0f83996-9c8e-42bb-80ae-6183503a8687">3+</characteristic>
+                <characteristic name="BS" typeId="fcd83b9f-a688-4fd1-88ed-5cf248c9ecdd">2+</characteristic>
+                <characteristic name="S" typeId="cba76dde-3857-489e-a3cb-f1c82182901c">4</characteristic>
+                <characteristic name="T" typeId="082cd324-3c32-4cf7-8a77-34c5ff973db1">5</characteristic>
+                <characteristic name="W" typeId="f5983de7-8c32-4395-a17c-18fc765ec74a">4</characteristic>
+                <characteristic name="A" typeId="40b1852f-baa7-49a7-9e04-0d0cea23edea">2</characteristic>
+                <characteristic name="Ld" typeId="1bb39308-fe32-4190-9336-713b6293a715">8</characteristic>
+                <characteristic name="Save" typeId="c4f7addd-d978-4a27-b039-8e4a15fa6bda">3+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="8e62-88ae-3659-1595" name="Weapon Options" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6165-7c50-62f4-46df" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="445a-fdcf-f11d-19d2" type="min"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="36af-6928-f499-3697" name="Darkfire Cannon" hidden="false" collective="false" import="true" targetId="c869-d5ff-d9cd-7239" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6899-c492-069d-2b79" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="f33e-60c4-a5da-d5e3" name="Volkite Culverin" hidden="false" collective="false" import="true" targetId="b167-e593-9dee-266d" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2df-b0f3-c326-6316" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="3219-92b7-5121-87ae" name="Graviton Imploder" hidden="false" collective="false" import="true" targetId="aabb-e645-1c3c-c9e6" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1016-d0f4-d25f-171e" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="aab1-0704-29a9-62c1" name="Conversion beam cannon" hidden="false" collective="false" import="true" targetId="b33a4352-2071-4962-b5ce-18d548e29711" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dcc1-83a2-e981-9502" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="0b05-a841-dad3-20f3" name="Irradiation Engine" hidden="false" collective="false" import="true" targetId="9be8-caa9-51f1-bf31" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a11a-12f6-c81f-222c" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="cb70-0242-bdcc-5732" name="Shock Charger" hidden="false" collective="false" import="true" targetId="f41b-5e37-fd0a-6ee5" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="efbe-0433-35e9-a96f" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4985-1724-750c-b1c9" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
+            <cost name="pts" typeId="points" value="36.0"/>
+            <cost name="Pts" typeId="b9ae-7202-083c-4746" value="0.0"/>
+            <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="0694-17c6-17ce-30dd" name="Myrmidon Destructor Lord" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="162b-4326-24d9-403c" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea14-0006-6006-7450" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="eccb-b1da-862b-6bea" name="Myrmidon Destructor Lord" hidden="false" typeId="96633e23-5f89-47ac-862a-ea3f419e82ad" typeName="Unit">
+              <characteristics>
+                <characteristic name="M" typeId="29908c04-cacb-4ff6-80a3-f7ac34f9b320">6&quot;</characteristic>
+                <characteristic name="WS" typeId="b0f83996-9c8e-42bb-80ae-6183503a8687">3+</characteristic>
+                <characteristic name="BS" typeId="fcd83b9f-a688-4fd1-88ed-5cf248c9ecdd">2+</characteristic>
+                <characteristic name="S" typeId="cba76dde-3857-489e-a3cb-f1c82182901c">4</characteristic>
+                <characteristic name="T" typeId="082cd324-3c32-4cf7-8a77-34c5ff973db1">5</characteristic>
+                <characteristic name="W" typeId="f5983de7-8c32-4395-a17c-18fc765ec74a">4</characteristic>
+                <characteristic name="A" typeId="40b1852f-baa7-49a7-9e04-0d0cea23edea">3</characteristic>
+                <characteristic name="Ld" typeId="1bb39308-fe32-4190-9336-713b6293a715">9</characteristic>
+                <characteristic name="Save" typeId="c4f7addd-d978-4a27-b039-8e4a15fa6bda">3+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="3679-e221-adb8-3c30" name="Weapon Options" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2629-59e3-a25c-919b" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7f4-30bb-ba98-c1b1" type="min"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="7ed0-2e5a-17e0-beab" name="Darkfire Cannon" hidden="false" collective="false" import="true" targetId="c869-d5ff-d9cd-7239" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="911d-019c-3026-006f" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="8cd4-a36c-73d1-9ceb" name="Volkite Culverin" hidden="false" collective="false" import="true" targetId="b167-e593-9dee-266d" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31e1-9c53-4c32-33ef" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="2e23-3a97-6491-5553" name="Graviton Imploder" hidden="false" collective="false" import="true" targetId="aabb-e645-1c3c-c9e6" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1c0b-50e7-f98f-5a23" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="3d90-f02d-c69d-dc61" name="Conversion beam cannon" hidden="false" collective="false" import="true" targetId="b33a4352-2071-4962-b5ce-18d548e29711" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2ce0-dc3c-2d26-98f5" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="49a7-4144-8606-a51d" name="Irradiation Engine" hidden="false" collective="false" import="true" targetId="9be8-caa9-51f1-bf31" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="409b-9912-b14f-5004" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="100a-41e6-0f52-15a0" name="Shock Charger" hidden="false" collective="false" import="true" targetId="f41b-5e37-fd0a-6ee5" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="01bb-3c82-5ff2-8b23" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d2ee-c7d4-3274-1829" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+            <cost name="Pts" typeId="b9ae-7202-083c-4746" value="0.0"/>
+            <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="Pts" typeId="b9ae-7202-083c-4746" value="0.0"/>
+        <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b167-e593-9dee-266d" name="Volkite Culverin" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="13ba-4e00-0014-a6b3" name="Volkite Culverin" hidden="false" typeId="327087aa-3bc6-45db-8bef-b83aa26d2c80" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c297eb44-1f5e-4c56-a0d6-488c32aecd66">45&quot;</characteristic>
+            <characteristic name="Type" typeId="e472d41f-d999-422d-b009-03cd0c3a9e6f">Heavy 4</characteristic>
+            <characteristic name="S" typeId="31bb5033-ac6f-4fb2-9fa9-dd4922faa0f8">6</characteristic>
+            <characteristic name="AP" typeId="1962f9e8-72aa-4bd7-9e42-09a7bd95eccf">0</characteristic>
+            <characteristic name="D" typeId="8fe73330-1760-49d0-bf9d-cabcfdb9ba3d">2</characteristic>
+            <characteristic name="Abilities" typeId="67e4860e-b1fe-4e2a-9386-7b0a64e10037">Each Time you make a wound roll of a unmodified 6 with this weapon that hit inflicts a mortal wound in addition to normal damage.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="20.0"/>
+        <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
+        <cost name="Pts" typeId="b9ae-7202-083c-4746" value="0.0"/>
+        <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="aabb-e645-1c3c-c9e6" name="Graviton Imploder" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="4122-153c-95ac-1a19" name="Graviton Imploder" hidden="false" typeId="327087aa-3bc6-45db-8bef-b83aa26d2c80" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c297eb44-1f5e-4c56-a0d6-488c32aecd66">24&quot;</characteristic>
+            <characteristic name="Type" typeId="e472d41f-d999-422d-b009-03cd0c3a9e6f">Heavy 4</characteristic>
+            <characteristic name="S" typeId="31bb5033-ac6f-4fb2-9fa9-dd4922faa0f8">5</characteristic>
+            <characteristic name="AP" typeId="1962f9e8-72aa-4bd7-9e42-09a7bd95eccf">-3</characteristic>
+            <characteristic name="D" typeId="8fe73330-1760-49d0-bf9d-cabcfdb9ba3d">1</characteristic>
+            <characteristic name="Abilities" typeId="67e4860e-b1fe-4e2a-9386-7b0a64e10037">Each time an attack made with this weapon is allocated to a model with a Save characteristic of 3+ or better, that attack has a Damage characteristic of 2.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="20.0"/>
+        <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
+        <cost name="Pts" typeId="b9ae-7202-083c-4746" value="0.0"/>
+        <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9be8-caa9-51f1-bf31" name="Irradiation Engine" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="5607-5175-d98d-1faf" name="Irradiation Engine" hidden="false" typeId="327087aa-3bc6-45db-8bef-b83aa26d2c80" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c297eb44-1f5e-4c56-a0d6-488c32aecd66">18&quot;</characteristic>
+            <characteristic name="Type" typeId="e472d41f-d999-422d-b009-03cd0c3a9e6f">Assault D6</characteristic>
+            <characteristic name="S" typeId="31bb5033-ac6f-4fb2-9fa9-dd4922faa0f8">1</characteristic>
+            <characteristic name="AP" typeId="1962f9e8-72aa-4bd7-9e42-09a7bd95eccf">-2</characteristic>
+            <characteristic name="D" typeId="8fe73330-1760-49d0-bf9d-cabcfdb9ba3d">1</characteristic>
+            <characteristic name="Abilities" typeId="67e4860e-b1fe-4e2a-9386-7b0a64e10037">This weapon automatically hits its target. This weapon always wounds on a 2+, unless the target model is a Vehicle. Each Time you make a wound roll of 6+ with this weapon that hit inflicts 2 damage instead of 1.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="30.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -11052,6 +11275,9 @@ The effects of this special rule only apply when a unit that has it begins an As
     <rule id="9ed5-edca-9686-9682" name="Brutal Charge" hidden="false">
       <description>When a domitar finishes a charge move, roll a dice; on a 4+ one enemy unit within 1” suffers a mortal wound.</description>
     </rule>
+    <rule id="5311-7e26-a82a-473c" name="Lumbering Advance" hidden="false">
+      <description>A model with this special rule may not make Advance moves or Consolidation moves.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
     <profile id="31d7ca51-276d-4b5d-981d-8b08d22a7efa" name="Fanatical Devotion" publicationId="629ea54e-0a94-4d10-887c-342cb4a4c74f" hidden="false" typeId="d8b7eb23-4e11-4efa-90fb-b26e0ab318fa" typeName="Abilities">
@@ -11855,5 +12081,6 @@ For each combined landing that you want to make, select two &lt;FORGE WORLD&gt; 
     <catalogueLink id="a669cdb0-7439-4d78-bb6c-3a52eccaa90c" name="Imperium - Agents of the Imperium" targetId="25231cff-2c3f-47e7-aae6-ff024be1c25e" type="catalogue" importRootEntries="true"/>
     <catalogueLink id="3d47bf83-1f71-4916-b599-d1c425761ef4" name="Imperium - Officio Assassinorum" targetId="f12414ae-371a-4ecf-826e-f5b71d98efe3" type="catalogue" importRootEntries="true"/>
     <catalogueLink id="9d79-9565-3861-91be" name="Imperium - Imperial Knights" targetId="c7c3699c-21a0-4f06-a1fa-a3977cb99e08" type="catalogue" importRootEntries="false"/>
+    <catalogueLink id="462b-14d2-51a9-b5e4" name="Imperium - Adeptus Astartes - Iron Hands" targetId="e73b0975-7a07-4c23-b34c-5f7289c5a857" type="catalogue" importRootEntries="false"/>
   </catalogueLinks>
 </catalogue>
