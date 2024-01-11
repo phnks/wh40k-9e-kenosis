@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b20f3d1a-ca3b-4580-8a8b-f595b3877883" name="Imperium - Adeptus Mechanicus" revision="230" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="11f72b7f-57c7-49ff-a1aa-649e95da9c5f" gameSystemRevision="254" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b20f3d1a-ca3b-4580-8a8b-f595b3877883" name="Imperium - Adeptus Mechanicus" revision="231" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="11f72b7f-57c7-49ff-a1aa-649e95da9c5f" gameSystemRevision="254" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="629ea54e-0a94-4d10-887c-342cb4a4c74f" name="Codex: Adeptus Mechanicus"/>
     <publication id="73a8ad3c-941b-42eb-b1c9-6f2165c511fb" name="Forgeworld Datasheet"/>
@@ -551,6 +551,7 @@
       </modifierGroups>
     </entryLink>
     <entryLink id="a7a1-3149-aca6-8032" name="Myrmidon Destructors" hidden="false" collective="false" import="true" targetId="5dd5-9843-02a3-7154" type="selectionEntry"/>
+    <entryLink id="b707-8671-338a-4f30" name="Thallaxii" hidden="false" collective="false" import="true" targetId="8a05-49d9-fb08-a291" type="selectionEntry"/>
   </entryLinks>
   <infoLinks>
     <infoLink id="af16a972-87ee-4d00-977b-d4f01c9f32bf" name="Extremis Sentinel Protocols" hidden="false" targetId="aeb1df7d-9252-4c1a-992e-74c7b7ee778e" type="rule"/>
@@ -9111,8 +9112,7 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
               <entryLinks>
                 <entryLink id="a3dc-48b0-d395-788b" name="Shock Charger" hidden="false" collective="false" import="true" targetId="f41b-5e37-fd0a-6ee5" type="selectionEntry">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0506-e2e5-967c-6df1" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e64-29c2-f4af-f380" type="max"/>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e64-29c2-f4af-f380" type="max"/>
                   </constraints>
                   <costs>
                     <cost name="pts" typeId="points" value="4.0"/>
@@ -9120,7 +9120,6 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
                 </entryLink>
                 <entryLink id="97d6-ea10-00d7-49a6" name="Siege Wrecker" hidden="false" collective="false" import="true" targetId="92a9-5cb1-032f-30d1" type="selectionEntry">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3ad0-ed7f-2cfe-6973" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa57-3ac9-34bb-17bd" type="max"/>
                   </constraints>
                   <costs>
@@ -9129,8 +9128,7 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
                 </entryLink>
                 <entryLink id="9b95-a08a-724d-a9c3" name="Power Blade Array" hidden="false" collective="false" import="true" targetId="bcd7-541f-8525-7f0e" type="selectionEntry">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aefc-c4b2-492f-0b24" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da8e-ffea-94c6-290f" type="max"/>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da8e-ffea-94c6-290f" type="max"/>
                   </constraints>
                   <costs>
                     <cost name="pts" typeId="points" value="7.0"/>
@@ -9167,8 +9165,7 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
               <entryLinks>
                 <entryLink id="9ac5-f993-2cb9-a6eb" name="Shock Charger" hidden="false" collective="false" import="true" targetId="f41b-5e37-fd0a-6ee5" type="selectionEntry">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d4d-6eff-0bd6-ea9c" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7a6-b9dd-e369-1d7f" type="max"/>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d7a6-b9dd-e369-1d7f" type="max"/>
                   </constraints>
                   <costs>
                     <cost name="pts" typeId="points" value="4.0"/>
@@ -9176,7 +9173,6 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
                 </entryLink>
                 <entryLink id="d53c-6c99-f1f7-5d68" name="Siege Wrecker" hidden="false" collective="false" import="true" targetId="92a9-5cb1-032f-30d1" type="selectionEntry">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f875-ee0b-6ce4-f541" type="min"/>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b3aa-390b-f67f-36d3" type="max"/>
                   </constraints>
                   <costs>
@@ -9185,8 +9181,7 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
                 </entryLink>
                 <entryLink id="7006-409d-1c27-e50d" name="Power Blade Array" hidden="false" collective="false" import="true" targetId="bcd7-541f-8525-7f0e" type="selectionEntry">
                   <constraints>
-                    <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a60c-add4-ffa9-271c" type="min"/>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa7f-0a76-a942-2350" type="max"/>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa7f-0a76-a942-2350" type="max"/>
                   </constraints>
                   <costs>
                     <cost name="pts" typeId="points" value="7.0"/>
@@ -9841,53 +9836,20 @@ During any Reaction that allows a unit to Move, a unit composed entirely of mode
     </selectionEntry>
     <selectionEntry id="d5f3-c306-b428-d570" name="Lightning Gun" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="a4af-acb7-bd1a-4c05" name="Lightning Gun (Arc)" publicationId="73a8ad3c-941b-42eb-b1c9-6f2165c511fb" page="113" hidden="false" typeId="327087aa-3bc6-45db-8bef-b83aa26d2c80" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="c297eb44-1f5e-4c56-a0d6-488c32aecd66">18&quot;</characteristic>
-            <characteristic name="Type" typeId="e472d41f-d999-422d-b009-03cd0c3a9e6f">Heavy 3</characteristic>
-            <characteristic name="S" typeId="31bb5033-ac6f-4fb2-9fa9-dd4922faa0f8">4</characteristic>
-            <characteristic name="AP" typeId="1962f9e8-72aa-4bd7-9e42-09a7bd95eccf">0</characteristic>
-            <characteristic name="D" typeId="8fe73330-1760-49d0-bf9d-cabcfdb9ba3d">2</characteristic>
-            <characteristic name="Abilities" typeId="67e4860e-b1fe-4e2a-9386-7b0a64e10037">Shred</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="74c6-d0f7-658d-5f66" name="Lightning Gun (Strike)" publicationId="48e2-71eb-74b7-ffb7" page="113" hidden="false" typeId="327087aa-3bc6-45db-8bef-b83aa26d2c80" typeName="Weapon">
+        <profile id="a4af-acb7-bd1a-4c05" name="Lightning Gun" publicationId="73a8ad3c-941b-42eb-b1c9-6f2165c511fb" page="113" hidden="false" typeId="327087aa-3bc6-45db-8bef-b83aa26d2c80" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="c297eb44-1f5e-4c56-a0d6-488c32aecd66">18&quot;</characteristic>
             <characteristic name="Type" typeId="e472d41f-d999-422d-b009-03cd0c3a9e6f">Heavy 1</characteristic>
             <characteristic name="S" typeId="31bb5033-ac6f-4fb2-9fa9-dd4922faa0f8">7</characteristic>
-            <characteristic name="AP" typeId="1962f9e8-72aa-4bd7-9e42-09a7bd95eccf">-1</characteristic>
-            <characteristic name="D" typeId="8fe73330-1760-49d0-bf9d-cabcfdb9ba3d">D6</characteristic>
-            <characteristic name="Abilities" typeId="67e4860e-b1fe-4e2a-9386-7b0a64e10037">Rending (4+), Shred</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="ccb5-30d0-77a1-a9ac" name="Rending (X)" hidden="false" targetId="88c6-9852-9cb7-6b35" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Rending (4+)"/>
-          </modifiers>
-        </infoLink>
-        <infoLink id="9f80-6fc6-f927-8da5" name="Shred" hidden="false" targetId="6f24-ed7c-c006-7606" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
-        <cost name="Pts" typeId="b9ae-7202-083c-4746" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="15fe-942b-8deb-8010" name="Lorica Thallax" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="065c-1837-0dcf-02b7" name="Lorica Thallax" publicationId="48e2-71eb-74b7-ffb7" page="124" hidden="false" typeId="d8b7eb23-4e11-4efa-90fb-b26e0ab318fa" typeName="Abilities">
-          <characteristics>
-            <characteristic name="Description" typeId="19f8973f-c187-4eef-9206-9c8057c78779">The Lorica Thallax confers a 4+ Armour Save. In addition, a unit that includes any models with Lorica Thallax may not make Sweeping Advances.</characteristic>
+            <characteristic name="AP" typeId="1962f9e8-72aa-4bd7-9e42-09a7bd95eccf">0</characteristic>
+            <characteristic name="D" typeId="8fe73330-1760-49d0-bf9d-cabcfdb9ba3d">1</characteristic>
+            <characteristic name="Abilities" typeId="67e4860e-b1fe-4e2a-9386-7b0a64e10037">You can re-roll failed wound rolls with this weapon. On a wound roll of 6+; change this weapon’s AP to -3 and Damage to 2.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <costs>
         <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="10.0"/>
         <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
         <cost name="Pts" typeId="b9ae-7202-083c-4746" value="0.0"/>
       </costs>
@@ -10176,6 +10138,146 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
       </profiles>
       <costs>
         <cost name="pts" typeId="points" value="30.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8a05-49d9-fb08-a291" name="Thallaxii" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="c7a2-4663-27ed-f3ba" name="Canticles of the Omnissiah" hidden="false" targetId="98057866-4488-461a-aa58-29609e9cbab8" type="rule"/>
+        <infoLink id="a170-a454-713b-a289" name="Djinn-Sight" hidden="false" targetId="35ab-6199-cbae-17c3" type="rule"/>
+        <infoLink id="7899-b39c-6dd9-5dcc" name="Lorica Thallax" hidden="false" targetId="8b16-e4d0-9d01-74bc" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6320-7030-5faa-a988" name="Core" hidden="false" targetId="4a1d67b2-0a2f-4c11-8b63-89cd5b312592" primary="false"/>
+        <categoryLink id="5b88-a6b3-f629-4ef5" name="Faction: &lt;Forge World&gt;" hidden="false" targetId="08da7c57-1546-4106-afa5-6f4edee6eb41" primary="false"/>
+        <categoryLink id="3769-f0be-1d7d-ecb1" name="Faction: Adeptus Mechanicus" hidden="false" targetId="21d39ca6-86bd-4887-a4bf-0cb407d0d02f" primary="false"/>
+        <categoryLink id="1651-bc85-7c96-b3c0" name="Faction: Imperium" hidden="false" targetId="99357296-820b-46e3-8395-77961c0d8302" primary="false"/>
+        <categoryLink id="5c2b-040c-bbcf-bd68" name="Troops" hidden="false" targetId="5176c51e-8715-41ae-976c-bdfce2a3272e" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="c283-3699-5f03-c508" name="Thallax" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1de9-a627-d7d8-b10e" type="min"/>
+            <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7eb7-8c5d-5255-6f35" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="ddda-a041-fe72-abdd" name="Thallax" hidden="false" typeId="96633e23-5f89-47ac-862a-ea3f419e82ad" typeName="Unit">
+              <characteristics>
+                <characteristic name="M" typeId="29908c04-cacb-4ff6-80a3-f7ac34f9b320">8&quot;</characteristic>
+                <characteristic name="WS" typeId="b0f83996-9c8e-42bb-80ae-6183503a8687">4+</characteristic>
+                <characteristic name="BS" typeId="fcd83b9f-a688-4fd1-88ed-5cf248c9ecdd">3+</characteristic>
+                <characteristic name="S" typeId="cba76dde-3857-489e-a3cb-f1c82182901c">5</characteristic>
+                <characteristic name="T" typeId="082cd324-3c32-4cf7-8a77-34c5ff973db1">5</characteristic>
+                <characteristic name="W" typeId="f5983de7-8c32-4395-a17c-18fc765ec74a">3</characteristic>
+                <characteristic name="A" typeId="40b1852f-baa7-49a7-9e04-0d0cea23edea">2</characteristic>
+                <characteristic name="Ld" typeId="1bb39308-fe32-4190-9336-713b6293a715">7</characteristic>
+                <characteristic name="Save" typeId="c4f7addd-d978-4a27-b039-8e4a15fa6bda">4+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="74be-6e2b-7121-c089" name="Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="bbd1-fe42-2158-6358">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52af-c09c-3b9d-b8c7" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6cd-a391-c668-38a3" type="min"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="bbd1-fe42-2158-6358" name="Lightning Gun" hidden="false" collective="false" import="true" targetId="d5f3-c306-b428-d570" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9cb-c4b8-2270-a51f" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="3cf7-9677-af09-30f2" name="Frag grenades" hidden="false" collective="false" import="true" targetId="7c6adbf4-baa7-43a6-a121-f423493115e5" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="881f-007c-976b-c801" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6431-8779-8232-b67d" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="35.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1dd1-b7f0-d176-296b" name="Equipment" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="623b-672f-f892-1ebd" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="45cf-8083-2c5a-49e0" name="Ferrox" hidden="false" collective="false" import="true" targetId="c5c9-0aba-bd60-2a79" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="577a-7663-4f44-08f6" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="f6cc-ed76-c765-fffa" name="Icarian" hidden="false" collective="false" import="true" targetId="683d-0244-8c54-14ac" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2717-a85a-3025-19ac" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="8f12-bf8d-1bb8-053b" name="Empyrite" hidden="false" collective="false" import="true" targetId="30e5-604c-02d5-28b8" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d0b-fdea-1784-8c71" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="7dc1-ee8e-a767-7174" name="Empyrite" hidden="false" collective="false" import="true" targetId="30e5-604c-02d5-28b8" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2901-180c-e2ae-2d13" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry id="c5c9-0aba-bd60-2a79" name="Ferrox" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="17cc-80b6-bd5a-0c9c" name="Ferrox" hidden="false" typeId="d8b7eb23-4e11-4efa-90fb-b26e0ab318fa" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="19f8973f-c187-4eef-9206-9c8057c78779">This unit gets +1 Attack when charging; cannot replace its lightning guns and gains the following ability on its melee attacks during the Fight phase- “On a wound roll of 6+ change this weapons AP to -3.”</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="683d-0244-8c54-14ac" name="Icarian" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="72cc-b0fa-ec31-3e48" name="Icarian" hidden="false" typeId="d8b7eb23-4e11-4efa-90fb-b26e0ab318fa" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="19f8973f-c187-4eef-9206-9c8057c78779">At the beginning of the Move phase this unit may activate this ability. If it does, it cannot move or Advance during the Move phase, add 1 to all hit rolls made for this model against targets that can Aircraft and subtract 1 from the hit rolls made for this model against all other targets. These effects last until the end of the turn.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e4b5-b734-7c11-b2d3" name="Destructor" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="f236-be32-9e79-45e4" name="Destructor" hidden="false" typeId="d8b7eb23-4e11-4efa-90fb-b26e0ab318fa" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="19f8973f-c187-4eef-9206-9c8057c78779">This unit increases the Strength of its attacks against Vehicle units by 1.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="10.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="30e5-604c-02d5-28b8" name="Empyrite" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="6872-96b5-d2eb-9429" name="Empyrite" hidden="false" typeId="d8b7eb23-4e11-4efa-90fb-b26e0ab318fa" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="19f8973f-c187-4eef-9206-9c8057c78779">During deployment, you can set up this unit in the teleportarium chamber instead of placing it on the battlefield. At the end of any of your Movement phases this unit can perform a teleport assault - set it up anywhere on the battlefield that is more than 9” away from any enemy models. Additionally this unit gains the Void Hardened keyword.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -11201,7 +11303,7 @@ Similarly, if a model makes a Shooting Attack with a weapon that has the Shred r
 If, for any reason, a given instance of this rule does not have a value in brackets after the special rule, assume the value is 6+.</description>
     </rule>
     <rule id="35ab-6199-cbae-17c3" name="Djinn-Sight" hidden="false">
-      <description>When making Shooting Attacks, djinn-sight reduces the benefits of any Cover Save the target unit has by -2 (a 4+ becoming a 6+, a 5+ being ignored entirely, and so on). Additionally, Infiltrators may not be set up within 24&quot; of units with this special rule, regardless of line of sight.</description>
+      <description>Enemy units targeted by this unit do not gain any bonus to their saving throw for being in cover. Additionally, enemy units that are set up on the battlefield as reinforcements cannot be set up within 12” of this unit.</description>
     </rule>
     <rule id="88d0-b1c6-58f3-0498" name="Feel No Pain (X)" hidden="false">
       <description>When a model with this special rule suffers an unsaved Wound, it can make a special Feel No Pain roll to avoid being Wounded (this is a special Saving Throw which is made after unsaved Wounds are suffered).
@@ -11280,6 +11382,9 @@ The effects of this special rule only apply when a unit that has it begins an As
     </rule>
     <rule id="5311-7e26-a82a-473c" name="Lumbering Advance" hidden="false">
       <description>A model with this special rule may not make Advance moves or Consolidation moves.</description>
+    </rule>
+    <rule id="8b16-e4d0-9d01-74bc" name="Lorica Thallax" hidden="false">
+      <description>Roll a D6 each time this unit loses a wound, on a 6 it does not lose that wound.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
