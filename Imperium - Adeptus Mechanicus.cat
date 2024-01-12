@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b20f3d1a-ca3b-4580-8a8b-f595b3877883" name="Imperium - Adeptus Mechanicus" revision="231" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="11f72b7f-57c7-49ff-a1aa-649e95da9c5f" gameSystemRevision="254" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b20f3d1a-ca3b-4580-8a8b-f595b3877883" name="Imperium - Adeptus Mechanicus" revision="232" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="11f72b7f-57c7-49ff-a1aa-649e95da9c5f" gameSystemRevision="254" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="629ea54e-0a94-4d10-887c-342cb4a4c74f" name="Codex: Adeptus Mechanicus"/>
     <publication id="73a8ad3c-941b-42eb-b1c9-6f2165c511fb" name="Forgeworld Datasheet"/>
@@ -9507,30 +9507,6 @@ In addition, a model with the Paragon of Metal special rule may not be targeted 
         <cost name="Pts" typeId="b9ae-7202-083c-4746" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="e15e-e91f-4325-f6e5" name="Irad-Cleanser" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="6922-b89a-3466-aad0" name="Irad-Cleanser" hidden="false" typeId="327087aa-3bc6-45db-8bef-b83aa26d2c80" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="c297eb44-1f5e-4c56-a0d6-488c32aecd66">Template</characteristic>
-            <characteristic name="Type" typeId="e472d41f-d999-422d-b009-03cd0c3a9e6f">Assault 1</characteristic>
-            <characteristic name="S" typeId="31bb5033-ac6f-4fb2-9fa9-dd4922faa0f8">2</characteristic>
-            <characteristic name="AP" typeId="1962f9e8-72aa-4bd7-9e42-09a7bd95eccf">-1</characteristic>
-            <characteristic name="D" typeId="8fe73330-1760-49d0-bf9d-cabcfdb9ba3d">1</characteristic>
-            <characteristic name="Abilities" typeId="67e4860e-b1fe-4e2a-9386-7b0a64e10037">Fleshbane</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="15e1-3057-bc2d-247e" name="Fleshbane" hidden="false" targetId="ae98-72fe-dacc-74e2" type="rule"/>
-        <infoLink id="83db-6e88-be21-dd41" name="Template Weapons" hidden="false" targetId="309c-9141-f5c1-03bd" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
-        <cost name="Pts" typeId="b9ae-7202-083c-4746" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="f238-9c9b-ab66-b1e0" name="Multi-Laser" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="a692-0438-9b11-19ca" name="Multi-Laser" hidden="false" typeId="327087aa-3bc6-45db-8bef-b83aa26d2c80" typeName="Weapon">
@@ -9538,15 +9514,15 @@ In addition, a model with the Paragon of Metal special rule may not be targeted 
             <characteristic name="Range" typeId="c297eb44-1f5e-4c56-a0d6-488c32aecd66">36&quot;</characteristic>
             <characteristic name="Type" typeId="e472d41f-d999-422d-b009-03cd0c3a9e6f">Heavy 3</characteristic>
             <characteristic name="S" typeId="31bb5033-ac6f-4fb2-9fa9-dd4922faa0f8">6</characteristic>
-            <characteristic name="AP" typeId="1962f9e8-72aa-4bd7-9e42-09a7bd95eccf">-</characteristic>
-            <characteristic name="D" typeId="8fe73330-1760-49d0-bf9d-cabcfdb9ba3d"/>
-            <characteristic name="Abilities" typeId="67e4860e-b1fe-4e2a-9386-7b0a64e10037"/>
+            <characteristic name="AP" typeId="1962f9e8-72aa-4bd7-9e42-09a7bd95eccf">0</characteristic>
+            <characteristic name="D" typeId="8fe73330-1760-49d0-bf9d-cabcfdb9ba3d">1</characteristic>
+            <characteristic name="Abilities" typeId="67e4860e-b1fe-4e2a-9386-7b0a64e10037">-</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <costs>
         <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="5.0"/>
         <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
         <cost name="Pts" typeId="b9ae-7202-083c-4746" value="0.0"/>
       </costs>
@@ -9556,25 +9532,17 @@ In addition, a model with the Paragon of Metal special rule may not be targeted 
         <profile id="8cfc-e24b-8c96-fdce" name="Phased Plasma-Fusil" hidden="false" typeId="327087aa-3bc6-45db-8bef-b83aa26d2c80" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="c297eb44-1f5e-4c56-a0d6-488c32aecd66">24&quot;</characteristic>
-            <characteristic name="Type" typeId="e472d41f-d999-422d-b009-03cd0c3a9e6f">Heavy 3</characteristic>
-            <characteristic name="S" typeId="31bb5033-ac6f-4fb2-9fa9-dd4922faa0f8">6</characteristic>
+            <characteristic name="Type" typeId="e472d41f-d999-422d-b009-03cd0c3a9e6f">Rapid Fire 2</characteristic>
+            <characteristic name="S" typeId="31bb5033-ac6f-4fb2-9fa9-dd4922faa0f8">7</characteristic>
             <characteristic name="AP" typeId="1962f9e8-72aa-4bd7-9e42-09a7bd95eccf">-3</characteristic>
-            <characteristic name="D" typeId="8fe73330-1760-49d0-bf9d-cabcfdb9ba3d">1</characteristic>
-            <characteristic name="Abilities" typeId="67e4860e-b1fe-4e2a-9386-7b0a64e10037">Breaching (4+), Gets Hot</characteristic>
+            <characteristic name="D" typeId="8fe73330-1760-49d0-bf9d-cabcfdb9ba3d">2</characteristic>
+            <characteristic name="Abilities" typeId="67e4860e-b1fe-4e2a-9386-7b0a64e10037">-</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="6454-af64-1371-6381" name="Gets Hot" hidden="false" targetId="bd79-a6dc-fb21-13c5" type="rule"/>
-        <infoLink id="8687-669e-de3f-e231" name="Breaching (X)" hidden="false" targetId="9e70-8e1a-b6ec-f03e" type="rule">
-          <modifiers>
-            <modifier type="set" field="name" value="Breaching (4+)"/>
-          </modifiers>
-        </infoLink>
-      </infoLinks>
       <costs>
         <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="15.0"/>
         <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
         <cost name="Pts" typeId="b9ae-7202-083c-4746" value="0.0"/>
       </costs>
@@ -9583,22 +9551,18 @@ In addition, a model with the Paragon of Metal special rule may not be targeted 
       <profiles>
         <profile id="8138-cf70-7c90-3178" name="Photon Thruster" hidden="false" typeId="327087aa-3bc6-45db-8bef-b83aa26d2c80" typeName="Weapon">
           <characteristics>
-            <characteristic name="Range" typeId="c297eb44-1f5e-4c56-a0d6-488c32aecd66">24&quot;</characteristic>
-            <characteristic name="Type" typeId="e472d41f-d999-422d-b009-03cd0c3a9e6f">Assault 2</characteristic>
+            <characteristic name="Range" typeId="c297eb44-1f5e-4c56-a0d6-488c32aecd66">48&quot;</characteristic>
+            <characteristic name="Type" typeId="e472d41f-d999-422d-b009-03cd0c3a9e6f">Heavy 2</characteristic>
             <characteristic name="S" typeId="31bb5033-ac6f-4fb2-9fa9-dd4922faa0f8">6</characteristic>
             <characteristic name="AP" typeId="1962f9e8-72aa-4bd7-9e42-09a7bd95eccf">-4</characteristic>
-            <characteristic name="D" typeId="8fe73330-1760-49d0-bf9d-cabcfdb9ba3d">1</characteristic>
-            <characteristic name="Abilities" typeId="67e4860e-b1fe-4e2a-9386-7b0a64e10037">Lance, Gets Hot</characteristic>
+            <characteristic name="D" typeId="8fe73330-1760-49d0-bf9d-cabcfdb9ba3d">D3+3</characteristic>
+            <characteristic name="Abilities" typeId="67e4860e-b1fe-4e2a-9386-7b0a64e10037">For each hit roll of 1. the bearer suffers one mortal wound after all this weapon&apos;s shots have been resolved.</characteristic>
           </characteristics>
         </profile>
       </profiles>
-      <infoLinks>
-        <infoLink id="706b-a3cb-bfbb-048d" name="Gets Hot" hidden="false" targetId="bd79-a6dc-fb21-13c5" type="rule"/>
-        <infoLink id="878b-c693-bf67-25fb" name="Lance" hidden="false" targetId="db92-b51b-f7f8-6ef4" type="rule"/>
-      </infoLinks>
       <costs>
         <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="23.0"/>
         <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
         <cost name="Pts" typeId="b9ae-7202-083c-4746" value="0.0"/>
       </costs>
@@ -9739,30 +9703,6 @@ In addition, a model with the Paragon of Metal special rule may not be targeted 
         <cost name="Pts" typeId="b9ae-7202-083c-4746" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="141b-9964-3827-2968" name="Chain Bayonet" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="cd71-aa9a-35d5-d828" name="Chain Bayonet" hidden="false" typeId="327087aa-3bc6-45db-8bef-b83aa26d2c80" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="c297eb44-1f5e-4c56-a0d6-488c32aecd66">Melee</characteristic>
-            <characteristic name="Type" typeId="e472d41f-d999-422d-b009-03cd0c3a9e6f">Melee</characteristic>
-            <characteristic name="S" typeId="31bb5033-ac6f-4fb2-9fa9-dd4922faa0f8">+1</characteristic>
-            <characteristic name="AP" typeId="1962f9e8-72aa-4bd7-9e42-09a7bd95eccf">0</characteristic>
-            <characteristic name="D" typeId="8fe73330-1760-49d0-bf9d-cabcfdb9ba3d">1</characteristic>
-            <characteristic name="Abilities" typeId="67e4860e-b1fe-4e2a-9386-7b0a64e10037">Two-handed, Shred</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <infoLinks>
-        <infoLink id="c923-dd02-4c7a-93b6" name="Shred" hidden="false" targetId="6f24-ed7c-c006-7606" type="rule"/>
-        <infoLink id="e6ae-cdf2-ef9b-e77d" name="Two-handed" hidden="false" targetId="2099-f5d6-8acc-62fb" type="rule"/>
-      </infoLinks>
-      <costs>
-        <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
-        <cost name="Pts" typeId="b9ae-7202-083c-4746" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="2ba7-e629-b282-ffc2" name="Triaros Armoured Conveyor" hidden="false" collective="false" import="true" type="unit">
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba0f-bc05-7e03-cc06" type="max"/>
@@ -9839,17 +9779,17 @@ During any Reaction that allows a unit to Move, a unit composed entirely of mode
         <profile id="a4af-acb7-bd1a-4c05" name="Lightning Gun" publicationId="73a8ad3c-941b-42eb-b1c9-6f2165c511fb" page="113" hidden="false" typeId="327087aa-3bc6-45db-8bef-b83aa26d2c80" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="c297eb44-1f5e-4c56-a0d6-488c32aecd66">18&quot;</characteristic>
-            <characteristic name="Type" typeId="e472d41f-d999-422d-b009-03cd0c3a9e6f">Heavy 1</characteristic>
-            <characteristic name="S" typeId="31bb5033-ac6f-4fb2-9fa9-dd4922faa0f8">7</characteristic>
+            <characteristic name="Type" typeId="e472d41f-d999-422d-b009-03cd0c3a9e6f">Heavy 3</characteristic>
+            <characteristic name="S" typeId="31bb5033-ac6f-4fb2-9fa9-dd4922faa0f8">4</characteristic>
             <characteristic name="AP" typeId="1962f9e8-72aa-4bd7-9e42-09a7bd95eccf">0</characteristic>
             <characteristic name="D" typeId="8fe73330-1760-49d0-bf9d-cabcfdb9ba3d">1</characteristic>
-            <characteristic name="Abilities" typeId="67e4860e-b1fe-4e2a-9386-7b0a64e10037">You can re-roll failed wound rolls with this weapon. On a wound roll of 6+; change this weapon’s AP to -3 and Damage to 2.</characteristic>
+            <characteristic name="Abilities" typeId="67e4860e-b1fe-4e2a-9386-7b0a64e10037">Each time an attack is made with this weapon, an unmodified hit roll of 6 scores 2 additional hits.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <costs>
         <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
-        <cost name="pts" typeId="points" value="10.0"/>
+        <cost name="pts" typeId="points" value="5.0"/>
         <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
         <cost name="Pts" typeId="b9ae-7202-083c-4746" value="0.0"/>
       </costs>
@@ -10176,6 +10116,13 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
           </profiles>
           <selectionEntryGroups>
             <selectionEntryGroup id="74be-6e2b-7121-c089" name="Weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="bbd1-fe42-2158-6358">
+              <modifiers>
+                <modifier type="increment" field="52af-c09c-3b9d-b8c7" value="1.0">
+                  <repeats>
+                    <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d5f3-c306-b428-d570" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52af-c09c-3b9d-b8c7" type="max"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6cd-a391-c668-38a3" type="min"/>
@@ -10184,6 +10131,38 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
                 <entryLink id="bbd1-fe42-2158-6358" name="Lightning Gun" hidden="false" collective="false" import="true" targetId="d5f3-c306-b428-d570" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a9cb-c4b8-2270-a51f" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="5504-630f-c513-c138" name="Chain Bayonet" hidden="false" collective="false" import="true" targetId="ef01-b51c-6711-87ef" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="increment" field="6df0-76d1-729f-f84b" value="1.0">
+                      <repeats>
+                        <repeat field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d5f3-c306-b428-d570" repeats="1" roundUp="false"/>
+                      </repeats>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6df0-76d1-729f-f84b" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="91da-30ea-c881-066a" name="Photon Thruster" hidden="false" collective="false" import="true" targetId="9dd5-8500-ac44-84d7" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c945-c696-caef-9a97" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="2eb3-8fba-2641-213d" name="Multi-melta" hidden="false" collective="false" import="true" targetId="304df958-dfa6-46b7-ae2a-8ddcb2528bf6" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae51-964e-abc3-7075" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="90fe-b7fa-6500-9e33" name="Multi-Laser" hidden="false" collective="false" import="true" targetId="f238-9c9b-ab66-b1e0" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5073-b0e2-3f38-674a" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="bac4-0952-cdde-8311" name="Irad-Cleanser" hidden="false" collective="false" import="true" targetId="b4dc-dbef-e52e-8b50" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="242d-034f-dd8b-beca" type="max"/>
                   </constraints>
                 </entryLink>
               </entryLinks>
@@ -10223,7 +10202,7 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3d0b-fdea-1784-8c71" type="max"/>
               </constraints>
             </entryLink>
-            <entryLink id="7dc1-ee8e-a767-7174" name="Empyrite" hidden="false" collective="false" import="true" targetId="30e5-604c-02d5-28b8" type="selectionEntry">
+            <entryLink id="7dc1-ee8e-a767-7174" name="Destructor" hidden="false" collective="false" import="true" targetId="e4b5-b734-7c11-b2d3" type="selectionEntry">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2901-180c-e2ae-2d13" type="max"/>
               </constraints>
@@ -10278,6 +10257,40 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
       </profiles>
       <costs>
         <cost name="pts" typeId="points" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ef01-b51c-6711-87ef" name="Chain Bayonet" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="5617-d772-a8f7-b40f" name="Chain Bayonet" hidden="false" typeId="327087aa-3bc6-45db-8bef-b83aa26d2c80" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c297eb44-1f5e-4c56-a0d6-488c32aecd66">Melee</characteristic>
+            <characteristic name="Type" typeId="e472d41f-d999-422d-b009-03cd0c3a9e6f">Melee</characteristic>
+            <characteristic name="S" typeId="31bb5033-ac6f-4fb2-9fa9-dd4922faa0f8">+2</characteristic>
+            <characteristic name="AP" typeId="1962f9e8-72aa-4bd7-9e42-09a7bd95eccf">-2</characteristic>
+            <characteristic name="D" typeId="8fe73330-1760-49d0-bf9d-cabcfdb9ba3d">1</characteristic>
+            <characteristic name="Abilities" typeId="67e4860e-b1fe-4e2a-9386-7b0a64e10037">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="5.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b4dc-dbef-e52e-8b50" name="Irad-Cleanser" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="bceb-82d8-e605-4329" name="Irad-Cleanser" hidden="false" typeId="327087aa-3bc6-45db-8bef-b83aa26d2c80" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c297eb44-1f5e-4c56-a0d6-488c32aecd66">12&quot;</characteristic>
+            <characteristic name="Type" typeId="e472d41f-d999-422d-b009-03cd0c3a9e6f">Assault D6</characteristic>
+            <characteristic name="S" typeId="31bb5033-ac6f-4fb2-9fa9-dd4922faa0f8">1</characteristic>
+            <characteristic name="AP" typeId="1962f9e8-72aa-4bd7-9e42-09a7bd95eccf">0</characteristic>
+            <characteristic name="D" typeId="8fe73330-1760-49d0-bf9d-cabcfdb9ba3d">1</characteristic>
+            <characteristic name="Abilities" typeId="67e4860e-b1fe-4e2a-9386-7b0a64e10037">This weapon automatically hits its target. This weapon always wounds on a 2+ unless the target model is a Vehicle. Each Time you make a wound roll of 6+ with this weapon that hit inflicts 2 damage instead of 1.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="15.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
