@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b20f3d1a-ca3b-4580-8a8b-f595b3877883" name="Imperium - Adeptus Mechanicus" revision="232" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="11f72b7f-57c7-49ff-a1aa-649e95da9c5f" gameSystemRevision="254" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b20f3d1a-ca3b-4580-8a8b-f595b3877883" name="Imperium - Adeptus Mechanicus" revision="233" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="11f72b7f-57c7-49ff-a1aa-649e95da9c5f" gameSystemRevision="254" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="629ea54e-0a94-4d10-887c-342cb4a4c74f" name="Codex: Adeptus Mechanicus"/>
     <publication id="73a8ad3c-941b-42eb-b1c9-6f2165c511fb" name="Forgeworld Datasheet"/>
@@ -10154,6 +10154,9 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ae51-964e-abc3-7075" type="max"/>
                   </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="25.0"/>
+                  </costs>
                 </entryLink>
                 <entryLink id="90fe-b7fa-6500-9e33" name="Multi-Laser" hidden="false" collective="false" import="true" targetId="f238-9c9b-ab66-b1e0" type="selectionEntry">
                   <constraints>
@@ -10163,6 +10166,11 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
                 <entryLink id="bac4-0952-cdde-8311" name="Irad-Cleanser" hidden="false" collective="false" import="true" targetId="b4dc-dbef-e52e-8b50" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="242d-034f-dd8b-beca" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="4c6c-a768-9b00-1a85" name="Phased Plasma-Fusil" hidden="false" collective="false" import="true" targetId="a346-a1c2-cc7e-1f0f" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd27-7b10-ea33-af4c" type="max"/>
                   </constraints>
                 </entryLink>
               </entryLinks>
