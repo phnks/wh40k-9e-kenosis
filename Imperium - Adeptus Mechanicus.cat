@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b20f3d1a-ca3b-4580-8a8b-f595b3877883" name="Imperium - Adeptus Mechanicus" revision="233" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="11f72b7f-57c7-49ff-a1aa-649e95da9c5f" gameSystemRevision="254" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b20f3d1a-ca3b-4580-8a8b-f595b3877883" name="Imperium - Adeptus Mechanicus" revision="234" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="11f72b7f-57c7-49ff-a1aa-649e95da9c5f" gameSystemRevision="254" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="629ea54e-0a94-4d10-887c-342cb4a4c74f" name="Codex: Adeptus Mechanicus"/>
     <publication id="73a8ad3c-941b-42eb-b1c9-6f2165c511fb" name="Forgeworld Datasheet"/>
@@ -552,6 +552,7 @@
     </entryLink>
     <entryLink id="a7a1-3149-aca6-8032" name="Myrmidon Destructors" hidden="false" collective="false" import="true" targetId="5dd5-9843-02a3-7154" type="selectionEntry"/>
     <entryLink id="b707-8671-338a-4f30" name="Thallaxii" hidden="false" collective="false" import="true" targetId="8a05-49d9-fb08-a291" type="selectionEntry"/>
+    <entryLink id="d4cb-c8bc-99e8-d3a2" name="Myrmidon Secutors" hidden="false" collective="false" import="true" targetId="04f7-1277-7391-4419" type="selectionEntry"/>
   </entryLinks>
   <infoLinks>
     <infoLink id="af16a972-87ee-4d00-977b-d4f01c9f32bf" name="Extremis Sentinel Protocols" hidden="false" targetId="aeb1df7d-9252-4c1a-992e-74c7b7ee778e" type="rule"/>
@@ -9527,26 +9528,6 @@ In addition, a model with the Paragon of Metal special rule may not be targeted 
         <cost name="Pts" typeId="b9ae-7202-083c-4746" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="a346-a1c2-cc7e-1f0f" name="Phased Plasma-Fusil" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="8cfc-e24b-8c96-fdce" name="Phased Plasma-Fusil" hidden="false" typeId="327087aa-3bc6-45db-8bef-b83aa26d2c80" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="c297eb44-1f5e-4c56-a0d6-488c32aecd66">24&quot;</characteristic>
-            <characteristic name="Type" typeId="e472d41f-d999-422d-b009-03cd0c3a9e6f">Rapid Fire 2</characteristic>
-            <characteristic name="S" typeId="31bb5033-ac6f-4fb2-9fa9-dd4922faa0f8">7</characteristic>
-            <characteristic name="AP" typeId="1962f9e8-72aa-4bd7-9e42-09a7bd95eccf">-3</characteristic>
-            <characteristic name="D" typeId="8fe73330-1760-49d0-bf9d-cabcfdb9ba3d">2</characteristic>
-            <characteristic name="Abilities" typeId="67e4860e-b1fe-4e2a-9386-7b0a64e10037">-</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
-        <cost name="pts" typeId="points" value="15.0"/>
-        <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
-        <cost name="Pts" typeId="b9ae-7202-083c-4746" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="9dd5-8500-ac44-84d7" name="Photon Thruster" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
         <profile id="8138-cf70-7c90-3178" name="Photon Thruster" hidden="false" typeId="327087aa-3bc6-45db-8bef-b83aa26d2c80" typeName="Weapon">
@@ -9942,7 +9923,7 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
             <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="0694-17c6-17ce-30dd" name="Myrmidon Destructor Lord" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="0694-17c6-17ce-30dd" name="Myrmidon Destructor Lord" hidden="false" collective="false" import="true" type="model">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="162b-4326-24d9-403c" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ea14-0006-6006-7450" type="max"/>
@@ -10078,6 +10059,9 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
       </profiles>
       <costs>
         <cost name="pts" typeId="points" value="30.0"/>
+        <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
+        <cost name="Pts" typeId="b9ae-7202-083c-4746" value="0.0"/>
+        <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8a05-49d9-fb08-a291" name="Thallaxii" hidden="false" collective="false" import="true" type="upgrade">
@@ -10168,10 +10152,13 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="242d-034f-dd8b-beca" type="max"/>
                   </constraints>
                 </entryLink>
-                <entryLink id="4c6c-a768-9b00-1a85" name="Phased Plasma-Fusil" hidden="false" collective="false" import="true" targetId="a346-a1c2-cc7e-1f0f" type="selectionEntry">
+                <entryLink id="4c6c-a768-9b00-1a85" name="Phased Plasma-Fusil" hidden="false" collective="false" import="true" targetId="b9b3e32b-f00b-4e5c-8aed-be5526751cdf" type="selectionEntry">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd27-7b10-ea33-af4c" type="max"/>
                   </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="15.0"/>
+                  </costs>
                 </entryLink>
               </entryLinks>
             </selectionEntryGroup>
@@ -10186,6 +10173,9 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
           </entryLinks>
           <costs>
             <cost name="pts" typeId="points" value="35.0"/>
+            <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
+            <cost name="Pts" typeId="b9ae-7202-083c-4746" value="0.0"/>
+            <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -10218,6 +10208,12 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="Pts" typeId="b9ae-7202-083c-4746" value="0.0"/>
+        <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="c5c9-0aba-bd60-2a79" name="Ferrox" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -10229,6 +10225,9 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
       </profiles>
       <costs>
         <cost name="pts" typeId="points" value="10.0"/>
+        <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
+        <cost name="Pts" typeId="b9ae-7202-083c-4746" value="0.0"/>
+        <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="683d-0244-8c54-14ac" name="Icarian" hidden="false" collective="false" import="true" type="upgrade">
@@ -10241,6 +10240,9 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
       </profiles>
       <costs>
         <cost name="pts" typeId="points" value="5.0"/>
+        <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
+        <cost name="Pts" typeId="b9ae-7202-083c-4746" value="0.0"/>
+        <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="e4b5-b734-7c11-b2d3" name="Destructor" hidden="false" collective="false" import="true" type="upgrade">
@@ -10253,6 +10255,9 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
       </profiles>
       <costs>
         <cost name="pts" typeId="points" value="10.0"/>
+        <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
+        <cost name="Pts" typeId="b9ae-7202-083c-4746" value="0.0"/>
+        <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="30e5-604c-02d5-28b8" name="Empyrite" hidden="false" collective="false" import="true" type="upgrade">
@@ -10265,6 +10270,9 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
       </profiles>
       <costs>
         <cost name="pts" typeId="points" value="5.0"/>
+        <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
+        <cost name="Pts" typeId="b9ae-7202-083c-4746" value="0.0"/>
+        <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ef01-b51c-6711-87ef" name="Chain Bayonet" hidden="false" collective="false" import="true" type="upgrade">
@@ -10282,6 +10290,9 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
       </profiles>
       <costs>
         <cost name="pts" typeId="points" value="5.0"/>
+        <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
+        <cost name="Pts" typeId="b9ae-7202-083c-4746" value="0.0"/>
+        <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b4dc-dbef-e52e-8b50" name="Irad-Cleanser" hidden="false" collective="false" import="true" type="upgrade">
@@ -10299,6 +10310,207 @@ Invulnerable Saves granted by a refractor field or iron halo do not stack with o
       </profiles>
       <costs>
         <cost name="pts" typeId="points" value="15.0"/>
+        <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
+        <cost name="Pts" typeId="b9ae-7202-083c-4746" value="0.0"/>
+        <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="04f7-1277-7391-4419" name="Myrmidon Secutors" hidden="false" collective="false" import="true" type="unit">
+      <infoLinks>
+        <infoLink id="b97d-e51c-e6c8-33c3" name="Refractor Field" hidden="false" targetId="152676ab-3f3b-460e-bac2-41d795eb171d" type="profile"/>
+        <infoLink id="d47e-a669-45b9-0b4c" name="Canticles of the Omnissiah" hidden="false" targetId="98057866-4488-461a-aa58-29609e9cbab8" type="rule"/>
+        <infoLink id="cb12-af13-3a0b-9e84" name="Lumbering Advance" hidden="false" targetId="5311-7e26-a82a-473c" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="f6b0-9e3c-ed5d-64fa" name="Core" hidden="false" targetId="4a1d67b2-0a2f-4c11-8b63-89cd5b312592" primary="false"/>
+        <categoryLink id="007a-7b0e-8745-43a1" name="Faction: &lt;Forge World&gt;" hidden="false" targetId="08da7c57-1546-4106-afa5-6f4edee6eb41" primary="false"/>
+        <categoryLink id="8f62-2e04-f5b4-2091" name="Faction: Adeptus Mechanicus" hidden="false" targetId="21d39ca6-86bd-4887-a4bf-0cb407d0d02f" primary="false"/>
+        <categoryLink id="31b3-bd1c-4e9a-7979" name="Faction: Imperium" hidden="false" targetId="99357296-820b-46e3-8395-77961c0d8302" primary="false"/>
+        <categoryLink id="fe41-0345-6ffb-c848" name="Elites" hidden="false" targetId="691ada24-2db6-40a1-bcd0-089ec36b48bc" primary="true"/>
+        <categoryLink id="faaa-5f4b-9e10-8a8e" name="Faction: Cult Mechanicus" hidden="false" targetId="47b9cdb9-28fa-4325-afc0-f59fd846c131" primary="false"/>
+        <categoryLink id="396f-79ec-f732-216a" name="Infantry" hidden="false" targetId="3b0d3718-5028-4133-9acd-6d0864373b6f" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="04f6-2bdc-6394-1274" name="Myrmidon Secutor Lord" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c82e-6cfc-aa41-2c60" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="33d3-b0f7-2e45-bfde" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="7f3a-8293-76a5-6a9b" name="Myrmidon Secutor Lord" hidden="false" typeId="96633e23-5f89-47ac-862a-ea3f419e82ad" typeName="Unit">
+              <characteristics>
+                <characteristic name="M" typeId="29908c04-cacb-4ff6-80a3-f7ac34f9b320">6&quot;</characteristic>
+                <characteristic name="WS" typeId="b0f83996-9c8e-42bb-80ae-6183503a8687">3+</characteristic>
+                <characteristic name="BS" typeId="fcd83b9f-a688-4fd1-88ed-5cf248c9ecdd">2+</characteristic>
+                <characteristic name="S" typeId="cba76dde-3857-489e-a3cb-f1c82182901c">4</characteristic>
+                <characteristic name="T" typeId="082cd324-3c32-4cf7-8a77-34c5ff973db1">5</characteristic>
+                <characteristic name="W" typeId="f5983de7-8c32-4395-a17c-18fc765ec74a">4</characteristic>
+                <characteristic name="A" typeId="40b1852f-baa7-49a7-9e04-0d0cea23edea">3</characteristic>
+                <characteristic name="Ld" typeId="1bb39308-fe32-4190-9336-713b6293a715">9</characteristic>
+                <characteristic name="Save" typeId="c4f7addd-d978-4a27-b039-8e4a15fa6bda">3+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="6b57-e4d5-938d-b39c" name="Weapon Options" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e949-cbb2-aecc-0af6" type="max"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a943-0c04-947a-4766" type="min"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="5439-a439-ad1d-24ba" name="Phased Plasma-Fusil" hidden="false" collective="false" import="true" targetId="b9b3e32b-f00b-4e5c-8aed-be5526751cdf" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5795-8698-5b24-8146" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="15.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="509d-90dc-ac61-fd3f" name="Maxima Bolter" hidden="false" collective="false" import="true" targetId="5167-d4c3-9b61-2f40" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abc4-28db-667b-8611" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="0694-bdd5-08a1-dcab" name="Grav-gun" hidden="false" collective="false" import="true" targetId="5d2a0095-426b-4519-81dc-3514f76450a4" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5832-c79c-e5f3-698e" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="5.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="1000-8284-c8ca-97e6" name="Irad-Cleanser" hidden="false" collective="false" import="true" targetId="b4dc-dbef-e52e-8b50" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eaf0-b75f-0030-6254" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="58e5-d622-9177-429a" name="Power axe" hidden="false" collective="false" import="true" targetId="b4b5cd20-91af-414b-b3bf-2c73f1b2374a" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0d0a-9410-1c8a-785a" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d3e3-fd39-bb60-3adb" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="2224-e365-ed90-0825" name="Frag &amp; Krak grenades" hidden="false" collective="false" import="true" targetId="29cc2130-43ce-4612-9200-37a38cc37353" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b6d-ec00-51e4-071b" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2dab-7aae-d895-dccb" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
+            <cost name="pts" typeId="points" value="30.0"/>
+            <cost name="Pts" typeId="b9ae-7202-083c-4746" value="0.0"/>
+            <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c7ed-ee04-139a-8c58" name="Myrmidon Secutor" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b232-ee87-e566-47c3" type="min"/>
+            <constraint field="selections" scope="parent" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15af-ed9b-d532-362e" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="ab32-5046-49fc-9240" name="Myrmidon Secutor" hidden="false" typeId="96633e23-5f89-47ac-862a-ea3f419e82ad" typeName="Unit">
+              <characteristics>
+                <characteristic name="M" typeId="29908c04-cacb-4ff6-80a3-f7ac34f9b320">6&quot;</characteristic>
+                <characteristic name="WS" typeId="b0f83996-9c8e-42bb-80ae-6183503a8687">3+</characteristic>
+                <characteristic name="BS" typeId="fcd83b9f-a688-4fd1-88ed-5cf248c9ecdd">2+</characteristic>
+                <characteristic name="S" typeId="cba76dde-3857-489e-a3cb-f1c82182901c">4</characteristic>
+                <characteristic name="T" typeId="082cd324-3c32-4cf7-8a77-34c5ff973db1">5</characteristic>
+                <characteristic name="W" typeId="f5983de7-8c32-4395-a17c-18fc765ec74a">4</characteristic>
+                <characteristic name="A" typeId="40b1852f-baa7-49a7-9e04-0d0cea23edea">2</characteristic>
+                <characteristic name="Ld" typeId="1bb39308-fe32-4190-9336-713b6293a715">8</characteristic>
+                <characteristic name="Save" typeId="c4f7addd-d978-4a27-b039-8e4a15fa6bda">3+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="37e2-f2dd-d4b9-4686" name="Weapon Options" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="48dd-0960-45d2-411f" type="max"/>
+                <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bd9b-432b-4a12-0952" type="min"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="b504-ce1d-79c0-58e1" name="Phased Plasma-Fusil" hidden="false" collective="false" import="true" targetId="b9b3e32b-f00b-4e5c-8aed-be5526751cdf" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="035c-8693-c21f-2540" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="15.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="2798-220a-3502-2700" name="Maxima Bolter" hidden="false" collective="false" import="true" targetId="5167-d4c3-9b61-2f40" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b911-8454-d7f8-845d" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="61a5-a955-5f05-4f01" name="Grav-gun" hidden="false" collective="false" import="true" targetId="5d2a0095-426b-4519-81dc-3514f76450a4" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c7e0-b97d-821f-48af" type="max"/>
+                  </constraints>
+                  <costs>
+                    <cost name="pts" typeId="points" value="5.0"/>
+                  </costs>
+                </entryLink>
+                <entryLink id="df84-7b9a-12d7-2797" name="Irad-Cleanser" hidden="false" collective="false" import="true" targetId="b4dc-dbef-e52e-8b50" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3076-85f5-3572-e512" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <entryLinks>
+            <entryLink id="fb98-58b1-4fb0-9125" name="Power axe" hidden="false" collective="false" import="true" targetId="b4b5cd20-91af-414b-b3bf-2c73f1b2374a" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="25bb-169b-dccc-86ac" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5a2b-6e3d-7322-873d" type="max"/>
+              </constraints>
+            </entryLink>
+            <entryLink id="7b1b-a558-c99c-57c8" name="Frag &amp; Krak grenades" hidden="false" collective="false" import="true" targetId="29cc2130-43ce-4612-9200-37a38cc37353" type="selectionEntry">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="be1a-b2ea-6acf-8ee6" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="78c6-2250-4edb-c8ed" type="max"/>
+              </constraints>
+            </entryLink>
+          </entryLinks>
+          <costs>
+            <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
+            <cost name="pts" typeId="points" value="30.0"/>
+            <cost name="Pts" typeId="b9ae-7202-083c-4746" value="0.0"/>
+            <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <costs>
+        <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="Pts" typeId="b9ae-7202-083c-4746" value="0.0"/>
+        <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5167-d4c3-9b61-2f40" name="Maxima Bolter" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="bc76-14fb-f381-101b" name="Maxima Bolter" hidden="false" typeId="327087aa-3bc6-45db-8bef-b83aa26d2c80" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="c297eb44-1f5e-4c56-a0d6-488c32aecd66">12&quot;</characteristic>
+            <characteristic name="Type" typeId="e472d41f-d999-422d-b009-03cd0c3a9e6f">Assault 3</characteristic>
+            <characteristic name="S" typeId="31bb5033-ac6f-4fb2-9fa9-dd4922faa0f8">4</characteristic>
+            <characteristic name="AP" typeId="1962f9e8-72aa-4bd7-9e42-09a7bd95eccf">0</characteristic>
+            <characteristic name="D" typeId="8fe73330-1760-49d0-bf9d-cabcfdb9ba3d">1</characteristic>
+            <characteristic name="Abilities" typeId="67e4860e-b1fe-4e2a-9386-7b0a64e10037">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="3.0"/>
+        <cost name=" PL" typeId="a1fb239e-3fe3-4941-915e-c22907e76f0e" value="0.0"/>
+        <cost name="Pts" typeId="b9ae-7202-083c-4746" value="0.0"/>
+        <cost name="CP" typeId="0608d6bb-d554-461a-a7de-9e36220b5b51" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
