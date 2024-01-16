@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b20f3d1a-ca3b-4580-8a8b-f595b3877883" name="Imperium - Adeptus Mechanicus" revision="237" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="11f72b7f-57c7-49ff-a1aa-649e95da9c5f" gameSystemRevision="255" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b20f3d1a-ca3b-4580-8a8b-f595b3877883" name="Imperium - Adeptus Mechanicus" revision="238" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" library="false" gameSystemId="11f72b7f-57c7-49ff-a1aa-649e95da9c5f" gameSystemRevision="255" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="629ea54e-0a94-4d10-887c-342cb4a4c74f" name="Codex: Adeptus Mechanicus"/>
     <publication id="73a8ad3c-941b-42eb-b1c9-6f2165c511fb" name="Forgeworld Datasheet"/>
@@ -9060,7 +9060,7 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
                 <characteristic name="T" typeId="082cd324-3c32-4cf7-8a77-34c5ff973db1">7</characteristic>
                 <characteristic name="W" typeId="f5983de7-8c32-4395-a17c-18fc765ec74a">6</characteristic>
                 <characteristic name="A" typeId="40b1852f-baa7-49a7-9e04-0d0cea23edea">2</characteristic>
-                <characteristic name="Ld" typeId="1bb39308-fe32-4190-9336-713b6293a715">6</characteristic>
+                <characteristic name="Ld" typeId="1bb39308-fe32-4190-9336-713b6293a715">10</characteristic>
                 <characteristic name="Save" typeId="c4f7addd-d978-4a27-b039-8e4a15fa6bda">3+</characteristic>
               </characteristics>
             </profile>
@@ -9542,7 +9542,7 @@ Each time an attack is made with this weapon against a VEHICLE unit, that attack
                 <characteristic name="T" typeId="082cd324-3c32-4cf7-8a77-34c5ff973db1">7</characteristic>
                 <characteristic name="W" typeId="f5983de7-8c32-4395-a17c-18fc765ec74a">7</characteristic>
                 <characteristic name="A" typeId="40b1852f-baa7-49a7-9e04-0d0cea23edea">4</characteristic>
-                <characteristic name="Ld" typeId="1bb39308-fe32-4190-9336-713b6293a715">6</characteristic>
+                <characteristic name="Ld" typeId="1bb39308-fe32-4190-9336-713b6293a715">10</characteristic>
                 <characteristic name="Save" typeId="c4f7addd-d978-4a27-b039-8e4a15fa6bda">3+</characteristic>
               </characteristics>
             </profile>
