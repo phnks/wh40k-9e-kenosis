@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="11f72b7f-57c7-49ff-a1aa-649e95da9c5f" name="Warhammer 40,000 Kenosis Edition" revision="254" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@WH40k Data Dev" authorUrl="https://www.bsdata.net/contact" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
-  <readme>This is the game system file for Warhammer 40,000, supporting the Kenosis edition of the game.  It is required for all other catalogues to function.</readme>
+<gameSystem id="11f72b7f-57c7-49ff-a1aa-649e95da9c5f" name="Warhammer 40,000 Kenosis Edition" revision="255" battleScribeVersion="2.03" authorName="" authorContact="" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+  <readme></readme>
   <publications>
     <publication id="c2c6b1a5-0fdf-4f02-b74f-8e58c4f36841" name="Warhammer 40,000 Core Book" shortName="BRB" publisher="Games Workshop" publicationDate="2020-07-25" publisherUrl="https://www.games-workshop.com/Warhammer-40000-9th-Rulebook-EN-2020"/>
     <publication id="f0a0dff1-7181-48f2-80c1-c8e639bb572b" name="Chapter Approved 2017" shortName="CA2017" publicationDate="2017-12"/>
